@@ -1,5 +1,0 @@
-community_patch:
-  base: 'yes'
-  build: 230113a
-  display_name: Community Patch
-  version: '1.13'
