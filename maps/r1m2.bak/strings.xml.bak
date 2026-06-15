@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+    <string
+		id="1"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="22"
+		modelSlot="1"
+		value="Бандит|Ну что? Когда должок вернёшь? Часики то тикают!."
+		time="5" />
+	
+    <string
+		id="2"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="60"
+		value="Юрий|Я уже повторял много раз, нет у меня сейчас денег."
+		time="5" />
+    
+    <string
+		id="3"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="22"
+		modelSlot="1"
+		value="Бандит|Ну значит будем выбивать их силой..."
+		time="4" />	
+    
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="Карл|Эй мужики!."
+		time="2" />
+    
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="22"
+		modelSlot="1"
+		value="Бандит|А это ещё кто?"
+		time="3" />
+	
+	<string
+		id="6"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="60"
+		modelSlot="1"
+		value="Юрий|Спасибо тебе за помощь! Если бы не ты от меня бы и мокрого места не осталось. Проси о чём пожелаешь!"
+		time="6" />
+		
+	<string
+		id="7"
+		modelName="mask_hero"
+		value="Карл|Как раз за этим я сюда и приехал. Ты же бывший пилот так, умеешь управлять самолётом?"
+		time="5" />
+		
+	<string
+		id="8"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="60"
+		modelSlot="1"
+		value="Юрий|Да, а почему ты интересуешься?."
+		time="3" />
+		
+	<string
+		id="9"
+		modelName="mask_hero"
+		value="Карл|Так вот, я приехал просить тебя стать пилотом нашего самолёта."
+		time="4" />
+		
+	<string
+		id="10"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="60"
+		modelSlot="1"
+		value="Юрий|Подожди, ты хочешь сказать что у учёных удалось его создать и я смогу наконец-то раскрыть свои навыки."
+		time="6" />
+	
+	<string
+		id="11"
+		modelName="mask_hero"
+		value="Карл|Пока что проект находится на стадии активной разработки, но уже сейчас нам нужно решить вопрос с пилотом нашего самолёта и ты идеально подходишь."
+		time="10" />
+	
+	<string
+		id="12"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="60"
+		modelSlot="1"
+		value="Юрий|Как же я рад, но сам я доехать уже не смогу, поэтому довезёшь меня до места сборки?"
+		time="5" />
+		
+	<string
+		id="13"
+		modelName="mask_hero"
+		value="Карл|О чём речь, именно этого я и добивался, полезай в кузов!"
+		time="4" />
+
+	<string
+		id="666"
+		value="Караван уничтожен. Вы не смогли обеспечить его безопасность."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше. "
+		time="3" />
+</resource>

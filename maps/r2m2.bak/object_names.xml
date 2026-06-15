@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="GeneratorTown"
+		FullName="Красный факел - 21" />
+
+	<Object
+		Name="GeneratorTown_Bar"
+		FullName="Бар 'Уголёк'" />
+
+	<Object
+		Name="GeneratorTown_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="GeneratorTown_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="GeneratorTown_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="BriggsTown"
+		FullName="Крепость Бриггс" />
+
+	<Object
+		Name="BriggsTown_Bar"
+		FullName="Кабак" />
+
+	<Object
+		Name="BriggsTown_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="BriggsTown_House"
+		FullName="Штаб" />
+
+	<Object
+		Name="BriggsTown_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="BriggsTown_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="ToR1M4"
+		FullName="Дорога в Угольные леса" />
+
+	
+</ObjectNames>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TownPorto1115"
+		FullName="Порт" />
+
+	<Object
+		Name="TownPorto1115_Bar"
+		FullName="Кафе 'У моря'" />
+
+	<Object
+		Name="TownPorto1115_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="PortBarman"
+		FullName="Бармен" />
+
+	<Object
+		Name="TownPorto1115_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TownPorto1115_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m4_StorageVillage2302"
+		FullName="Лагерь гонщиков" />
+
+	<Object
+		Name="r1m4_StorageVillage2302_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="r1m4_StorageVillage2302_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="r1m4_StorageVillage2302_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m4_StorageVillage2302_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m3_OreMineVillage1117"
+		FullName="Рудник" />
+
+	<Object
+		Name="r1m3_OreMineVillage1117_Bar"
+		FullName="Бар 'Металлика'" />
+
+	<Object
+		Name="r1m3_OreMineVillage1117_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="r1m3_OreMineVillage1117_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m3_OreMineVillage1117_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m3_OilMineVillage1119"
+		FullName="Нефтяные вышки" />
+
+	<Object
+		Name="r1m3_OilMineVillage1119_Bar"
+		FullName="Бар 'Черная жижа'" />
+
+	<Object
+		Name="r1m3_OilMineVillage1119_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="r1m3_OilMineVillage1119_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m3_OilMineVillage1119_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TownGelvetcia1120"
+		FullName="Цитадель" />
+
+	<Object
+		Name="TownGelvetcia1120_House"
+		FullName="Кабинет предводителя" />
+
+	<Object
+		Name="TownGelvetcia1120_Workshop"
+		FullName="Ремонтный цех" />
+
+	<Object
+		Name="KochewnikTown"
+		FullName="Лагерь кочевника" />
+
+	<Object
+		Name="KochewnikTown_Bar"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Bar_Barman"
+		FullName="Кочевник" />
+
+	<Object
+		Name="KochewnikTown_House"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Workshop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Shop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="r4_Zuhel1247"
+		FullName="Последний оплот" />
+
+	<Object
+		Name="r4_Zuhel1247_Shop"
+		FullName="Базар" />
+
+	<Object
+		Name="r4_Zuhel1247_Bar"
+		FullName="Трактир 'На окраине'" />
+
+	<Object
+		Name="r4_Zuhel1247_Bar_Barman"
+		FullName="Трактирщик" />
+
+	<Object
+		Name="r4_Zuhel1247_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r4_Aliham1248"
+		FullName="Малые Сады" />
+
+	<Object
+		Name="r4_Aliham1248_Shop"
+		FullName="Рынок" />
+
+	<Object
+		Name="r4_Aliham1248_Bar"
+		FullName="Трактир 'Оазис'" />
+
+	<Object
+		Name="r4_Aliham1248_Bar_Barman"
+		FullName="Трактирщица" />
+
+	<Object
+		Name="r4_Aliham1248_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720"
+		FullName="Байконыр" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720_Bar"
+		FullName="Кафе 'У Айнуры'" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720_Bar_Barman"
+		FullName="Айнура" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720_House"
+		FullName="Городской рынок" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720_Workshop"
+		FullName="Автосервис 'Маслёнка'" />
+
+	<Object
+		Name="r2m1_UnderAttaksVillage1720_Shop"
+		FullName="городской рынок" />
+
+	<Object
+		Name="Citizen"
+		FullName="Айнура" />
+
+	<Object
+		Name="Barman111"
+		FullName="Трактирщица" />
+
+	<Object
+		Name="BARMAN1"
+		FullName="Бармен" />
+
+	<Object
+		Name="karavanshik"
+		FullName="Караванщик" />
+
+	<Object
+		Name="BrigadirNEFT"
+		FullName="Бригадир" />
+
+	<Object
+		Name="Villager"
+		FullName="Водитель грейдера" />
+
+	<Object
+		Name="Bariga"
+		FullName="Торговец запчастей" />
+
+	<Object
+		Name="Rabo4iu"
+		FullName="Работник рудника" />
+
+	<Object
+		Name="KochewnikDLG"
+		FullName="Кочевник" />
+
+	<Object
+		Name="Gubernator"
+		FullName="Губернатор Армстронг" />
+
+	<Object
+		Name="Torgash"
+		FullName="Автомеханик Сергей" />
+
+	<Object
+		Name="BarigaKochewnik"
+		FullName="Торговец Травами" />
+
+	<Object
+		Name="MehanikBoriga"
+		FullName="Механик Дамир" />
+
+	<Object
+		Name="XPOM"
+		FullName="Хром" />
+
+	<Object
+		Name="FURY1"
+		FullName="Фурия" />
+
+	<Object
+		Name="FURY"
+		FullName="Фурия" />
+
+	<Object
+		Name="MYCOP"
+		FullName="Старьёвщик" />
+
+	<Object
+		Name="RASIST"
+		FullName="Администратор" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown5_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown6_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown7_Workshop"
+		FullName="Заправка" />
+
+	<Object
+		Name="r4_Zuhel_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r4_Zuhel_Shop"
+		FullName="Магазинчик" />
+
+	<Object
+		Name="urod1"
+		FullName="Шаман" />
+
+	<Object
+		Name="urod2"
+		FullName="Микко" />
+
+	<Object
+		Name="urod3"
+		FullName="Борг" />
+
+	<Object
+		Name="urod4"
+		FullName="Алекс" />
+
+	<Object
+		Name="urod5"
+		FullName="Скорп" />
+
+	<Object
+		Name="urod6"
+		FullName="Гайя" />
+
+	<Object
+		Name="urod7"
+		FullName="Шерман" />
+
+	<Object
+		Name="urod8"
+		FullName="Хррр" />
+
+	<Object
+		Name="urod9"
+		FullName="Дядя Фу" />
+
+	<Object
+		Name=""
+		FullName="" />
+
+	<Object
+		Name=""
+		FullName="" />
+
+	<Object
+		Name=""
+		FullName="" />
+</ObjectNames>

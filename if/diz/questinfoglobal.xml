@@ -1,0 +1,2772 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<QuestInfoResource>
+	<QuestInfo
+		questName="3aka3_quest"
+		briefDiz="Найти работу"
+		fullDiz="Надо попытаться помочь Альфарану разобраться с проблемами и, быть может, мне отсыпят чуток награды. "
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownBaseInRock7061" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ananaga_quest"
+		briefDiz="Приехать в порт"
+		fullDiz="После всего произошедшего, самым лучшим вариантом будет пропустить пару кружек ананаги в баре, я как раз видел в порту один такой."
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Ananaga_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Annigilation_quest"
+		briefDiz="За свободный народ!"
+		fullDiz="Последняя битва за право владения этим регионом!"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Annigilation_quest1"
+		briefDiz="Приехать к месту атаки"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Post_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Annigilation_quest2"
+		briefDiz="Захватить Стальной Меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="MerikDefTeam1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Annigilation_quest3"
+		briefDiz="Уничтожить Альфаран"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="InBase_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Annigilation_quest4"
+		briefDiz="Проникнуть внутрь базы"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Prometeus_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest"
+		briefDiz="Во имя Атома"
+		fullDiz="Я решил помочь Архиепископу, и теперь он даст мне доступ к объекту"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Apocalypsyse_quest1"
+		briefDiz="Убить еретиков"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Eretiki_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest2"
+		briefDiz="Привезти цель"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TownTuzz4109" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest3"
+		briefDiz="Бежать"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Pobeg1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest4"
+		briefDiz="Бежать"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Vstrecha_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest5"
+		briefDiz="Бежать"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Pobeg3_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest6"
+		briefDiz="Бежать"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Okrainoe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Apocalypsyse_quest7"
+		briefDiz="Бежать"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="FromMap1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="AtackBasa_quest"
+		briefDiz="Разбить Альфаран"
+		fullDiz="Время для последнего рывка, местные жители наконец-то получат независимость, а я доступ в глубь базы."
+		isMainQuest="1">
+		<Map
+			name="r1m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="AtackBasa_quest1"
+		briefDiz="Поговорить с лидером"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="AtackBasa_quest2"
+		briefDiz="Приехать к месту атаки"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="AtackBasa_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="AtackBasa_quest3"
+		briefDiz="Захватить базу"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Basa_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Audientcia_quest"
+		briefDiz="Поговорить с Губернатором."
+		fullDiz="Наконец-то я смогу получить доступ к архивам."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="TownGelvetcia1120" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest1"
+		briefDiz="Найти объект"
+		fullDiz="Я пересёк море, теперь надо найти этот объект."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BunkerKosmodrom_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest2"
+		briefDiz="Осмотреть ворота."
+		fullDiz="Объект найден, теперь надо посмотреть что находится за этими дверьми."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BunkerKosmodrom_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest3"
+		briefDiz="Найти ключ доступа."
+		fullDiz="Вход закрыт, но его можно открыть с помощью какого-то ключа, который находится в городе неподалёку."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="Citadel_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest4"
+		briefDiz="Подготовить машину к гонкам"
+		fullDiz="Фурия расскзала, как попсть в Цитадель, но для этого мне нужно победить в гонках, к которым ещё нужно подготовиться."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r1m4_StorageVillage2302" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest5"
+		briefDiz="Найти мастера."
+		fullDiz="Механик загнул слишком большую цену, я хочу сделать всё дешевле."
+		isMainQuest="1">
+		<Map
+			name="r4m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest6"
+		briefDiz="Найти защиту"
+		fullDiz="Механик сказал, что сможет сделать защиту, если я привезу ему необходимый материал, теперь нужно его найти. Может поспрашивать старьёвщиков в деревнях?"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Baikonur_quest7"
+		briefDiz="Забрать листы"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="Kladbishe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest8"
+		briefDiz="Вернуться к мастеру"
+		fullDiz="Листы у меня, теперь можно ехать к мастеру."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r4_Zuhel1247" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baikonur_quest9"
+		briefDiz="Записаться на гонки"
+		fullDiz="Моя машина подготовлена, теперь можно ехать записываться на гонки."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r1m4_StorageVillage2302" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Basa_quest"
+		briefDiz="Найти базу предтеч"
+		fullDiz="Надо бы поспрашивать местное население, может они чего знают."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Basa_quest1"
+		briefDiz="Приехать в город"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Basa_quest2"
+		briefDiz="Добраться до базы"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="BaseInRock_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baza_destroy_quest"
+		briefDiz="Что-то заканчивается, что-то начинается."
+		fullDiz="Прометей был уничтожен, и всё, относительно, стало спокойно. Ну а я осмотрю склады уничтоженной базы. "
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baza_destroy_quest1"
+		briefDiz="Приехать на базу"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="InBase_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Baza_destroy_quest2"
+		briefDiz="Отправиться на восток"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="ToR4M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Bitva_quest"
+		briefDiz="Победить Валькирий"
+		fullDiz="Все менгиры заряжены, щит функционирует, теперь можно наконец-то попасть на остров."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Bitva_quest1"
+		briefDiz="Попасть на остров"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="ValkyBattle_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Bitva_quest2"
+		briefDiz="Сразиться с Валькириями"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Bitva_quest3"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="CrazyBase9839" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Bitva_quest4"
+		briefDiz="Покинуть пустоши"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M4" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Boss_quest"
+		briefDiz="База предтеч"
+		fullDiz="Наконец-то я могу попасть внутрь этой базы, но что же так напугало бойцов Альфарана?"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Boss_quest1"
+		briefDiz="Пробраться внутрь"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="InBase_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Boss_quest2"
+		briefDiz="Осмотреть руины"
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Artefact_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Boss_quest3"
+		briefDiz="Проверить источник шума"
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Boss_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Boss_quest4"
+		briefDiz="Победить древнего"
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Boss" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Boss_quest5"
+		briefDiz="Сбежать "
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="FromR1M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Defeat_partz_quest"
+		briefDiz="Завершить заказ"
+		fullDiz="Мне удалось выследить бандитов, оказалось, это были повстанцы местных, которые не хотят мириться с режимом, навязанным Альфараном."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Defeat_partz_quest1"
+		briefDiz="Вернуться в меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownMinin6466" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Defeat_partz_quest2"
+		briefDiz="Получить награду"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownBaseInRock7061" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Derevnya_quest"
+		briefDiz="Заехать в деревню"
+		fullDiz="После долгой дороги нужно заехать в ближайшую деревню."
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_OilVillage6552" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Deversy_quest"
+		briefDiz="И пусть горит!"
+		fullDiz="Теперь надо отвлечь внимание группировки, для этого понадобиться устроить несколько диверсий."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Deversy_quest1"
+		briefDiz="Привезди группу подрыва."
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Partz_diversy_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Deversy_quest2"
+		briefDiz="Вернуться в лагерь"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_ContraVillage7146" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Deversy_quest3"
+		briefDiz="Добраться до рудника"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="BoomCarier_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Deversy_quest4"
+		briefDiz="Вернуться в лагерь"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_ContraVillage7146" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dopomoga_quest"
+		briefDiz="Демоны пустыни"
+		fullDiz="Хоть я и выйграл гонку, награду мне выдадут не скоро, а всё из-за нападение кочевников, если я помогу войскам в зачистке, то это даст ещё больше выгоды"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Dopomoga_quest1"
+		briefDiz="Приехать к лагерю"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="PomoshKoch_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dopomoga_quest2"
+		briefDiz="Убить кочевников"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="PomoshKoch_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dopomoga_quest3"
+		briefDiz="Вернуться в Цитадель"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="TownGelvetcia1120" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doroga_quest"
+		briefDiz="Найти другой путь"
+		fullDiz="Основная дорога завалена, надо найти способ его миновать."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Doverie_quest"
+		briefDiz="Обратить внимание губернатора на себя."
+		fullDiz="Мне удалось выяснить, что в цитадель могут попасть не только стражники и представители власти, также туда могут попасть лица, которые своими поступками удостоены награды, моя задача обратить на себя внимание."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Doverie_quest_garden"
+		briefDiz="Проверить Малые сады"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r4_Aliham1248" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_garden1"
+		briefDiz="Приехать к торговцу"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r2m1_UnderAttaksVillage1720" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_garden11"
+		briefDiz="Восстановить грейдер"
+		fullDiz="Для починки грейдера нужны запчасти, но поставщик продаёт их по заоблачной цене, надо бы с ним поторговаться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Doverie_quest_garden2"
+		briefDiz="Привезди запчасти."
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r4_Aliham1248" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_neft"
+		briefDiz="Проверить Нефтяные вышки"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r1m3_OilMineVillage1119" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_neft1"
+		briefDiz="Проследить за караваном."
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="Karav_2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_neft11"
+		briefDiz="Разобраться с пропажей нефти"
+		fullDiz="Бригадир рассказал мне, что у них пропадает нефть с караванов, надо разобраться, что происходит."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Doverie_quest_neft2"
+		briefDiz="Перебить бандитов"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="Karav_2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_neft3"
+		briefDiz="Вернуться к Бригадиру"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r1m3_OilMineVillage1119" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_oreMine"
+		briefDiz="Проверить Рудник"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r1m3_OreMineVillage1117" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_oreMine1"
+		briefDiz="Ехать по следу"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="KochewnikTown" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_oreMine11"
+		briefDiz="Найти пропавшего."
+		fullDiz="Один из рабочих сказал, что пропал его лучший друг и по-совместительству один из лучших работников, моя задача его найти."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Doverie_quest_oreMine2"
+		briefDiz="Ехать дальше по дороге"
+		isMainQuest="0">
+		<Map
+			name="r4m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Doverie_quest_oreMine3"
+		briefDiz="Вернуться назад"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r1m3_OreMineVillage1117" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dubrovka_quest"
+		briefDiz="Цена свободы"
+		fullDiz="Бандиты угнетают жителей деревни, пора с этим что-то делать."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dubrovka_quest1"
+		briefDiz="Приехать к бандитам"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Bands_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dubrovka_quest2"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="DerevnyaATAKA_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dubrovka_quest3"
+		briefDiz="Убить бандитов"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Bands_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dubrovka_quest4"
+		briefDiz="Разобрать завал"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Zaval_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Dynamic_Convoy_0"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Селение %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_1"
+		briefDiz="Защитить транспорт"
+		fullDiz="Житель города %1n попросил меня защитить транспорт по дороге в селение %2n и обещал заплатить %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_2"
+		briefDiz="Обеспечить безопасность транспорта"
+		fullDiz="Город %1n просит вас сопроводить транспорт с ценным грузом до объекта %2n. Если все пройдет гладко, я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Convoy_3"
+		briefDiz="Сопроводить транспорт до объекта %2n"
+		fullDiz="Транспорт из города %1n отправляется по торговому маршруту в селение %2n. В последнее время участились нападения на одинокие грузовики, так что я согласился защищать его за скромное вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_0"
+		briefDiz="Уничтожить врага"
+		fullDiz="Город %1n просит вас уничтожить врага за вознаграждение в %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_1"
+		briefDiz="Обезвредить бандита"
+		fullDiz="Жители поселения %1n подвергаются частым атакам хитрого бандита. Я помогу им избавиться от угрозы за %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Destroy_2"
+		briefDiz="Выследить агрессора"
+		fullDiz="Я получу %3d, когда избавлю окрестности города %1n от присутствия одного негодяя."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_0"
+		briefDiz="Сезон охоты"
+		fullDiz="Город %1n заплатит за уничтожение каждого бандита, который мне встретится, %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_1"
+		briefDiz="Проучить бандитов"
+		fullDiz="Бандиты потеряли всякий стыд! Надо преподать им хороший урок. Тем более что город %1n платит за уничтожение каждого бандита %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Hunt_2"
+		briefDiz="Зачистка территории"
+		fullDiz="Власти города %1n начали борьбу за безопасность дорог. В качестве главного мероприятия – операция Зачистка. Уничтожение каждой враждебной машины принесёт мне %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Peace_0"
+		briefDiz="Помириться с группировкой %2b"
+		fullDiz="За умеренный процент от моих денег группировка %2b готова со мной помириться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_0"
+		briefDiz="Отвезти образцы в селение %2n"
+		fullDiz="Город %1n просит вас отвезти кое-какие исследовательские образцы в поселение %2n. По прибытии я получу %3d."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_1"
+		briefDiz="Доставить посылку в селение %2n"
+		fullDiz="Я получу %3d, когда доставлю посылку в селение %2n. Там ее ждут, но за такие смешные деньги я не собираюсь уж очень торопиться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Dynamic_Reach_2"
+		briefDiz="Добраться до селения %2n"
+		fullDiz="Один чудак из города %1n готов заплатить %3d, если я передам привет его другу, живущему в поселении %2n."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Eretik_quest"
+		briefDiz="Пропавший без вести"
+		fullDiz="Архиепископ сказал мне найти одного человека, если я его найду он пустит меня к объекту."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Eretik_quest1"
+		briefDiz="Съездить в карьер"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Karier_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest10"
+		briefDiz="Доехать до деревни"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Okrainoe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest11"
+		briefDiz="Найти лагерь еретиков"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Eretik_quest2"
+		briefDiz="Вернуться назад"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TownTuzz4109" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest3"
+		briefDiz="Проехать по следам"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Eretik_quest4"
+		briefDiz="Спросить кочевника"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="KochewnikTown" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest5"
+		briefDiz="Доехать до своротка"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="PoSledu_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest6"
+		briefDiz="Проехать по следам"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Eretik_quest7"
+		briefDiz="Перепрыгнуть"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="PoslePrizhka_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest8"
+		briefDiz="Доехать до деревни"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="r1m3_VozleMininVillage4312" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Eretik_quest9"
+		briefDiz="Приехать к месту встречи"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Potasovka_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Evacuation_quest"
+		briefDiz="Напряжение растёт"
+		fullDiz="Рабочие готовы увеличить производство электроэнергии, но для этого нужно эвакуировать всех жителей в крепость."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Evacuation_quest1"
+		briefDiz="Сопроводить караван"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Evacuation_quest2"
+		briefDiz="Поговорить с Майором"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_DieOtshelnik_quest"
+		briefDiz="Помочь фанатикам"
+		fullDiz="Краем уха я услышал, что на караван фанатиков напала группа разбойников отбить которую они не в силах, моя задача им помочь."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Fanatiki_DieOtshelnik_quest1"
+		briefDiz="Спасти караван"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="KaravanFanatikov_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_DieOtshelnik_quest2"
+		briefDiz="Вернуться к Отшельнику"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="r1m1_ContraVillage5135" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_Otshelnik_quest"
+		briefDiz="Спасти Отшельника"
+		fullDiz="Всё пошло не совсем по плану и теперь фанатики готовы прикончить Отшельника раз и навсегда, моя задача этому помешать."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Fanatiki_Otshelnik_quest1"
+		briefDiz="Приехать к Отшельнику"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="r1m1_ContraVillage5135" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_Otshelnik_quest2"
+		briefDiz="Отвезти Отшельника в порт"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="Otshelnik_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_quest"
+		briefDiz="Фанатики"
+		fullDiz="Я нашёл деревню странных людей, которые зачем-то поклоняются куску металла и ненавидят какого-то Отшельника, надо бы разобраться."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Fanatiki_quest1"
+		briefDiz="Приехать к Отшельнику"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="r1m1_ContraVillage5135" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_quest2"
+		briefDiz="Нанять людей для переполоха"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="r1m3_OreMineVillage4707" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_quest3"
+		briefDiz="Посмотреть за происходящим"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="Perepolox_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fanatiki_quest4"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="r3_OracleDefVil5123" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FindPath_quest"
+		briefDiz="Путь на остров"
+		fullDiz="Мне удалось добраться до севера, однако погода здесь просто отвратительная, как тут искать путь я не знаю."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="FindPath_quest1"
+		briefDiz="Ехать по дороге"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Razvilka_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FindPath_quest2"
+		briefDiz="Проехать по левой дороге"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Vstrecha_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FindPath_quest3"
+		briefDiz="Отбить атаку"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Vstrecha_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="FindPath_quest4"
+		briefDiz="Добраться до крепости"
+		isMainQuest="1">
+		<Map
+			name="r2m2"
+			targetObjName="Briggs_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Firstlook_quest"
+		briefDiz="Новые горизонты"
+		fullDiz="Мне удалось пересечь горный массив и я оказался в живописном месте, теперь пора искать следующий объект."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Firstlook_quest1"
+		briefDiz="Ехать по дороге"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Firstlook_quest2"
+		briefDiz="Проследовать за дьяконом"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TownTuzz4109" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ForEretiki_quest"
+		briefDiz="Сейчас или никогда"
+		fullDiz="Человек, которого хотел найти Архиепископ знает как пробудить Атома, я решил не допустить этого и помочь повстанцам бежать."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="ForEretiki_quest1"
+		briefDiz="Устроить засаду"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Okrainoe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ForEretiki_quest2"
+		briefDiz="Уничтожить охрану"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Okrainoe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ForEretiki_quest3"
+		briefDiz="Сопроводить повстанцев до границы"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="FromMap1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ForEretiki_quest4"
+		briefDiz="Вернуться к Архиепископу"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="TownTuzz4109" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_2_quest"
+		briefDiz="Отдавая долги"
+		fullDiz="После сорвавшейся сделки, Фурия решает выйти на главаря организации. Я решил не бросать старого друга и помочь в её нелёгком деле."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_2_quest1"
+		briefDiz="Узнать о конкуренте торговца"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_2_quest2"
+		briefDiz="Сблизиться с правящей верхушкой"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_2_quest3"
+		briefDiz="Расспросить о главаре"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_2_quest4"
+		briefDiz="Выманить главаря"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_2_quest5"
+		briefDiz="Убить Кассиэля"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Fury_quest"
+		briefDiz="Последнее дело"
+		fullDiz="Моя охота провалилась и теперь я держу путь на восток через Великое Ничто, но было бы неплохо взять напарника."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Fury_quest1"
+		briefDiz="Приехать в город"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r2m1_UnderAttaksVillage1720" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_quest12"
+		briefDiz="Приехать в Порт"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="TownPorto1115" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_quest2"
+		briefDiz="Спросить про Фурию в деревне"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r4_Aliham1248" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_quest3"
+		briefDiz="Приехать к месту"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="Sdelka_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_quest4"
+		briefDiz="Убить бандитов"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="Sdelka_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Fury_quest5"
+		briefDiz="Поговорить с Фурией"
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Generator_quest"
+		briefDiz="Низкое напряжение"
+		fullDiz="Командующий крепостью откроет мне ворота, если будет обеспечена надёжная защита от вторжения, но для этого город-завод должен вырабатывать огромное количество энергии, однако тут начинаются проблемы..."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Generator_quest1"
+		briefDiz="Приехать в город"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Generator_quest2"
+		briefDiz="Отбить нападение"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Generator_quest3"
+		briefDiz="Вернуться в город"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Go_in_base_quest"
+		briefDiz="Добраться до базы предтеч"
+		fullDiz="Старик сказал, что где-то в горах находиться база предтеч, в ней может оказаться много чего ценного."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest"
+		briefDiz="Стальные воины дороги"
+		fullDiz="Мне удалось попасть на гонки, теперь надо лишь приехать к финишу, оставив соперников позади, что может быть проще?"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest1"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest2"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest3"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest4"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest5"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest6"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Gonka_quest7"
+		briefDiz="Приехать к финишу"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="INKosmodrom_quest"
+		briefDiz="Победить незнакомца"
+		fullDiz="Я смог попасть внутрь, но со мной пришли незванные гости."
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Boss2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="INKosmodrom_quest1"
+		briefDiz="Победить незнакомца"
+		isMainQuest="1">
+		<Map
+			name="r1m5" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="INKosmodrom_quest2"
+		briefDiz="Сбежать "
+		isMainQuest="1">
+		<Map
+			name="r1m5" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="KaravanDef_quest"
+		briefDiz="Сопроводить караван"
+		fullDiz="Скоро должен стартовать караван Альфарана из порта, моя задача защитить его"
+		isMainQuest="1">
+		<Map
+			name="r1m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="KaravanDef_quest1"
+		briefDiz="Приехать в порт"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Port_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="KaravanDef_quest2"
+		briefDiz="Защищать караван"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Karavan2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="KaravanDef_quest3"
+		briefDiz="Поговорить с прапором"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="BaseInRock_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Karavan_partz_quest"
+		briefDiz="Завладеть оружием"
+		fullDiz="Чтобы получить права на эти земли, нужно оружие и караван из меридиана подходит для этого как нельзя лучше."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Karavan_partz_quest1"
+		briefDiz="Приехать в Стальной Меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Karavan_partz_quest2"
+		briefDiz="Приехать к месту засады"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Karavan_partz_quest3"
+		briefDiz="Перебить охрану"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Karavan_partz_quest4"
+		briefDiz="Доставить оружие в лагерь"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest"
+		briefDiz="Иной выбор"
+		fullDiz="Кочевник предложил разрешить ситуацию в регионе несколько иным путём."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest1"
+		briefDiz="Приехать к развалинам"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="ruinsTonnel_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest2"
+		briefDiz="Вернуться к кочевнику"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase17059" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest3"
+		briefDiz="Найти отшельника"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r3_OracleDefVil7062" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest4"
+		briefDiz="Приехать к хижине"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r3_RazboinikVillage7063" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_2_quest5"
+		briefDiz="Открыть тоннель"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="ToR1M5_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_3_quest"
+		briefDiz="Новые тайны и ужасы"
+		fullDiz="Теперь я наконец-то попаду в руины предтеч! Главное быть осторожным."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Koch_Kavkaz_3_quest1"
+		briefDiz="Доехать до комплекса"
+		isMainQuest="1">
+		<Map
+			name="r1m5" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_3_quest2"
+		briefDiz="Сбежать"
+		isMainQuest="1">
+		<Map
+			name="r1m5" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_3_quest3"
+		briefDiz="Приехать в Меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="PrometeusBattle_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_3_quest4"
+		briefDiz="Победить Прометея"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="PrometeusBoss1_vehicle_0" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_4_quest"
+		briefDiz="После бури"
+		fullDiz="Роше рассказал, что начало их сопротивлению дал некий человек из Порта. Кочевник тоже его упоминал в разговоре, и мне надо его найти."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Koch_Kavkaz_4_quest1"
+		briefDiz="Приехать в Порт"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_4_quest2"
+		briefDiz="Преследовать лидера Антистачников"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Brat_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_4_quest3"
+		briefDiz="Убить лидера"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_4_quest4"
+		briefDiz="Вернуться к Августу"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownMinin6466" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_quest"
+		briefDiz="Таинственный незнакомец"
+		fullDiz="Бармен передал для меня послание от некого Кочевника. Он хочет встретиться в указанном месте."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Koch_Kavkaz_quest1"
+		briefDiz="Приехать к развилке"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="PetkaVICH_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Koch_Kavkaz_quest2"
+		briefDiz="Заехать на гору"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase17059" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Kochewnik_Pustinya_quest"
+		briefDiz="Выведать правду у кочевника"
+		fullDiz="Кочевник опять ходит вокруг да около, но надеюсь если я привезу ему эти травы, то он наконец-то мне всё объяснит."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Kochewnik_Pustinya_quest1"
+		briefDiz="Приобрести травы"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="r2m1_UnderAttaksVillage1720" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Kochewnik_Pustinya_quest2"
+		briefDiz="Вернуться к кочевнику"
+		isMainQuest="0">
+		<Map
+			name="r4m1"
+			targetObjName="KochewnikTown" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Kochewnik_quest1"
+		briefDiz="Проверить гору"
+		fullDiz="На самой высокой горе в этой долине виднеется столб пламени, надо бы его проверить, кто там сидит."
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="KochewnikTown" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Kochewnik_quest2"
+		briefDiz="Вернуться к кочевнику"
+		fullDiz="Я выполнил все поручения жителей долины, теперь можно возвращаться к кочевнику за ответами"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="KochewnikTown" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="KosmodromAlt_quest"
+		briefDiz="Приехать на космодром"
+		fullDiz="Похоже Скорпион Зря времени не терял, воспользовавшись суматохой, он украл пропуск. Я должен догнать его."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BunkerKosmodrom_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Kosmodrom_quest"
+		briefDiz="Открыть ворота"
+		fullDiz="Пропуск у меня, теперь я наконец-то попаду внутрь."
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="BunkerKosmodrom_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik2_quest"
+		briefDiz="Помощь леснику"
+		fullDiz="Я не стал его сдавать местным, поэтому надо вывезти его отсюда."
+		isMainQuest="0">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik2_quest1"
+		briefDiz="Приехать в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_SignVillage7056" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik2_quest2"
+		briefDiz="Отвезти лесника в порт"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest"
+		briefDiz="Лихо лесное"
+		fullDiz="В лесу близ села Лесное стали пропадать люди, моя задача выяснить кто или что за этим стоит."
+		isMainQuest="0">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest1"
+		briefDiz="Поговорить со старостой"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_SignVillage7056" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest10"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_SignVillage7056" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest11"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_SignVillage7056" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest12"
+		briefDiz="Отвезти лесника в порт"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest2"
+		briefDiz="Поговорить с Лесником"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_RaceVillage7058" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest3"
+		briefDiz="Проверить первую дорогу"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Lesnik_1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest4"
+		briefDiz="Проверить вторую дорогу"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Lesnik_2_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest5"
+		briefDiz="Проверить третью дорогу"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Lesnik_3_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest6"
+		briefDiz="Убить банду разбойников"
+		isMainQuest="0">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest7"
+		briefDiz="Вернуться к леснику"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_RaceVillage7058" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest8"
+		briefDiz="Убить бандита"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Bands04" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Lesnik_quest9"
+		briefDiz="Поговорить с лесником"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="r1m2_RaceVillage7058" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="MengiriON_quest"
+		briefDiz="Под высоким напряжением"
+		fullDiz="Генератор запущен на полную мощность, теперь надо подключить два генератора электромагнитного поля для защиты долины и последующего уничтожения валькирий"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="MengiriON_quest1"
+		briefDiz="Добраться до первого генератора"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="MengiriON_quest2"
+		briefDiz="Защитить генератор"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="MengiriON_quest3"
+		briefDiz="Добраться до второго генератора"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="MengiriON_quest4"
+		briefDiz="Защитить генератор"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Mengiri_quest"
+		briefDiz="Восстановить Менгиры"
+		fullDiz="Для победы над валькириями, моей машине понадобится энергетический щит, который можно получить, если восстановить все три менгиры."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Mengiri_quest1"
+		briefDiz="Восстановить первую менгиру"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="Mengira_1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Mengiri_quest2"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="CrazyBase9839" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Mengiri_quest3"
+		briefDiz="Восстановить вторую менгиру"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="Mengira_2_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Mengiri_quest4"
+		briefDiz="Восстановить третью менгиру"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="Mengira_3_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Mengiri_quest5"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="CrazyBase9839" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Na_bazy_quest"
+		briefDiz="Тайны Предтеч"
+		fullDiz="Что-то произошло на базе, надо это выяснить."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Na_bazy_quest1"
+		briefDiz="Ехать на звуки"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Prometeus_loc" />
+
+		<Map
+			name="r1m5"
+			targetObjName="Boss_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Na_bazy_quest2"
+		briefDiz="Победить машину"
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Boss" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Na_vostok_quest"
+		briefDiz="Отправиться на восток"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="ToR4M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ni4To_quest"
+		briefDiz="Великое Ничто"
+		fullDiz="Следующий объект находится на северо-востоке, но путь туда лежит через Великое ничто, я видел в этом регионе одну деревню находящуюся на границе с пустыней, надо попробовать спросить там дорогу."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Ni4To_quest1"
+		briefDiz="Приехать в деревню"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="r4_Zuhel1247" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ni4To_quest2"
+		briefDiz="Подъехать к месту встречи "
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="ToR1M6" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ni4To_quest3"
+		briefDiz="Приехать к каравану"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="ToR1M6" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="OboronaVishek_quest"
+		briefDiz="Предотвратить диверсию"
+		fullDiz="Заводчане готовят диверсию, с помощью которой они хотят стать независимыми, наша задача этого избежать."
+		isMainQuest="1">
+		<Map
+			name="r1m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="OboronaVishek_quest1"
+		briefDiz="Приехать к месту засады"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Vishki_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="OboronaVishek_quest2"
+		briefDiz="Отстоять вышки"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Vishki_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="OboronaVishek_quest3"
+		briefDiz="Вернуться на базу"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="BaseInRock_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_DeathValky_quest"
+		briefDiz="Падение валькирий"
+		fullDiz="Единственно что отделяет меня от руин - валькирии. Разберусь с ними и дело с концом."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Ostrov_DeathValky_quest1"
+		briefDiz="Уничтожить валькирий"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_DeathValky_quest2"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_DeathValky_quest3"
+		briefDiz="Вернуться на юг"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_HelpValky_quest"
+		briefDiz="Полёт валькирий"
+		fullDiz="Фурия рассказала мне историю Матери и всех валькирий. Я решил помочь им обменяв жизнь Майора на десяток других"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Ostrov_HelpValky_quest1"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_HelpValky_quest2"
+		briefDiz="Уехать из региона"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_Mother_quest"
+		briefDiz="Матерь"
+		fullDiz="Выслушав Фурию, я решил выбрать наименьшее зло. Матерь не верит, что её муж жив, я должен это доказать."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Ostrov_Mother_quest1"
+		briefDiz="Вернуться в крепость"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_Mother_quest2"
+		briefDiz="Приехать к отшельнику"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Ostrov_Mother_quest3"
+		briefDiz="Приехать на остров"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_Mother_quest4"
+		briefDiz="Вернуться на юг"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_quest"
+		briefDiz="Остров валькирий"
+		fullDiz="Теперь, когда все приотовления завершены, можно отпраляться на остров"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Ostrov_quest1"
+		briefDiz="Приехать в крепость"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Ostrov_quest2"
+		briefDiz="Добраться до острова"
+		isMainQuest="1">
+		<Map
+			name="r2m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Otkaz_quest"
+		briefDiz="Враг народа"
+		fullDiz="Отказавшись подчиняться фанатикам, я стал одним из еретиков. Путь к руинам для меня пока закрыт, но всегда же есть другой выход."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Otkaz_quest1"
+		briefDiz="Найти способ добраться до руин"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Otkaz_quest2"
+		briefDiz="Отыскать зацепки"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Otkaz_quest3"
+		briefDiz="Приехать к селу Окрайное"
+		isMainQuest="1">
+		<Map
+			name="r2m1"
+			targetObjName="Okrainoe_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Otkaz_quest4"
+		briefDiz="Найти лагерь еретиков"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Port_partz_quest"
+		briefDiz="Назад дороги нет"
+		fullDiz="Настало время заявить о себе, для этого мы перехватим порт."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Port_partz_quest1"
+		briefDiz="Приехать на место"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Partz_port_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Port_partz_quest2"
+		briefDiz="Перебить охрану"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Port_partz_quest3"
+		briefDiz="Поговорить с Роше"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Port_quest"
+		briefDiz="Пересечь море"
+		fullDiz="На другом берегу есть другой объект, на подобии военной базы, было бы глупо упускать такую наживу."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Port_quest1"
+		briefDiz="Расспросить местных о переправе"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Port_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Port_quest2"
+		briefDiz="Сесть на корабль"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="ToR4M1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Posilka_quest"
+		briefDiz="Подождать до начала диверсии"
+		fullDiz="Бармен сообщил, что скоро состоится диверсия против Альфарана, но этого момента нужно дождаться, поэтому пока возьмусь за другую работу"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Posilka_quest1"
+		briefDiz="Найти работу"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Posilka_quest2"
+		briefDiz="Доставить посылку"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="NagoreVillage" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Posilka_quest3"
+		briefDiz="Вернуться за наградой"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Priezd_quest"
+		briefDiz="Спросить дорогу на остров"
+		fullDiz="Я на севере, теперь надо узнать как попасть на остров."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Priezd_quest1"
+		briefDiz="Приехать в деревню"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="r2m1_Vill2Village9840" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Priezd_quest2"
+		briefDiz="Приехать в Крепость"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="CrazyBase9839" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Promateus_quest"
+		briefDiz="Гнев Богов"
+		fullDiz='Зачинщиком всех проблем оказался тяжеловооружённый грузовик под названием "Прометей" я должен остановить его, благо теперь у меня есть чем ему противостоять.'
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Promateus_quest1"
+		briefDiz="Найти Прометея"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="PrometeusBattle_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Promateus_quest2"
+		briefDiz="Победить Прометея"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Boss2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="PrometeusALT_quest"
+		briefDiz="Прометей"
+		fullDiz="За гермодверью оказалась машина предтеч, созданная чтобы убивать, мы должны её ликвидировать, иначе будет много жертв."
+		isMainQuest="1">
+		<Map
+			name="r1m5"
+			targetObjName="Boss" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest"
+		briefDiz="Стальные воины дороги"
+		fullDiz="Мне удалось попасть на гонки, теперь надо лишь приехать к финишу, оставив соперников позади, что может быть проще?"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Race_quest1"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_1_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest2"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_2_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest3"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_3_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest4"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_4_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest5"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_5_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest6"
+		briefDiz="Пройти контрольную точку"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Checkpoint_6_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Race_quest7"
+		briefDiz="Приехать к финишу"
+		isMainQuest="1">
+		<Map
+			name="r4m2"
+			targetObjName="Finish_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Razgovor_quest"
+		briefDiz="Первые лучи свободы"
+		fullDiz="Надо узнать, каким будет наш следующий шаг."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Razgovor_quest1"
+		briefDiz="Поговорить с Роше"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_ContraVillage7146" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Razgovor_quest2"
+		briefDiz="Поговорить с Роше"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_ContraVillage7146" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Retranslator_quest"
+		briefDiz="Ретранслятор "
+		fullDiz="Электрик из Дубровки попросил попросил меня подняться на гору ретранслятора и проверить почему он не работает."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="Retranslator_quest1"
+		briefDiz="Подняться на гору"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="Retranslator_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Retranslator_quest2"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="NagoreVillage" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Retranslator_quest3"
+		briefDiz="Приехать на завод"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Retranslator_quest4"
+		briefDiz="Вернуться к вышке"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="Retranslator_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Retranslator_quest5"
+		briefDiz="Вернуться в деревню"
+		isMainQuest="0">
+		<Map
+			name="r1m1"
+			targetObjName="NagoreVillage" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ReturnToZavod_quest"
+		briefDiz="Вернуться на завод"
+		fullDiz="Мне удалось выяснить, что проход в глубь базы запечатан, но Альфаран уже ведёт операцию по проникновению внутрь. Теперь надо бы попытаться убедить жителей в правильности их действий."
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Shturm_quest"
+		briefDiz="Контроль качества"
+		fullDiz="Пора установить в этих землях полный контроль Альфарана"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Shturm_quest1"
+		briefDiz="Приехать к месту"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="AtakaPartz_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Shturm_quest2"
+		briefDiz="Уничтожить лагерь"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="r1m1_ContraVillage7146" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Shturm_quest3"
+		briefDiz="Вернуться на базу"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownBaseInRock7061" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Spizdili_quest"
+		briefDiz="Большой куш"
+		fullDiz="Я выйграл гонку, но внезапное нападение отобрало у меня награду, пока войска заняты нападением, я могу украсть нужный мне пропуск."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Spizdili_quest1"
+		briefDiz="Ворваться в Цитадель"
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="TownGelvetcia1120" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Spizdili_quest2"
+		briefDiz="Сбежать "
+		isMainQuest="1">
+		<Map
+			name="r4m1"
+			targetObjName="Krazha_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="V_gorod_quest"
+		briefDiz="Приехать в город"
+		fullDiz="В деревне подсказали, где я смогу найти любую информацию, отправляемся туда!"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownMinin6466" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Vishka_quest"
+		briefDiz="Провести диверсию"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="Vishka_quest1"
+		briefDiz="Прийти на собрание"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Vishka_quest2"
+		briefDiz="Приехать к месту засады"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Vishki_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Vishka_quest3"
+		briefDiz="Захватить вышки"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			coordinate="1945.000 267.000 924.000" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Vishka_quest4"
+		briefDiz="Вернуться на завод"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Vostok_quest"
+		briefDiz="Приехать в город"
+		fullDiz="Я вернулся из мёрзлых пустошей с деньгами и восстановленными поставками металла, теперь осталось переждать месяц, пока дорогу не расчистят."
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="ToR1M4" />
+
+		<Map
+			name="r1m4"
+			targetObjName="TownEast5192" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ZaAlpharan_quest"
+		briefDiz="Присоединиться к Альфарану"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="BaseInRock_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ZaNarod_quest"
+		briefDiz="Присоединиться к Жителям гор"
+		fullDiz="Заводчане готовят несколько диверсий для того чтобы пошатнуть власть Альфарана и получить возможность захватить регион"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Za_partz_quest"
+		briefDiz="Поговорить с повстанцами"
+		fullDiz="Оказалось, что бандиты, нападавшие на караван, оказались повстанцы из местных. Надо попробовать поговорить с ними."
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Za_partz_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Za_partz_quest1"
+		briefDiz="Завершить заказ"
+		fullDiz="Надо вернуться и доложить об успехе, это позволит отвадить взгляд Альфаранцев от сопротивления."
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Za_partz_quest11"
+		briefDiz="Вернуться в меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownMinin6466" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Za_partz_quest12"
+		briefDiz="Получить награду"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownBaseInRock7061" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Zavod_quest"
+		briefDiz="Отвезти посылку на завод"
+		fullDiz="Перед уездом, меня попросили доставить посылку на завод, за хорошую плату, было бы глупо отказываться от таких легких денег."
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="TownEast9699" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Zavod_quest1"
+		briefDiz="Защитить завод"
+		fullDiz="Завод окружили валькирии, поэтому сбежать не удасться, придётся драться."
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="TownEast9699" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="Zavod_quest2"
+		briefDiz="Вернуться в Крепость"
+		fullDiz="Мой вклад в защиту завода оценили по-достоинству, поэтому меня зовут в крепость, кто знает, может они откроют ворота?"
+		isMainQuest="1">
+		<Map
+			name="r1m3"
+			targetObjName="CrazyBase9839" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="baza_quest"
+		briefDiz="Приехать к базе"
+		fullDiz='В городе подсказали, где найти ту самую базу, она оказывается под контролем некоего "Альфарана".'
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownBaseInRock7061" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="doroga_quest"
+		briefDiz="Найти дорогу на восток"
+		fullDiz="Я пересёк пустыню и теперь мой путь лежит на восток, но сначала надо найти мастерскую и спросить дорогу."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="doroga_quest1"
+		briefDiz="Приехать в город"
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			targetObjName="TownEast5192" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="doroga_quest2"
+		briefDiz="Отправиться на восток"
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			targetObjName="Zaval_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="doroga_quest3"
+		briefDiz="Вернуться в город"
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			targetObjName="TownEast5192" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="karavan_from_port_quest"
+		briefDiz="Заказ: сопроводить караван"
+		fullDiz="Заполучить ценности оказалось труднее, чем я себе представлял, но если я выполню особый заказ Альфарана, мне могут отсыпать немного добычи. "
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="karavan_from_port_quest1"
+		briefDiz="Приехать в Стальной Меридиан"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="TownMinin6466" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="karavan_from_port_quest2"
+		briefDiz="Приехать в порт"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="CrazyBase27060" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="karavan_from_port_quest3"
+		briefDiz="Сопроводить караван"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Karav_2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="karavan_from_port_quest4"
+		briefDiz="Защитить караван"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Karav_2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="quest116"
+		briefDiz="Поговорить с кочевником"
+		fullDiz="Кочевник снова говорил расплывчато, но посмотрим, что будет дальше."
+		isMainQuest="0" />
+
+	<QuestInfo
+		questName="quest117"
+		briefDiz="Поговорить с кочевником"
+		fullDiz="Надо поговорить с кочевникос насчёт моей способности побеждать Валькирий."
+		isMainQuest="0">
+		<Map
+			name="r1m4"
+			targetObjName="CrazyBase15368" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="radar_quest"
+		briefDiz="Провести георазведку"
+		fullDiz="Расчистка завала пойдёт быстрее, если я найду новые месторождения железа на болотах."
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="radar_quest1"
+		briefDiz="Приехать к болоту"
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			coordinate="2339.000 336.000 2771.700" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="radar_quest2"
+		briefDiz="Найти месторождение"
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="radar_quest3"
+		briefDiz="Вернуться назад"
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			targetObjName="TownEast5192" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="ruins_check_quest"
+		briefDiz="Проверить руины в горах"
+		fullDiz="Старый атаман дал наводку на заброшенную ферму в горах, следует проверить это место"
+		isMainQuest="0">
+		<Map
+			name="r1m2"
+			targetObjName="Ruini_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="sever_quest"
+		briefDiz="Отправиться на север"
+		fullDiz="Расчистка завала займёт довольно много времени, поэтому можно пока съездить к объекту на севере."
+		isMainQuest="1">
+		<Map
+			name="r1m4"
+			targetObjName="ToR1M3" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="slezhka_quest"
+		briefDiz="Проследить за отступающими"
+		fullDiz="Караван удалось защитить, теперь надо проследить за оставшимися."
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="Band_1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="zasada_quest"
+		briefDiz="Захватить груз"
+		fullDiz="Альфаран заказали посылку морем, которую потом будут доставлять к себе на базу, мы должны завладеть их грузом."
+		isMainQuest="1">
+		<Map
+			name="r1m1" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="zasada_quest1"
+		briefDiz="Приехать к месту засады"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zasada_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="zasada_quest2"
+		briefDiz="Завладеть грузом"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Karavan2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="zasada_quest3"
+		briefDiz="Доставить груз на завод"
+		isMainQuest="1">
+		<Map
+			name="r1m1"
+			targetObjName="Zavod_town" />
+	</QuestInfo>
+</QuestInfoResource>

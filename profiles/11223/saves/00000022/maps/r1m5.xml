@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="3599">
+	<TargetNamesForDestroy
+		Names="urod1 urod2 urod3 urod4 urod5 urod6 urod7 urod8 urod9" />
+
+	<Object
+		Belong="1100"
+		Prototype="hunterWheel01l"
+		Pos="3426.274 226.579 386.088"
+		Rot="-0.216 0.931 -0.295 -0.003" />
+
+	<Object
+		Belong="1100"
+		Prototype="hunterWheel01r"
+		Pos="3470.918 226.579 431.506"
+		Rot="0.180 0.496 -0.255 -0.810" />
+
+	<Object
+		Belong="1100"
+		Prototype="hunterWheel01l"
+		Pos="3427.751 226.579 373.358"
+		Rot="-0.192 0.503 -0.252 -0.804" />
+
+	<Object
+		Belong="1100"
+		Prototype="hunterWheel01r"
+		Pos="3456.590 226.579 408.983"
+		Rot="-0.345 0.765 -0.109 0.533" />
+
+	<Object
+		Flags="21"
+		Name="FromR1M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3736.219 225.909 77.932"
+		Radius="23.000" />
+
+	<Object
+		Flags="21"
+		Name="Artefact_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3903.509 225.909 554.884"
+		Radius="25.775" />
+
+	<Object
+		Flags="21"
+		Name="Boss_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3585.471 225.909 526.204"
+		Radius="35.232" />
+
+	<Object
+		Flags="21"
+		Name="FromR4M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2638.071 225.909 1011.604"
+		Radius="30.000" />
+
+	<Object
+		Name="Proverka_cin"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Proverka_cin"
+		CallObjId="13" />
+
+	<Object
+		Name="Nachalo_cin"
+		Prototype="trigger"
+		State="TS_ACTION"
+		Count="0"
+		Pause="0.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Nachalo_cin"
+		CallObjId="13" />
+
+	<Object
+		Name="Nachalo_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.100"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Nachalo_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Boss_cin"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Boss_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.100"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Boss_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Boss_cin_vehicleBoss"
+		Prototype="trigger"
+		State="TS_EVENTWAIT"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Boss_cin_vehicleBoss"
+		CallObjId="13" />
+
+	<Object
+		Name="BossDie_cin_dieatack"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="BossDie_cin"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		ObjectIDs="1"
+		CallEventId="66"
+		CallObjName="XpomCmepTb"
+		CallObjId="66" />
+
+	<Object
+		Name="BossDie_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="BossDie_cin_vehicle"
+		CallObjId="13" />
+
+	<Object
+		Name="BossDie_cin_dop_1"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="333"
+		FramesToPass="1"
+		CallEventId="58"
+		CallObjName="Player1"
+		CallObjId="58" />
+
+	<Object
+		Name="BossDie_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="57"
+		CallObjName="Player1"
+		CallObjId="57" />
+
+	<Object
+		Name="Timer_bomb"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="60.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="triggerExitToMap11"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Nachalo2_cin"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Nachalo2_cin"
+		CallObjId="13" />
+
+	<Object
+		Name="Nachalo2_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.100"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Nachalo2_cin_vehicle"
+		CallObjId="13" />
+
+	<Object
+		Name="Nachalo2_cin_dop_1"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath="InBase_cam04"
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="59"
+		CallObjName="Player1"
+		CallObjId="59" />
+
+	<Object
+		Name="Nachalo2_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="57"
+		CallObjName="Player1"
+		CallObjId="57" />
+
+	<Object
+		Name="BossDie2_cin"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="BossDie2_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="BossDie2_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin"
+		Prototype="trigger"
+		State="TS_ACTION"
+		Count="0"
+		Pause="0.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="13"
+		CallObjName="Povorot_cin"
+		CallObjId="13" />
+
+	<Object
+		Name="Povorot_cin_vehicle"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="0.100"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_dop_1"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath="Povorot_cam02"
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_dop_2"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath="Povorot_cam03"
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_dop_21"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="2.500"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_dop_3"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath="314zdec_cam02"
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_dop_4"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath="314zdec_cam03"
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Name="Povorot_cin_end"
+		Prototype="trigger"
+		State="TS_OFF"
+		Count="0"
+		Pause="1.000"
+		FlyPath=""
+		IdForCinema="-1"
+		FramesToPass="1"
+		CallEventId="0"
+		CallObjName=""
+		CallObjId="-1" />
+
+	<Object
+		Flags="21"
+		Name="Boss"
+		Belong="1040"
+		Prototype="team">
+		<Object
+			Name="Boss_vehicle_0"
+			Belong="1040"
+			Prototype="MirotvorecBoss"
+			Pos="3415.287 226.622 404.907"
+			Rot="-0.000 0.988 -0.000 0.155"
+			Skin="2">
+			<Parts>
+				<BASKET
+					present="1"
+					Belong="1040"
+					Prototype="mirotvorecCargo05"
+					Durability="140.102" />
+
+				<BASKET_BIG_GUN_0
+					present="1"
+					Belong="1040"
+					Prototype="rainmetal01"
+					Durability="91.425" />
+
+				<BASKET_GIANT_GUN
+					present="1"
+					Belong="1040"
+					Prototype="rocketLauncher"
+					Durability="381.962"
+					ShellsInPool="16" />
+
+				<CABIN
+					present="1"
+					Belong="1040"
+					Prototype="mirotvorecCab05"
+					Durability="117.478" />
+
+				<CABIN_BIG_GUN_1
+					present="1"
+					Belong="1040"
+					Prototype="rainmetal01"
+					Durability="88.403" />
+
+				<CABIN_GIANT_GUN
+					present="1"
+					Belong="1040"
+					Prototype="rocketLauncher"
+					Durability="378.765"
+					ShellsInPool="16" />
+			</Parts>
+
+			<Repository>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Belong="-1"
+					Prototype="potato" />
+			</Repository>
+		</Object>
+
+		<Formation
+			Belong="1040"
+			Prototype="caravanFormation"
+			DistBetweenVehicles="30.000"
+			Pos="0.000 0.000 0.000"
+			Direction="0.000 0.000 1.000"
+			LinearVelocity="13.889"
+			AngularVelocity="0.500"
+			NumPathPoint="-1" />
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="DefTM11"
+		Belong="1082"
+		Prototype="team">
+		<Object
+			Name="DefTM11_vehicle_0"
+			Belong="1082"
+			Prototype="CoolBelaz"
+			Pos="3387.724 228.118 426.577"
+			Rot="0.001 0.864 0.001 -0.503"
+			Skin="5">
+			<Parts>
+				<BASKET
+					present="1"
+					Belong="1082"
+					Prototype="belazCargo05"
+					Durability="151.411" />
+
+				<BASKET_BIG_GUN_0
+					present="1"
+					Belong="1082"
+					Prototype="vulcan01"
+					Durability="28.386" />
+
+				<CABIN
+					present="1"
+					Belong="1082"
+					Prototype="belazCab05"
+					Durability="217.610" />
+
+				<CABIN_BIG_GUN_1
+					present="1"
+					Belong="1082"
+					Prototype="vulcan01"
+					Durability="28.316" />
+
+				<CABIN_GIANT_GUN
+					present="1"
+					Belong="1082"
+					Prototype="big_swingfire01"
+					Durability="198.316"
+					ShellsInPool="12" />
+
+				<CHASSIS
+					present="1"
+					Belong="1082"
+					Prototype="belazChassis"
+					Health="1367.586" />
+			</Parts>
+
+			<Repository>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Belong="-1"
+					Prototype="potato" />
+			</Repository>
+		</Object>
+
+		<Formation
+			Belong="1082"
+			Prototype="caravanFormation"
+			DistBetweenVehicles="30.000"
+			Pos="0.000 0.000 0.000"
+			Direction="0.000 0.000 1.000"
+			LinearVelocity="13.889"
+			AngularVelocity="0.500"
+			NumPathPoint="-1" />
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="DefTM22"
+		Belong="1082"
+		Prototype="team">
+		<Object
+			Name="DefTM22_vehicle_0"
+			Belong="1082"
+			Prototype="Cruiser01"
+			Pos="3524.328 226.987 440.687"
+			Rot="0.000 0.748 0.000 -0.664"
+			Skin="2">
+			<Parts>
+				<CABIN
+					present="1"
+					Belong="1082"
+					Prototype="cruiserCab01"
+					Durability="157.789" />
+
+				<CABIN_BIG_GUN_1
+					present="1"
+					Belong="1082"
+					Prototype="octopus01"
+					Durability="149.042" />
+
+				<CABIN_GIANT_GUN
+					present="1"
+					Belong="1082"
+					Prototype="flag01"
+					Durability="199.042"
+					ShellsInPool="37" />
+
+				<CHASSIS
+					present="1"
+					Belong="1082"
+					Prototype="cruiserChassis"
+					Health="1272.129" />
+			</Parts>
+
+			<Repository>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Belong="-1"
+					Prototype="firewood" />
+			</Repository>
+		</Object>
+
+		<Formation
+			Belong="1082"
+			Prototype="caravanFormation"
+			DistBetweenVehicles="30.000"
+			Pos="0.000 0.000 0.000"
+			Direction="0.000 0.000 1.000"
+			LinearVelocity="13.889"
+			AngularVelocity="0.500"
+			NumPathPoint="-1" />
+	</Object>
+
+	<Object
+		Flags="21"
+		Name="DefTM33"
+		Belong="1082"
+		Prototype="team">
+		<Object
+			Name="DefTM33_vehicle_0"
+			Belong="1082"
+			Prototype="MirotvorecShot_2"
+			Pos="3366.151 226.629 340.905"
+			Rot="0.000 -0.129 0.000 -0.992"
+			Skin="2">
+			<Parts>
+				<BASKET
+					present="1"
+					Belong="1082"
+					Prototype="mirotvorecCargo03"
+					Durability="145.444" />
+
+				<BASKET_BIG_GUN_0
+					present="1"
+					Belong="1082"
+					Prototype="rainmetal01"
+					Durability="97.963" />
+
+				<BASKET_GIANT_GUN
+					present="1"
+					Belong="1082"
+					Prototype="octopus01"
+					Durability="147.810" />
+
+				<CABIN
+					present="1"
+					Belong="1082"
+					Prototype="mirotvorecCab05"
+					Durability="157.873" />
+
+				<CABIN_BIG_GUN_1
+					present="1"
+					Belong="1082"
+					Prototype="rainmetal01"
+					Durability="97.963"
+					ShellsInPool="0" />
+
+				<CABIN_GIANT_GUN
+					present="1"
+					Belong="1082"
+					Prototype="octopus01"
+					Durability="147.974" />
+
+				<CHASSIS
+					present="1"
+					Belong="1082"
+					Prototype="mirotvorecChassis"
+					Health="1821.799" />
+			</Parts>
+
+			<Repository>
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Belong="-1"
+					Prototype="firewood" />
+			</Repository>
+		</Object>
+
+		<Formation
+			Belong="1082"
+			Prototype="caravanFormation"
+			DistBetweenVehicles="30.000"
+			Pos="0.000 0.000 0.000"
+			Direction="0.000 0.000 1.000"
+			LinearVelocity="13.889"
+			AngularVelocity="0.500"
+			NumPathPoint="-1" />
+	</Object>
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel01l"
+		Pos="3385.404 226.895 392.174"
+		Rot="-0.617 -0.101 -0.259 -0.736" />
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel01r"
+		Pos="3379.073 226.895 410.626"
+		Rot="0.256 -0.813 0.237 -0.466" />
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel02l"
+		Pos="3447.083 226.886 311.199"
+		Rot="0.475 -0.318 0.385 0.725" />
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel02r"
+		Pos="3381.580 226.914 397.154"
+		Rot="-0.790 -0.130 -0.592 -0.089" />
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel02l"
+		Pos="3452.009 226.881 353.378"
+		Rot="-0.447 0.770 0.297 -0.344" />
+
+	<Object
+		Belong="1082"
+		Prototype="uralWheel02r"
+		Pos="3349.780 226.914 402.569"
+		Rot="-0.945 0.215 0.013 -0.245" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel01L"
+		Pos="3451.440 227.575 379.818"
+		Rot="0.359 -0.129 0.878 0.290" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel01R"
+		Pos="3424.482 227.575 293.018"
+		Rot="-0.361 0.819 0.236 -0.377" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel02L"
+		Pos="3444.881 227.575 380.210"
+		Rot="-0.214 0.281 0.722 -0.594" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel02R"
+		Pos="3385.307 227.575 360.265"
+		Rot="0.155 0.482 -0.615 0.604" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3328.155 226.738 380.968"
+		Rot="-0.458 -0.661 -0.318 0.503" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3328.152 226.738 395.962"
+		Rot="0.781 0.172 0.599 0.042" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3336.168 226.738 380.743"
+		Rot="-0.142 -0.358 0.878 -0.283" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3317.170 226.738 405.952"
+		Rot="0.199 -0.294 -0.020 0.935" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3342.149 226.738 380.932"
+		Rot="0.031 0.392 -0.919 -0.039" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3331.476 226.738 388.305"
+		Rot="0.392 -0.750 0.102 0.524" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3348.728 226.738 389.486"
+		Rot="0.403 0.426 0.792 0.168" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3329.867 226.738 392.587"
+		Rot="-0.203 0.493 -0.722 -0.441" />
+
+	<Object
+		Flags="21"
+		Name="DefTM3"
+		Belong="1082"
+		Prototype="team">
+		<Object
+			Name="DefTM3_vehicle_2"
+			Belong="1082"
+			Prototype="Ural01"
+			Pos="3397.438 402.431 401.214"
+			Rot="0.001 -0.918 -0.001 -0.397"
+			Skin="2">
+			<Parts />
+
+			<Repository>
+				<Item
+					PosX="2"
+					PosY="0"
+					Flags="16"
+					Belong="-1"
+					Prototype="potato" />
+			</Repository>
+		</Object>
+
+		<Formation
+			Belong="1082"
+			Prototype="caravanFormation"
+			DistBetweenVehicles="30.000"
+			Pos="0.000 0.000 0.000"
+			Direction="0.000 0.000 1.000"
+			LinearVelocity="13.889"
+			AngularVelocity="0.500"
+			NumPathPoint="-1" />
+	</Object>
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel01L"
+		Pos="3337.061 227.575 375.766"
+		Rot="0.249 -0.314 -0.289 0.869" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel01R"
+		Pos="3359.647 227.575 347.126"
+		Rot="-0.922 0.270 0.259 -0.099" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel02L"
+		Pos="3322.900 227.575 359.771"
+		Rot="-0.149 -0.430 -0.706 -0.543" />
+
+	<Object
+		Belong="1082"
+		Prototype="belazWheel02R"
+		Pos="3357.696 227.575 315.449"
+		Rot="-0.455 0.678 0.192 -0.544" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3374.289 226.738 409.614"
+		Rot="0.900 -0.045 -0.319 0.295" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3376.464 226.738 369.017"
+		Rot="-0.704 -0.289 -0.549 0.347" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3372.477 226.738 411.931"
+		Rot="-0.752 0.132 0.430 -0.481" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3374.927 226.738 370.013"
+		Rot="0.004 0.796 -0.429 0.426" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3371.147 226.738 415.221"
+		Rot="-0.600 0.726 -0.105 0.318" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3360.152 226.738 352.376"
+		Rot="0.053 0.749 -0.417 -0.513" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01l"
+		Pos="3367.855 226.738 415.635"
+		Rot="-0.496 -0.742 0.088 0.442" />
+
+	<Object
+		Belong="1082"
+		Prototype="cruiserWheel01r"
+		Pos="3360.155 226.738 361.102"
+		Rot="0.077 -0.497 0.492 -0.711" />
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3434.023 226.423 414.151"
+		Rot="0.681 0.190 -0.190 0.681">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rapier01"
+			Durability="34.581"
+			ShellsInPool="25" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rocketLauncher"
+			Durability="157.127" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="vulcan01"
+			Durability="6.785" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="vulcan01"
+			Durability="9.137" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="MeatRole" />
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3422.619 226.364 373.987"
+		Rot="0.807 -0.000 0.591 0.002">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="mrakSideGun">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Name="BASKET_SIDE_GUN_L"
+					Belong="-1"
+					Prototype="mrak01L"
+					ShellsInPool="8"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Name="BASKET_SIDE_GUN_R"
+					Belong="-1"
+					Prototype="mrak01R"
+					ShellsInPool="8"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="big_swingfire01"
+			Durability="84.646" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3346.799 226.359 394.236"
+		Rot="-0.000 -0.161 -0.000 0.987">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rapier01"
+			Durability="21.170"
+			ShellsInPool="16" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3331.542 226.424 326.748"
+		Rot="-0.524 -0.474 0.475 -0.525">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rainmetal01"
+			Durability="42.853" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rainmetal01"
+			Durability="32.518"
+			ShellsInPool="0" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="vulcan01"
+			Durability="8.854" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="octopus01"
+			Durability="57.548" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3365.411 226.357 380.708"
+		Rot="0.000 0.739 -0.000 0.674">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="vulcan01"
+			Durability="7.933" />
+	</Object>
+
+	<Object
+		Belong="-1"
+		Prototype="vanishingChest"
+		Pos="3449.567 226.357 389.489"
+		Rot="0.000 -0.312 -0.000 0.950">
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="rainmetal01"
+			Durability="96.116"
+			ShellsInPool="0" />
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="mrakSideGun">
+			<Parts>
+				<BASKET_SIDE_GUN_L
+					present="yes"
+					Flags="16"
+					Name="BASKET_SIDE_GUN_L"
+					Belong="-1"
+					Prototype="mrak01L"
+					Durability="298.236"
+					ShellsInPool="10"
+					CompoundVehiclePartIndex="0" />
+
+				<BASKET_SIDE_GUN_R
+					present="yes"
+					Flags="16"
+					Name="BASKET_SIDE_GUN_R"
+					Belong="-1"
+					Prototype="mrak01R"
+					Durability="298.236"
+					ShellsInPool="10"
+					CompoundVehiclePartIndex="1" />
+			</Parts>
+		</Object>
+
+		<Object
+			Flags="16"
+			Belong="-1"
+			Prototype="vulcan01"
+			Durability="11.796" />
+	</Object>
+</DynamicScene>

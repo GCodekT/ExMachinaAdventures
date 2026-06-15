@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="XPOM"
+		FullName="Хром" />
+
+	<Object
+		Name="Zavod_town_Bar"
+		FullName="Бар 'Раб'" />
+
+	<Object
+		Name="Zavod_town_Bar_Barman"
+		FullName="Управляющий" />
+
+	<Object
+		Name="Zavod_town_House"
+		FullName="Рабочие цеха" />
+
+	<Object
+		Name="Zavod_town_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Zavod_town_Shop"
+		FullName="Магазин 'Четыре цилиндра'" />
+
+	<Object
+		Name="NagoreVillage"
+		FullName="Дубровка" />
+
+	<Object
+		Name="NagoreVillage_Shop"
+		FullName="Рынок" />
+
+	<Object
+		Name="NagoreVillage_Bar"
+		FullName="Трактир 'У водопада'" />
+
+	<Object
+		Name="NagoreVillage_Bar_Barman"
+		FullName="Трактирщик" />
+
+	<Object
+		Name="NagoreVillage_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="KochewnikTown"
+		FullName="Лагерь кочевника" />
+
+	<Object
+		Name="KochewnikTown_Bar"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Bar_Barman"
+		FullName="Кочевник" />
+
+	<Object
+		Name="KochewnikTown_House"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Workshop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Shop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="BaseInRock_town"
+		FullName="Крепость в скале" />
+
+	<Object
+		Name="BaseInRock_town_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="BaseInRock_town_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="BaseInRock_town_House"
+		FullName="Главный зал" />
+
+	<Object
+		Name="BaseInRock_town_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="BaseInRock_town_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m3_OreMineVillage4707"
+		FullName="Карьер" />
+
+	<Object
+		Name="r1m3_OreMineVillage4707_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m3_OreMineVillage4707_Bar"
+		FullName="Кабак" />
+
+	<Object
+		Name="r1m3_OreMineVillage4707_Bar_Barman"
+		FullName="Прораб Терентич" />
+
+	<Object
+		Name="r1m3_OreMineVillage4707_Workshop"
+		FullName="Гараж" />
+
+	<Object
+		Name="r3_OracleDefVil5123"
+		FullName="Деревня фанатиков" />
+
+	<Object
+		Name="r3_OracleDefVil5123_Bar"
+		FullName="Трактир 'Стальной Грааль'" />
+
+	<Object
+		Name="r3_OracleDefVil5123_Bar_Barman"
+		FullName="Трактирщик" />
+
+	<Object
+		Name="r3_OracleDefVil5123_House"
+		FullName="Храм поклонения 'Стальной птице'" />
+
+	<Object
+		Name="r3_OracleDefVil5123_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r3_OracleDefVil5123_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m1_ContraVillage5135"
+		FullName="Хижина отшельника" />
+
+	<Object
+		Name="r1m1_ContraVillage5135_House"
+		FullName="Дом отшельника" />
+
+	<Object
+		Name="Port_town"
+		FullName="Порт" />
+
+	<Object
+		Name="Port_town_Bar"
+		FullName="Кафе 'У моря'" />
+
+	<Object
+		Name="Port_town_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="Port_town_House"
+		FullName="Грузовой терминал" />
+
+	<Object
+		Name="Port_town_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Port_town_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="ZavodBarmen"
+		FullName="Бармен Леонтий" />
+
+	<Object
+		Name="Prapor"
+		FullName="Прапорщик Август" />
+
+	<Object
+		Name="Zavodchanin"
+		FullName="Заводчанин" />
+
+	<Object
+		Name="Pyotr"
+		FullName="Тракторист Пётр" />
+
+	<Object
+		Name="Lider"
+		FullName="Лидер сопротивления" />
+
+	<Object
+		Name="Nachalnik"
+		FullName="Начальник порта" />
+
+	<Object
+		Name="Fanatik"
+		FullName="Фанатик" />
+
+	<Object
+		Name="Otshelnik"
+		FullName="Отшельник" />
+
+	<Object
+		Name="Naemnik"
+		FullName="Рабочий" />
+
+	<Object
+		Name="Jrec"
+		FullName="Верховный Жрец" />
+
+	<Object
+		Name="Electrik"
+		FullName="Электрик Степаныч" />
+
+	<Object
+		Name="KochewnikDLG"
+		FullName="Кочевник" />
+
+	<Object
+		Name="Derevenshina"
+		FullName="Житель деревни" />
+
+	<Object
+		Name="ToR4M1"
+		FullName="Паром в Долину песков" />
+
+	
+</ObjectNames>

@@ -1,0 +1,5310 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<General
+	MapName="r1m5">
+	<GUI
+		isHidden="0">
+		<LevelInfoManager
+			KnownLevels="r1m1 r1m2 r1m5"
+			VisitedLevels="r1m1 r1m2 r1m5">
+			<VisibilityMaps>
+				<Level
+					LevelName="r1m1"
+					GridSize="32.000 32.000"
+					Grid="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+
+				<Level
+					LevelName="r1m2"
+					GridSize="64.000 64.000"
+					Grid="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+
+				<Level
+					LevelName="r1m5"
+					GridSize="32.000 32.000"
+					Grid="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" />
+			</VisibilityMaps>
+
+			<LevelObjects>
+				<Level
+					LevelName="r1m2">
+					<Objects>
+						<Object
+							Name="CrazyBase17059"
+							FullName="Палатка кочевника"
+							PrototypeName="CrazyBase1"
+							Position="5046.632 401.824 1213.035"
+							LevelName="r1m2"
+							Belong="1064"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="CrazyBase27060"
+							FullName="Порт"
+							PrototypeName="CrazyBase2"
+							Position="7775.215 203.941 6547.222"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="TownBaseInRock7061"
+							FullName="Военная база"
+							PrototypeName="TownBaseInRock"
+							Position="2531.891 249.711 793.134"
+							LevelName="r1m2"
+							Belong="1025"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="TownMinin6466"
+							FullName="Стальной Меридиан"
+							PrototypeName="TownMinin"
+							Position="3279.694 216.204 2982.485"
+							LevelName="r1m2"
+							Belong="1025"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r1m1_ContraVillage7146"
+							FullName="Лагерь повстанцев"
+							PrototypeName="r1m1_ContraVillage"
+							Position="6936.989 293.750 5131.989"
+							LevelName="r1m2"
+							Belong="1082"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r1m1_OilVillage6552"
+							FullName="Дубровка"
+							PrototypeName="r1m1_OilVillage"
+							Position="1971.695 248.563 6967.385"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="1"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r1m2_RaceVillage7058"
+							FullName="Дом лесника"
+							PrototypeName="r1m2_RaceVillage"
+							Position="6698.416 284.709 4701.152"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r1m2_SignVillage7056"
+							FullName="Лесное"
+							PrototypeName="r1m2_SignVillage"
+							Position="7159.807 220.126 4249.248"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r1m3_OreMineVillage7064"
+							FullName="Карьер"
+							PrototypeName="r1m3_OreMineVillage"
+							Position="1208.412 202.785 4497.256"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r3_OracleDefVil7062"
+							FullName="Деревня Фанатиков"
+							PrototypeName="r3_OracleDefVil"
+							Position="4340.907 257.398 5809.384"
+							LevelName="r1m2"
+							Belong="1063"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+
+						<Object
+							Name="r3_RazboinikVillage7063"
+							FullName="Хижина отшельника"
+							PrototypeName="r3_RazboinikVillage"
+							Position="4743.102 363.059 6359.417"
+							LevelName="r1m2"
+							Belong="1009"
+							IsRuined="0"
+							IsPricesPersistant="0" />
+					</Objects>
+				</Level>
+			</LevelObjects>
+		</LevelInfoManager>
+
+		<WeaponGroupManager>
+			<CurrentWeaponGroups>
+				<WeaponGroup
+					groupId="0"
+					weaponParts="CABIN_BIG_GUN_1 CABIN_BIG_GUN_2" />
+
+				<WeaponGroup
+					groupId="1"
+					weaponParts="" />
+
+				<WeaponGroup
+					groupId="2"
+					weaponParts="" />
+
+				<WeaponGroup
+					groupId="3"
+					weaponParts="" />
+
+				<WeaponGroup
+					groupId="4"
+					weaponParts="" />
+			</CurrentWeaponGroups>
+		</WeaponGroupManager>
+
+		<NavPointManager />
+
+		<QuestInfoManager />
+
+		<TownDlg />
+
+		<Journal
+			CurTab="0" />
+
+		<Radar
+			ScanRadius="300.000"
+			NavPointsAllowed="1"
+			VehiclesAllowed="1"
+			TurretsAllowed="1"
+			DistancesAllowed="1" />
+
+		<SaveSellList />
+
+		<History
+			VScrollPos="0.000">
+			<Records />
+		</History>
+
+		<BooksWnd
+			CurBook="">
+			<Books />
+		</BooksWnd>
+
+		<Encyclopaedia>
+			<Prototypes>
+				<Theme
+					ThemeName="Vehicles"
+					PrototypeNames="Hunter03 BelazForSale" />
+
+				<Theme
+					ThemeName="VehicleParts"
+					PrototypeNames="belazCargo03 belazCab05" />
+
+				<Theme
+					ThemeName="Weapon"
+					PrototypeNames="vulcan01 rainmetal01 octopus01 kpvt01 vector01 rapier01 hornet01 specter01 minePusher" />
+
+				<Theme
+					ThemeName="Gadgets"
+					PrototypeNames="additional_durability2 add_stability_and_speed additional_torque2 add_damage_guns_and_grouping_angle_guns" />
+
+				<Theme
+					ThemeName="Goods"
+					PrototypeNames="potato scrap_metal firewood oil bottle fuel machinery tobacco book electronics" />
+			</Prototypes>
+
+			<Clans
+				Belongs="1063 1025 1009" />
+		</Encyclopaedia>
+
+		<MainGameInterface
+			nearTownId="-1"
+			nearChests="0"
+			bossId="-1" />
+	</GUI>
+
+	<DynamicScene
+		PhysicTimeAccumulator="0.000"
+		LastId="3601">
+		<relationship
+			MinPlayerID="1000"
+			MaxPlayerID="1200"
+			DefaultTolerance="enemy"
+			FormatType="1">
+			<Belong
+				id="1000">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1001">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1002">
+				<Belong
+					id="1005"
+					tolerance="2.000" />
+
+				<Belong
+					id="1012"
+					tolerance="2.000" />
+
+				<Belong
+					id="1013"
+					tolerance="2.000" />
+
+				<Belong
+					id="1040"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1049"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1065"
+					tolerance="3.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1003">
+				<Belong
+					id="1004"
+					tolerance="2.000" />
+
+				<Belong
+					id="1008"
+					tolerance="2.000" />
+
+				<Belong
+					id="1009"
+					tolerance="2.000" />
+
+				<Belong
+					id="1010"
+					tolerance="2.000" />
+
+				<Belong
+					id="1011"
+					tolerance="2.000" />
+
+				<Belong
+					id="1014"
+					tolerance="2.000" />
+
+				<Belong
+					id="1015"
+					tolerance="2.000" />
+
+				<Belong
+					id="1016"
+					tolerance="2.000" />
+
+				<Belong
+					id="1017"
+					tolerance="2.000" />
+
+				<Belong
+					id="1024"
+					tolerance="2.000" />
+
+				<Belong
+					id="1025"
+					tolerance="2.000" />
+
+				<Belong
+					id="1040"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1051"
+					tolerance="2.000" />
+
+				<Belong
+					id="1052"
+					tolerance="2.000" />
+
+				<Belong
+					id="1053"
+					tolerance="2.000" />
+
+				<Belong
+					id="1054"
+					tolerance="2.000" />
+
+				<Belong
+					id="1063"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1065"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1082"
+					tolerance="2.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1004">
+				<Belong
+					id="1008"
+					tolerance="2.000" />
+
+				<Belong
+					id="1009"
+					tolerance="2.000" />
+
+				<Belong
+					id="1010"
+					tolerance="2.000" />
+
+				<Belong
+					id="1011"
+					tolerance="2.000" />
+
+				<Belong
+					id="1014"
+					tolerance="2.000" />
+
+				<Belong
+					id="1015"
+					tolerance="2.000" />
+
+				<Belong
+					id="1016"
+					tolerance="2.000" />
+
+				<Belong
+					id="1017"
+					tolerance="2.000" />
+
+				<Belong
+					id="1040"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1051"
+					tolerance="2.000" />
+
+				<Belong
+					id="1052"
+					tolerance="2.000" />
+
+				<Belong
+					id="1053"
+					tolerance="2.000" />
+
+				<Belong
+					id="1054"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1005">
+				<Belong
+					id="1012"
+					tolerance="2.000" />
+
+				<Belong
+					id="1013"
+					tolerance="2.000" />
+
+				<Belong
+					id="1040"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1049"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1065"
+					tolerance="3.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1006">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1007">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1008">
+				<Belong
+					id="1009"
+					tolerance="2.000" />
+
+				<Belong
+					id="1010"
+					tolerance="2.000" />
+
+				<Belong
+					id="1011"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1051"
+					tolerance="2.000" />
+
+				<Belong
+					id="1052"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1009">
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1052"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1010">
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1011">
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1012">
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1013">
+				<Belong
+					id="1015"
+					tolerance="2.000" />
+
+				<Belong
+					id="1016"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1044"
+					tolerance="2.000" />
+
+				<Belong
+					id="1045"
+					tolerance="2.000" />
+
+				<Belong
+					id="1046"
+					tolerance="2.000" />
+
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1014">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1015">
+				<Belong
+					id="1017"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1053"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1016">
+				<Belong
+					id="1017"
+					tolerance="2.000" />
+
+				<Belong
+					id="1041"
+					tolerance="2.000" />
+
+				<Belong
+					id="1042"
+					tolerance="2.000" />
+
+				<Belong
+					id="1043"
+					tolerance="2.000" />
+
+				<Belong
+					id="1048"
+					tolerance="2.000" />
+
+				<Belong
+					id="1053"
+					tolerance="2.000" />
+
+				<Belong
+					id="1054"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1017">
+				<Belong
+					id="1053"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1018">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1019">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1020">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1021">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1022">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1023">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1024">
+				<Belong
+					id="1060"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1025">
+				<Belong
+					id="1063"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1065"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1026">
+				<Belong
+					id="1042"
+					tolerance="3.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1027">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1028">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1029">
+				<Belong
+					id="1060"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1030">
+				<Belong
+					id="1031"
+					tolerance="2.000" />
+
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1031">
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1032">
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1033">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1034">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1035">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1036">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1037">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1038">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1039">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1040">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1041">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1042">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1043">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1044">
+				<Belong
+					id="1047"
+					tolerance="2.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1045">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1046">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1047">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1048">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1049">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1050">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1051">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1052">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1053">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1054">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1055">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1056">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1057">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1058">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1059">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1060">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1061">
+				<Belong
+					id="1062"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1062">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1063">
+				<Belong
+					id="1064"
+					tolerance="3.000" />
+
+				<Belong
+					id="1065"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1082"
+					tolerance="2.000" />
+
+				<Belong
+					id="1100"
+					tolerance="2.000" />
+			</Belong>
+
+			<Belong
+				id="1064">
+				<Belong
+					id="1065"
+					tolerance="3.000" />
+
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1082"
+					tolerance="3.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1065">
+				<Belong
+					id="1066"
+					tolerance="2.000" />
+
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1082"
+					tolerance="2.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1066">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+
+				<Belong
+					id="1082"
+					tolerance="2.000" />
+
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1067">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1068">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1069">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1070">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1071">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1072">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1073">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1074">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1075">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1076">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1077">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1078">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1079">
+				<Belong
+					id="1080"
+					tolerance="3.000" />
+			</Belong>
+
+			<Belong
+				id="1080">
+				<Belong
+					id="1100"
+					tolerance="3.000" />
+			</Belong>
+		</relationship>
+
+		<TargetNamesForDestroy
+			Names="urod1 urod2 urod3 urod4 urod5 urod6 urod7 urod8 urod9" />
+
+		<ObjContainerRuntime>
+			<Node
+				Id="7"
+				TotalObjects="1" />
+
+			<Node
+				Id="8"
+				TotalObjects="1" />
+
+			<Node
+				Id="9"
+				TotalObjects="1" />
+
+			<Node
+				Id="10"
+				TotalObjects="1" />
+
+			<Node
+				Id="11"
+				TotalObjects="1" />
+
+			<Node
+				Id="12"
+				TotalObjects="1" />
+
+			<Node
+				Id="13"
+				TotalObjects="1" />
+
+			<Node
+				Id="14"
+				TotalObjects="1" />
+
+			<Node
+				Id="15"
+				TotalObjects="1" />
+
+			<Node
+				Id="16"
+				TotalObjects="1" />
+
+			<Node
+				Id="17"
+				TotalObjects="1" />
+
+			<Node
+				Id="24"
+				TotalObjects="2" />
+
+			<Node
+				Id="74"
+				TotalObjects="1" />
+		</ObjContainerRuntime>
+
+		<Object
+			ObjectId="0"
+			Name="Player1"
+			Belong="1100"
+			Prototype="player"
+			Money="5000">
+			<Object
+				ObjectId="1"
+				Name="MyCar"
+				Belong="1100"
+				Prototype="Hunter03"
+				Pos="2990.406 227.126 1210.434"
+				Rot="-0.009 -0.754 -0.031 0.656">
+				<Runtime
+					LinearVelocity="-13.813 -4.991 -2.121"
+					AngularVelocity="0.080 0.067 0.499"
+					TargetId="-1"
+					TimeOutForReAimGuns="0.000"
+					TargetPos="0.000 0.000 0.000"
+					TimeAfterDeath="0.000"
+					NumBlownParts="0"
+					TimeAfterLastBlow="0.000"
+					CurrentGear="4"
+					Throttle="0.000"
+					RealThrottle="-0.060"
+					AutoBrake="0"
+					HandBrake="0"
+					EngineRPM="6541.046"
+					CurrentDestination="0.000 0.000 0.000"
+					PathNum="-1"
+					Priority="200"
+					PathIndex="16"
+					IsMovingAlongExternalPath="0"
+					CanBeDistractedFromMoving="0"
+					StoppageMode="0"
+					OnOilMode="0"
+					InSmokeScreenMode="0"
+					TurboThrottleTime="0.000"
+					TurboThrottleValue="1.000"
+					ImmortalMode="0"
+					Hidden="0"
+					MoveStatus="0"
+					CruisingSpeed="41.667"
+					Role="-1"
+					RecollectionId="252"
+					WasStuck="0"
+					PrevPosToCheckStuck="2914.655 235.264 1204.930"
+					TimeOutToCheckStuck="0.725"
+					PastTakingPos="2990.556 224.931 1210.396"
+					AllowInventoryMessage="1">
+					<Wheels>
+						<WheelInfo
+							Id="0"
+							present="1">
+							<Wheel
+								ObjectId="248"
+								Belong="1100"
+								Prototype="hunterWheel01l"
+								Pos="2988.283 227.065 1208.338"
+								Rot="0.607 0.269 0.705 -0.250">
+								<Runtime
+									LinearVelocity="-15.078 -5.853 -1.809"
+									AngularVelocity="-8.747 -1.434 63.016"
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="hunterWheel01l" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="1"
+							present="1">
+							<Wheel
+								ObjectId="249"
+								Belong="1100"
+								Prototype="hunterWheel01r"
+								Pos="2987.792 226.969 1211.863"
+								Rot="0.448 -0.565 0.500 0.480">
+								<Runtime
+									LinearVelocity="-14.796 -6.375 -1.781"
+									AngularVelocity="-8.747 -1.434 63.016"
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="hunterWheel01r" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="2"
+							present="1">
+							<Wheel
+								ObjectId="250"
+								Belong="1100"
+								Prototype="hunterWheel01l"
+								Pos="2993.271 226.762 1209.025"
+								Rot="-0.428 -0.559 -0.507 0.498">
+								<Runtime
+									LinearVelocity="-14.850 -3.319 -2.170"
+									AngularVelocity="-6.940 -1.127 50.219"
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="hunterWheel01l" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="3"
+							present="1">
+							<Wheel
+								ObjectId="251"
+								Belong="1100"
+								Prototype="hunterWheel01r"
+								Pos="2992.779 226.673 1212.551"
+								Rot="0.225 0.702 0.277 -0.617">
+								<Runtime
+									LinearVelocity="-14.581 -3.992 -2.148"
+									AngularVelocity="-8.747 -1.434 63.016"
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="hunterWheel01r" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+					</Wheels>
+				</Runtime>
+
+				<Parts>
+					<BASKET
+						present="1"
+						ObjectId="6"
+						Belong="1100"
+						Prototype="bigfakeCargo">
+						<Runtime
+							AnimAction="2"
+							ModelName="cub"
+							MpHealth0="0.000">
+							<Geom
+								Position="0.007 3.018 -0.002"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</BASKET>
+
+					<CABIN
+						present="1"
+						ObjectId="3"
+						Belong="1100"
+						Prototype="hunterCab03"
+						Durability="159.992">
+						<Runtime
+							AnimAction="2"
+							ModelName="hunterCab03"
+							MpHealth0="5.000"
+							MpHealth1="2.000"
+							MpHealth2="3.000"
+							MpHealth3="4.000"
+							MpHealth4="3.000"
+							MpHealth5="3.000">
+							<Geom
+								Position="0.007 3.462 -0.425"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</CABIN>
+
+					<CABIN_BIG_GUN_1
+						present="1"
+						ObjectId="4"
+						Belong="1100"
+						Prototype="vulcan01">
+						<Runtime
+							ModelName="vulcan01"
+							MpHealth0="30.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0917 0.0000 0.0000 0.9958"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="798"
+							ShellsInPool="800"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="0.870 4.901 -0.295"
+								Rotation="0.0000 0.0246 0.0000 0.9997" />
+						</Runtime>
+					</CABIN_BIG_GUN_1>
+
+					<CABIN_BIG_GUN_2
+						present="1"
+						ObjectId="5"
+						Belong="1100"
+						Prototype="rainmetal01">
+						<Runtime
+							ModelName="rainmetal01"
+							MpHealth0="100.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0821 0.0000 0.0000 0.9966"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="100"
+							ShellsInPool="100"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="-1.424 5.150 -2.707"
+								Rotation="0.0000 0.0558 0.0000 0.9984" />
+						</Runtime>
+					</CABIN_BIG_GUN_2>
+
+					<CHASSIS
+						present="1"
+						ObjectId="2"
+						Belong="1100"
+						Prototype="hunterChassis2"
+						Fuel="92.740"
+						Health="1483.959">
+						<Runtime
+							ModelName="hunterChassis"
+							MpHealth0="10000.000"
+							Health="1483.959"
+							Fuel="92.740">
+							<Geom
+								Position="0.000 2.586 -0.070"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+
+							<Decals
+								Name="DC_CLASH"
+								Size="1"
+								Id="0"
+								Center0="0.633 -0.107 2.800"
+								Normal0="0.081 -0.242 0.967"
+								Tangent0="-0.997 0.000 0.083"
+								Mesh0="0" />
+						</Runtime>
+					</CHASSIS>
+				</Parts>
+
+				<Repository />
+			</Object>
+
+			<Runtime
+				HuntQuestIsTaken="0"
+				NumVehicleWithoutName="0">
+				<EventRecipients>
+					<Event
+						EventId="GE_CINEMATIC_ENTER_FADE_IN"
+						Objects="4,5,16,17,59,60,62,63,65,66,77,78,80,81,83,84" />
+
+					<Event
+						EventId="GE_GAME_START"
+						Objects="18,19,20,21,22,23" />
+
+					<Event
+						EventId="GE_PLAYER_VEHICLE_CHANGED"
+						Objects="32792" />
+				</EventRecipients>
+			</Runtime>
+		</Object>
+
+		<Object
+			ObjectId="252"
+			Belong="1100"
+			Prototype="someRecollection">
+			<Runtime
+				VehicleId="1">
+				<Items>
+					<Item
+						Position="3032.918 228.681 1225.384"
+						Time="27815.051" />
+
+					<Item
+						Position="3028.054 228.688 1223.319"
+						Time="27833.641" />
+
+					<Item
+						Position="3023.957 228.703 1220.423"
+						Time="27852.352" />
+
+					<Item
+						Position="3019.969 228.702 1218.041"
+						Time="27870.881" />
+
+					<Item
+						Position="3015.728 228.709 1216.304"
+						Time="27889.412" />
+
+					<Item
+						Position="3010.663 228.692 1214.343"
+						Time="27907.762" />
+
+					<Item
+						Position="3004.941 228.688 1212.940"
+						Time="27926.232" />
+
+					<Item
+						Position="3000.611 229.099 1211.767"
+						Time="27944.521" />
+
+					<Item
+						Position="2996.586 229.486 1211.190"
+						Time="27963.172" />
+
+					<Item
+						Position="2991.754 229.513 1210.644"
+						Time="27981.584" />
+				</Items>
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="18"
+			Name="FromR1M1"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="3736.219 225.909 77.932"
+			Radius="23.000">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="19"
+			Name="Artefact_loc"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="3903.509 225.909 554.884"
+			Radius="25.775">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="20"
+			Name="Boss_loc"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="3585.471 225.909 526.204"
+			Radius="35.232">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="21"
+			Name="FromR4M1"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="2638.071 225.909 1011.604"
+			Radius="30.000">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="22"
+			Name="FromR1M2"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="2946.422 225.909 1206.357"
+			Radius="5.031">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<EventRecipients>
+					<Event
+						EventId="GE_OBJECT_ENTERS_LOCATION"
+						Objects="16391" />
+				</EventRecipients>
+
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="23"
+			Name="PrometeusAct_loc"
+			Belong="1100"
+			Prototype="genericLocation"
+			Pos="3036.269 225.909 422.833"
+			Radius="163.164">
+			<Runtime
+				TimeOut="0.596"
+				FramesPassed="1667">
+				<EventRecipients />
+
+				<PhysicBody
+					ModelName="" />
+			</Runtime>
+		</Object>
+
+		<Object
+			ObjectId="16393"
+			Name="Proverka_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Proverka_cin"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16396"
+			Name="Nachalo_Koch_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Nachalo_Koch_cin"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16395"
+			Name="Nachalo_Koch_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.100"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Nachalo_Koch_cin_vehicle"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16394"
+			Name="Nachalo_Koch_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="57"
+			CallObjName="Player1"
+			CallObjId="57">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16401"
+			Name="Prometeus_Koch_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="4"
+			CallObjName="PrometeusAct_loc"
+			CallObjId="4">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16400"
+			Name="Prometeus_Koch_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Prometeus_Koch_cin_vehicle"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16399"
+			Name="Prometeus_Koch_cin_dop_1"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="InBase_cam07"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16398"
+			Name="Prometeus_Koch_cin_dop_2"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="InBase_cam08"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16397"
+			Name="Prometeus_Koch_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="56"
+			CallObjName="Player1"
+			CallObjId="56">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16392"
+			Name="Prometeus_Koch_cin_Length"
+			Prototype="trigger"
+			State="TS_EVENTWAIT"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Prometeus_Koch_cin_Length"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="16391"
+			Name="Prometeus_Koch_cin2"
+			Prototype="trigger"
+			State="TS_EVENTWAIT"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="25"
+			Name="Prometeus_Koch_cin2_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="26"
+			Name="Prometeus_Koch_cin2_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="27"
+			Name="Nachalo_cin"
+			Prototype="trigger"
+			State="TS_ACTION"
+			Count="0"
+			Pause="0.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Nachalo_cin"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="28"
+			Name="Nachalo_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.100"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="29"
+			Name="Nachalo_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="30"
+			Name="Boss_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="31"
+			Name="Boss_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.100"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="32"
+			Name="Boss_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="33"
+			Name="Boss_cin_vehicleBoss"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="34"
+			Name="BossDie_cin_dieatack"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="35"
+			Name="BossDie_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="36"
+			Name="BossDie_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="37"
+			Name="BossDie_cin_dop_1"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="333"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="38"
+			Name="BossDie_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="39"
+			Name="Timer_bomb"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="60.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="40"
+			Name="triggerExitToMap11"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="41"
+			Name="Nachalo2_cin"
+			Prototype="trigger"
+			State="TS_ACTION"
+			Count="0"
+			Pause="0.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Nachalo2_cin"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="42"
+			Name="Nachalo2_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.100"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="43"
+			Name="Nachalo2_cin_dop_1"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="InBase_cam04"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="44"
+			Name="Nachalo2_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="45"
+			Name="BossDie2_cin"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="46"
+			Name="BossDie2_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="47"
+			Name="BossDie2_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="48"
+			Name="Povorot_cin"
+			Prototype="trigger"
+			State="TS_ACTION"
+			Count="0"
+			Pause="0.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="13"
+			CallObjName="Povorot_cin"
+			CallObjId="13">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="49"
+			Name="Povorot_cin_vehicle"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="0.100"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="50"
+			Name="Povorot_cin_dop_1"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="Povorot_cam02"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="51"
+			Name="Povorot_cin_dop_2"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="Povorot_cam03"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="52"
+			Name="Povorot_cin_dop_21"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="2.500"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="53"
+			Name="Povorot_cin_dop_3"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="314zdec_cam02"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="54"
+			Name="Povorot_cin_dop_4"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath="314zdec_cam03"
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			ObjectId="55"
+			Name="Povorot_cin_end"
+			Prototype="trigger"
+			State="TS_OFF"
+			Count="0"
+			Pause="1.000"
+			FlyPath=""
+			IdForCinema="-1"
+			FramesToPass="1"
+			CallEventId="0"
+			CallObjName=""
+			CallObjId="-1">
+			<Runtime
+				CanUpdate="1" />
+		</Object>
+
+		<Object
+			Flags="21"
+			ObjectId="32792"
+			Name="Boss"
+			Belong="1040"
+			Prototype="team">
+			<Object
+				ObjectId="57"
+				Name="Boss_vehicle_0"
+				Belong="1040"
+				Prototype="MirotvorecBoss"
+				Pos="3363.003 226.864 398.331"
+				Rot="-0.000 0.713 0.000 0.701"
+				Skin="6">
+				<Runtime
+					SkinNumber="6"
+					TargetId="-1"
+					TimeOutForReAimGuns="0.000"
+					TargetPos="0.000 0.000 0.000"
+					TimeAfterDeath="0.000"
+					NumBlownParts="0"
+					TimeAfterLastBlow="0.000"
+					CurrentGear="0"
+					Throttle="0.000"
+					RealThrottle="0.000"
+					AutoBrake="1"
+					HandBrake="1"
+					EngineRPM="0.000"
+					CurrentDestination="0.000 0.000 0.000"
+					PathNum="-1"
+					Priority="200"
+					PathIndex="0"
+					IsMovingAlongExternalPath="0"
+					CanBeDistractedFromMoving="0"
+					StoppageMode="0"
+					OnOilMode="0"
+					InSmokeScreenMode="0"
+					TurboThrottleTime="0.000"
+					TurboThrottleValue="1.000"
+					ImmortalMode="1"
+					Hidden="0"
+					MoveStatus="0"
+					CruisingSpeed="13.889"
+					Role="-1"
+					RecollectionId="-1"
+					WasStuck="0"
+					PrevPosToCheckStuck="0.000 0.000 0.000"
+					TimeOutToCheckStuck="0.000">
+					<Wheels>
+						<WheelInfo
+							Id="0"
+							present="1">
+							<Wheel
+								ObjectId="68"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3366.646 227.092 400.833"
+								Rot="-0.000 0.713 0.000 0.701">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="1"
+							present="1">
+							<Wheel
+								ObjectId="69"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3366.559 227.092 395.707"
+								Rot="0.000 0.701 0.000 -0.713">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="2"
+							present="1">
+							<Wheel
+								ObjectId="70"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3359.447 227.092 400.955"
+								Rot="0.000 0.713 -0.000 0.701">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="3"
+							present="1">
+							<Wheel
+								ObjectId="71"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3359.360 227.092 395.829"
+								Rot="-0.000 0.701 -0.000 -0.713">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="4"
+							present="1">
+							<Wheel
+								ObjectId="72"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3363.046 227.092 400.894"
+								Rot="0.000 0.713 -0.000 0.701">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+
+						<WheelInfo
+							Id="5"
+							present="1">
+							<Wheel
+								ObjectId="73"
+								Belong="1040"
+								Prototype="mirotvorecWheel01"
+								Pos="3362.959 227.092 395.768"
+								Rot="0.000 0.701 0.000 -0.713">
+								<Runtime
+									CurAngle="0.000"
+									Broken="0">
+									<PhysicBody
+										ModelName="mirotvorecWheel01" />
+								</Runtime>
+							</Wheel>
+						</WheelInfo>
+					</Wheels>
+				</Runtime>
+
+				<Parts>
+					<BASKET
+						present="1"
+						ObjectId="58"
+						Belong="1040"
+						Prototype="mirotvorecCargo05">
+						<Runtime
+							ModelName="mirotvorecCargo05"
+							MpHealth0="0.000"
+							MpHealth1="1.200"
+							MpHealth2="2.000"
+							MpHealth3="2.000"
+							MpHealth4="2.000"
+							MpHealth5="2.000">
+							<Geom
+								Position="-0.000 3.660 -2.968"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</BASKET>
+
+					<BASKET_BIG_GUN_0
+						present="1"
+						ObjectId="59"
+						Belong="1040"
+						Prototype="rainmetal01">
+						<Runtime
+							ModelName="rainmetal01"
+							MpHealth0="100.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="100"
+							ShellsInPool="100"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="0.011 4.885 -4.736"
+								Rotation="0.0000 0.9999 0.0000 -0.0131" />
+						</Runtime>
+					</BASKET_BIG_GUN_0>
+
+					<BASKET_GIANT_GUN
+						present="1"
+						ObjectId="60"
+						Belong="1040"
+						Prototype="rocketLauncher">
+						<Runtime
+							ModelName="dragon01"
+							CurAnimTime="520"
+							MpHealth0="400.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="8"
+							ShellsInPool="24"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="-0.006 5.770 -1.910"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</BASKET_GIANT_GUN>
+
+					<BASKET_SIDE_GUN_0
+						present="1"
+						ObjectId="61"
+						Belong="1040"
+						Prototype="hailSideGun">
+						<Runtime
+							ModelName="">
+							<Geom
+								Position="-2.448 4.360 -1.843"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+
+						<Parts>
+							<BASKET_SIDE_GUN_L
+								present="yes"
+								ObjectId="62"
+								Name="BASKET_SIDE_GUN_L"
+								Belong="1040"
+								Prototype="hail01L"
+								CompoundVehiclePartIndex="0">
+								<Runtime
+									ModelName="hail01L"
+									MpHealth0="300.000"
+									TargetId="-1"
+									CurBarrelNum="0"
+									BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+									ChargeState="0"
+									CurrentReChargingTime="0.000"
+									ShellsInCurrentCharge="6"
+									ShellsInPool="12"
+									IsFiring="0"
+									WasShot="0"
+									JustShot="0"
+									IsVolleyFiring="0">
+									<Geom
+										Position="-2.448 4.360 -1.843"
+										Rotation="0.0000 0.0000 0.0000 1.0000" />
+								</Runtime>
+							</BASKET_SIDE_GUN_L>
+
+							<BASKET_SIDE_GUN_R
+								present="yes"
+								ObjectId="63"
+								Name="BASKET_SIDE_GUN_R"
+								Belong="1040"
+								Prototype="hail01R"
+								CompoundVehiclePartIndex="1">
+								<Runtime
+									ModelName="hail01R"
+									MpHealth0="300.000"
+									TargetId="-1"
+									CurBarrelNum="0"
+									BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+									ChargeState="0"
+									CurrentReChargingTime="0.000"
+									ShellsInCurrentCharge="6"
+									ShellsInPool="12"
+									IsFiring="0"
+									WasShot="0"
+									JustShot="0"
+									IsVolleyFiring="0">
+									<Geom
+										Position="2.475 4.360 -1.843"
+										Rotation="0.0000 0.0000 0.0000 1.0000" />
+								</Runtime>
+							</BASKET_SIDE_GUN_R>
+						</Parts>
+					</BASKET_SIDE_GUN_0>
+
+					<CABIN
+						present="1"
+						ObjectId="64"
+						Belong="1040"
+						Prototype="mirotvorecCab05">
+						<Runtime
+							ModelName="mirotvorecCab05"
+							CurAnimTime="210"
+							MpHealth0="0.000"
+							MpHealth1="0.500"
+							MpHealth2="1.000"
+							MpHealth3="1.000"
+							MpHealth4="1.500"
+							MpHealth5="0.500"
+							MpHealth6="3.000"
+							MpHealth7="1.200"
+							MpHealth8="3.000"
+							MpHealth9="1.000"
+							MpHealth10="1.000">
+							<Geom
+								Position="-0.000 3.082 0.212"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</CABIN>
+
+					<CABIN_BIG_GUN_1
+						present="1"
+						ObjectId="65"
+						Belong="1040"
+						Prototype="rainmetal01">
+						<Runtime
+							ModelName="rainmetal01"
+							MpHealth0="100.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="100"
+							ShellsInPool="100"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="0.022 4.647 4.558"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</CABIN_BIG_GUN_1>
+
+					<CABIN_GIANT_GUN
+						present="1"
+						ObjectId="66"
+						Belong="1040"
+						Prototype="rocketLauncher">
+						<Runtime
+							ModelName="dragon01"
+							CurAnimTime="800"
+							MpHealth0="400.000"
+							TargetId="-1"
+							CurBarrelNum="0"
+							BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+							ChargeState="0"
+							CurrentReChargingTime="0.000"
+							ShellsInCurrentCharge="8"
+							ShellsInPool="24"
+							IsFiring="0"
+							WasShot="0"
+							JustShot="0">
+							<Geom
+								Position="0.022 5.335 1.567"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</CABIN_GIANT_GUN>
+
+					<CHASSIS
+						present="1"
+						ObjectId="67"
+						Belong="1040"
+						Prototype="mirotvorecChassisBoss">
+						<Runtime
+							ModelName="mirotvorecChassis"
+							MpHealth0="10000.000"
+							Health="7000.000"
+							Fuel="1500.000">
+							<Geom
+								Position="0.000 2.201 0.107"
+								Rotation="0.0000 0.0000 0.0000 1.0000" />
+						</Runtime>
+					</CHASSIS>
+				</Parts>
+
+				<Repository>
+					<Item
+						PosX="0"
+						PosY="0"
+						Flags="16"
+						ObjectId="75"
+						Belong="-1"
+						Prototype="firewood">
+						<Runtime />
+					</Item>
+				</Repository>
+			</Object>
+
+			<Runtime
+				TimeOut="0.203"
+				TeamTacticId="-1"
+				Frozen="0" />
+
+			<Formation
+				ObjectId="56"
+				Belong="1040"
+				Prototype="caravanFormation"
+				DistBetweenVehicles="30.000"
+				Pos="0.000 0.000 0.000"
+				Direction="0.000 0.000 1.000"
+				LinearVelocity="13.889"
+				AngularVelocity="0.500"
+				NumPathPoint="-1">
+				<Runtime />
+			</Formation>
+		</Object>
+
+		<Object
+			ObjectId="16458"
+			Name="BossRun"
+			Belong="1040"
+			Prototype="MirotvorecBoss"
+			Pos="3302.821 226.640 1121.716"
+			Rot="-0.002 -0.016 0.001 1.000">
+			<Runtime
+				LinearVelocity="-0.770 -0.024 8.938"
+				AngularVelocity="0.068 -0.095 0.013"
+				TargetId="-1"
+				TimeOutForReAimGuns="0.000"
+				TargetPos="0.000 0.000 0.000"
+				TimeAfterDeath="0.000"
+				NumBlownParts="0"
+				TimeAfterLastBlow="0.000"
+				CurrentGear="0"
+				Throttle="0.325"
+				RealThrottle="0.325"
+				AutoBrake="1"
+				HandBrake="0"
+				EngineRPM="1741.192"
+				CurrentDestination="0.000 0.000 0.000"
+				PathNum="4"
+				Priority="200"
+				PathIndex="1"
+				IsMovingAlongExternalPath="1"
+				CanBeDistractedFromMoving="0"
+				StoppageMode="0"
+				OnOilMode="0"
+				InSmokeScreenMode="0"
+				TurboThrottleTime="0.000"
+				TurboThrottleValue="1.000"
+				ImmortalMode="0"
+				Hidden="0"
+				MoveStatus="1"
+				CruisingSpeed="15.000"
+				Role="-1"
+				RecollectionId="-1"
+				WasStuck="0"
+				PrevPosToCheckStuck="3303.145 226.624 1110.475"
+				TimeOutToCheckStuck="0.113">
+				<Path
+					Map="GLOBAL"
+					InSearching="0"
+					PathPoints="3300.681,944.918;3302.208,997.052;3304.000,1075.387;3302.855,1122.158;3265.218,1144.314;3202.660,1153.752;3138.620,1159.676;3099.203,1151.090;3070.139,1148.061;3063.955,1162.773;3060.700,1205.515;3044.206,1213.594;2990.979,1210.568;2963.778,1206.298" />
+
+				<Wheels>
+					<WheelInfo
+						Id="0"
+						present="1">
+						<Wheel
+							ObjectId="86"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3300.143 226.986 1125.231"
+							Rot="0.113 0.072 0.007 -0.991">
+							<Runtime
+								LinearVelocity="-1.139 -0.013 8.858"
+								AngularVelocity="8.177 -0.075 1.064"
+								CurAngle="0.113"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+
+					<WheelInfo
+						Id="1"
+						present="1">
+						<Wheel
+							ObjectId="87"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3305.266 226.987 1125.396"
+							Rot="-0.015 -0.974 0.216 -0.071">
+							<Runtime
+								LinearVelocity="-1.167 -0.012 9.334"
+								AngularVelocity="8.611 -0.074 1.104"
+								CurAngle="0.113"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+
+					<WheelInfo
+						Id="2"
+						present="1">
+						<Wheel
+							ObjectId="88"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3300.374 226.982 1118.034"
+							Rot="0.608 0.013 0.009 -0.794">
+							<Runtime
+								LinearVelocity="-0.394 0.000 8.883"
+								AngularVelocity="8.203 -0.079 0.315"
+								CurAngle="0.000"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+
+					<WheelInfo
+						Id="3"
+						present="1">
+						<Wheel
+							ObjectId="89"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3305.498 226.982 1118.199"
+							Rot="-0.006 -0.906 0.424 -0.015">
+							<Runtime
+								LinearVelocity="-0.408 0.000 9.361"
+								AngularVelocity="8.641 -0.079 0.329"
+								CurAngle="0.000"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+
+					<WheelInfo
+						Id="4"
+						present="1">
+						<Wheel
+							ObjectId="90"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3300.258 226.982 1121.632"
+							Rot="0.265 0.070 0.018 -0.961">
+							<Runtime
+								LinearVelocity="-0.905 -0.001 8.855"
+								AngularVelocity="8.161 -0.076 0.946"
+								CurAngle="0.113"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+
+					<WheelInfo
+						Id="5"
+						present="1">
+						<Wheel
+							ObjectId="91"
+							Belong="1040"
+							Prototype="mirotvorecWheel01"
+							Pos="3305.382 226.986 1121.797"
+							Rot="-0.016 -0.968 0.239 -0.071">
+							<Runtime
+								LinearVelocity="-0.934 -0.011 9.331"
+								AngularVelocity="8.595 -0.075 0.987"
+								CurAngle="0.113"
+								Broken="0">
+								<PhysicBody
+									ModelName="mirotvorecWheel01" />
+							</Runtime>
+						</Wheel>
+					</WheelInfo>
+				</Wheels>
+			</Runtime>
+
+			<Parts>
+				<BASKET
+					present="1"
+					ObjectId="76"
+					Belong="1040"
+					Prototype="mirotvorecCargo05">
+					<Runtime
+						AnimAction="2"
+						ModelName="mirotvorecCargo05"
+						MpHealth0="0.000"
+						MpHealth1="1.200"
+						MpHealth2="2.000"
+						MpHealth3="2.000"
+						MpHealth4="2.000"
+						MpHealth5="2.000">
+						<Geom
+							Position="-0.000 3.660 -2.968"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</BASKET>
+
+				<BASKET_BIG_GUN_0
+					present="1"
+					ObjectId="77"
+					Belong="1040"
+					Prototype="rainmetal01">
+					<Runtime
+						ModelName="rainmetal01"
+						MpHealth0="100.000"
+						TargetId="-1"
+						CurBarrelNum="0"
+						BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+						ChargeState="0"
+						CurrentReChargingTime="0.000"
+						ShellsInCurrentCharge="100"
+						ShellsInPool="100"
+						IsFiring="0"
+						WasShot="0"
+						JustShot="0">
+						<Geom
+							Position="0.011 4.885 -4.736"
+							Rotation="0.0000 0.9999 0.0000 -0.0131" />
+					</Runtime>
+				</BASKET_BIG_GUN_0>
+
+				<BASKET_GIANT_GUN
+					present="1"
+					ObjectId="78"
+					Belong="1040"
+					Prototype="rocketLauncher">
+					<Runtime
+						ModelName="dragon01"
+						CurAnimTime="480"
+						MpHealth0="400.000"
+						TargetId="-1"
+						CurBarrelNum="0"
+						BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+						ChargeState="0"
+						CurrentReChargingTime="0.000"
+						ShellsInCurrentCharge="8"
+						ShellsInPool="24"
+						IsFiring="0"
+						WasShot="0"
+						JustShot="0">
+						<Geom
+							Position="-0.006 5.770 -1.910"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</BASKET_GIANT_GUN>
+
+				<BASKET_SIDE_GUN_0
+					present="1"
+					ObjectId="79"
+					Belong="1040"
+					Prototype="hailSideGun">
+					<Runtime
+						ModelName="">
+						<Geom
+							Position="-2.448 4.360 -1.843"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+
+					<Parts>
+						<BASKET_SIDE_GUN_L
+							present="yes"
+							ObjectId="80"
+							Name="BASKET_SIDE_GUN_L"
+							Belong="1040"
+							Prototype="hail01L"
+							CompoundVehiclePartIndex="0">
+							<Runtime
+								ModelName="hail01L"
+								MpHealth0="300.000"
+								TargetId="-1"
+								CurBarrelNum="0"
+								BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+								ChargeState="0"
+								CurrentReChargingTime="0.000"
+								ShellsInCurrentCharge="6"
+								ShellsInPool="12"
+								IsFiring="0"
+								WasShot="0"
+								JustShot="0"
+								IsVolleyFiring="0">
+								<Geom
+									Position="-2.448 4.360 -1.843"
+									Rotation="0.0000 0.0000 0.0000 1.0000" />
+							</Runtime>
+						</BASKET_SIDE_GUN_L>
+
+						<BASKET_SIDE_GUN_R
+							present="yes"
+							ObjectId="81"
+							Name="BASKET_SIDE_GUN_R"
+							Belong="1040"
+							Prototype="hail01R"
+							CompoundVehiclePartIndex="1">
+							<Runtime
+								ModelName="hail01R"
+								MpHealth0="300.000"
+								TargetId="-1"
+								CurBarrelNum="0"
+								BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+								ChargeState="0"
+								CurrentReChargingTime="0.000"
+								ShellsInCurrentCharge="6"
+								ShellsInPool="12"
+								IsFiring="0"
+								WasShot="0"
+								JustShot="0"
+								IsVolleyFiring="0">
+								<Geom
+									Position="2.475 4.360 -1.843"
+									Rotation="0.0000 0.0000 0.0000 1.0000" />
+							</Runtime>
+						</BASKET_SIDE_GUN_R>
+					</Parts>
+				</BASKET_SIDE_GUN_0>
+
+				<CABIN
+					present="1"
+					ObjectId="82"
+					Belong="1040"
+					Prototype="mirotvorecCab05">
+					<Runtime
+						AnimAction="2"
+						ModelName="mirotvorecCab05"
+						MpHealth0="0.000"
+						MpHealth1="0.500"
+						MpHealth2="1.000"
+						MpHealth3="1.000"
+						MpHealth4="1.500"
+						MpHealth5="0.500"
+						MpHealth6="3.000"
+						MpHealth7="1.200"
+						MpHealth8="3.000"
+						MpHealth9="1.000"
+						MpHealth10="1.000">
+						<Geom
+							Position="-0.000 3.082 0.212"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</CABIN>
+
+				<CABIN_BIG_GUN_1
+					present="1"
+					ObjectId="83"
+					Belong="1040"
+					Prototype="rainmetal01">
+					<Runtime
+						ModelName="rainmetal01"
+						MpHealth0="100.000"
+						TargetId="-1"
+						CurBarrelNum="0"
+						BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+						ChargeState="0"
+						CurrentReChargingTime="0.000"
+						ShellsInCurrentCharge="100"
+						ShellsInPool="100"
+						IsFiring="0"
+						WasShot="0"
+						JustShot="0">
+						<Geom
+							Position="0.022 4.647 4.558"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</CABIN_BIG_GUN_1>
+
+				<CABIN_GIANT_GUN
+					present="1"
+					ObjectId="84"
+					Belong="1040"
+					Prototype="rocketLauncher">
+					<Runtime
+						ModelName="dragon01"
+						CurAnimTime="400"
+						MpHealth0="400.000"
+						TargetId="-1"
+						CurBarrelNum="0"
+						BarrelNodeRotation="0.0000 0.0000 0.0000 1.0000"
+						ChargeState="0"
+						CurrentReChargingTime="0.000"
+						ShellsInCurrentCharge="8"
+						ShellsInPool="24"
+						IsFiring="0"
+						WasShot="0"
+						JustShot="0">
+						<Geom
+							Position="0.022 5.335 1.567"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</CABIN_GIANT_GUN>
+
+				<CHASSIS
+					present="1"
+					ObjectId="85"
+					Belong="1040"
+					Prototype="mirotvorecChassisBoss">
+					<Runtime
+						ModelName="mirotvorecChassis"
+						MpHealth0="10000.000"
+						Health="7000.000"
+						Fuel="1500.000">
+						<Geom
+							Position="0.000 2.201 0.107"
+							Rotation="0.0000 0.0000 0.0000 1.0000" />
+					</Runtime>
+				</CHASSIS>
+			</Parts>
+
+			<Repository />
+		</Object>
+
+		<ProcessManager
+			NumProcessedEvents="6322"
+			EventDebugNum="6326">
+			<Event
+				EventID="GE_TIME_PERIOD"
+				RecipientObjID="16392"
+				SenderObjID="16392"
+				TimeOut="0.941"
+				TimeStamp="247.981"
+				DebugNum="5867" />
+
+			<Event
+				EventID="GE_TIME_PERIOD"
+				RecipientObjID="27"
+				SenderObjID="27"
+				TimeOut="0.000"
+				TimeStamp="248.039"
+				DebugNum="6324" />
+
+			<Event
+				EventID="GE_TIME_PERIOD"
+				RecipientObjID="41"
+				SenderObjID="41"
+				TimeOut="0.000"
+				TimeStamp="248.039"
+				DebugNum="6325" />
+
+			<Event
+				EventID="GE_TIME_PERIOD"
+				RecipientObjID="48"
+				SenderObjID="48"
+				TimeOut="0.000"
+				TimeStamp="248.039"
+				DebugNum="6326" />
+		</ProcessManager>
+	</DynamicScene>
+
+	<QuestManager>
+		<quest
+			Name="Kochewnik_Pustinya_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Kochewnik_Pustinya_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Kochewnik_Pustinya_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest12"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="quest233"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="quest234"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="quest235"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Fury_2_quest"
+			CanBeGiven="0"
+			IsTaken="1"
+			TakeTime="38945088001797"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest1"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest6"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest7"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest8"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baikonur_quest9"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_neft1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_neft2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_neft3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_neft11"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_garden1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_garden2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_garden11"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_oreMine1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_oreMine2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_oreMine3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Doverie_quest_oreMine11"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Kosmodrom_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="INKosmodrom_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="KosmodromAlt_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_Fury_quest1"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_Fury_quest2"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ni4To_Fury_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest6"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest7"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Race_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Spizdili_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Spizdili_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Spizdili_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Dopomoga_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Dopomoga_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Dopomoga_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Dopomoga_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="FindPath_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="FindPath_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="FindPath_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="FindPath_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="FindPath_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Generator_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Generator_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Generator_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Generator_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Evacuation_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Evacuation_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Evacuation_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="MengiriON_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="MengiriON_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="MengiriON_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="MengiriON_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="MengiriON_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_DeathValky_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_DeathValky_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_DeathValky_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_DeathValky_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_HelpValky_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_HelpValky_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_HelpValky_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_Mother_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_Mother_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_Mother_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_Mother_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Ostrov_Mother_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Firstlook_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Firstlook_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Firstlook_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest6"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest7"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest8"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest9"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest10"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest11"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Eretik_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="ForEretiki_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="ForEretiki_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="ForEretiki_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="ForEretiki_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="ForEretiki_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest6"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest7"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Apocalypsyse_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Otkaz_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Otkaz_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Otkaz_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Otkaz_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Otkaz_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="quest116"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="quest117"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="doroga_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="doroga_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="doroga_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="doroga_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="radar_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="radar_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="radar_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="radar_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="sever_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Vostok_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Priezd_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Priezd_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Priezd_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Zavod_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Zavod_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Zavod_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Mengiri_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Bitva_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Bitva_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Bitva_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Bitva_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Bitva_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest5"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest6"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest7"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest8"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest9"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest10"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik2_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik2_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Lesnik2_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Derevnya_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824795142877"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="V_gorod_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824796431815"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="baza_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824797728711"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Go_in_base_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824795142877"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="3aka3_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824798349366"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Doroga_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824795877350"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="karavan_from_port_quest1"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824798349366"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="karavan_from_port_quest2"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824799115453"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="karavan_from_port_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="karavan_from_port_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="karavan_from_port_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824798349366"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="slezhka_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Defeat_partz_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Defeat_partz_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Defeat_partz_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Za_partz_quest"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Za_partz_quest11"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Za_partz_quest12"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Za_partz_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Shturm_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Shturm_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Shturm_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Shturm_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Na_bazy_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Na_bazy_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Na_bazy_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Promateus_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Promateus_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Promateus_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baza_destroy_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baza_destroy_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Baza_destroy_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Deversy_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Deversy_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Deversy_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Deversy_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Deversy_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Port_partz_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Port_partz_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Port_partz_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Port_partz_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Annigilation_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Annigilation_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Annigilation_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Annigilation_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Annigilation_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="PrometeusALT_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Razgovor_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Razgovor_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Dubrovka_quest1"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824795877350"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="Dubrovka_quest2"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="Dubrovka_quest3"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="Dubrovka_quest4"
+			CanBeGiven="1"
+			IsTaken="0"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="Dubrovka_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824795877350"
+			CompleteStatus="failed" />
+
+		<quest
+			Name="Koch_Kavkaz_quest1"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824799115453"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_quest2"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824800045043"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824799115453"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest1"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824801256369"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest2"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824803363369"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest3"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824808469399"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest4"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824817322762"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest5"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824818626175"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_2_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824801256369"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_3_quest1"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824821343038"
+			CompleteStatus="complete" />
+
+		<quest
+			Name="Koch_Kavkaz_3_quest2"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824822282489"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_3_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_3_quest4"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_3_quest"
+			CanBeGiven="1"
+			IsTaken="1"
+			TakeTime="71824821343038"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_4_quest1"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_4_quest2"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_4_quest3"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+
+		<quest
+			Name="Koch_Kavkaz_4_quest"
+			CanBeGiven="0"
+			IsTaken="0"
+			CompleteStatus="not_complete" />
+	</QuestManager>
+
+	<Application
+		CurGameMode="0"
+		Paused="1">
+		<Camera
+			WorldOrigin="3014.746 238.624 1211.964"
+			RotYaw="1.634"
+			RotPitch="-0.222"
+			RotRoll="0.000"
+			FovX="162.865"
+			FovY="90.000" />
+
+		<Cinematic />
+
+		<Player
+			CameraMode="2"
+			GameLookAt="0.000 0.000 0.000"
+			LastObjQuat="0.0555 0.8997 0.0080 0.4330"
+			ElapsedTime="0"
+			DesiredDistance="25.000" />
+	</Application>
+
+	<GameTime
+		Seconds="71824823127399"
+		Seconds0="71824795140000" />
+
+	<WeatherState
+		WeatherName="r1m4_clear01"
+		DayTime="1" />
+
+	<ProcessManager
+		NumProcessedEvents="6322"
+		EventDebugNum="6326">
+		<Event
+			EventID="GE_TIME_PERIOD"
+			RecipientObjID="16392"
+			SenderObjID="16392"
+			TimeOut="0.941"
+			TimeStamp="247.981"
+			DebugNum="5867" />
+
+		<Event
+			EventID="GE_TIME_PERIOD"
+			RecipientObjID="27"
+			SenderObjID="27"
+			TimeOut="0.000"
+			TimeStamp="248.039"
+			DebugNum="6324" />
+
+		<Event
+			EventID="GE_TIME_PERIOD"
+			RecipientObjID="41"
+			SenderObjID="41"
+			TimeOut="0.000"
+			TimeStamp="248.039"
+			DebugNum="6325" />
+
+		<Event
+			EventID="GE_TIME_PERIOD"
+			RecipientObjID="48"
+			SenderObjID="48"
+			TimeOut="0.000"
+			TimeStamp="248.039"
+			DebugNum="6326" />
+	</ProcessManager>
+
+	<Statistics>
+		<Statistic
+			ClassName="FavoriteStringStatistic"
+			Name="FavoriteGun"
+			Global="1">
+			<Counter
+				Name="vulcan01"
+				Value="2" />
+		</Statistic>
+
+		<Statistic
+			ClassName="FavoriteStringStatistic"
+			Name="FavoriteGunr1m2"
+			Global="0">
+			<Counter
+				Name="vulcan01"
+				Value="2" />
+		</Statistic>
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="GameTime"
+			Global="1"
+			Milliseconds="27987399" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="GameTimer1m1"
+			Global="0"
+			Milliseconds="2278" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="GameTimer1m2"
+			Global="0"
+			Milliseconds="26201720" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="GameTimer1m5"
+			Global="0"
+			Milliseconds="1783401" />
+
+		<Statistic
+			ClassName="IntIntRatioStatistic"
+			Name="HitRatio"
+			Global="1"
+			Numerator="0"
+			Denominator="2" />
+
+		<Statistic
+			ClassName="IntIntRatioStatistic"
+			Name="HitRatior1m2"
+			Global="0"
+			Numerator="0"
+			Denominator="2" />
+
+		<Statistic
+			ClassName="FloatStatistic"
+			Name="PathElapsed"
+			Global="1"
+			Value="11499.511" />
+
+		<Statistic
+			ClassName="FloatStatistic"
+			Name="PathElapsedr1m1"
+			Global="0"
+			Value="11.022" />
+
+		<Statistic
+			ClassName="FloatStatistic"
+			Name="PathElapsedr1m2"
+			Global="0"
+			Value="10901.342" />
+
+		<Statistic
+			ClassName="FloatStatistic"
+			Name="PathElapsedr1m5"
+			Global="0"
+			Value="587.159" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="RealTime"
+			Global="1"
+			Milliseconds="498503" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="RealTimer1m1"
+			Global="0"
+			Milliseconds="4200" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="RealTimer1m2"
+			Global="0"
+			Milliseconds="460710" />
+
+		<Statistic
+			ClassName="TimeStatistic"
+			Name="RealTimer1m5"
+			Global="0"
+			Milliseconds="33593" />
+
+		<Statistic
+			ClassName="IntStatistic"
+			Name="ShellsEmitted"
+			Global="1"
+			Value="2" />
+
+		<Statistic
+			ClassName="IntStatistic"
+			Name="ShellsEmittedr1m2"
+			Global="0"
+			Value="2" />
+	</Statistics>
+</General>

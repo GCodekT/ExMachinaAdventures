@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+	<Path Name = "start_game">
+		<Point  coord="0 0 0" rotation="0 0 0 1"/>   
+	</Path>
+
+	<Path Name = "krepost_cam01">
+		<Point  coord="3974.775 294.662 3960.235" rotation="-0.019 0.974 -0.088 0.207"/>
+        <Point  coord="3974.775 294.662 3960.235" rotation="-0.027 0.962 -0.106 0.248"/>
+	</Path>
+
+	<Path Name = "krepost_cam02">
+		<Point  coord="3885.480 277.652 4028.281" rotation="-0.087 -0.468 0.047 0.878"/>
+        <Point  coord="3871.350 278.378 4031.152" rotation="-0.066 -0.552 0.044 0.830"/>
+	</Path>
+
+	<Path Name = "Zavod_cam01">
+		<Point  coord="1216.163 266.934 1760.115" rotation="-0.025 0.919 -0.059 0.390"/>
+        <Point  coord="1220.396 264.863 1754.244" rotation="-0.020 0.861 -0.034 0.508"/>
+	</Path>
+
+	<Path Name = "Zavod_cam02">
+		<Point  coord="1569.969 265.533 1717.525" rotation="-0.037 0.431 -0.017 0.901"/>
+        <Point  coord="1528.484 266.459 1711.849" rotation="-0.048 -0.449 0.024 0.892"/>
+        <Point  coord="1522.770 275.353 1722.640" rotation="-0.043 -0.697 0.042 0.714"/>
+	</Path>
+
+	<Path Name = "Mengira_cam01">
+		<Point  coord="6796.347 257.283 2271.064" rotation="-0.011 -0.862 0.019 0.506"/>
+        <Point  coord="7133.959 250.686 2084.316" rotation="0.025 -0.820 -0.036 0.571"/>
+	</Path>
+
+	<Path Name = "Mengira_cam02">
+		<Point  coord="7133.959 250.686 2084.316" rotation="0.025 -0.820 -0.036 0.571"/>
+        <Point  coord="7124.204 250.686 2006.086" rotation="0.037 -0.643 -0.031 0.764"/>
+	</Path>
+
+	<Path Name = "Mengira_cam03">
+		<Point  coord="7114.211 240.854 2064.823" rotation="-0.026 -0.581 0.018 0.813"/>
+        <Point  coord="7106.807 241.331 2086.813" rotation="-0.020 -0.853 0.032 0.521"/>
+	</Path>
+
+	<Path Name = "Vorota_Open_1">
+		<Point  coord="3931.576 326.204 4156.916" rotation="0.0000 -0.7071 0.0000 0.7071"/>
+	</Path>
+
+	<Path Name = "Vorota_Close_1">
+		<Point  coord="3931.576 300.000 4156.916" rotation="0.0000 -0.7071 0.0000 0.7071"/>
+	</Path>
+
+	<Path Name = "Vorota_Op_cam01">
+		<Point  coord="3944.925 276.670 4066.594" rotation="0.016 0.056 0.001 0.998"/>
+        <Point  coord="3920.155 276.670 4064.062" rotation="0.015 -0.061 -0.001 0.998"/>
+	</Path>
+
+	<Path Name = "Vorota_Op_cam02">
+		<Point  coord="3952.331 275.453 4249.467" rotation="0.001 0.993 0.004 0.117"/>
+        <Point  coord="3952.331 275.453 4249.467" rotation="0.009 0.990 0.082 0.112"/>
+	</Path>
+
+	<Path Name = "Vorota_Op_cam03">
+		<Point  coord="3935.772 288.285 4270.350" rotation="-0.001 0.999 -0.042 0.017"/>
+        <Point  coord="3936.254 277.195 4291.325" rotation="-0.000 1.000 -0.010 0.017"/>
+	</Path>
+
+	<Path Name = "Mengira_cam04">
+		<Point  coord="6050.766 279.932 4852.438" rotation="-0.009 -0.637 0.008 0.771"/>
+        <Point  coord="6268.571 286.335 4885.798" rotation="0.003 -0.648 -0.003 0.762"/>
+	</Path>
+
+	<Path Name = "Mengira_cam05">
+		<Point  coord="6201.993 277.413 4888.613" rotation="-0.027 -0.703 0.026 0.710"/>
+        <Point  coord="6217.275 277.426 4873.453" rotation="-0.051 -0.523 0.031 0.850"/>
+	</Path>
+
+	<Path Name = "Mengira_cam06">
+		<Point  coord="931.379 281.093 5229.425" rotation="-0.013 0.506 -0.008 0.863"/>
+        <Point  coord="818.331 312.078 5303.715" rotation="0.009 0.534 0.006 0.846"/>
+	</Path>
+
+	<Path Name = "Mengira_cam07">
+		<Point  coord="791.558 275.352 5273.779" rotation="-0.021 0.295 -0.007 0.955"/>
+        <Point  coord="808.186 275.352 5291.078" rotation="-0.007 0.577 -0.005 0.817"/>
+	</Path>
+
+	<Path Name = "Mother_cam01">
+		<Point  coord="0.000 1.000 0.000"/>  
+	</Path>
+
+	<Path Name = "Mother_cam022">
+		<Point  coord="3815.893 274.972 7507.940" rotation="-0.003 0.980 -0.016 0.200"/>
+        <Point  coord="3795.849 275.449 7501.333" rotation="0.005 0.985 -0.031 -0.168"/>
+	</Path>
+
+	<Path Name = "Mother_cam02">
+		<Point  coord="3908.618 388.951 7801.857" rotation="0.007 -0.347 -0.003 0.938"/>
+        <Point  coord="3915.897 389.286 7802.297" rotation="-0.028 0.141 -0.004 0.990"/>
+	</Path>
+
+	<Path Name = "Mother_cam03">
+	    <Point  coord="3811.733 376.994 7438.516" rotation="-0.001 0.984 -0.006 0.180"/>
+		<Point  coord="3760.516 384.365 7540.305" rotation="-0.003 0.978 -0.013 0.210"/>
+        <Point  coord="3760.516 384.365 7540.305" rotation="-0.009 0.808 -0.012 0.589"/>
+        <Point  coord="3760.516 384.365 7540.305" rotation="0.001 0.264 0.000 0.964"/>
+        <Point  coord="3760.516 384.365 7540.305" rotation="-0.020 -0.486 0.011 0.874"/>
+        <Point  coord="3760.516 384.365 7540.305" rotation="-0.024 -0.819 0.034 0.572"/>
+        <Point  coord="3760.516 384.365 7540.305" rotation="0.005 0.962 -0.019 -0.273"/>
+        <Point  coord="3766.660 361.280 7490.210" rotation="0.013 0.976 -0.208 -0.060"/>
+	</Path>
+
+	<Path Name = "Mother_cam04">
+		<Point  coord="3828.687 276.144 7633.988" rotation="-0.063 0.206 -0.013 0.976"/>
+        <Point  coord="3802.820 276.562 7630.595" rotation="-0.066 -0.235 0.016 0.970"/>
+	</Path>
+
+	<Path Name = "Mother_cam05">
+		<Point  coord="3866.438 274.174 7563.984" rotation="-0.007 0.855 -0.012 0.518"/>
+        <Point  coord="3866.438 274.174 7563.984" rotation="0.013 0.853 0.022 0.521"/>
+	</Path>
+
+	<Path Name = "Mother_cam06">
+		<Point  coord="3815.036 280.854 7557.978" rotation="0.078 0.922 -0.266 -0.272"/>
+        <Point  coord="3801.251 296.815 7579.316" rotation="0.078 0.922 -0.266 -0.272"/>
+	</Path>
+
+	<Path Name = "Mother_cam07">
+		<Point  coord="3822.270 314.965 7474.144" rotation="-0.017 0.967 0.065 -0.246"/>
+        <Point  coord="3822.270 314.965 7474.144" rotation="0.039 -0.791 -0.051 0.609"/>
+        <Point  coord="3822.270 314.965 7474.144" rotation="0.061 -0.382 -0.025 0.922"/>
+        <Point  coord="3822.270 314.965 7474.144" rotation="0.073 0.285 0.022 0.956"/>
+        <Point  coord="3822.270 314.965 7474.144" rotation="0.057 0.736 0.062 0.672"/>
+        <Point  coord="3822.270 314.965 7474.144" rotation="0.022 0.956 0.073 0.285"/>
+	</Path>
+
+	<Path Name = "Mother_cam08">
+		<Point  coord="3821.097 279.067 7529.867" rotation="-0.279 -0.054 0.016 0.959"/> 
+        <Point  coord="3829.868 274.975 7541.668" rotation="-0.197 0.608 -0.160 0.752"/>
+	</Path>
+
+	<Path Name = "Mother_cam09">
+		<Point  coord="3815.839 274.219 7564.237" rotation="0.010 0.987 -0.065 -0.148"/>
+        <Point  coord="3830.380 274.931 7559.923" rotation="-0.024 0.971 -0.113 0.208"/>
+	</Path>
+
+	<Path Name = "ChangeCar_cam01">
+		<Point  coord="7624.806 246.789 712.339" rotation="-0.004 -0.769 0.005 0.640"/>
+        <Point  coord="7623.219 246.789 693.506" rotation="-0.002 -0.596 0.002 0.803"/>
+	</Path>
+
+	<Path
+	Name="boss03Move"
+	FullTime="1.000"
+	FullLength="926.097">
+	<Point
+		coord="2571.852 328.344 5921.394"
+		rotation="-0.106 -0.871 0.216 -0.427"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+	<Point
+		coord="2534.725 332.714 5896.015"
+		rotation="-0.087 -0.887 0.188 -0.413"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+	<Point
+		coord="2552.539 303.243 5842.689"
+		rotation="0.107 0.750 -0.125 0.641"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+
+	<Point
+		coord="2507.219 352.561 5804.218"
+		rotation="0.173 0.552 -0.118 0.807"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+
+	<Point
+		coord="2549.031 333.350 5789.363"
+		rotation="0.178 0.615 -0.145 0.755"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+
+	<Point
+		coord="2581.717 324.111 5911.129"
+		rotation="-0.047 -0.897 0.099 -0.427"
+		zoom="1.000"
+		speed="1.000"
+		flyTime="2" />
+	</Path>
+
+	<Path Name = "FLYANDKILL_boss03">
+		<Point  coord="2517.000 320.000 6042.000"/>
+		<Point  coord="2450.000 327.010 5886.000"/>
+		<Point  coord="2577.000 327.770 5870.000"/>
+	</Path>
+
+</Paths>
+

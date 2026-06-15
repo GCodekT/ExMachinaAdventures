@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="1_path">
+		<Point
+			coord="210.050 3896.529" />
+
+		<Point
+			coord="213.168 3861.441" />
+
+		<Point
+			coord="221.900 3836.692" />
+
+		<Point
+			coord="239.910 3813.154" />
+
+		<Point
+			coord="262.591 3796.474" />
+
+		<Point
+			coord="317.683 3789.966" />
+
+		<Point
+			coord="403.840 3787.166" />
+
+		<Point
+			coord="511.390 3812.810" />
+
+		<Point
+			coord="585.689 3821.333" />
+
+		<Point
+			coord="704.547 3820.754" />
+
+		<Point
+			coord="756.245 3825.251" />
+
+		<Point
+			coord="798.687 3816.177" />
+
+		<Point
+			coord="822.536 3798.612" />
+
+		<Point
+			coord="843.468 3770.473" />
+
+		<Point
+			coord="849.591 3736.713" />
+
+		<Point
+			coord="853.004 3635.979" />
+
+		<Point
+			coord="874.661 3546.254" />
+
+		<Point
+			coord="893.699 3433.336" />
+
+		<Point
+			coord="905.692 3333.190" />
+
+		<Point
+			coord="928.229 3225.698" />
+
+		<Point
+			coord="941.543 3131.311" />
+
+		<Point
+			coord="950.087 3073.177" />
+
+		<Point
+			coord="948.949 3059.757" />
+
+		<Point
+			coord="946.027 3046.445" />
+
+		<Point
+			coord="938.335 3037.837" />
+
+		<Point
+			coord="932.504 3026.551" />
+
+		<Point
+			coord="928.625 3014.890" />
+
+		<Point
+			coord="928.252 3003.491" />
+
+		<Point
+			coord="928.911 2996.861" />
+
+		<Point
+			coord="930.548 2985.319" />
+	</Path>
+
+	<Path
+		Name="2_path">
+		<Point
+			coord="936.800 2962.417" />
+
+		<Point
+			coord="959.134 2939.105" />
+
+		<Point
+			coord="969.191 2923.117" />
+
+		<Point
+			coord="974.046 2891.720" />
+
+		<Point
+			coord="982.113 2844.030" />
+
+		<Point
+			coord="994.007 2782.614" />
+
+		<Point
+			coord="1004.875 2734.499" />
+
+		<Point
+			coord="1030.773 2667.551" />
+
+		<Point
+			coord="1049.490 2638.251" />
+
+		<Point
+			coord="1095.018 2594.371" />
+
+		<Point
+			coord="1133.125 2572.746" />
+
+		<Point
+			coord="1173.867 2558.651" />
+
+		<Point
+			coord="1232.523 2544.567" />
+
+		<Point
+			coord="1290.537 2538.293" />
+
+		<Point
+			coord="1337.732 2539.121" />
+
+		<Point
+			coord="1428.099 2544.184" />
+
+		<Point
+			coord="1498.217 2553.146" />
+
+		<Point
+			coord="1608.921 2573.055" />
+	</Path>
+</Paths>
