@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+    <string
+		id="0"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_0_xpom.ogg"
+		value="Хром|Как меня это достало, очередное дело покатилось к чертям! А я ведь изначально не доверял Сизому и его шайке."
+		time="8" />
+
+    <string
+		id="1"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_1_xpom.ogg"
+		value="Хром|Но нет, попёрся вместе с ними в руины, а как дошло дело до деления добычи, - Ты извини, ничего личного, это бизнес. Ребята устраните его!"
+		time="10" />
+
+    <string
+		id="2"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_2_xpom.ogg"
+		value="Хром|Хорошо я несколько дней назад поставил новый двигатель, чую без него меня бы прикончили."
+		time="6" />
+
+    <string
+		id="3"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_3_xpom.ogg"
+		value="Хром|Ладно, надо заехать в деревню, заправиться, а там уже посмотрим, что делать дальше..."
+		time="6" />
+
+	<string
+		id="4"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_4_xo3.ogg"
+		value="Хозяин Заправки|Сколько льём шеф?"
+		time="3" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_5_xpom.ogg"
+		value="Хром|Полный бак и канистры в кузове тоже заправь, а я пока схожу в местный бар."
+		time="5" />
+
+	<string
+		id="6"
+		sound="data\sounds\Speech\r1m1\r1m1_6_starik.ogg"
+		value="Старик|Далёко едешь, странник?"
+		time="2" />
+
+	<string
+		id="7"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_7_xpom.ogg"
+		value="Хром|Я и сам не знаю, меня на последнем деле чуть не убили, денег почти нет, теперь не знаю куда ехать дальше..."
+		time="8" />
+
+	<string
+		id="8"
+		sound="data\sounds\Speech\r1m1\r1m1_8_starik.ogg"
+		value="Старик|Ты же искатель приключений, да? В молодости я тоже любил ввязываться в авантюры, да только не мой это стиль жизни, вот и остался здесь. Сколько вас вообще осталось?"
+		time="12" />
+
+	<string
+		id="9"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_9_xpom.ogg"
+		value="Хром|Мало, большинство ушло в наёмники и я их понимаю, платят много, думать надо мало. Не нужно кататься по миру в поисках денег. "
+		time="9" />
+
+	<string
+		id="10"
+		sound="data\sounds\Speech\r1m1\r1m1_10_starik.ogg"
+		value="Старик|Слушай, раз тебе больше некуда ехать, могу дать карту интересных мест, оставшихся после катастрофы."
+		time="7" />
+
+	<string
+		id="11"
+		value="|@FF000000АААААА@FFFFA600Некоторое время спустя@FF000000АААААА"
+		time="4" />
+
+	<string
+		id="12"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_12_xpom.ogg"
+		value="Хром|Ну давай, посмотрим."
+		time="2" />
+
+	<string
+		id="13"
+		sound="data\sounds\Speech\r1m1\r1m1_13_starik.ogg"
+		value="Старик|Вот, держи. Карта хоть и старая, но большинство дорог должно было сохраниться."
+		time="6" />
+
+	<string
+		id="14"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_14_xpom.ogg"
+		value="Хром|Интересно, но ведь столько лет прошло после катастрофы, разве руины не должны были уже разграбить?"
+		time="6" />
+
+	<string
+		id="15"
+		sound="data\sounds\Speech\r1m1\r1m1_15_starik.ogg"
+		value="Старик|Не думаю. На Кавказе например были довольно дикие места, поэтому, скорее всего, они ещё целы."
+		time="6" />
+
+	<string
+		id="16"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_16_xpom.ogg"
+		value="Хром|Ну хорошо, тогда почему, имея при себе эту карту, ты сам никуда не отправился?"
+		time="5" />
+
+	<string
+		id="17"
+		sound="data\sounds\Speech\r1m1\r1m1_17_starik.ogg"
+		value="Старик|Как я уже говорил, этот стиль жизни не для меня, да даже Кавказ находится довольно далеко, а у меня из машин только старенький трактор, который для полей и годится."
+		time="12" />
+
+	<string
+		id="18"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_18_xpom.ogg"
+		value="Хром|Ладно, так как добраться до этих гор?"
+		time="3" />
+
+	<string
+		id="19"
+		sound="data\sounds\Speech\r1m1\r1m1_19_starik.ogg"
+		value="Старик|На выезде из деревни поверни налево, а дальше по карте. Я думаю ничего сложного нет, но если заблудишься, то просто двигайся на юг, пока не увидишь горы."
+		time="11" />
+
+	<string
+		id="20"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_20_xo3.ogg"
+		value="Хозяин Заправки|Готово шеф!"
+		time="2" />
+
+	<string
+		id="21"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_21_xpom.ogg"
+		value="Хром|Хорошо.|Спасибо тебе, отец, будь здоров!"
+		time="5" />
+
+	<string
+		id="22"
+		sound="data\sounds\Speech\r1m1\r1m1_22_starik.ogg"
+		value="Старик|Удачи тебе!"
+		time="2" />
+
+	<string
+		id="23"
+		sound="data\sounds\Speech\r1m1\r1m1_23_koch.ogg"
+		value="|Неплохо, даже я почти поверил в твою легенду."
+		time="4" />
+
+	<string
+		id="24"
+		sound="data\sounds\Speech\r1m1\r1m1_24_starik.ogg"
+		value="Старик|И зачем он тебе понадобился?"
+		time="3" />
+
+	<string
+		id="25"
+		sound="data\sounds\Speech\r1m1\r1m1_25_koch.ogg"
+		value="|Для одного очень важного дела, но результат зависит только от него."
+		time="4" />
+
+	<string
+		id="26"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Это что ещё за?.."
+		time="4" />
+
+	<string
+		id="27"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="354"
+		modelSlot="1"
+		value="Боец Альфарана|Стойте! Не стреляйте!"
+		time="3" />
+
+	<string
+		id="28"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Что у вас там произошло?"
+		time="3" />
+
+	<string
+		id="29"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="354"
+		modelSlot="1"
+		value="Боец Альфарана|Древнее зло пробудилось! Оно нас всех поглотит! Я знал, ЗНАЛ, что не надо открывать эту дверь..."
+		time="9" />
+
+	<string
+		id="30"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Какая-то бессмыслица..."
+		time="2" />
+
+	<string
+		id="31"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Там ещё кто-нибудь есть?"
+		time="3" />
+
+	<string
+		id="32"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="354"
+		modelSlot="1"
+		value="Боец Альфарана|Из выживших только мы, остальные погибли от лап этого чудовища!"
+		time="6" />
+
+	<string
+		id="33"
+		modelName="mask_sam"
+		value="|Лидер, могу ли я проехать в глубь базы и узнать, что там произошло?"
+		time="8" />
+
+	<string
+		id="34"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Ну да, можешь впринципе разведать..."
+		time="4" />
+
+	<string
+		id="35"
+		modelName="mask_sam"
+		value="|Есть! Успел!"
+		time="2" />
+
+	<string
+		id="36"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Что там произошло?"
+		time="3" />
+
+	<string
+		id="37"
+		modelName="mask_sam"
+		value="|Там действительно был монстр, про которого говорили бойцы Альфарана, вот только этим монстром оказался грузовик без водителя внутри, но при этом он разговаривал."
+		time="15" />
+
+	<string
+		id="38"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Ну а дальше?"
+		time="2" />
+
+	<string
+		id="39"
+		modelName="mask_sam"
+		value="|А дальше он напал на меня, но я его одолел, однако, в результате полученных повреждений, он запустил какую-то программу, которая самоуничтожила его и весь этот комплекс."
+		time="15" />
+
+	<string
+		id="40"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="258"
+		modelSlot="1"
+		value="Лидер сопротивления|Понятно. Но главное, что опасность миновала, спасибо тебе чужеземец за всё, что ты для нас сделал!"
+		time="8" />
+
+	<string
+		id="41"
+		modelName="mask_sam"
+		value="|И вам удачи! До встречи!"
+		time="3" />
+
+	<string
+		id="42"
+		modelName="mask_sam"
+		value="|Ну зато я сохранил древние рукописи, но сначала надо отдохнуть, поеду в ближайший бар."
+		time="8" />
+
+	<string
+		id="43"
+		modelName="mask_sam"
+		value="|Да... Пару кружечек ананаги и приятная компания - это именно то, что было необходимо."
+		time="8" />
+
+	<string
+		id="44"
+		modelName="mask_sam"
+		value="|Теперь можно и разобрать нажитое добро."
+		time="4" />
+
+	<string
+		id="45"
+		modelName="mask_sam"
+		value="|Мда, тут только куча книг и электроника. Ну да ладно, их можно продать за неплохую цену."
+		time="8" />
+
+	<string
+		id="46"
+		modelName="mask_sam"
+		value="|А это что?  'Карта объектов федерального значения'. Так, а вот и та самая военная база в скалах, значит я где-то здесь."
+		time="10" />
+
+	<string
+		id="47"
+		modelName="mask_sam"
+		value="|За морем, на востоке есть ещё один объект. Впринципе не далеко, надо спросить у местных, тут переправляют грузовики на другой берег?"
+		time="12" />
+
+	<string
+		id="48"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="Штаб|Приём, наши разведчики докладывают, что сейчас начнётся атака."
+		time="5" />
+
+	<string
+		id="49"
+		modelName="mask_sam"
+		value="|Мы отстояли вышки, можно возвращаться на базу."
+		time="4" />
+
+	<string
+		id="50"
+		modelName="mask_sam"
+		value="|А вот и незванные гости!"
+		time="4" />
+
+	<string
+		id="51"
+		modelName="mask_sam"
+		value="|Да уж, придёться подождать..."
+		time="3" />
+
+	<string
+		id="52"
+		modelName="mask_sam"
+		value="|Это ещё что?.."
+		time="3" />
+
+	<string
+		id="53"
+		modelName="mask_sam"
+		value="|Что у вас там произошло?"
+		time="4" />
+
+	<string
+		id="54"
+		modelName="mask_sam"
+		value="|Там есть ещё живые?"
+		time="3" />
+
+	<string
+		id="55"
+		modelName="mask_sam"
+		value="|Так ребята, стойте здесь, я поеду внутрь и разведаю, что там произошло."
+		time="6" />
+
+	<string
+		id="56"
+		modelName="mask_sam"
+		value="|Фух! Ещё бы чуть-чуть и я труп, но главное я спасся."
+		time="5" />
+
+	<string
+		id="57"
+		modelName="mask_sam"
+		value="|База Альфарана разрушена, а с ней и все технологии предтеч, но зато я смог спасти несколько ящиков с древними рукописями."
+		time="10" />
+
+	<string
+		id="58"
+		modelName="mask_sam"
+		value="|Однако сначала мне нужно отдохнуть, поеду в портовый бар."
+		time="5" />
+
+	<string
+		id="59"
+		modelName="mask_sam"
+		value="|Так, а вот и начинается шоу! Давайте ребята, потяните время."
+		time="5" />
+
+	<string
+		id="60"
+		modelName="mask_sam"
+		value="|Отшельник приём, сейчас ты можешь подобраться к самолёту!"
+		time="5" />
+
+	<string
+		id="61"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="Отшельник|Я тебя понял, я уже на месте."
+		time="3" />
+
+	<string
+		id="62"
+		modelName="mask_sam"
+		value="|Чёрт, всё пошло не по плану! Они слишком быстро с ними разобрались!"
+		time="6" />
+
+	<string
+		id="63"
+		modelName="mask_sam"
+		value="|Отшельник приём, они возвращаются назад!"
+		time="4" />
+
+	<string
+		id="64"
+		modelName="mask_sam"
+		value="|Отшельник?..   Чёрт..."
+		time="4" />
+
+	<string
+		id="65"
+		modelName="mask_ben"
+		value="Отшельник|Вот мы и приехали в порт... Спасибо тебе за то, что спас меня, возьми вот эту электронику в качестве моей благодарности тебе!"
+		modelSlot="1"
+		time="12" />
+
+	<string
+		id="66"
+		modelName="mask_sam"
+		value="|Всегда пожалуйста! Куда теперь будешь держать путь?"
+		time="5" />
+
+	<string
+		id="67"
+		modelName="mask_ben"
+		value="Отшельник|Я отправлюсь дальше на восток, а потом куда глаза глядят."
+		modelSlot="1"
+		time="6" />
+
+	<string
+		id="68"
+		modelName="mask_sam"
+		value="|Ну тогда удачной дороги тебе, прощай!"
+		time="4" />
+
+	<string
+		id="69"
+		modelName="r3_man"
+		modelSkin="2"
+		modelCfg="635"
+		modelSlot="1"
+		value="Караванщик|Спасибо тебе чужеземец, за то что спас нас!"
+		time="4" />
+
+	<string
+		id="70"
+		modelName="mask_sam"
+		value="|Чёрт! Я забыл про Отшельника, надо быстрее возвращаться!"
+		time="5" />
+
+	<string
+		id="71"
+		modelName="r3_man"
+		modelSkin="1"
+		modelCfg="1914"
+		modelSlot="1"
+		value="Верховный Жрец|И так будет с каждым кто позарится на нашу святыню!"
+		time="5" />
+
+	<string
+		id="72"
+		modelName="mask_sam"
+		value="|Чёрт! Я опоздал..."
+		time="3" />
+
+	<string
+		id="73"
+		modelName="r3_man"
+		modelSkin="1"
+		modelCfg="1914"
+		modelSlot="1"
+		value="Верховный Жрец|Чужеземец! Мы тебя благодарим за спасение нашего каравана, прими этот дар в качестве награды!"
+		time="8" />
+
+	<string
+		id="74"
+		modelName="mask_sam"
+		value="|Да... да...  спасибо..."
+		time="4" />
+
+	<string
+		id="75"
+		modelName="mask_sam"
+		value="|Ало, электрик, я на месте."
+		time="3" />
+
+	<string
+		id="76"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="Электрик Степаныч|Отлично, теперь видишь железный короб с боку? Открой его и скажи, что ты видишь."
+		time="6" />
+
+	<string
+		id="77"
+		modelName="mask_sam"
+		value="|А... Степаныч, короб полностью чёрный."
+		time="4" />
+
+	<string
+		id="78"
+		modelAutosized="true"
+		modelName="gadget_12"
+		modelSlot="1"
+		value="Электрик Степаныч|Чёрт, ладно, возвращайся назад."
+		time="4" />
+
+	<string
+		id="79"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="62"
+		modelSlot="1"
+		value="Электрик Степаныч|Я сейчас схожу за запчастями, а ты пока подожди здесь."
+		time="6" />
+
+	<string
+		id="80"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="62"
+		modelSlot="1"
+		value="Электрик Степаныч|Готово, поехали к вышке."
+		time="3" />
+
+	<string
+		id="81"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="62"
+		modelSlot="1"
+		value="Электрик Степаныч|Отлично, теперь всё работает, возвращаемся назад."
+		time="5" />
+
+	<string
+		id="82"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		value="Кочевник|Сейчас я погружу тебя в транс и слушай, что тебе скажет голос."
+		time="6" />
+
+	<string
+		id="83"
+		modelName="mask_sam"
+		value="|Что это было? И почему голос сказал что я не готов? К чему не готов?"
+		time="7" />
+
+	<string
+		id="84"
+		modelName="mask_sam"
+		value="|Эй кочевник ты где?"
+		time="3" />
+
+	<string
+		id="85"
+		modelName="mask_sam"
+		value="|Куда он подевался? Странно это всё..."
+		time="4" />
+
+	<string
+		id="8800"
+		value="После перехода на следующую локацию вы не сможете некоторое время вернутся обратно, далее будет зона повышенной сложности, если вы недостаточно вооружены, то лучше пока не едте сюда, вы хотите переместиться? "
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Вы не смогли защитить караван"
+		numButtons="1" />
+
+	<string
+		id="8802"
+		value="После перехода на следующую локацию, вы не сможете вернуться обратно, все невыполненные квесты будут провалены. Вы хотите переместиться?"
+		numButtons="2" />
+
+	<string
+		id="8803"
+		value="Если вы уже проходили 1 эпизод, то вы можете начать сразу со 2-го. Вы хотите начать со 2 эпизода?"
+		numButtons="2" />
+
+	<string
+		id="8804"
+		value="Внимание! Если у вас вылетает игра при переходе на следующую локацию, попробуйте запустить игру в оконном режиме, а ещё лучше на 1 ядре."
+		numButtons="1" />
+
+	<string
+		id="8805"
+		value="Если вы уже проходили 2 эпизод, то вы можете начать сразу со 3-го. Вы хотите начать с 3 эпизода?"
+		numButtons="2" />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="2" />
+	
+</resource>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="0"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Мда... Видимость почти нулевая."
+		time="2" />
+
+	<string
+		id="1"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Где-то на севере должна быть деревня, лишь бы не сбиться с пути."
+		time="3" />
+
+	<string
+		id="2"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Развилка. Попробуем левую дорогу."
+		time="3" />
+
+	<string
+		id="3"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Кажется кто-то едет."
+		time="2" />
+
+	<string
+		id="10003"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Слышишь? Кто-то едет!"
+		time="2" />
+
+	<string
+		id="4"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отряд, стоять! Назовите себя!"
+		time="4" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Полегче командир. Я просто искатель приключений."
+		time="3" />
+
+	<string
+		id="10005"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Полегче командир. Мы просто искатели приключений."
+		time="3" />
+
+	<string
+		id="6"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отбой ребята! Чего ты забыл в наших краях?"
+		time="4" />
+
+	<string
+		id="10006"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отбой ребята! Чего вы забыли в наших краях?"
+		time="4" />
+
+	<string
+		id="7"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ищу путь на север, через замёрзшее море на остров."
+		time="3" />
+
+	<string
+		id="10007"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ищем путь на север, через замёрзшее море на остров."
+		time="3" />
+
+	<string
+		id="8"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Можешь сразу разворачиваться, у тебя это не получится."
+		time="3" />
+
+	<string
+		id="10008"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Можете сразу разворачиваться, у вас это не получится."
+		time="3" />
+
+	<string
+		id="9"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Это ещё почему?"
+		time="1" />
+
+	<string
+		id="10009"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Это ещё почему?"
+		time="2" />
+
+	<string
+		id="10"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Боец|Командир! Валькирии движутся в нашу сторону!"
+		time="3" />
+
+	<string
+		id="11"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Чёрт! Приготовиться к бою! А ты сейчас увидишь причину, если конечно выживешь..."
+		time="4" />
+
+	<string
+		id="10011"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Чёрт! Приготовиться к бою! А вы сейчас увидите причину, если конечно останетесь в живых..."
+		time="4" />
+
+	<string
+		id="12"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Эта последняя!"
+		time="1" />
+
+	<string
+		id="13"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|В первый раз вижу подобное, чтобы мы с такой легкостью отбили атаку! Ты точно простой искатель приключений?"
+		time="6" />
+
+	<string
+		id="10013"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|В первый раз вижу подобное, чтобы мы с такой легкостью отбили атаку! Вы точно простые искатели приключений?"
+		time="6" />
+
+	<string
+		id="14"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Да вроде ничего особенного."
+		time="2" />
+
+	<string
+		id="10014"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|У нас бывали стычки и похуже!"
+		time="2" />
+
+	<string
+		id="15"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Твоя помощь нам бы очень пригодилась. Хорошо, я проведу тебя до базы, это единственный путь на остров."
+		time="6" />
+
+	<string
+		id="10015"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Ваша помощь нам бы очень пригодилась. Хорошо, я проведу вас до базы, это единственный путь на остров."
+		time="6" />
+
+	<string
+		id="16"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Охрана|Стоять! Кто едет?"
+		time="1" />
+
+	<string
+		id="17"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отряд Браво, вернулись из вылазки до Генератора. По пути подобрали искателя приключений."
+		time="5" />
+
+	<string
+		id="10017"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отряд Браво, вернулись из вылазки до Генератора. По пути подобрали искателей приключений."
+		time="5" />
+
+	<string
+		id="18"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Охрана|Открыть ворота!"
+		time="1" />
+
+	<string
+		id="8800"
+		value="Вы хотите покинуть Аржан и переплыть в Вахат?"
+		numButtons="2" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведёт эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше."
+		time="3" />
+</resource>

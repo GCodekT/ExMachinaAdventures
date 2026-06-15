@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TownMinin6466"
+		FullName="Стальной Меридиан" />
+
+	<Object
+		Name="TownMinin6466_Bar"
+		FullName="Рюмочная" />
+
+	<Object
+		Name="TownMinin6466_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="TownMinin6466_House"
+		FullName="Рабочий зал" />
+
+	<Object
+		Name="TownMinin6466_Workshop"
+		FullName="Ремонтная станция" />
+
+	<Object
+		Name="TownMinin6466_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m1_OilVillage6552"
+		FullName="Дубровка" />
+
+	<Object
+		Name="r1m1_OilVillage6552_Bar"
+		FullName="Трактир 'Горец'" />
+
+	<Object
+		Name="r1m1_OilVillage6552_Bar_Barman"
+		FullName="Трактирщица" />
+
+	<Object
+		Name="BarmenHello"
+		FullName="Трактирщик" />
+
+	<Object
+		Name="OldAtaman"
+		FullName="Старый Атаман" />
+
+	<Object
+		Name="r1m1_OilVillage6552_Workshop"
+		FullName="Шиномонтаж" />
+
+	<Object
+		Name="r1m1_OilVillage6552_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m2_SignVillage7056"
+		FullName="Лесное" />
+
+	<Object
+		Name="r1m2_SignVillage7056_Bar"
+		FullName="Корчма 'На распутье'" />
+
+	<Object
+		Name="r1m2_SignVillage7056_Bar_Barman"
+		FullName="Корчмарь" />
+
+	<Object
+		Name="r1m2_SignVillage7056_House"
+		FullName="Дом старосты" />
+
+	<Object
+		Name="r1m2_SignVillage7056_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m2_SignVillage7056_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m2_RaceVillage7058"
+		FullName="Дом лесника" />
+
+	<Object
+		Name="r1m2_RaceVillage7058_House"
+		FullName="Дом лесника" />
+
+	<Object
+		Name="CrazyBase17059"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="CrazyBase17059_Bar"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="CrazyBase17059_Bar_Barman"
+		FullName="Кочевник" />
+
+	<Object
+		Name="CrazyBase17059_House"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="CrazyBase17059_Workshop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="CrazyBase17059_Shop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="CrazyBase27060"
+		FullName="Порт" />
+
+	<Object
+		Name="CrazyBase27060_Bar"
+		FullName="Бар 'Дохлый карась'" />
+
+	<Object
+		Name="CrazyBase27060_Bar_Barman"
+		FullName="Бармен" />
+
+	<Object
+		Name="Barman_Koch"
+		FullName="Бармен" />
+
+	<Object
+		Name="CrazyBase27060_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="CrazyBase27060_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TownBaseInRock7061"
+		FullName="Военная база" />
+
+	<Object
+		Name="TownBaseInRock7061_Bar"
+		FullName="Бар 'Горячка'" />
+
+	<Object
+		Name="TownBaseInRock7061_Bar_Barman"
+		FullName="Бармен Кайл" />
+
+	<Object
+		Name="TownBaseInRock7061_House"
+		FullName="Главный зал" />
+
+	<Object
+		Name="TownBaseInRock7061_Workshop"
+		FullName="Ремонтный ангар" />
+
+	<Object
+		Name="TownBaseInRock7061_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r3_OracleDefVil7062"
+		FullName="Деревня Фанатиков" />
+
+	<Object
+		Name="r3_OracleDefVil7062_Bar"
+		FullName="Трактир 'Стальной грааль'" />
+
+	<Object
+		Name="r3_OracleDefVil7062_Bar_Barman"
+		FullName="Трактирщик" />
+
+	<Object
+		Name="r3_OracleDefVil7062_House"
+		FullName="Храм поклонения" />
+
+	<Object
+		Name="r3_OracleDefVil7062_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r3_OracleDefVil7062_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r3_RazboinikVillage7063"
+		FullName="Хижина отшельника" />
+
+	<Object
+		Name="r3_RazboinikVillage7063_House"
+		FullName="Хижина Отшельника" />
+
+	<Object
+		Name="r1m3_OreMineVillage7064"
+		FullName="Карьер" />
+
+	<Object
+		Name="r1m3_OreMineVillage7064_Bar"
+		FullName="Бар" />
+
+	<Object
+		Name="r1m3_OreMineVillage7064_Bar_Barman"
+		FullName="Прораб Степаныч" />
+
+	<Object
+		Name="r1m3_OreMineVillage7064_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m3_OreMineVillage7064_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m1_ContraVillage7146"
+		FullName="Лагерь повстанцев" />
+
+	<Object
+		Name="r1m1_ContraVillage7146_House"
+		FullName="Штаб" />
+
+	<Object
+		Name="r1m1_ContraVillage7146_Workshop"
+		FullName="Мастерская" />
+
+    <Object
+		Name="BarmanFan"
+		FullName="Трактирщик" />
+	<Object
+		Name="BarmanMerik"
+		FullName="Бармен" />
+
+	<Object
+		Name="BarmanBaza"
+		FullName="Бармен Кайл" />
+
+	<Object
+		Name="Polkovnik"
+		FullName="Прапорщик Август" />
+
+	<Object
+		Name="Praposhik"
+		FullName="Прапорщик Август" />
+
+	<Object
+		Name="Prorab"
+		FullName="Прораб Роб" />
+
+	<Object
+		Name="KaravanVodila"
+		FullName="Караванщик" />
+
+	<Object
+		Name="XPOM"
+		FullName="Хром" />
+
+	<Object
+		Name="VernonRoshe"
+		FullName="Лидер Роше" />
+
+	<Object
+		Name="starosta"
+		FullName="Староста Михаил" />
+
+	<Object
+		Name="korchmar"
+		FullName="Корчмарь" />
+
+	<Object
+		Name="Lesnik"
+		FullName="Лесник" />
+
+	<Object
+		Name="BANDIT"
+		FullName="Разбойник" />
+
+	<Object
+		Name="Hermit"
+		FullName="Отшельник" />
+    
+	<Object
+		Name="KochewnikDLG"
+		FullName="Кочевник" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown4"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown5"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown5_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="Esting_enter"
+		FullName="ВОСТОЧНЫЙ" />
+
+	<Object
+		Name="Midragd_enter"
+		FullName="МИДГАРД" />
+
+	<Object
+		Name="Porto_enter"
+		FullName="ПОРТО" />
+
+	<Object
+		Name="TheArtefact_enter"
+		FullName="ЛОКУС" />
+
+	<Object
+		Name="TheSign_enter"
+		FullName="ЯР" />
+
+	<Object
+		Name="TheRace_enter"
+		FullName="МАЛАЯ ЗЕМЛЯ" />
+
+	<Object
+		Name="TheOlimp_enter"
+		FullName="РИМСКОЕ" />
+
+	<Object
+		Name="TheTickets_enter"
+		FullName="ОЛИМПИЙСКАЯ" />
+
+	<Object
+		Name="ToR1M1"
+		FullName="Дорога в Край" />
+
+	<Object
+		Name="ToR1M3"
+		FullName="Дорога на Фатерлянд" />
+
+	<Object
+		Name="u1"
+		FullName="Бенджамин" />
+
+	<Object
+		Name="u2"
+		FullName="Маск" />
+
+	<Object
+		Name="u3"
+		FullName="Шварц" />
+
+	<Object
+		Name="u4"
+		FullName="Миф" />
+
+	<Object
+		Name="u5"
+		FullName="Горбун" />
+
+	<Object
+		Name="u6"
+		FullName="Ривер" />
+
+	<Object
+		Name="u7"
+		FullName="Сефер ОТ" />
+
+	<Object
+		Name="u8"
+		FullName="Цезарь" />
+
+	<Object
+		Name="u9"
+		FullName="Зелл" />
+</ObjectNames>

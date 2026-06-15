@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+    <trigger	Name="CreateCRAGS"	active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject( "big_crag_12", "CUM01", -1, -1, CVector(1970.358, 225.000, 6103.171), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewDummyObject( "big_crag_12", "CUM02", -1, -1, CVector(1943.013, 224.000, 6087.181), Quaternion(0.0000, -0.4675, 0.0000, 0.8840), 0)
+			CreateNewDummyObject( "big_crag_12", "CUM03", -1, -1, CVector(1948.715, 224.500, 6022.518), Quaternion(0.0000, -0.5664, 0.0000, 0.8241), 0)
+			CreateNewDummyObject( "big_crag_6", "CUM04", -1, -1, CVector(1948.513, 224.300, 6101.057), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewDummyObject( "big_crag_5", "CUM05", -1, -1, CVector(1953.260, 224.941, 6052.282), Quaternion(0.0000, 0.0000, 0.7934, 0.6088), 0)
+			CreateNewDummyObject( "big_crag_5", "CUM06", -1, -1, CVector(1964.407, 225.300, 6079.322), Quaternion(0.0000, 0.0000, 0.2250, 0.9744), 0)
+			CreateNewDummyObject( "big_crag_4", "CUM07", -1, -1, CVector(1957.329, 224.000, 6088.516), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewDummyObject( "big_crag_4", "CUM08", -1, -1, CVector(1972.546, 235.000, 6075.076), Quaternion(-0.1261, -0.0413, -0.3083, 0.9420), 0)
+			CreateNewDummyObject( "big_crag_4", "CUM09", -1, -1, CVector(1945.972, 224.000, 6065.917), Quaternion(-0.1261, -0.0413, -0.3083, 0.9420), 0)
+			CreateNewDummyObject( "big_crag_4", "CUM10", -1, -1, CVector(1956.966, 224.094, 6036.535), Quaternion(0.1014, -0.8948, 0.2608, 0.3480), 0)
+
+			CreateNewDummyObject( "desert_fence1", "vorota1", -1, -1, CVector(4214.267, 310.423, 720.831), Quaternion(-0.4794, -0.0280, -0.0152, 0.8770), 0)
+			CreateNewDummyObject( "desert_fence1", "vorota2", -1, -1, CVector(4214.787, 315.620, 712.385), Quaternion(-0.4794, -0.0280, -0.0152, 0.8770), 0)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Create_koch" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire1", -1, -1, CVector(5058.297, 396.772, 1241.478), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0.112)
+
+			CreateVehicleEx("CoolBelaz_3","Kochewnik1", CVector(5064.187, 396.000, 1219.352), 1064)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="DestroyCRAGS"	active="0">
+		<event timeout="5" eventid="GE_TIME_PERIOD" />
+		<script>
+		    CreateEffectInsertedInRemove( "ET_PS_VEH_EXP1_MED1", CVector(1970.358, 225.000, 6103.171), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), true )
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1970.358, 225.000, 6103.171), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1943.013, 224.000, 6087.181), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1948.715, 224.500, 6022.518), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1953.260, 224.941, 6052.282), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1972.546, 235.000, 6075.076), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1956.966, 224.094, 6036.535), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
+
+			local cd1 = GetEntityByName("CUM01")
+			if cd1 then cd1:Remove() end
+			local cd2 = GetEntityByName("CUM02")
+			if cd2 then cd2:Remove() end
+			local cd3 = GetEntityByName("CUM03")
+			if cd3 then cd3:Remove() end
+			local cd4 = GetEntityByName("CUM04")
+			if cd4 then cd4:Remove() end
+			local cd5 = GetEntityByName("CUM05")
+			if cd5 then cd5:Remove() end
+			local cd6 = GetEntityByName("CUM06")
+			if cd6 then cd6:Remove() end
+			local cd7 = GetEntityByName("CUM07")
+			if cd7 then cd7:Remove() end
+			local cd8 = GetEntityByName("CUM08")
+			if cd8 then cd8:Remove() end
+			local cd9 = GetEntityByName("CUM09")
+			if cd9 then cd9:Remove() end
+			local cd10 = GetEntityByName("CUM10")
+			if cd10 then cd10:Remove() end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="CreateDOTs"	active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewBreakableObject( "staticAutoGun01","dot01", 1025, CVector(2886.672, 281.900, 1379.048), Quaternion(0.000, -0.668, 0.000, 0.745),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot02", 1025, CVector(3031.598, 286.329, 1229.467), Quaternion(0.000, 0.991, 0.000, 0.133),0 )
+			CreateNewBreakableObject( "staticAutoGun04","dot03", 1025, CVector(2955.128, 253.755, 1266.995), Quaternion(0.000, 0.993, 0.000, 0.115),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot04", 1025, CVector(2931.030, 252.543, 1296.663), Quaternion(0.000, 0.938, 0.000, 0.346),0 )
+			CreateNewBreakableObject( "staticAutoGun03","dot05", 1025, CVector(2867.920, 247.817, 1259.054), Quaternion(0.000, 0.781, 0.000, 0.624),0 )
+			CreateNewBreakableObject( "heavy_dot4_octopus","dot06", 1025, CVector(2796.791, 249.890, 1176.760), Quaternion(0.000, 0.685, 0.000, 0.728),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot07", 1025, CVector(2817.649, 247.823, 1114.579), Quaternion(0.000, 0.248, 0.000, 0.969),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot08", 1025, CVector(2773.922, 247.745, 1072.008), Quaternion(0.000, -0.139, 0.000, 0.990),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot09", 1025, CVector(2691.814, 276.917, 1190.294), Quaternion(0.000, -0.146, 0.000, 0.989),0 )
+			CreateNewBreakableObject( "heavy_dot4_octopus","dot10", 1025, CVector(2695.367, 247.713, 929.348), Quaternion(0.000, -0.668, 0.000, 0.745),0 )
+			CreateNewBreakableObject( "heavy_dot4_octopus","dot11", 1025, CVector(2542.570, 248.320, 872.923), Quaternion(0.000, 0.991, 0.000, 0.133),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot12", 1025, CVector(2579.882, 247.667, 983.994), Quaternion(0.000, 0.993, 0.000, 0.115),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot13", 1025, CVector(2554.182, 247.713, 1044.223), Quaternion(0.000, 0.938, 0.000, 0.346),0 )
+
+			CreateNewBreakableObject( "staticAutoGun01","dot14", 1025, CVector(3289.526, 199.699, 2232.719), Quaternion(0.000, 0.781, 0.000, 0.624),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot15", 1025, CVector(3325.755, 198.517, 2373.894), Quaternion(0.000, 0.685, 0.000, 0.728),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot16", 1025, CVector(3374.317, 198.691, 2357.124), Quaternion(0.000, 0.248, 0.000, 0.969),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot17", 1025, CVector(3408.765, 206.000, 2757.640), Quaternion(0.000, -0.139, 0.000, 0.990),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot18", 1025, CVector(3358.065, 204.517, 2763.279), Quaternion(0.000, -0.146, 0.000, 0.989),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot19", 1025, CVector(3431.725, 215.712, 2878.926), Quaternion(0.000, -0.139, 0.000, 0.990),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot20", 1025, CVector(3386.066, 215.766, 2917.367), Quaternion(0.000, -0.146, 0.000, 0.989),0 )
+			
+			CreateNewDummyObject( "arena_barricade10", "Zabor1", -1, -1, CVector(7069.430, 236.847, 4330.213), Quaternion(-0.0884, 0.3849, 0.0371, 0.9180), 0)
+			CreateNewDummyObject( "arena_barricade10", "Zabor2", -1, -1, CVector(7056.400, 235.437, 4316.788), Quaternion(0.0000, 0.3867, 0.0000, 0.9222), 0)
+
+			CreateNewBreakableObject( "staticAutoGun02","dot011", 1063, CVector(2017.524, 248.729, 6790.798), Quaternion(0.000, -1.000, 0.000, -0.007),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot021", 1063, CVector(1985.481, 247.987, 6789.203), Quaternion(0.000, 1.000, 0.000, -0.026),0 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="DestroyDOTs"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local d1 = GetEntityByName("dot01")
+			if d1 then d1:Remove() end
+			local d2 = GetEntityByName("dot02")
+			if d2 then d2:Remove() end
+			local d3 = GetEntityByName("dot03")
+			if d3 then d3:Remove() end
+			local d4 = GetEntityByName("dot04")
+			if d4 then d4:Remove() end
+			local d5 = GetEntityByName("dot05")
+			if d5 then d5:Remove() end
+			local d6 = GetEntityByName("dot06")
+			if d6 then d6:Remove() end
+			local d7 = GetEntityByName("dot07")
+			if d7 then d7:Remove() end
+			local d8 = GetEntityByName("dot08")
+			if d8 then d8:Remove() end
+			local d9 = GetEntityByName("dot09")
+			if d9 then d9:Remove() end
+			local d10 = GetEntityByName("dot10")
+			if d10 then d10:Remove() end
+			local d11 = GetEntityByName("dot11")
+			if d11 then d11:Remove() end
+			local d12 = GetEntityByName("dot12")
+			if d12 then d12:Remove() end
+			local d13 = GetEntityByName("dot13")
+			if d13 then d13:Remove() end
+			local d14 = GetEntityByName("dot14")
+			if d14 then d14:Remove() end
+			local d15 = GetEntityByName("dot15")
+			if d15 then d15:Remove() end
+			local d16 = GetEntityByName("dot16")
+			if d16 then d16:Remove() end
+			local d17 = GetEntityByName("dot17")
+			if d17 then d17:Remove() end
+			local d18 = GetEntityByName("dot18")
+			if d18 then d18:Remove() end
+			local d19 = GetEntityByName("dot19")
+			if d19 then d19:Remove() end
+			local d20 = GetEntityByName("dot20")
+			if d20 then d20:Remove() end
+
+			CreateNewDummyObject( "sack_dot_brocken2", "dot21", -1, -1, CVector(2886.672, 281.900, 1379.048), Quaternion(0.000, 0.991, 0.000, 0.133), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot22", -1, -1, CVector(3031.598, 286.329, 1229.467), Quaternion(0.000, 0.993, 0.000, 0.115), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot23", -1, -1, CVector(2955.128, 253.755, 1266.995), Quaternion(0.000, 0.938, 0.000, 0.346), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot24", -1, -1, CVector(2931.030, 252.543, 1296.663), Quaternion(0.000, 0.781, 0.000, 0.624), 0)
+			CreateNewDummyObject( "heavy_dot_brocken1", "dot25", -1, -1, CVector(2867.920, 247.817, 1259.054), Quaternion(0.000, 0.685, 0.000, 0.728), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot26", -1, -1, CVector(2796.791, 249.890, 1176.760), Quaternion(0.000, 0.248, 0.000, 0.969), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot27", -1, -1, CVector(2817.649, 247.823, 1114.579), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot28", -1, -1, CVector(2773.922, 247.745, 1072.008), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot29", -1, -1, CVector(2691.814, 276.917, 1190.294), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot30", -1, -1, CVector(2695.367, 247.713, 929.348), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot31", -1, -1, CVector(2542.570, 248.320, 872.923), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot32", -1, -1, CVector(2579.882, 247.667, 983.994), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot33", -1, -1, CVector(2554.182, 247.713, 1044.223), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+
+			CreateNewDummyObject( "sack_dot_brocken2", "dot34", -1, -1, CVector(3289.526, 199.699, 2232.719), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot35", -1, -1, CVector(3325.755, 198.517, 2373.894), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot36", -1, -1, CVector(3374.317, 198.691, 2357.124), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot37", -1, -1, CVector(3408.765, 206.000, 2757.640), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot38", -1, -1, CVector(3358.065, 204.517, 2763.279), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot39", -1, -1, CVector(3431.725, 215.712, 2878.926), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot40", -1, -1, CVector(3386.066, 215.766, 2917.367), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire1", -1, -1, CVector(2636.529, 249.000, 1087.074), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1.814)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire2", -1, -1, CVector(2760.103, 247.000, 1019.095), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1.823)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire3", -1, -1, CVector(3017.879, 247.000, 1050.243), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire4", -1, -1, CVector(3445.213, 199.000, 2437.908), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.656)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire5", -1, -1, CVector(3250.324, 199.000, 2475.609), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 3.504)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire6", -1, -1, CVector(3308.104, 208.000, 2789.800), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.486)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="DestroyDOTsALTER"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local d1 = GetEntityByName("dot01")
+			if d1 then d1:Remove() end
+			local d2 = GetEntityByName("dot02")
+			if d2 then d2:Remove() end
+			local d3 = GetEntityByName("dot03")
+			if d3 then d3:Remove() end
+			local d4 = GetEntityByName("dot04")
+			if d4 then d4:Remove() end
+			local d5 = GetEntityByName("dot05")
+			if d5 then d5:Remove() end
+			local d6 = GetEntityByName("dot06")
+			if d6 then d6:Remove() end
+			local d7 = GetEntityByName("dot07")
+			if d7 then d7:Remove() end
+			local d8 = GetEntityByName("dot08")
+			if d8 then d8:Remove() end
+			local d9 = GetEntityByName("dot09")
+			if d9 then d9:Remove() end
+			local d10 = GetEntityByName("dot10")
+			if d10 then d10:Remove() end
+			local d11 = GetEntityByName("dot11")
+			if d11 then d11:Remove() end
+			local d12 = GetEntityByName("dot12")
+			if d12 then d12:Remove() end
+			local d13 = GetEntityByName("dot13")
+			if d13 then d13:Remove() end
+
+
+
+
+			CreateNewDummyObject( "sack_dot_brocken2", "dot21", -1, -1, CVector(2886.672, 281.900, 1379.048), Quaternion(0.000, 0.991, 0.000, 0.133), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot22", -1, -1, CVector(3031.598, 286.329, 1229.467), Quaternion(0.000, 0.993, 0.000, 0.115), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot23", -1, -1, CVector(2955.128, 253.755, 1266.995), Quaternion(0.000, 0.938, 0.000, 0.346), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot24", -1, -1, CVector(2931.030, 252.543, 1296.663), Quaternion(0.000, 0.781, 0.000, 0.624), 0)
+			CreateNewDummyObject( "heavy_dot_brocken1", "dot25", -1, -1, CVector(2867.920, 247.817, 1259.054), Quaternion(0.000, 0.685, 0.000, 0.728), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot26", -1, -1, CVector(2796.791, 249.890, 1176.760), Quaternion(0.000, 0.248, 0.000, 0.969), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot27", -1, -1, CVector(2817.649, 247.823, 1114.579), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot28", -1, -1, CVector(2773.922, 247.745, 1072.008), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot29", -1, -1, CVector(2691.814, 276.917, 1190.294), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot30", -1, -1, CVector(2695.367, 247.713, 929.348), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot31", -1, -1, CVector(2542.570, 248.320, 872.923), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot32", -1, -1, CVector(2579.882, 247.667, 983.994), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot33", -1, -1, CVector(2554.182, 247.713, 1044.223), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+
+
+
+
+
+
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire1", -1, -1, CVector(2636.529, 249.000, 1087.074), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1.814)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire2", -1, -1, CVector(2760.103, 247.000, 1019.095), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 1.823)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "Fire3", -1, -1, CVector(3017.879, 247.000, 1050.243), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="RemoveZabor"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local zb1 = GetEntityByName("Zabor1")
+			if zb1 then zb1:Remove() end
+			local zb2 = GetEntityByName("Zabor2")
+			if zb2 then zb2:Remove() end
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger	Name="RemoveBuntHum"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local humBuntLid = GetEntityByName("Buntovshik")
+			if humBuntLid then humBuntLid:Remove() end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="RemoveBuntVehicles"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local veh1 = GetEntityByName("vehBunt1")
+            if veh1 then
+                veh1:Remove()
+            end
+            
+            local veh2 = GetEntityByName("vehBunt2")
+            if veh2 then
+                veh2:Remove()
+            end
+            
+            local veh3 = GetEntityByName("vehBunt3")
+            if veh3 then
+                veh3:Remove()
+            end
+            
+            local veh4 = GetEntityByName("vehBunt4")
+            if veh4 then
+                veh4:Remove()
+            end
+            
+            local veh5 = GetEntityByName("vehBunt5")
+            if veh5 then
+                veh5:Remove()
+            end
+            
+            local veh6 = GetEntityByName("vehBunt6")
+            if veh6 then
+                veh6:Remove()
+            end
+            
+            local veh7 = GetEntityByName("vehBunt7")
+            if veh7 then
+                veh7:Remove()
+            end
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="RemoveDefendVehicles"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local LIDTEAM = GetEntityByName("LeaderVeh1")
+			if LIDTEAM then       
+				LIDTEAM:Remove()
+			end
+
+			local LIDPTEAM = GetEntityByName("LeaderVehPartz1")
+			if LIDPTEAM then       
+				LIDPTEAM:Remove()
+			end
+
+			local RVA1 = GetEntityByName("RightVehiclesAlpha1")
+            if RVA1 then       
+                RVA1:Remove()
+            end
+            
+            local RVA2 = GetEntityByName("RightVehiclesAlpha2")
+            if RVA2 then       
+                RVA2:Remove()
+            end
+            
+            local RVA3 = GetEntityByName("RightVehiclesAlpha3")
+            if RVA3 then       
+                RVA3:Remove()
+            end
+            
+            local RVA4 = GetEntityByName("RightVehiclesAlpha4")
+            if RVA4 then       
+                RVA4:Remove()
+            end
+            
+            local RVA5 = GetEntityByName("RightVehiclesAlpha5")
+            if RVA5 then       
+                RVA5:Remove()
+            end
+            
+            local LVA1 = GetEntityByName("LeftVehiclesAlpha1")
+            if LVA1 then       
+                LVA1:Remove()
+            end
+            
+            local LVA2 = GetEntityByName("LeftVehiclesAlpha2")
+            if LVA2 then       
+                LVA2:Remove()
+            end
+            
+            local LVA3 = GetEntityByName("LeftVehiclesAlpha3")
+            if LVA3 then       
+                LVA3:Remove()
+            end
+            
+            local LVA4 = GetEntityByName("LeftVehiclesAlpha4")
+            if LVA4 then       
+                LVA4:Remove()
+            end
+            
+            local LVA5 = GetEntityByName("LeftVehiclesAlpha5")
+            if LVA5 then       
+                LVA5:Remove()
+            end
+
+            local RVP1 = GetEntityByName("RightVehiclesPartz1")
+            if RVP1 then       
+                RVP1:Remove()
+            end
+
+            local RVP2 = GetEntityByName("RightVehiclesPartz2")
+            if RVP2 then       
+                RVP2:Remove()
+            end
+
+            local RVP3 = GetEntityByName("RightVehiclesPartz3")
+            if RVP3 then       
+                RVP3:Remove()
+            end
+
+            local RVP4 = GetEntityByName("RightVehiclesPartz4")
+            if RVP4 then       
+                RVP4:Remove()
+            end
+
+            local RVP5 = GetEntityByName("RightVehiclesPartz5")
+            if RVP5 then       
+                RVP5:Remove()
+            end
+
+            local LVP1 = GetEntityByName("LeftVehiclesPartz1")
+            if LVP1 then       
+                LVP1:Remove()
+            end
+
+            local LVP2 = GetEntityByName("LeftVehiclesPartz2")
+            if LVP2 then       
+                LVP2:Remove()
+            end
+
+            local LVP3 = GetEntityByName("LeftVehiclesPartz3")
+            if LVP3 then       
+                LVP3:Remove()
+            end
+
+            local LVP4 = GetEntityByName("LeftVehiclesPartz4")
+            if LVP4 then       
+                LVP4:Remove()
+            end
+
+            local LVP5 = GetEntityByName("LeftVehiclesPartz5")
+            if LVP5 then       
+                LVP5:Remove()
+            end
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger Name="triggerExitToMap15" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Prometeus_loc" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8805" )
+			if b == 1 then
+				PassToMap("r1m5", "FromR1M1", -1 )
+				trigger:Deactivate()
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				
+				TActivate ("RolikENDExitToMap15")
+			end
+ 		</script>
+	</trigger>
+
+	<trigger Name="RolikENDExitToMap15" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("InBase_loc")))
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger Name="triggerExitToMap41" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR4M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+			    CompleteQuest("Na_vostok_quest")
+				PassToMap("r4m1", "FromR1M1", -1 )
+				
+				trigger:Deactivate()
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				
+				TActivate ("RolikENDExitToMap41")
+			end
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMap41" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="triggerExitToMap411" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR4M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			
+
+			local b = SpawnMessageBox( "8801" )
+			if b == 1 then
+			    CompleteQuest("Baza_destroy_quest2")
+				SetGameTime(9,500)
+				PassToMap("r4m1", "FromR1M1", -1 )
+				trigger:Deactivate()
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				
+				TActivate ("RolikENDExitToMap411")
+			end
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMap411" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger Name="SecretDoroga_cin" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Dororga_loc" />
+		<script>
+		    SetTolerance( 1100, 1002, RS_ENEMY )
+			CompleteQuest("Doroga_quest")
+			FailQuest("Dubrovka_quest")
+			TDeactivate("postBands_cin")
+			AddHistory( "r1_Dubrovka_secret_00" )
+			AddFadingMsgId( "fm_history_got" )
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_ruins_check" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Ruini_loc" />
+		<script>
+
+			CompleteQuest("ruins_check_quest")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="tr_vehicles_spawn"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateVehicleEx("CoolBelaz_2","KarFun1", CVector(3346.156, 216.962, 2927.926), 1025)
+			CreateVehicleEx("Ural01","KarFun2", CVector(3335.982, 200.417, 2515.112), 1025)
+			CreateVehicleEx("UralCarav","KarFun3", CVector(3386.156, 216.962, 2940.926), 1025)
+			CreateVehicleEx("Ural00","KarFun4", CVector(2603.982, 247.417, 928.112), 1025)
+
+			local vehxKarKar1 = GetEntityByName("KarFun1")
+			if  vehxKarKar1 then
+				vehxKarKar1:SetRotation(Quaternion(-0.000, -0.983, 0.002, -0.183))
+			end
+
+			local vehxKarKar2 = GetEntityByName("KarFun2")
+			if  vehxKarKar2 then
+				vehxKarKar2:SetRotation(Quaternion(-0.004, -0.537, 0.002, -0.843))
+			end
+
+			local vehxKarKar3 = GetEntityByName("KarFun3")
+			if  vehxKarKar3 then
+				vehxKarKar3:SetRotation(Quaternion(-0.000, -0.983, 0.002, -0.183))
+				vehxKarKar3:SetExternalPathByName("Mer_Base_path")
+				vehxKarKar3:LimitMaxSpeed(20)
+			end
+
+			local vehxKarKar4 = GetEntityByName("KarFun4")
+			if  vehxKarKar4 then
+				vehxKarKar4:SetRotation(Quaternion(-0.004, -0.537, 0.002, -0.843))
+				vehxKarKar4:SetExternalPathByName("Base_Mer_path")
+				vehxKarKar4:LimitMaxSpeed(20)
+			end
+
+			TActivate("tr_vehicles_spawn_Return1")
+			TActivate("tr_vehicles_spawn_Return2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_vehicles_spawn_Return1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="KarFun3"/>
+		<script>
+		    local vehxKar111 = GetEntityByName("KarFun3")
+			if  vehxKar111 then
+				vehxKar111:SetExternalPathByName("Base_Mer_path")
+			end
+			TActivate("tr_vehicles_spawn_Return11")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_vehicles_spawn_Return2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="KarFun4"/>
+		<script>
+
+			local vehxKar222 = GetEntityByName("KarFun4")
+			if  vehxKar222 then
+				vehxKar222:SetExternalPathByName("Mer_Base_path")
+			end
+			TActivate("tr_vehicles_spawn_Return22")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_vehicles_spawn_Return11" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="KarFun3"/>
+		<script>
+		    local vehxKar1111 = GetEntityByName("KarFun3")
+			if  vehxKar1111 then
+				vehxKar1111:SetExternalPathByName("Mer_Base_path")
+			end
+			TActivate("tr_vehicles_spawn_Return1")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="tr_vehicles_spawn_Return22" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="KarFun4"/>
+		<script>
+
+			local vehxKar2222 = GetEntityByName("KarFun4")
+			if  vehxKar2222 then
+				vehxKar2222:SetExternalPathByName("Base_Mer_path")
+			end
+			TActivate("tr_vehicles_spawn_Return2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+ 
+    <trigger	Name="OXPAHA_spawn"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateVehicleEx("r1m1_scout01","OXP1", CVector(6514.987, 230.621, 1792.381), 1025)
+			CreateVehicleEx("r1m1_scout03","OXP2", CVector(6803.122, 210.627, 2634.800), 1025)
+
+			local vehxKar1 = GetEntityByName("OXP1")
+			if  vehxKar1 then
+				vehxKar1:SetRotation(Quaternion(0.075, 0.082, 0.026, -0.994))
+				vehxKar1:SetExternalPathByName("OXPAHA1_path")
+				vehxKar1:LimitMaxSpeed(20)
+			end
+
+			local vehxKar2 = GetEntityByName("OXP2")
+			if  vehxKar2 then
+				vehxKar2:SetRotation(Quaternion(-0.016, -0.833, -0.045, 0.552))
+				vehxKar2:SetExternalPathByName("OXPAHA2_path")
+				vehxKar2:LimitMaxSpeed(20)
+			end
+			
+			TActivate("VishkiBOOM_cin_Length")
+
+			TActivate("OXPAHA_Return1")
+			TActivate("OXPAHA_Return2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="OXPAHA_Return1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="OXP1"/>
+		<script>
+		    local vehxKar11 = GetEntityByName("OXP1")
+			if  vehxKar11 then
+				vehxKar11:SetExternalPathByName("OXPAHA2_path")
+			end
+			TActivate("OXPAHA_Return11")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="OXPAHA_Return2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="OXP2"/>
+		<script>
+
+			local vehxKar22 = GetEntityByName("OXP2")
+			if  vehxKar22 then
+				vehxKar22:SetExternalPathByName("OXPAHA1_path")
+			end
+			TActivate("OXPAHA_Return22")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="OXPAHA_Return11" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="OXP1"/>
+		<script>
+		    local vehxKar111 = GetEntityByName("OXP1")
+			if  vehxKar111 then
+				vehxKar111:SetExternalPathByName("OXPAHA1_path")
+			end
+			TActivate("OXPAHA_Return1")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="OXPAHA_Return22" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="OXP2"/>
+		<script>
+
+			local vehxKar222 = GetEntityByName("OXP2")
+			if  vehxKar222 then
+				vehxKar222:SetExternalPathByName("OXPAHA2_path")
+			end
+			TActivate("OXPAHA_Return2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="OXPAHA_deactiv"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("VishkiBOOM_cin_Length")
+
+			local vehxKar1 = GetEntityByName("OXP1")
+			if  vehxKar1 then
+				vehxKar1:Remove()
+			end
+
+			local vehxKar2 = GetEntityByName("OXP2")
+			if  vehxKar2 then
+				vehxKar2:Remove()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger Name="CarierOXPAHA_Return1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec1"/>
+		<script>
+		    local vehSecrt1 = GetEntityByName("vehSec1")
+			if  vehSecrt1 then
+				vehSecrt1:SetExternalPathByName("OxranaCarier_path")
+			end
+			TActivate("CarierOXPAHA_Return11")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return11" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec1"/>
+		<script>
+		    local vehSecrt1 = GetEntityByName("vehSec1")
+			if  vehSecrt1 then
+				vehSecrt1:SetExternalPathByName("OxranaCarierBack_path")
+			end
+			TActivate("CarierOXPAHA_Return1")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec2"/>
+		<script>
+		    local vehSecrt2 = GetEntityByName("vehSec2")
+			if  vehSecrt2 then
+				vehSecrt2:SetExternalPathByName("OxranaCarier_path")
+			end
+			TActivate("CarierOXPAHA_Return22")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return22" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec2"/>
+		<script>
+		    local vehSecrt2 = GetEntityByName("vehSec2")
+			if  vehSecrt2 then
+				vehSecrt2:SetExternalPathByName("OxranaCarierBack_path")
+			end
+			TActivate("CarierOXPAHA_Return2")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return3" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec3"/>
+		<script>
+		    local vehSecrt3 = GetEntityByName("vehSec3")
+			if  vehSecrt3 then
+				vehSecrt3:SetExternalPathByName("OxranaCarier_path")
+			end
+			TActivate("CarierOXPAHA_Return33")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return33" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec3"/>
+		<script>
+		    local vehSecrt3 = GetEntityByName("vehSec3")
+			if  vehSecrt3 then
+				vehSecrt3:SetExternalPathByName("OxranaCarierBack_path")
+			end
+			TActivate("CarierOXPAHA_Return3")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return4" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec4"/>
+		<script>
+		    local vehSecrt4 = GetEntityByName("vehSec4")
+			if  vehSecrt4 then
+				vehSecrt4:SetExternalPathByName("OxranaCarier_path")
+			end
+			TActivate("CarierOXPAHA_Return44")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CarierOXPAHA_Return44" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="vehSec4"/>
+		<script>
+		    local vehSecrt4 = GetEntityByName("vehSec4")
+			if  vehSecrt4 then
+				vehSecrt4:SetExternalPathByName("OxranaCarierBack_path")
+			end
+			TActivate("CarierOXPAHA_Return4")
+            trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="CarierOXPAHA_deactiv"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("CarierBOOOM_cin_Length")
+
+			local vehxKar1 = GetEntityByName("vehSec1")
+			if  vehxKar1 then
+				vehxKar1:Remove()
+			end
+
+			local vehxKar2 = GetEntityByName("vehSec2")
+			if  vehxKar2 then
+				vehxKar2:Remove()
+			end
+
+			local vehxKar3 = GetEntityByName("vehSec3")
+			if  vehxKar3 then
+				vehxKar3:Remove()
+			end
+
+			local vehxKar4 = GetEntityByName("vehSec4")
+			if  vehxKar4 then
+				vehxKar4:Remove()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+</triggers>

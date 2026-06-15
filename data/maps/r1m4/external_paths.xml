@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="Player_2_path">
+		<Point
+			coord="3100.224 852.017" />
+
+		<Point
+			coord="3146.239 861.877" />
+
+		<Point
+			coord="3191.362 865.915" />
+	</Path>
+
+	<Path
+		Name="Player_3_path">
+		<Point
+			coord="2557.938 700.727" />
+
+		<Point
+			coord="2689.323 740.485" />
+
+		<Point
+			coord="2963.774 799.557" />
+
+		<Point
+			coord="3111.398 857.118" />
+
+		<Point
+			coord="3234.288 865.627" />
+
+		<Point
+			coord="3311.395 863.049" />
+	</Path>
+
+	<Path
+		Name="Player_path">
+		<Point
+			coord="292.977 172.867" />
+
+		<Point
+			coord="356.750 226.989" />
+
+		<Point
+			coord="434.720 300.839" />
+	</Path>
+
+	<Path
+		Name="karavan_1_path">
+		<Point
+			coord="258.322 179.117" />
+
+		<Point
+			coord="330.149 242.474" />
+
+		<Point
+			coord="425.142 325.239" />
+
+		<Point
+			coord="511.035 356.448" />
+
+		<Point
+			coord="612.309 359.828" />
+	</Path>
+
+	<Path
+		Name="karavan_2_path">
+		<Point
+			coord="302.380 123.000" />
+
+		<Point
+			coord="349.810 168.112" />
+
+		<Point
+			coord="404.007 240.827" />
+
+		<Point
+			coord="457.240 291.979" />
+
+		<Point
+			coord="523.320 326.749" />
+
+		<Point
+			coord="598.630 342.138" />
+	</Path>
+</Paths>

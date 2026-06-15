@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?><!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by JSinx (Targem) -->
+<resource>
+	<string
+		id="0"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="Оратор|Гонщики, заводите моторы! Гонка обещает быть интересной, видимость почти нулевая!"
+		time="6" />
+
+	<string
+		id="1"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="Оратор|И так! Три... Два... Один... Старт!"
+		time="5" />
+
+	<string
+		id="2"
+		modelName="r4_man"
+		modelSkin="0"
+		modelCfg="12"
+		modelSlot="1"
+		value="Кочевник|В атаку братья! Сегодня наш день!"
+		time="4" />
+
+	<string
+		id="3"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="Оратор|Встречайте победителя гонки!"
+		time="3" />
+
+	<string
+		id="4"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Что случилось с твоей машиной?"
+		time="3" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Нет времени объяснять! Бежим отсюда скорее!"
+		time="3" />
+
+	<string
+		id="6"
+		modelName="r4_man"
+		modelSkin="1"
+		modelCfg="128"
+		modelSlot="1"
+		value="Оратор|А вот и остальные  уча... Подождите, это не гонщики!"
+		time="4" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8901"
+		value="Ты подъехал слишком близко к Источнику и был поглощён его силой, как и многие до тебя. И кто знает, как долго людям придётся ждать нового героя..." />
+</resource>

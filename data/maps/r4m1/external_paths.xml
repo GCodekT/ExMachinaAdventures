@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="Audiencia_path">
+		<Point
+			coord="2562.202 3544.408" />
+
+		<Point
+			coord="2606.220 3615.009" />
+
+		<Point
+			coord="2673.272 3693.162" />
+	</Path>
+
+	<Path
+		Name="FuryAndXpom_path1">
+		<Point
+			coord="4612.334 3755.270" />
+
+		<Point
+			coord="4586.603 3759.845" />
+
+		<Point
+			coord="4557.729 3767.250" />
+
+		<Point
+			coord="4505.051 3772.462" />
+
+		<Point
+			coord="4484.150 3769.760" />
+
+		<Point
+			coord="4468.835 3782.165" />
+	</Path>
+
+	<Path
+		Name="FuryAndXpom_path2">
+		<Point
+			coord="4613.255 3773.681" />
+
+		<Point
+			coord="4582.907 3779.759" />
+
+		<Point
+			coord="4556.956 3785.059" />
+
+		<Point
+			coord="4519.122 3800.200" />
+
+		<Point
+			coord="4495.613 3815.187" />
+
+		<Point
+			coord="4469.742 3804.580" />
+	</Path>
+
+	<Path
+		Name="Fury_path">
+		<Point
+			coord="3601.385 3907.531" />
+
+		<Point
+			coord="3596.432 3938.816" />
+
+		<Point
+			coord="3590.309 3976.528" />
+
+		<Point
+			coord="3584.234 4006.493" />
+
+		<Point
+			coord="3579.933 4030.119" />
+	</Path>
+
+	<Path
+		Name="KaravanNEFT_path">
+		<Point
+			coord="2098.478 3836.177" />
+
+		<Point
+			coord="2220.897 3590.847" />
+
+		<Point
+			coord="2303.831 3497.598" />
+
+		<Point
+			coord="2392.369 3464.949" />
+
+		<Point
+			coord="2483.815 3341.193" />
+
+		<Point
+			coord="2445.532 3239.896" />
+
+		<Point
+			coord="2385.537 3156.619" />
+
+		<Point
+			coord="2318.592 3096.732" />
+
+		<Point
+			coord="2241.045 3048.967" />
+
+		<Point
+			coord="2165.008 3021.319" />
+
+		<Point
+			coord="2086.158 3007.889" />
+
+		<Point
+			coord="1985.403 3003.887" />
+
+		<Point
+			coord="1889.179 2983.059" />
+
+		<Point
+			coord="1804.583 2948.108" />
+
+		<Point
+			coord="1705.970 2879.455" />
+
+		<Point
+			coord="1626.115 2788.853" />
+
+		<Point
+			coord="1569.055 2682.581" />
+
+		<Point
+			coord="1538.417 2548.708" />
+
+		<Point
+			coord="1540.655 2434.592" />
+
+		<Point
+			coord="1571.030 2319.713" />
+
+		<Point
+			coord="1628.079 2206.667" />
+	</Path>
+
+	<Path
+		Name="KosmodromSkorpionDie_path">
+		<Point
+			coord="6706.814 1256.344" />
+
+		<Point
+			coord="6740.936 1227.085" />
+
+		<Point
+			coord="6783.253 1166.763" />
+
+		<Point
+			coord="6805.112 1122.691" />
+	</Path>
+
+	<Path
+		Name="Kosmodrom_path">
+		<Point
+			coord="6407.432 1297.160" />
+
+		<Point
+			coord="6511.008 1293.096" />
+
+		<Point
+			coord="6591.851 1298.034" />
+
+		<Point
+			coord="6646.649 1289.432" />
+
+		<Point
+			coord="6699.691 1263.881" />
+
+		<Point
+			coord="6741.927 1229.212" />
+
+		<Point
+			coord="6780.145 1179.479" />
+
+		<Point
+			coord="6803.914 1131.378" />
+	</Path>
+
+	<Path
+		Name="OgrabFury1_path">
+		<Point
+			coord="4951.869 2623.720" />
+
+		<Point
+			coord="4932.657 2588.983" />
+
+		<Point
+			coord="4916.243 2560.767" />
+
+		<Point
+			coord="4874.444 2513.971" />
+
+		<Point
+			coord="4856.350 2492.594" />
+
+		<Point
+			coord="4814.594 2452.950" />
+
+		<Point
+			coord="4747.814 2394.941" />
+
+		<Point
+			coord="4647.204 2341.195" />
+
+		<Point
+			coord="4586.695 2327.201" />
+	</Path>
+
+	<Path
+		Name="OgrabFury_path">
+		<Point
+			coord="3662.351 4040.121" />
+
+		<Point
+			coord="3686.000 4039.276" />
+
+		<Point
+			coord="3720.029 4040.064" />
+
+		<Point
+			coord="3753.625 4040.412" />
+
+		<Point
+			coord="3777.805 4037.462" />
+
+		<Point
+			coord="3796.052 4033.280" />
+	</Path>
+
+	<Path
+		Name="OgrabPl_path">
+		<Point
+			coord="3653.557 4060.094" />
+
+		<Point
+			coord="3678.763 4058.658" />
+
+		<Point
+			coord="3715.792 4058.298" />
+
+		<Point
+			coord="3737.090 4058.917" />
+
+		<Point
+			coord="3760.465 4058.605" />
+
+		<Point
+			coord="3799.767 4059.930" />
+
+		<Point
+			coord="3843.578 4054.141" />
+	</Path>
+
+	<Path
+		Name="Pobeg11_path">
+		<Point
+			coord="6702.581 977.734" />
+
+		<Point
+			coord="6721.693 1010.072" />
+
+		<Point
+			coord="6743.281 1055.681" />
+
+		<Point
+			coord="6765.551 1105.094" />
+
+		<Point
+			coord="6775.843 1153.813" />
+	</Path>
+
+	<Path
+		Name="Pobeg1_path">
+		<Point
+			coord="6616.821 893.724" />
+
+		<Point
+			coord="6638.915 918.305" />
+
+		<Point
+			coord="6668.307 955.193" />
+	</Path>
+
+	<Path
+		Name="Pobeg22PL_path">
+		<Point
+			coord="6728.382 966.496" />
+
+		<Point
+			coord="6735.230 981.825" />
+
+		<Point
+			coord="6740.838 1007.361" />
+
+		<Point
+			coord="6747.715 1027.900" />
+
+		<Point
+			coord="6755.854 1051.727" />
+
+		<Point
+			coord="6764.765 1082.557" />
+
+		<Point
+			coord="6767.779 1113.265" />
+
+		<Point
+			coord="6768.140 1135.258" />
+
+		<Point
+			coord="6769.147 1158.016" />
+	</Path>
+
+	<Path
+		Name="Pobeg22_path">
+		<Point
+			coord="6730.339 971.379" />
+
+		<Point
+			coord="6746.272 999.808" />
+
+		<Point
+			coord="6770.592 1043.732" />
+
+		<Point
+			coord="6788.000 1089.561" />
+
+		<Point
+			coord="6792.899 1124.411" />
+
+		<Point
+			coord="6792.788 1170.580" />
+	</Path>
+
+	<Path
+		Name="Pobeg2_path">
+		<Point
+			coord="6658.193 890.418" />
+
+		<Point
+			coord="6708.549 944.545" />
+	</Path>
+
+	<Path
+		Name="Port_path">
+		<Point
+			coord="1399.845 1380.172" />
+
+		<Point
+			coord="1458.517 1404.885" />
+
+		<Point
+			coord="1489.482 1414.528" />
+
+		<Point
+			coord="1519.146 1409.797" />
+
+		<Point
+			coord="1545.489 1392.255" />
+
+		<Point
+			coord="1578.669 1369.059" />
+
+		<Point
+			coord="1610.980 1354.853" />
+	</Path>
+
+	<Path
+		Name="Propavshiy_path">
+		<Point
+			coord="6228.597 2212.369" />
+
+		<Point
+			coord="6199.555 2295.031" />
+
+		<Point
+			coord="6173.677 2403.845" />
+
+		<Point
+			coord="6162.791 2481.182" />
+
+		<Point
+			coord="6102.275 2671.454" />
+	</Path>
+
+	<Path
+		Name="Skorp_path">
+		<Point
+			coord="6697.406 1264.456" />
+
+		<Point
+			coord="6638.833 1288.340" />
+
+		<Point
+			coord="6579.618 1300.171" />
+
+		<Point
+			coord="6518.704 1293.237" />
+	</Path>
+
+	<Path
+		Name="Voiska_path">
+		<Point
+			coord="4399.593 3616.894" />
+
+		<Point
+			coord="4415.937 3665.708" />
+
+		<Point
+			coord="4440.381 3703.586" />
+
+		<Point
+			coord="4476.218 3746.644" />
+
+		<Point
+			coord="4526.056 3772.561" />
+
+		<Point
+			coord="4601.150 3768.870" />
+
+		<Point
+			coord="4688.430 3754.582" />
+
+		<Point
+			coord="4791.777 3727.888" />
+
+		<Point
+			coord="4843.431 3707.955" />
+	</Path>
+
+	<Path
+		Name="Vor_path">
+		<Point
+			coord="6735.750 941.183" />
+
+		<Point
+			coord="6711.379 931.586" />
+
+		<Point
+			coord="6690.363 923.095" />
+
+		<Point
+			coord="6669.589 913.094" />
+	</Path>
+
+	<Path
+		Name="kladbBands1_path">
+		<Point
+			coord="1224.844 6316.148" />
+
+		<Point
+			coord="1206.387 6319.567" />
+
+		<Point
+			coord="1184.606 6332.146" />
+
+		<Point
+			coord="1161.512 6346.948" />
+
+		<Point
+			coord="1128.350 6363.181" />
+
+		<Point
+			coord="1104.992 6381.726" />
+
+		<Point
+			coord="1093.033 6390.729" />
+
+		<Point
+			coord="1070.990 6404.032" />
+	</Path>
+
+	<Path
+		Name="kladbBands2_path">
+		<Point
+			coord="1285.804 6386.038" />
+
+		<Point
+			coord="1244.920 6409.810" />
+
+		<Point
+			coord="1215.641 6417.304" />
+
+		<Point
+			coord="1182.224 6427.447" />
+
+		<Point
+			coord="1150.985 6446.650" />
+
+		<Point
+			coord="1120.955 6453.487" />
+
+		<Point
+			coord="1097.238 6462.109" />
+	</Path>
+
+	<Path
+		Name="kladbBands_path">
+		<Point
+			coord="1248.698 6356.813" />
+
+		<Point
+			coord="1229.026 6362.653" />
+
+		<Point
+			coord="1189.856 6379.447" />
+
+		<Point
+			coord="1169.610 6390.513" />
+
+		<Point
+			coord="1146.535 6398.951" />
+
+		<Point
+			coord="1132.243 6409.808" />
+
+		<Point
+			coord="1089.226 6432.255" />
+
+		<Point
+			coord="1063.158 6443.954" />
+	</Path>
+
+	<Path
+		Name="kladbFury_path">
+		<Point
+			coord="984.204 6306.105" />
+
+		<Point
+			coord="981.719 6335.246" />
+
+		<Point
+			coord="978.445 6357.073" />
+
+		<Point
+			coord="974.613 6377.108" />
+
+		<Point
+			coord="967.846 6407.637" />
+
+		<Point
+			coord="957.368 6459.292" />
+
+		<Point
+			coord="954.330 6489.366" />
+	</Path>
+
+	<Path
+		Name="kladbPl_path">
+		<Point
+			coord="949.161 6296.839" />
+
+		<Point
+			coord="943.519 6336.446" />
+
+		<Point
+			coord="940.277 6359.434" />
+
+		<Point
+			coord="925.823 6391.301" />
+
+		<Point
+			coord="908.977 6417.527" />
+
+		<Point
+			coord="900.448 6451.861" />
+
+		<Point
+			coord="893.902 6488.971" />
+	</Path>
+</Paths>

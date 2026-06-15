@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+    <trigger Name="Tollerance" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetTolerance( 1100, 1031, RS_NEUTRAL )
+            SetTolerance( 1066, 1031, RS_NEUTRAL )
+			SetWeather(0)
+
+			CreateVehicleEx("CoolBelaz_3","Koch_1", CVector(2086.163, 650.301, 3861.111), 1064)
+
+			local vehKoch1 = GetEntityByName("Koch_1")
+			if vehKoch1 then
+				vehKoch1:SetPosition( CVector(2933.514, 650.070, 5080.042))
+				vehKoch1:SetRotation(Quaternion(-0.002, -0.868, 0.002, 0.497))
+			end
+
+			CreateNewDummyObject( "r2_high_voltage",	"LEP1", -1, -1, CVector(1705.072, 517.357, 3751.646), Quaternion(0.0026, -0.4732, 0.3746, 0.7974),1 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+</triggers>

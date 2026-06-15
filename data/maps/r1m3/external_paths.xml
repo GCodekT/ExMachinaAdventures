@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="ValkyFur_path">
+		<Point
+			coord="3767.625 7122.100" />
+
+		<Point
+			coord="3771.285 7441.227" />
+	</Path>
+
+	<Path
+		Name="Valky_path">
+		<Point
+			coord="3798.796 7178.239" />
+
+		<Point
+			coord="3803.684 7478.960" />
+	</Path>
+
+	<Path
+		Name="Vorota_path">
+		<Point
+			coord="3931.712 4132.574" />
+
+		<Point
+			coord="3934.450 4266.370" />
+	</Path>
+</Paths>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<ObjectNames>
+	<Object
+		Name="TownTuzz4109"
+		FullName="Иерихон" />
+
+	<Object
+		Name="TownTuzz4109_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TownTuzz4109_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="TownTuzz4109_House"
+		FullName="Зал поклонения" />
+
+	<Object
+		Name="TownTuzz4109_Bar"
+		FullName="Святилище" />
+
+	<Object
+		Name="TownTuzz4109_Bar_Barman"
+		FullName="Дьякон Весемир" />
+
+	<Object
+		Name="XPOM"
+		FullName="Хром" />
+
+	<Object
+		Name="FURY1"
+		FullName="Фурия" />
+
+	<Object
+		Name="r1m3_VozleMininVillage4312"
+		FullName="Пшеничное" />
+
+	<Object
+		Name="r1m3_VozleMininVillage4312_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m3_VozleMininVillage4312_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m3_VozleMininVillage4312_Bar"
+		FullName="Трактир 'Колосок'" />
+
+	<Object
+		Name="r1m3_VozleMininVillage4312_Bar_Barman"
+		FullName="Трактирщик Мыслав" />
+
+	<Object
+		Name="Arxiepiskop"
+		FullName="Архиепископ" />
+
+	<Object
+		Name="Barmen1"
+		FullName="Трактирщик Мыслав" />
+
+	<Object
+		Name="Barmen2"
+		FullName="Сын Трактирщика" />
+
+	<Object
+		Name="Estet"
+		FullName="Эстет Кауфман" />
+
+	<Object
+		Name="r1m4_LaukaVillage4313"
+		FullName="Окрайное" />
+
+	<Object
+		Name="r1m4_LaukaVillage4313_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="r1m4_LaukaVillage4313_Shop"
+		FullName="Магазин" />
+
+	<Object
+		Name="r1m4_LaukaVillage4313_Bar"
+		FullName="Трактир 'Три дороги'" />
+
+	<Object
+		Name="r1m4_LaukaVillage4313_Bar_Barman"
+		FullName="Трактирщик Казимир" />
+
+	<Object
+		Name="KochewnikTown"
+		FullName="Лагерь кочевника" />
+
+	<Object
+		Name="KochewnikTown_Bar"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikDLG"
+		FullName="Кочевник" />
+
+	<Object
+		Name="KochewnikTown_Bar_Barman"
+		FullName="Кочевник" />
+
+	<Object
+		Name="KochewnikTown_House"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Workshop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="KochewnikTown_Shop"
+		FullName="Палатка кочевника" />
+
+	<Object
+		Name="PetrolStationTown1"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown1_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown2"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown2_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown3"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown3_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown4"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown4_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="PetrolStationTown5"
+		FullName="Заправка" />
+
+	<Object
+		Name="PetrolStationTown5_Workshop"
+		FullName="Мастерская" />
+
+	<Object
+		Name="TheGelvetcia_enter"
+		FullName="ГЕЛЬВЕЦИЯ" />
+
+	<Object
+		Name="TheSel_enter"
+		FullName="СЕЛЬ" />
+
+	<Object
+		Name="TheTuzz_enter"
+		FullName="ТУЗ" />
+
+	<Object
+		Name="TheDoubtful_enter"
+		FullName="РАЗДОЛЬНОЕ" />
+
+	<Object
+		Name="TheUnderAttaks_enter"
+		FullName="ПЕТРОПАВЛОВСК" />
+
+	<Object
+		Name="TheVill1_enter"
+		FullName="ГЕНДЕНБУРГСК" />
+
+	<Object
+		Name="TheVill2_enter"
+		FullName="РОТОРСК" />
+
+	<Object
+		Name="ToR1M3"
+		FullName="Тоннель" />
+
+	<Object
+		Name="ToR3M1"
+		FullName="Подводный тоннель" />
+
+	<Object
+		Name="ToR2M2"
+		FullName="Дорога в Аржан" />
+
+	<Object
+		Name="ToR2M2small"
+		FullName="Тропа в Аржан" />
+
+	<Object
+		Name="u1"
+		FullName="Шрайк" />
+
+	<Object
+		Name="u2"
+		FullName="Пит" />
+
+	<Object
+		Name="u3"
+		FullName="Ричи" />
+
+	<Object
+		Name="u4"
+		FullName="Джин" />
+
+	<Object
+		Name="u5"
+		FullName="Мира" />
+
+	<Object
+		Name="u6"
+		FullName="Рэй" />
+
+	<Object
+		Name="u7"
+		FullName="Шэдоу" />
+
+	<Object
+		Name="u8"
+		FullName="Фосген" />
+
+	<Object
+		Name="u9"
+		FullName="Жан" />
+</ObjectNames>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="PL_path">
+		<Point
+			coord="2595.177 906.203" />
+
+		<Point
+			coord="2576.907 877.813" />
+
+		<Point
+			coord="2561.868 836.468" />
+
+		<Point
+			coord="2553.321 783.734" />
+
+		<Point
+			coord="2548.006 701.786" />
+	</Path>
+
+	<Path
+		Name="Prometeus_path">
+		<Point
+			coord="3300.681 944.918" />
+
+		<Point
+			coord="3302.208 997.052" />
+
+		<Point
+			coord="3304.000 1075.387" />
+
+		<Point
+			coord="3302.855 1122.158" />
+
+		<Point
+			coord="3265.218 1144.314" />
+
+		<Point
+			coord="3202.660 1153.752" />
+
+		<Point
+			coord="3138.620 1159.676" />
+
+		<Point
+			coord="3099.203 1151.090" />
+
+		<Point
+			coord="3070.139 1148.061" />
+
+		<Point
+			coord="3063.955 1162.773" />
+
+		<Point
+			coord="3060.700 1205.515" />
+
+		<Point
+			coord="3044.206 1213.594" />
+
+		<Point
+			coord="2990.979 1210.568" />
+
+		<Point
+			coord="2963.778 1206.298" />
+	</Path>
+
+	<Path
+		Name="Skorp_path">
+		<Point
+			coord="2676.696 913.407" />
+
+		<Point
+			coord="2705.513 829.449" />
+
+		<Point
+			coord="2720.324 779.553" />
+
+		<Point
+			coord="2733.871 736.200" />
+
+		<Point
+			coord="2730.286 651.338" />
+	</Path>
+
+	<Path
+		Name="start_koch_path">
+		<Point
+			coord="2943.844 1205.110" />
+
+		<Point
+			coord="2975.261 1206.441" />
+	</Path>
+</Paths>

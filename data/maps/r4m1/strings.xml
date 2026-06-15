@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="0"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_0_xpom.ogg"
+		value="Хром|Ну и жарко тут, как бы двигатель не перегрелся."
+		time="4" />
+
+	<string
+		id="1"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_1_xpom.ogg"
+		value="Хром|Масштаб конечно поражающий!"
+		time="2" />
+
+	<string
+		id="2"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_2_xpom.ogg"
+		value="Хром|Так, а вот и въезд в ангар, надеюсь он откроется."
+		time="4" />
+
+	<string
+		id="3"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_3_xpom.ogg"
+		value="Хром|И как же открыть эти ворота?"
+		time="3" />
+
+	<string
+		id="4"
+		sound="data\sounds\Speech\r4m1\r4m1_4_germodver.ogg"
+		value="Синтезированный голос|Личность не установлена. Доступ запрещён."
+		time="3" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_5_xpom.ogg"
+		value="Хром|Чего? Говорящая дверь?"
+		time="3" />
+
+	<string
+		id="6"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_6_xpom.ogg"
+		value="Хром|Эй! Как мне попасть внутрь?"
+		time="3" />
+
+	<string
+		id="7"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_7_xpom.ogg"
+		value="Хром|Ну и что теперь делать? Может тебя просто взорвать?"
+		time="4" />
+
+	<string
+		id="8"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Незнакомец|Не получится, я уже пробовал."
+		time="3" />
+
+	<string
+		id="9"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_9_xpom.ogg"
+		value="Хром|А ты ещё кто?"
+		time="2" />
+
+	<string
+		id="10"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Я искатель приключений, позывной 'Скорпион'."
+		time="3" />
+
+	
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Но как мне попасть внутрь?"
+		time="3" />
+
+	<string
+		id="12"
+		modelName="r2_woman"
+		modelSkin="2"
+		modelCfg="74"
+		modelSlot="1"
+		value="Охрана|Сюда допускается только стража и уполномоченные лица, простым гражданам сюда въезд запрещён, мы настоятельно просим вас отъехать от ворот."
+		time="13" />
+
+	<string
+		id="13"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ладно-ладно, уезжаю."
+		time="3" />
+
+	<string
+		id="14"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Вот и караван, надо не попасться им на глаза."
+		time="4" />
+
+	<string
+		id="15"
+		modelName="r4_man"
+		modelSkin="0"
+		modelCfg="12"
+		modelSlot="1"
+		value="Кочевник|Опа, стоять! Давайте, как обычно, забираем часть. А вы смотрите у нас, рот на замок!"
+		time="8" />
+
+	<string
+		id="16"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Отошли от каравна, первый выстрел предупредительный!"
+		time="4" />
+
+	<string
+		id="17"
+		modelName="r4_man"
+		modelSkin="0"
+		modelCfg="12"
+		modelSlot="1"
+		value="Кочевник|Ты ещё кто такой?! Нам тут свидетели не нужны, ребята огонь!"
+		time="6" />
+
+	<string
+		id="18"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="4"
+		modelSlot="1"
+		value="Караванщик|Спасибо тебе чужеземец!"
+		time="5" />
+
+	<string
+		id="19"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Да без проблем! Теперь вас никто не будет грабить, но охрана вам всё таки нужна. Надо возвращаться к бригадиру."
+		time="11" />
+
+	<string
+		id="20"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|А вот и тот самый молоковоз, но , к сожалению, уничтоженный. Бедолаге не повезло нарваться на бандитов."
+		time="10" />
+
+	<string
+		id="21"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Возьму вот это в качестве доказательства смерти."
+		time="5" />
+
+	<string
+		id="22"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Посыльный|Гражданин, остановитесь!"
+		time="3" />
+
+	<string
+		id="23"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|А что случилось?"
+		time="2" />
+
+	<string
+		id="24"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Посыльный|Ваши действия не остались не замечены, поэтому вас вызывает к себе наш губернатор, он хочет лично с вами встретиться."
+		time="13" />
+
+	<string
+		id="25"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|[Ну наконец-то, я уж думал напрасно носился по деревням!] Да конечно, это большая честь для меня!"
+		time="10" />
+
+	<string
+		id="26"
+		value="||@FF0000000000ААAAAAAAAААААA@FFFFA600Некоторое время спустя"
+		fontSize="12"
+		time="5" />
+
+	<string
+		id="27"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Пропуск у меня, теперь можно наконец-то открыть эти ворота!"
+		time="6" />
+
+	<string
+		id="28"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ну, посмотрим. Дверь, вот пропуск!"
+		time="3" />
+
+	<string
+		id="29"
+		sound="data\sounds\Speech\r4m1\r4m1_29_germodver.ogg"
+		value="Синтезированный голос|Проводится опознание..."
+		time="6" />
+
+	<string
+		id="30"
+		sound="data\sounds\Speech\r4m1\r4m1_30_germodver.ogg"
+		value="Синтезированный голос|Опознание завершено. Добро пожаловать в комплекс!"
+		time="4" />
+
+	<string
+		id="31"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Наконец-то! После стольких месяцев... Пора узнать что там внутри!"
+		time="5" />
+
+	<string
+		id="32"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Чёрт, машина заглохла! Хром, умоляю помоги!"
+		time="3" />
+
+	<string
+		id="33"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Эй! ЭЙ! Э-ЭЙ! Пожалуйста, не оставляй меня!"
+		time="5" />
+
+	<string
+		id="34"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Прошу, помоги-и!.."
+		time="2" />
+
+	<string
+		id="35"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Я не мог рисковать ради человека с которым общался пару раз."
+		time="5" />
+
+	<string
+		id="36"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Руины разрушены, и всё находящееся внутри уничтожено. Здесь мне делать больше нечего."
+		time="6" />
+
+	<string
+		id="37"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Фу-ух... Ещё бы чуть-чуть и..."
+		time="3" />
+
+	<string
+		id="38"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Согласен. Жалко конечно, что так вышло, но ничего уже не поделаешь."
+		time="5" />
+
+	<string
+		id="10039"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Это верно. Ладно, поеду в порт, а там куда глаза глядят. Прощай, Хром и спасибо."
+		time="5" />
+
+	<string
+		id="10040"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Прощай, Скорпион."
+		time="2" />
+
+	<string
+		id="39"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="84"
+		modelSlot="1"
+		value="Караванщик|Так ребята, мы начинаем нашу поездку через пустыню, всем держаться вместе и не отставать друг от друга. Да прибудет с нами удача!"
+		time="12" />
+
+	<string
+		id="40"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		value=""
+		time="8" />
+
+	<string
+		id="41"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value=""
+		time="10" />
+
+	<string
+		id="42"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value=""
+		time="16" />
+
+	<string
+		id="43"
+		value=""
+		time="22" />
+
+	<string
+		id="44"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Но почему?"
+		time="2" />
+
+	<string
+		id="45"
+		value=""
+		time="18" />
+
+	<string
+		id="46"
+		value=""
+		time="16" />
+
+	<string
+		id="47"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Так это понятно, но почему именно я?"
+		time="4" />
+
+	<string
+		id="48"
+		value=""
+		time="10" />
+
+	<string
+		id="49"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Так-так-так, а тут по-подробнее!"
+		time="4" />
+
+	<string
+		id="50"
+		value=""
+		time="9" />
+
+	<string
+		id="51"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Эй! Подожди!"
+		time="2" />
+
+	<string
+		id="52"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value=""
+		time="4" />
+
+	<string
+		id="53"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value=""
+		time="8" />
+
+	<string
+		id="54"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_54_xpom.ogg"
+		value="Хром|Получилось даже лучше, чем я думал. Теперь можно отправляться в путь!"
+		time="6" />
+
+	<string
+		id="55"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Судя по карте, мне надо ехать на восток, но вроде не сильно далеко."
+		time="6" />
+
+	<string
+		id="56"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_56_xpom.ogg"
+		value="Хром|Моё имя Хром. Раз ты утверждаешь, что взрыв не поможет, то может знаешь другой путь?"
+		time="7" />
+
+	<string
+		id="57"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Да, чтобы открыть эту дверь нужен особый пропуск, но где он находится неизвестно."
+		time="7" />
+
+	<string
+		id="58"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_58_xpom.ogg"
+		value="Хром|Но ты же пробовал его искать?"
+		time="2" />
+
+	<string
+		id="59"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Я обыскал всё в радиусе 30 километров, но ничего не нашёл. Последнее место, где он может быть, это Цитадель, но попасть туда невозможно."
+		time="10" />
+
+	<string
+		id="60"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_60_xpom.ogg"
+		value="Хром|Покажи где он находится. Может я смогу туда попасть."
+		time="3" />
+
+	<string
+		id="61"
+		modelName="mask_thief"
+		modelCfg="116"
+		modelSlot="1"
+		value="Скорпион|Да пожалуйста, это всё равно бесполезно."
+		time="4" />
+
+	<string
+		id="62"
+		sound="data\sounds\Speech\r4m1\r4m1_62_fury.ogg"
+		value="Незнакомка| ...это было невозможно сделать, либо он пристрелил бы меня, либо я его. Транспорт бы никак не выжил."
+		time="8" />
+
+	<string
+		id="63"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_63_torg.ogg"
+		value="Торговец|Договор был на то, что ты доставишь груз и транспорт в целости. Первое ты сделала, но со вторым не справилась, поэтому и от награды только половина."
+		time="10" />
+
+	<string
+		id="64"
+		sound="data\sounds\Speech\r4m1\r4m1_64_fury.ogg"
+		value="Незнакомка|Это же полный грабёж!"
+		time="1" />
+
+	<string
+		id="65"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_65_xpom.ogg"
+		value="Хром|Я узнаю этот голос. Привет Фурия, давно не виделись!"
+		time="5" />
+
+	<string
+		id="66"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_66_fury.ogg"
+		value="Фурия|Хром! Дружище, окажи услугу! Реши, кто из нас прав?"
+		time="5" />
+
+	<string
+		id="67"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_67_xpom.ogg"
+		value="Хром|Давай лучше с самого начала, что вообще произошло?"
+		time="5" />
+
+	<string
+		id="68"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_68_fury.ogg"
+		value="Фурия|Ну хорошо. Приехала я помочь этому торговцу, говорит мол: хочу конкуренту подпортить жизнь, сможешь перехватить транспорт с грузом и доставить в целости, получишь соответствующую награду. Ну я так и сделала!"
+		time="15" />
+
+	<string
+		id="69"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_69_torg.ogg"
+		value="Торговец|Однако! Она доставила только груз, а я просил доставить ещё и транспорт, но это не было выполнено, поэтому и от награды будет только половина! А она хочет три четверти!"
+		time="10" />
+
+	<string
+		id="70"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_70_fury.ogg"
+		value="Фурия|Ну, что думаешь?"
+		time="2" />
+
+	<string
+		id="71"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_71_xpom.ogg"
+		value="Хром|Торговец прав, половина контракта не была выполнена, поэтому и от награды будет только половина."
+		time="7" />
+
+	<string
+		id="72"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_72_torg.ogg"
+		value="Торговец|Ха! Два против одного! Ну теперь то ты примешь условия?"
+		time="5" />
+
+	<string
+		id="73"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_73_fury.ogg"
+		value="Фурия|Ай, чёрт с вами! Ладно, давай половину."
+		time="4" />
+
+	<string
+		id="74"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_74_torg.ogg"
+		value="Торговец|Приятно иметь с вами дело!"
+		time="3" />
+
+	<string
+		id="75"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_75_xpom.ogg"
+		value="Хром|Ты права, груз гораздо ценнее. Ведь главное, чтобы подорвать продажи у конкурента, так?"
+		time="6" />
+
+	<string
+		id="76"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_76_torg.ogg"
+		value="Торговец|Зараза... Ладно, груз действительно ценнее, вот твоя награда."
+		time="5" />
+
+	<string
+		id="77"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_77_xpom.ogg"
+		value="Хром|С одной стороны торговец прав, ведь вы договаривались на груз и транспорт, но с другой стороны, главное ведь доставить этот груз в целости и она с ним справилась, так?"
+		time="10" />
+
+	<string
+		id="78"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_78_xpom.ogg"
+		value="Хром|Я предлагаю сделать так: две трети от награды получит Фурия. Так будет справедливо."
+		time="6" />
+
+	<string
+		id="79"
+		modelName="r1_man"
+		modelSkin="5"
+		modelCfg="190"
+		sound="data\sounds\Speech\r4m1\r4m1_79_torg.ogg"
+		value="Торговец|Чёрт... Ладно, я согласен на условия."
+		time="3" />
+
+	<string
+		id="80"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_80_fury.ogg"
+		value="Фурия|Меня тоже всё устраивает."
+		time="3" />
+
+	<string
+		id="81"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_81_xpom.ogg"
+		value="Хром|Ну вот и решили проблему."
+		time="3" />
+
+	<string
+		id="82"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_82_xpom.ogg"
+		value="Хром|Да тут целое кладбище кораблей. А вот этот похож на военный, из него и возьмём обшивку."
+		time="7" />
+
+	<string
+		id="83"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_83_fury.ogg"
+		value="Фурия|Ты слышишь? Кажется кто-то сюда едет."
+		time="4" />
+
+	<string
+		id="84"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_84_xpom.ogg"
+		value="Хром|Чёрт! Мои опасения сбылись! Это старьёвщик прислал избавится от нас!"
+		time="5" />
+
+	<string
+		id="85"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_85_xpom.ogg"
+		value="Хром|Зараза! Двигатель всё-таки перегрелся! Фурия, убей их! Ехать я не смогу, но поддержать огнём сумею."
+		time="7" />
+
+	<string
+		id="86"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_86_fury.ogg"
+		value="Фурия|Дважды просить меня не нужно!"
+		time="3" />
+
+	<string
+		id="87"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_87_fury.ogg"
+		value="Фурия|Этот последний! Хром, как там у тебя?"
+		time="3" />
+
+	<string
+		id="88"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_88_xpom.ogg"
+		value="Хром|Двигатель запустился, но надо срочно ехать до ближайшего поселения, долго он не протянет."
+		time="6" />
+
+	<string
+		id="89"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Этот налёт тоже часть гонки?"
+		time="2" />
+
+	<string
+		id="90"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_90_fury.ogg"
+		value="Фурия|Конечно нет! Это спланированное нападение, видимо кочевники хотели нажиться на мирных жителях вне стен города и погода помогла это провернуть."
+		time="8" />
+
+	<string
+		id="91"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_91_xpom.ogg"
+		value="Хром|Зараза, а награду то когда дадут?"
+		time="2" />
+
+	<string
+		id="92"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_92_fury.ogg"
+		value="Фурия|Радуйся, что мы вообще живы. Неизвестно когда всё уладится."
+		time="3" />
+
+	<string
+		id="93"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_93_xpom.ogg"
+		value="Хром|Может тогда поможем бойцам хотя бы оттеснить кочевников из лагеря?"
+		time="4" />
+
+	<string
+		id="94"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_94_fury.ogg"
+		value="Фурия|Если это хотя бы немного поможет, то можно попробовать."
+		time="4" />
+
+	<string
+		id="95"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_95_xpom.ogg"
+		value="Хром|Я тут подумал, раз уж почти вся охрана задействована в подавлении налёта, может просто ворваться в Цитадель и выкрасть пропуск?"
+		time="7" />
+
+	<string
+		id="96"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_96_fury.ogg"
+		value="Фурия|Погоди, какой пропуск? То есть ты во всё это ввязался ради бумажки? Я правильно поняла?"
+		time="6" />
+
+	<string
+		id="97"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_97_xpom.ogg"
+		value="Хром|Точно, я же тебе не рассказал. В общем он нужен мне, чтобы открыть руины предтеч. Другого выхода нет."
+		time="7" />
+
+	<string
+		id="98"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_98_fury.ogg"
+		value="Фурия|И ты уверен, что он находится там?"
+		time="2" />
+
+	<string
+		id="99"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_99_xpom.ogg"
+		value="Хром|Это единственное место где он может быть."
+		time="2" />
+
+	<string
+		id="100"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_100_fury.ogg"
+		value="Фурия|Мы ввязываемся в очень опасную авантюру... Но разве не в этом наш смысл жизни?"
+		time="4" />
+
+	<string
+		id="101"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r4m1\r4m1_101_xpom.ogg"
+		value="Хром|Тогда вперёд!"
+		time="2" />
+
+	<string
+		id="102"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Отлично, кочевники отброшены. Дальше мы уже сами, спасибо вам."
+		time="4" />
+
+	<string
+		id="103"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Это всё хорошо, но я бы хотел получить награду за гонку."
+		time="3" />
+
+	<string
+		id="104"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="138"
+		modelSlot="1"
+		value="Командир отряда|Так это же ты победил в гонке! Можешь ехать в Цитадель там будет ждать награда."
+		time="4" />
+
+	<string
+		id="105"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_105_fury.ogg"
+		value="Фурия|Ого, похоже кто-то воспользовался суматохой и решил обокрасть Цитадель."
+		time="4" />
+
+	<string
+		id="106"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Зараза, я опоздал. Это был Скорпион, ещё один искатель приключений."
+		time="3" />
+
+	<string
+		id="107"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_107_fury.ogg"
+		value="Фурия|Откуда ты знаешь?"
+		time="2" />
+
+	<string
+		id="108"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Потом расскажу, я должен торопиться."
+		time="2" />
+
+	<string
+		id="109"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_109_fury.ogg"
+		value="Фурия|Если ещё встретимся... Давай до встречи. Мне надо ехать, у меня скоро будет сделка."
+		time="5" />
+
+	<string
+		id="110"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Будь здорова и спасибо."
+		time="2" />
+
+	<string
+		id="111"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Чёрт, что же там такое произошло? Внутри всё сгорело до тла."
+		time="3" />
+
+	<string
+		id="112"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Я видел следы ведущие внутрь здания, но от туда нет. Похоже Скорпион погиб под завалами."
+		time="5" />
+
+	<string
+		id="113"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Зараза, столько трудов впустую."
+		time="2" />
+
+	<string
+		id="114"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ладно, судя по карте на востоке есть ещё руины. Дорога к ним лежит через пустыню, но одному ехать через неё довольно рискованно."
+		time="7" />
+
+	<string
+		id="115"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Надо прибиться к какому-нибудь каравану, вроде из Последнего оплота они часто едут на восток. Поспрашиваю там."
+		time="6" />
+
+	<string
+		id="116"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ещё Фурия говорила, что у неё какая-то сделка с бандитами, может стоит помочь ей?"
+		time="5" />
+
+	<string
+		id="117"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Похоже атмосфера накаляется."
+		time="2" />
+
+	<string
+		id="118"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="12"
+		modelSlot="1"
+		value="Кочевник|...поэтому мы разберём твою машину на запчасти и отправим боссу. В качестве компенсации."
+		time="5" />
+
+	<string
+		id="119"
+		modelName="mask_lisa"
+		modelSlot="1"
+		sound="data\sounds\Speech\r4m1\r4m1_119_fury.ogg"
+		value="Фурия|Ещё раз повторяю, откуда мне было знать, что тот транспорт был для него? Меня никто не предупреждал."
+		time="6" />
+
+	<string
+		id="120"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="12"
+		modelSlot="1"
+		value="Кочевник|Незнание не освобождает от ответственности, из-за тебя полетят наши головы, а мы ещё пожить хотим."
+		time="6" />
+
+	<string
+		id="121"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Значит придётся попрощаться с головой раньше, живой я не дамся!"
+		time="4" />
+
+	<string
+		id="122"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ну понеслась!"
+		time="2" />
+
+	<string
+		id="123"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Этот последний."
+		time="2" />
+
+	<string
+		id="124"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Я бы и сама с ними справилась, но спасибо."
+		time="3" />
+
+	<string
+		id="125"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Как я понял из разговора, ты уничтожила транспорт с грузом для человека, которому ты должна. Бандиты решили вместо своей головы принести твою, так как товар был слишком важен, так?"
+		time="10" />
+
+	<string
+		id="126"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Да, если бы я знала, не стала бы помогать тому торговцу. Но историю не изменишь, такие дела."
+		time="5" />
+
+	<string
+		id="127"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Стреляем по петлям и врываемся."
+		time="2" />
+
+	<string
+		id="128"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Раз... Два... Три!"
+		time="3" />
+
+	<string
+		id="129"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Выиграй немного времени, пока я буду искать пропуск."
+		time="3" />
+
+	<string
+		id="130"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Иного выбора у меня и нет."
+		time="2" />
+
+	<string
+		id="131"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Готово! Бежим!"
+		time="2" />
+
+	<string
+		id="132"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Еле удрали! Теперь в городе нас не жалуют."
+		time="3" />
+
+	<string
+		id="133"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Ты знал на что шёл, да в принципе и я тоже."
+		time="3" />
+
+	<string
+		id="134"
+		modelName="mask_lisa"
+		modelSlot="1"
+		value="Фурия|Ладно, ещё увидимся Хром, а мне пора на сделку, прощай."
+		time="3" />
+
+    <string
+		id="1111"
+		value="||@FF0000000000ААAAAAAAAААААA@FFFFA600Некоторое время спустя"
+		fontSize="12"
+		time="5" />
+
+	<string
+		id="8800"
+		value="Вы не смогли проследить за караваном."
+		numButtons="1" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Пока что я не знаю дорогу, поэтому останусь здесь" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Что-то там непонятное. Не буду туда соваться" />
+
+	<string
+		id="8804"
+		modelName="mask_hero"
+		value="Похоже, прибор, вызывающий корабль, сломался. Или бандиты украли всю технику в порту. В любом случае, придется ехать на своих четырех."
+		numButtons="1"
+		 />
+
+    <string
+		id="8805"
+		value="Внимание! Снимите с кабины вооружение и оборудование, через 10 секунд произойдёт её смена."
+		numButtons="1" />
+
+	<string
+		id="8806"
+		value="На этом сюжет 2-го эпизода заканчивается, спасибо за прохождение!"
+		numButtons="1" />
+
+	<string
+		id="8807"
+		value="Вы хотите начать гонку?"
+		numButtons="2" />
+
+
+	<string
+		id="8901"
+		value="Вы не смогли спасти Бухарцев. Теперь Вам никогда не достигнуть цели." />
+
+	<string
+		id="8902"
+		value="Прицеп разрушен, доставка бензина отменяется." />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="1" />
+</resource>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+	<string
+		id="2"
+		modelName="mask_hero"
+		value="Карл|И что же?."
+		time="2" />
+
+	<string
+		id="1"
+		modelName="r1_man"
+		modelSkin="1"
+		modelCfg="12"
+		modelSlot="1"
+		value="Бригадир|Вот мы и достали необходимые запчасти, но осталось ещё одно самое главное..."
+		time="5" />
+
+	<string
+		id="3"
+		modelName="r1_man"
+		modelSkin="1"
+		modelCfg="12"
+		modelSlot="1"
+		value="Бригадир|Тот кто будет управлять нашим самолётом."
+		time="4" />
+
+	<string
+		id="4"
+		modelName="mask_hero"
+		value="Карл|А что, простой водитель вроде меня не годится?"
+		time="4" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="1"
+		modelCfg="12"
+		modelSlot="1"
+		value="Бригадир|Если бы всё было так просто... Посадив простого водителя вроде тебя, велик риск просто разбить самолёт даже не пролетев десяток километров, а судя по координатам, предстоит путь не близкий и как раз для этого есть человек специализирующийся на воздухоплавании - пилот."
+		time="15" />
+
+	<string
+		id="6"
+		modelName="mask_hero"
+		value="Карл|И где же нам искать этого пилота?"
+		time="4" />
+
+	<string
+		id="7"
+		modelName="r1_man"
+		modelSkin="1"
+		modelCfg="12"
+		modelSlot="1"
+		value="Бригадир|С этим вопросом нам могут помочь в Мидгарде. Так что едем туда."
+		time="5" />
+
+	<string
+		id="8801"
+		value="Вы желаете покинуть эту область?"
+		numButtons="2" />
+
+	<string
+		id="8802"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь."
+		time="3" />
+
+	<string
+		id="8803"
+		modelName="mask_hero"
+		sound="data\sounds\Speech\r3m1\r3m1_8803_hero.ogg"
+		value="Какое-то странное место. Лучше держаться отсюда подальше. "
+		time="3" />
+
+	<string
+		id="8804"
+		value="Хотите переехать через мост?"
+		numButtons="2" />
+
+	<string
+		id="8805"
+		value="Хотите переехать через мост?|Цена проезда - 250"
+		numButtons="2" />
+
+	<string
+		id="6006"
+		value="Чтобы пересечь мост, вам надо иметь 250 монет. Ваших текущих средств явно недостаточно." />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|    Хотя мобильный модуль Оракула и был разрушен, сам компьютер остался цел. Его металлические слуги вернулись в джунгли, и совершают иногда неожиданные набеги на экспедиции Ньери. Успешная установка блокиратора вызвала заметные изменения в жизни людей. База пришельцев переместилась в Зармек, где они, наконец, смогли спокойно исследовать излучение и его действие на людей. Первые эксперименты оказались довольно успешными: некоторым людям удалось снять маски и выжить. Правда, лишь в стенах лаборатории Ньери. Впервые за много лет, у людей появилась надежда на восстановление прежнего мира. Но самые прозорливые начали понимать, что падение тарелки не было случайным, и планы новых союзников могут сильно расходиться с чаяниями людей."
+		sound="data\sounds\Speech\rolik\ending1.ogg"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="57" />
+</resource>

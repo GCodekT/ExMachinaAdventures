@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<Paths>
+	<Path
+		Name="PL_path">
+		<Point
+			coord="2595.177 906.203" />
+
+		<Point
+			coord="2576.907 877.813" />
+
+		<Point
+			coord="2561.868 836.468" />
+
+		<Point
+			coord="2553.321 783.734" />
+
+		<Point
+			coord="2548.006 701.786" />
+	</Path>
+
+	<Path
+		Name="Skorp_path">
+		<Point
+			coord="2676.696 913.407" />
+
+		<Point
+			coord="2705.513 829.449" />
+
+		<Point
+			coord="2720.324 779.553" />
+
+		<Point
+			coord="2733.871 736.200" />
+
+		<Point
+			coord="2730.286 651.338" />
+	</Path>
+
+	<Path
+		Name="start_koch_path">
+		<Point
+			coord="2943.844 1205.110" />
+
+		<Point
+			coord="2975.261 1206.441" />
+	</Path>
+</Paths>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+	<trigger Name="Nachalo_cin" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic("IntenseDialogue01")
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+            god(1)
+
+			SetWeather(1)
+
+		    TeamCreateWithWarez("Gonch_1", 1024, CVector(946.729, 430.205, 484.307), {"MirotvorecShot_2"}, nil, 1)
+			TeamCreateWithWarez("Gonch_2", 1024, CVector(906.503, 428.754, 488.476), {"Ural01"}, nil, 1)
+			TeamCreateWithWarez("Gonch_3", 1024, CVector(871.221, 426.027, 497.684), {"Cruiser01"}, nil, 1)
+			TeamCreateWithWarez("Gonch_4", 1024, CVector(948.900, 429.988, 497.776), {"CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("Gonch_5", 1024, CVector(912.617, 428.557, 502.247), {"CoolBelaz_3"}, nil, 1)
+			TeamCreateWithWarez("Gonch_6", 1024, CVector(884.265, 426.633, 513.715), {"CoolBelaz_2"}, nil, 1)
+			TeamCreateWithWarez("Gonch_7", 1024, CVector(890.208, 426.636, 535.705), {"Ural00"}, nil, 1)
+			TeamCreateWithWarez("Gonch_8", 1024, CVector(921.300, 428.461, 528.581), {"Cruiser02"}, nil, 1)
+			TeamCreateWithWarez("Gonch_9", 1024, CVector(952.114, 430.171, 523.023), {"Hunter02"}, nil, 1)
+			TeamCreateWithWarez("Gonch_10", 1024, CVector(893.755, 428.125, 471.966), {"Ural02"}, nil, 1)
+			TeamCreateWithWarez("Gonch_11", 1024, CVector(919.515, 429.560, 468.786), {"Ural03"}, nil, 1)
+
+			Fly("Nachalo_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
+			Fly("Nachalo_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 1 )
+			StartCinematic()
+			UpdateCinematic(1)
+
+			AddCinematicMessage( 0, 1 )
+
+			TActivate("Nachalo_cin_vehicle")
+			TActivate("Nachalo_cin_vehicle2")
+			TActivate("Nachalo_cin_vehicle3")
+			TActivate( "Nachalo_cin_end" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_vehicle" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)  
+                vehPlayer:SetPosition( CVector(960.707, 430.766, 464.557))
+				vehPlayer:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				
+			end
+
+			local Goncha111 = GetEntityByName("Gonch_1_vehicle_0")
+			if Goncha111 then
+				Goncha111:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha111:SetForcedMaxTorque(1500)
+				Goncha111:SetMaxSpeed(2000)
+				Goncha111:SetCruisingSpeed(1500)
+			end
+
+			local Goncha21 = GetEntityByName("Gonch_2_vehicle_0")
+			if Goncha21 then
+				Goncha21:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha21:SetForcedMaxTorque(1500)
+				Goncha21:SetMaxSpeed(2000)
+				Goncha21:SetCruisingSpeed(1500)
+			end
+
+			local Goncha31 = GetEntityByName("Gonch_3_vehicle_0")
+			if Goncha31 then
+				Goncha31:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha31:SetForcedMaxTorque(1500)
+				Goncha31:SetMaxSpeed(2000)
+				Goncha31:SetCruisingSpeed(1500)
+			end
+
+			local Goncha1111 = GetEntityByName("Gonch_11_vehicle_0")
+			if Goncha1111 then
+				Goncha1111:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha1111:SetForcedMaxTorque(1500)
+				Goncha1111:SetMaxSpeed(2000)
+				Goncha1111:SetCruisingSpeed(1500)
+			end
+
+			local Goncha41 = GetEntityByName("Gonch_4_vehicle_0")
+			if Goncha41 then
+				Goncha41:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha41:SetForcedMaxTorque(1500)
+				Goncha41:SetMaxSpeed(2000)
+				Goncha41:SetCruisingSpeed(1500)
+			end
+
+			local Goncha51 = GetEntityByName("Gonch_5_vehicle_0")
+			if Goncha51 then
+				Goncha51:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha51:SetForcedMaxTorque(1500)
+				Goncha51:SetMaxSpeed(2000)
+				Goncha51:SetCruisingSpeed(1500)
+			end
+
+			local Goncha61 = GetEntityByName("Gonch_6_vehicle_0")
+			if Goncha61 then
+				Goncha61:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha61:SetForcedMaxTorque(1500)
+				Goncha61:SetMaxSpeed(2000)
+				Goncha61:SetCruisingSpeed(1500)
+			end
+
+			local Goncha71 = GetEntityByName("Gonch_7_vehicle_0")
+			if Goncha71 then
+				Goncha71:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha71:SetForcedMaxTorque(1500)
+				Goncha71:SetMaxSpeed(2000)
+				Goncha71:SetCruisingSpeed(1500)
+			end
+
+			local Goncha81 = GetEntityByName("Gonch_8_vehicle_0")
+			if Goncha81 then
+				Goncha81:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha81:SetForcedMaxTorque(1500)
+				Goncha81:SetMaxSpeed(2000)
+				Goncha81:SetCruisingSpeed(1500)
+			end
+
+			local Goncha91 = GetEntityByName("Gonch_9_vehicle_0")
+			if Goncha91 then
+				Goncha91:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha91:SetForcedMaxTorque(1500)
+				Goncha91:SetMaxSpeed(2000)
+				Goncha91:SetCruisingSpeed(1500)
+			end
+
+			local Goncha101 = GetEntityByName("Gonch_10_vehicle_0")
+			if Goncha101 then
+				Goncha101:SetRotation(Quaternion(0.001, -0.711, -0.015, -0.703))
+				Goncha101:SetForcedMaxTorque(1500)
+				Goncha101:SetMaxSpeed(2000)
+				Goncha101:SetCruisingSpeed(1500)
+			end
+
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_vehicle2" active="0">
+		<event flypath="Nachalo_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 1, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_end" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+            local Goncha1 = GetEntityByName("Gonch_1")
+			if Goncha1 then
+				Goncha1:StackOpen()
+				Goncha1:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha1:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha1:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha1:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha1:StackClose()
+			end
+
+			
+
+			local Goncha2 = GetEntityByName("Gonch_2")
+			if Goncha2 then
+				Goncha2:StackOpen()
+				Goncha2:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha2:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha2:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha2:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha2:StackClose()
+			end
+
+			
+
+			local Goncha3 = GetEntityByName("Gonch_3")
+			if Goncha3 then
+				Goncha3:StackOpen()
+				Goncha3:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha3:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha3:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha3:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha3:StackClose()
+			end
+
+			
+
+			local Goncha11 = GetEntityByName("Gonch_11")
+			if Goncha11 then
+				Goncha11:StackOpen()
+				Goncha11:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha11:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha11:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha11:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha11:StackClose()
+			end
+
+			
+
+			local Goncha4 = GetEntityByName("Gonch_4")
+			if Goncha4 then
+				Goncha4:StackOpen()
+				Goncha4:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha4:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha4:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha4:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha4:StackClose()
+			end
+
+			
+
+			local Goncha5 = GetEntityByName("Gonch_5")
+			if Goncha5 then
+				Goncha5:StackOpen()
+				Goncha5:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha5:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha5:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha5:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha5:StackClose()
+			end
+
+			
+
+			local Goncha6 = GetEntityByName("Gonch_6")
+			if Goncha6 then
+				Goncha6:StackOpen()
+				Goncha6:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha6:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha6:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha6:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha6:StackClose()
+			end
+
+			
+
+			local Goncha7 = GetEntityByName("Gonch_7")
+			if Goncha7 then
+				Goncha7:StackOpen()
+				Goncha7:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha7:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha7:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha7:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha7:StackClose()
+			end
+
+			local Goncha8 = GetEntityByName("Gonch_8")
+			if Goncha8 then
+				Goncha8:StackOpen()
+				Goncha8:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha8:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha8:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha8:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha8:StackClose()
+			end
+
+			local Goncha9 = GetEntityByName("Gonch_9")
+			if Goncha9 then
+				Goncha9:StackOpen()
+				Goncha9:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha9:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha9:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha9:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha9:StackClose()
+			end
+
+			local Goncha10 = GetEntityByName("Gonch_10")
+			if Goncha10 then
+				Goncha10:StackOpen()
+				Goncha10:SetDestination( CVector(1949.056, 421.111, 952.906) )
+				Goncha10:SetDestination( CVector(3177.985, 235.684, 1490.764) )
+				Goncha10:SetDestination( CVector(3337.240, 232.274, 2766.073) )
+				Goncha10:SetDestination( CVector(2376.985, 232.810, 3366.149) )
+				Goncha10:StackClose()
+			end
+
+            god(0)
+
+			RestoreAllToleranceStatus()
+
+			PlayCustomMusic("Race01")
+
+			TActivate("CheckPointTR1")
+
+			SetCameraBehindPlayerVehicle()
+
+			TDeactivate("Nachalo_cin_vehicle2")
+			TDeactivate("Nachalo_cin_vehicle3")
+
+			SetTolerance( 1100, 1024, RS_ALLY )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger Name="CheckPointTR1" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_1_loc" />
+		<script>
+			CompleteQuest("Race_quest1")
+			TActivate("CheckPointTR2")
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR2" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_2_loc" />
+		<script>
+			CompleteQuest("Race_quest2")
+			TActivate("CheckPointTR3")
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR3" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_3_loc" />
+		<script>
+			CompleteQuest("Race_quest3")
+			TActivate("CheckPointTR4")
+			TActivate("AtakaDemons_cin")
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR4" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_4_loc" />
+		<script>
+			CompleteQuest("Race_quest4")
+			TActivate("CheckPointTR5")
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:AddModifier("hp","+ 1500")
+			end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR5" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_5_loc" />
+		<script>
+			CompleteQuest("Race_quest5")
+			TActivate("CheckPointTR6")
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:AddModifier("hp","+ 1500")
+			end
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR6" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Checkpoint_6_loc" />
+		<script>
+			CompleteQuest("Race_quest6")
+			TActivate("CheckPointTR7")
+
+			local BD111 = GetEntityByName("BanditDemon1")
+			if BD111 then       
+				BD111:Remove()
+			end
+
+			local BD112 = GetEntityByName("BanditDemon2")
+			if BD112 then       
+				BD112:Remove()
+			end
+
+			StopPlayingCustomMusic()
+
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="CheckPointTR7" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Finish_loc" />
+		<script>
+			CompleteQuest("Race_quest7")
+			TActivate("Finish_cin")
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+
+	<trigger Name="AtakaDemons_cin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+            god(1)
+
+			
+
+			Fly("Race_cam01", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 2, 1 )
+
+			TeamCreate("BanditDemon1", 1005, CVector(3465.241, 255.319, 3144.229), {"Ural03","Ural02","Ural01","Ural02","Ural00"}, CVector(3124.244, 227.095, 3313.060), 1)
+			TeamCreate("BanditDemon2", 1005, CVector(3249.456, 240.630, 3515.279), {"Ural02","CoolBelaz_2","Ural01","Ural02","CoolBelaz_3"}, CVector(3124.244, 227.095, 3313.060), 1)
+
+			TActivate("AtakaDemons_cin_vehicle")
+			TActivate("AtakaDemons_cin_dop_1")
+			TActivate( "AtakaDemons_cin_end" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="AtakaDemons_cin_vehicle" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)  
+
+				
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="AtakaDemons_cin_end" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+            local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetCustomLinearVelocity(30)
+				vehPlayer:SetThrottle(30) 
+			end
+
+			TeamCreate("BanditDemon3", 1005, CVector(1936.241, 235.319, 3297.229), {"CoolBelaz_3","Ural02","Cruiser01"}, CVector(3124.244, 227.095, 3313.060), 1)
+			TeamCreate("BanditDemon4", 1005, CVector(1133.456, 250.630, 3377.279), {"Ural02","CoolBelaz","Ural01","Ural02","CoolBelaz_3"}, nil, 1)
+
+            god(0)
+
+			RestoreAllToleranceStatus()
+
+			PlayCustomMusic("Race02")
+
+			SetCameraBehindPlayerVehicle()
+
+			TDeactivate("AtakaDemons_cin_dop_1")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Finish_cin" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			
+            PlayCustomMusic("IntenseDialogue04")
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+            god(1)
+
+			
+
+			Fly("Race_cam04", CINEMATIC_NO_AIM, 0, 10, 1, 0 )
+			Fly("Race_cam05", CINEMATIC_NO_AIM, 0, 5, 0, 1 )
+			StartCinematic()
+
+			AddCinematicMessage( 3, 0.5 )
+			AddCinematicMessage( 4, 0.5 )
+			AddCinematicMessage( 5, 0.5 )
+
+			TeamCreate("BanditDemon22", 1005, CVector(455.008, 421.745, 1173.631), {"Ural02","CoolBelaz_2","Ural01","Ural02","CoolBelaz_3"}, CVector(379.703, 435, 946.095), 1)
+			
+
+			TActivate("Finish_cin_vehicle")
+			TActivate("Finish_cin_dop_1")
+			TActivate( "Finish_cin_end" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Finish_cin_vehicle" active="0">
+		<event timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)  
+			end
+
+			CreateVehicleEx("MirotvorecFury01","Furry1", CVector(379.703, 435, 946.095), 1066)
+
+			local vehPlayer11 = GetEntityByName("Furry1")
+			if vehPlayer11 then       
+				vehPlayer11:SetSkin(2)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Finish_cin_dop_1" active="0">
+		<event flypath="Race_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 6, 0.5 )
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetExternalPathByName("Pizdec_path") 
+			end
+
+			local vehPlayer1 = GetEntityByName("Furry1")
+			if vehPlayer1 then       
+				vehPlayer1:SetExternalPathByName("Pizdec_path") 
+			end
+
+			
+
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Finish_cin_end" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+            
+
+			
+
+			
+
+			
+			PassToMap("r4m1", "FromR4M2", -1 , true)
+
+            god(0)
+
+			RestoreAllToleranceStatus()
+
+			StopPlayingCustomMusic()
+
+			TDeactivate("Finish_cin_dop_1")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+</triggers>

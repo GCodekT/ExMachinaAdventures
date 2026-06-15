@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+	<trigger Name="GlobalVar" active="1">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+		    trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+
+
+
+	<trigger Name="trFirstRolik" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			g_ObjCont:SetGameTime( 10, 0, 10, 9, 2234 )
+
+			SetRadarUpgrade(1)
+
+			SetWeather(0)
+
+			SetGameTime(11,500)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trTollerance_1" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetTolerance( 1100, 1082, RS_ALLY )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trTollerance_2" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetTolerance( 1100, 1025, RS_ALLY )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+
+	<trigger Name="trFirstSpawn" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateVehicleEx("Cumbine01","Cumbine_1", CVector(1395.703, 267, 3457.095), 1065)
+			CreateVehicleEx("Cumbine01","Cumbine_2", CVector(3575.703, 298, 2829.095), 1065)
+			CreateVehicleEx("Cumbine01","Cumbine_3", CVector(3463.703, 302, 2854.095), 1065)
+			CreateVehicleEx("BelazCaravan","CaravanHost_1", CVector(1773.703, 267, 2500.095), 1065)
+			CreateVehicleEx("BelazCaravan","CaravanHost_2", CVector(1817.703, 267, 2541.095), 1065)
+
+			local vehCarav1 = GetEntityByName("CaravanHost_1")
+			if vehCarav1 then
+				vehCarav1:SetCruisingSpeed(15)
+				vehCarav1:SetExternalPathByName("CaravanHost") 
+			end
+
+			local vehCarav2 = GetEntityByName("CaravanHost_2")
+			if vehCarav2 then
+				vehCarav2:SetCruisingSpeed(15)
+				vehCarav2:SetExternalPathByName("CaravanHost") 
+			end
+
+			local vehFarm1 = GetEntityByName("Cumbine_1")
+			if vehFarm1 then
+				vehFarm1:SetExternalPathByName("Cumbain3") 
+			end
+
+			local vehFarm2 = GetEntityByName("Cumbine_2")
+			if vehFarm2 then
+				vehFarm2:SetExternalPathByName("Cumbain1") 
+			end
+
+			local vehFarm3 = GetEntityByName("Cumbine_3")
+			if vehFarm3 then
+				vehFarm3:SetExternalPathByName("Cumbain2") 
+			end
+
+			TActivate("trPovtorMarchruta_1")
+			TActivate("trPovtorMarchruta_2")
+			TActivate("trPovtorMarchruta_3")
+			TActivate("trPovtorMarchruta_4")
+			TActivate("trPovtorMarchruta_5")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="trPovtorMarchruta_1" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CaravanHost_1"/>
+		<script>
+
+			local vehCarav11 = GetEntityByName("CaravanHost_1")
+			if vehCarav11 then
+				vehCarav11:SetCruisingSpeed(15)
+				vehCarav11:SetExternalPathByName("CaravanHost") 
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="trPovtorMarchruta_2" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="CaravanHost_2"/>
+		<script>
+
+			local vehCarav22 = GetEntityByName("CaravanHost_2")
+			if vehCarav22 then
+				vehCarav22:SetCruisingSpeed(15)
+				vehCarav22:SetExternalPathByName("CaravanHost") 
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="trPovtorMarchruta_3" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="Cumbine_1"/>
+		<script>
+
+			local vehFarm11 = GetEntityByName("Cumbine_1")
+			if vehFarm11 then
+				vehFarm11:SetExternalPathByName("Cumbain3") 
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="trPovtorMarchruta_4" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="Cumbine_2"/>
+		<script>
+
+			local vehFarm22 = GetEntityByName("Cumbine_2")
+			if vehFarm22 then
+				vehFarm22:SetExternalPathByName("Cumbain1") 
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="trPovtorMarchruta_5" active="0">
+		<event eventid="GE_TARGET_REACHED" ObjName="Cumbine_3"/>
+		<script>
+
+			local vehFarm33 = GetEntityByName("Cumbine_3")
+			if vehFarm33 then
+				vehFarm33:SetExternalPathByName("Cumbain2") 
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="triggerExitToMap15" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="InBase_loc" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			local b = SpawnMessageBox( "8800" )
+			if b == 1 then
+				PassToMap("r1m5", "FromR1M1", -1 )
+				trigger:Deactivate()
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				
+				TActivate ("RolikENDExitToMap15")
+			end
+ 		</script>
+	</trigger>
+	
+	
+
+	<trigger Name="ActivatePerexod" active="0">
+		<event    eventid="GE_LEAVE_TOWN"    ObjName="Port_town" />
+		<script>
+			local a = GetEntityByName("ToR4M1")
+            if a then a:SetProperty("Active",1) end
+
+			SpawnMessageBox( "8804" )
+
+			trigger:Deactivate()
+ 		</script>
+	</trigger>
+	
+	<trigger Name="triggerExitToMap41" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToR4M1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			
+
+			local b = SpawnMessageBox( "8802" )
+			if b == 1 then
+			    CompleteQuest("Port_quest2")
+				PassToMap("r4m1", "FromR1M1", -1 )
+				trigger:Deactivate()
+			else
+				SaveAllToleranceStatus(RS_NEUTRAL)
+
+				FlyAround(1, 0, 25, 1, PlfCoor, PlfID, 1, 1 )
+				StartCinematic()
+
+				
+				TActivate ("RolikENDExitToMap41")
+			end
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMap41" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("Otshelnik_loc")))
+
+			TDeactivate( "RolikExitToMap21" )
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+</triggers>

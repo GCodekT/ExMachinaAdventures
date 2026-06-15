@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<DynamicScene
+	LastId="578">
+	<TargetNamesForDestroy
+		Names="" />
+
+	<Object
+		Name="Player1"
+		Belong="1100"
+		Prototype="player" />
+
+	
+
+	<Object
+		Name="Human3487"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="429.740 398.792 442.917" />
+
+	<Object
+		Name="Human2488"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="441.983 396.919 474.412"
+		Rot="0.000 0.999 0.000 -0.035" />
+
+	<Object
+		Name="Human2489"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="513.765 392.889 445.133"
+		Rot="0.000 0.783 0.000 0.623" />
+
+	<Object
+		Name="Human3490"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="553.574 390.872 452.000"
+		Rot="0.000 0.695 0.000 0.719" />
+
+	<Object
+		Name="Human491"
+		Belong="1001"
+		Prototype="Human"
+		Pos="529.646 389.484 480.698"
+		Rot="0.000 0.995 0.000 -0.096" />
+
+	<Object
+		Name="Human492"
+		Belong="1001"
+		Prototype="Human"
+		Pos="508.874 401.957 434.815"
+		Rot="0.000 -0.616 0.000 0.788" />
+
+	<Object
+		Name="Human3493"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="460.704 400.209 394.955"
+		Rot="0.000 0.701 0.000 0.713" />
+
+	<Object
+		Name="Human2494"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="461.784 400.125 395.281"
+		Rot="0.000 -0.559 0.000 0.829" />
+
+	<Object
+		Name="Human2495"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="479.317 394.904 440.287"
+		Rot="0.000 -0.656 0.000 0.755" />
+
+	<Object
+		Name="Human3496"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="443.526 396.795 477.743"
+		Rot="0.000 0.292 0.000 0.956" />
+
+	<Object
+		Name="Human497"
+		Belong="1001"
+		Prototype="Human"
+		Pos="437.181 397.385 472.494"
+		Rot="0.000 0.070 0.000 0.998" />
+
+	<Object
+		Name="Human498"
+		Belong="1001"
+		Prototype="Human"
+		Pos="410.305 399.195 471.516"
+		Rot="0.000 0.731 0.000 0.682" />
+
+	<Object
+		Name="Human499"
+		Belong="1001"
+		Prototype="Human"
+		Pos="825.760 423.423 647.446"
+		Rot="0.000 -0.994 0.000 0.113" />
+
+	<Object
+		Name="Human500"
+		Belong="1001"
+		Prototype="Human"
+		Pos="801.404 424.089 666.965"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human501"
+		Belong="1001"
+		Prototype="Human"
+		Pos="796.523 426.236 672.254"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human502"
+		Belong="1001"
+		Prototype="Human"
+		Pos="788.807 426.928 675.811"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human503"
+		Belong="1001"
+		Prototype="Human"
+		Pos="787.238 430.461 681.335"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human504"
+		Belong="1001"
+		Prototype="Human"
+		Pos="799.824 429.688 676.458"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human505"
+		Belong="1001"
+		Prototype="Human"
+		Pos="812.244 423.420 661.604"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human3506"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="797.663 430.765 679.020"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human3507"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="791.346 425.464 673.046"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human3508"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="810.130 425.480 665.794"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2509"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="795.190 431.092 680.509"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2510"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="788.821 425.693 673.940"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2511"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="810.922 428.844 670.817"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2512"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="809.120 423.655 663.293"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2513"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="808.009 428.334 671.135"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2514"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="801.703 425.841 669.625"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human2515"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="791.452 430.344 680.688"
+		Rot="0.000 -0.997 0.000 0.083" />
+
+	<Object
+		Name="Human516"
+		Belong="1001"
+		Prototype="Human"
+		Pos="291.275 452.153 1052.097"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human517"
+		Belong="1001"
+		Prototype="Human"
+		Pos="303.057 448.760 1019.033"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human518"
+		Belong="1001"
+		Prototype="Human"
+		Pos="297.964 447.860 1069.313"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human519"
+		Belong="1001"
+		Prototype="Human"
+		Pos="310.858 439.580 1045.810"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human520"
+		Belong="1001"
+		Prototype="Human"
+		Pos="316.200 438.875 1027.381"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human521"
+		Belong="1001"
+		Prototype="Human"
+		Pos="304.756 442.761 1062.791"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human522"
+		Belong="1001"
+		Prototype="Human"
+		Pos="312.239 439.707 1034.052"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human523"
+		Belong="1001"
+		Prototype="Human"
+		Pos="297.323 450.195 1028.083"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human524"
+		Belong="1001"
+		Prototype="Human"
+		Pos="307.845 448.164 1009.769"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human525"
+		Belong="1001"
+		Prototype="Human"
+		Pos="306.085 444.157 1030.180"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2526"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="309.953 439.175 1057.102"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2527"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="299.683 446.511 1052.115"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2528"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="295.322 449.521 1068.099"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2529"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="303.021 444.782 1046.416"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2530"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="299.324 448.201 1035.664"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2531"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="311.695 444.220 1016.001"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2532"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="309.930 440.986 1037.066"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2533"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="306.876 446.991 1016.750"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2534"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="309.669 444.261 1020.754"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2535"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="296.243 449.718 1041.930"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2536"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="298.538 446.817 1057.263"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human2537"
+		Belong="1001"
+		Prototype="Human2"
+		Pos="309.819 441.044 1037.242"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3538"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="313.190 438.874 1036.478"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3539"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="301.374 446.638 1037.892"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3540"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="318.176 440.483 1015.029"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3541"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="306.043 444.458 1028.773"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3542"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="298.569 447.042 1054.528"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3543"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="301.816 447.974 1025.148"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="Human3544"
+		Belong="1001"
+		Prototype="Human3"
+		Pos="305.762 443.299 1042.455"
+		Rot="0.000 0.623 0.000 0.783" />
+
+	<Object
+		Name="poddon545"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="479.550 396.478 423.593" />
+
+	<Object
+		Name="poddon546"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="475.430 395.540 435.327" />
+
+	<Object
+		Name="poddon547"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="407.018 401.365 425.839" />
+
+	<Object
+		Name="poddon548"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="406.558 400.792 437.983" />
+
+	<Object
+		Name="poddon549"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="401.655 401.499 429.706"
+		Rot="0.000 0.956 0.000 0.292" />
+
+	<Object
+		Name="poddon550"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="521.967 392.694 443.280"
+		Rot="0.000 0.951 0.000 0.309" />
+
+	<Object
+		Name="poddon551"
+		Belong="1001"
+		Prototype="poddon"
+		Pos="553.044 390.958 450.632"
+		Rot="0.000 -0.446 0.000 0.895" />
+
+	<Object
+		Name="factory_box552"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="513.786 392.500 449.298"
+		Rot="0.000 0.895 0.000 0.446" />
+
+	<Object
+		Name="factory_box553"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="524.018 393.669 431.537"
+		Rot="0.000 0.760 0.000 0.649" />
+
+	<Object
+		Name="factory_box554"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="398.668 401.094 441.806"
+		Rot="0.000 -0.749 0.000 0.663" />
+
+	<Object
+		Name="factory_box555"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="412.815 400.100 443.702"
+		Rot="0.000 0.930 0.000 -0.367" />
+
+	<Object
+		Name="factory_box556"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="411.057 400.942 428.860"
+		Rot="0.000 -0.649 0.000 0.760" />
+
+	<Object
+		Name="factory_box557"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="405.677 400.669 441.732"
+		Rot="0.000 -0.182 0.000 0.983" />
+
+	<Object
+		Name="factory_box558"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="421.913 399.380 444.504"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="factory_box559"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="445.494 398.651 422.168"
+		Rot="0.000 0.407 0.000 0.914" />
+
+	<Object
+		Name="factory_box560"
+		Belong="1001"
+		Prototype="factory_box"
+		Pos="445.883 399.272 414.109"
+		Rot="0.000 0.978 0.000 -0.208" />
+
+	<Object
+		Name="pack_breakable561"
+		Belong="1001"
+		Prototype="pack_breakable"
+		Pos="448.918 398.375 422.150"
+		Rot="0.000 -0.383 0.000 0.924" />
+
+	<Object
+		Name="pack_breakable562"
+		Belong="1001"
+		Prototype="pack_breakable"
+		Pos="442.636 400.359 404.532"
+		Rot="0.000 -0.009 0.000 1.000" />
+
+	<Object
+		Name="brokvehicle1_breakable563"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="412.616 400.540 434.700"
+		Rot="0.000 0.994 0.000 0.105" />
+
+	<Object
+		Name="brokvehicle1_breakable564"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="412.259 401.406 418.735"
+		Rot="0.000 0.983 0.000 -0.182" />
+
+	<Object
+		Name="brokvehicle1_breakable565"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="478.782 395.435 434.604"
+		Rot="0.000 0.581 0.000 0.814" />
+
+	<Object
+		Name="brokvehicle1_breakable566"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="480.839 392.445 477.684"
+		Rot="0.000 0.996 0.000 0.087" />
+
+	<Object
+		Name="brokvehicle1_breakable567"
+		Belong="1001"
+		Prototype="brokvehicle1_breakable"
+		Pos="491.263 391.459 479.008"
+		Rot="0.000 0.954 0.000 -0.301" />
+
+	<Object
+		Name="FromR4M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="256.174 411.174 448.909"
+		Radius="10.000" />
+
+	<Object
+		Name="ToR4M1"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="129.245 413.780 428.992"
+		Radius="95.591" />
+
+	<Object
+		Name="LoseRace_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="344.484 403.646 380.686"
+		Radius="301.459" />
+
+	<Object
+		Name="Checkpoint_1_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1949.056 421.111 952.906"
+		Radius="37.689" />
+
+	<Object
+		Name="Checkpoint_2_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3177.985 235.684 1490.764"
+		Radius="44.987" />
+
+	<Object
+		Name="Checkpoint_3_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="3337.240 232.274 2766.073"
+		Radius="36.950" />
+
+	<Object
+		Name="Checkpoint_4_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="2376.985 232.810 3366.149"
+		Radius="36.950" />
+
+	<Object
+		Name="Checkpoint_5_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1191.384 230.878 3260.999"
+		Radius="41.611" />
+
+	<Object
+		Name="Checkpoint_6_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1387.320 216.452 1737.983"
+		Radius="35.922" />
+
+	<Object
+		Name="Finish_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="414.120 435.622 979.614"
+		Radius="39.996" />
+</DynamicScene>

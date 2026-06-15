@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<Paths>
+
+    <Path Name = "Karavan_cam01">
+		<Point  coord="406.850 355.700 248.348" rotation="-0.016 0.890 -0.032 0.455"/>
+        <Point  coord="506.068 353.269 342.592" rotation="-0.020 0.867 -0.035 0.497"/>
+	</Path>
+
+    <Path Name = "Zaval_cam01">
+		<Point  coord="0.000 1.000 0.000"/>  
+	</Path>
+
+    <Path Name = "Zaval_cam02">
+		<Point  coord="3127.275 461.625 848.824" rotation="0.033 -0.672 -0.030 0.739"/>
+        <Point  coord="3125.289 461.625 879.957" rotation="0.034 -0.754 -0.040 0.655"/>
+	</Path>
+
+    <Path Name = "Boloto_cam01">
+		<Point  coord="2476.046 386.529 2564.521" rotation="-0.015 0.461 -0.008 0.887"/>
+        <Point  coord="2476.046 386.529 2564.521" rotation="-0.027 0.099 -0.003 0.995"/>
+	</Path>
+
+    <Path Name = "Boloto_cam02">
+		<Point  coord="1152.426 382.575 3513.343" rotation="-0.153 -0.284 0.046 0.945"/>
+        <Point  coord="1142.778 382.575 3708.235" rotation="0.060 0.928 -0.169 -0.328"/>
+	</Path>
+
+	<Path Name = "Sever_cam01">
+		<Point  coord="1876.624 349.561 894.875" rotation="0.020 0.961 -0.072 -0.267"/>
+        <Point  coord="1862.426 349.561 879.406" rotation="-0.024 -0.698 0.023 0.715"/>
+        <Point  coord="1867.265 349.292 866.908" rotation="-0.023 -0.437 0.011 0.899"/>
+	</Path>
+
+	<Path Name = "EndEP3_cam01">
+		<Point  coord="1860.045 394.350 840.161" rotation="0.078 -0.157 -0.013 0.984"/>
+        <Point  coord="1860.045 394.350 840.161" rotation="0.069 -0.387 -0.029 0.919"/>
+	</Path>
+
+	<Path Name = "EndEP3_cam02">
+		<Point  coord="2571.103 359.083 694.543" rotation="0.029 -0.499 -0.016 0.866"/>
+	</Path>
+
+</Paths>

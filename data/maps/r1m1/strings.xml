@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<resource>
+    <string
+		id="0"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_0_xpom.ogg"
+		value="Хром|Бак почти пуст, надо бы заправиться в ближайшей деревне."
+		time="4" />
+
+    <string
+		id="1"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_1_xpom.ogg"
+		value="Хром|Но вот что делать дальше, я не знаю..."
+		time="3" />
+
+    <string
+		id="2"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_2_xpom.ogg"
+		value="Хром|Денег почти нет, а последнее дело чуть не стало действительно последним."
+		time="4" />
+
+    <string
+		id="3"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_3_xpom.ogg"
+		value="Хром|Ладно, остановлюсь здесь и послушаю, о чём говорят местные."
+		time="4" />
+
+	<string
+		id="4"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_4_xo3.ogg"
+		value="Хозяин Заправки|Сколько льём шеф?"
+		time="3" />
+
+	<string
+		id="5"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_5_xpom.ogg"
+		value="Хром|Полный бак и канистры в кузове тоже заправь, а я пока схожу в местный бар."
+		time="5" />
+
+	<string
+		id="6"
+		sound="data\sounds\Speech\r1m1\r1m1_6_starik.ogg"
+		value="Старик|Далеко ли путь держишь, странник?"
+		time="3" />
+
+	<string
+		id="7"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_7_xpom.ogg"
+		value="Хром|Я и сам не знаю. Последнее дело провалилось, а я чуть не простился с жизнью."
+		time="5" />
+
+	<string
+		id="8"
+		sound="data\sounds\Speech\r1m1\r1m1_8_starik.ogg"
+		value="Старик|Вот как? И кто же так тебя потрепал?"
+		time="4" />
+
+	<string
+		id="9"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_9_xpom.ogg"
+		value="Хром|Булат. Обещал честный делёж после вылазки. А когда добрались до добычи, решил, что моя доля ему нужнее."
+		time="7" />
+
+	<string
+		id="10"
+		sound="data\sounds\Speech\r1m1\r1m1_10_starik.ogg"
+		value="Старик|Знакомая история. Старый мир погиб давно, а жадность пережила даже его."
+		time="7" />
+
+	<string
+		id="11111"
+		value="|@FF000000АААААА@FFFFA600Некоторое время спустя@FF000000АААААА"
+		time="4" />
+
+	<string
+		id="11"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_11_xpom.ogg"
+		value="Хром|Теперь вот думаю, куда ехать дальше. Денег почти нет. Связей тоже."
+		time="5" />
+
+	<string
+		id="12"
+		sound="data\sounds\Speech\r1m1\r1m1_12_starik.ogg"
+		value="Старик|Зато машина у тебя ещё на ходу."
+		time="4" />
+
+	<string
+		id="13"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_13_xpom.ogg"
+		value="Хром|Пока на ходу..."
+		time="2" />
+
+	<string
+		id="14"
+		sound="data\sounds\Speech\r1m1\r1m1_14_starik.ogg"
+		value="Старик|Значит ты Искатель приключений? Редкие вы теперь гости. Раньше каждый желал быть отчаянным авантюристом и первооткрывателем останков старого мира. Теперь же каждый второй либо бандит, либо служит тому, кто платит."
+		time="16" />
+
+	<string
+		id="15"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_15_xpom.ogg"
+		value="Хром|Жизнь такая. Искать прошлое стало опаснее, чем воевать за чужие интересы."
+		time="5" />
+
+	<string
+		id="16"
+		sound="data\sounds\Speech\r1m1\r1m1_16_starik.ogg"
+		value="Старик|И всё же находятся люди, которые продолжают искать."
+		time="4" />
+
+	<string
+		id="17"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_17_xpom.ogg"
+		value="Хром|Иногда кажется, что зря."
+		time="2" />
+
+	<string
+		id="18"
+		sound="data\sounds\Speech\r1m1\r1m1_18_starik.ogg"
+		value="Старик|Не скажи. Некоторые находки способны изменить человеку всю жизнь."
+		time="5" />
+
+	<string
+		id="19"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_19_xpom.ogg"
+		value="Хром|Ты говоришь так, будто сам этим занимался."
+		time="3" />
+
+	<string
+		id="20"
+		sound="data\sounds\Speech\r1m1\r1m1_20_starik.ogg"
+		value="Старик|Было дело. Но очень давно."
+		time="3" />
+
+	<string
+		id="21"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_21_xpom.ogg"
+		value="Хром|И что, много нашёл?"
+		time="2" />
+
+	<string
+		id="22"
+		sound="data\sounds\Speech\r1m1\r1m1_22_starik.ogg"
+		value="Старик|Достаточно, чтобы понять одну вещь. Самые ценные руины находятся не там, где все ищут."
+		time="7" />
+
+	<string
+		id="23"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_23_xpom.ogg"
+		value="Хром|И где же?"
+		time="2" />
+
+	<string
+		id="24"
+		sound="data\sounds\Speech\r1m1\r1m1_24_starik.ogg"
+		value="Старик|Есть места на юге. Горные районы. После Катастрофы туда почти никто не добирался. Слишком далеко. Слишком опасно."
+		time="10" />
+
+	<string
+		id="25"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_25_xpom.ogg"
+		value="Хром|И ты знаешь дорогу?"
+		time="2" />
+
+	<string
+		id="26"
+		sound="data\sounds\Speech\r1m1\r1m1_26_starik.ogg"
+		value="Старик|Даже больше, у меня есть карта со старыми маршрутами. Пометки. Несколько мест, которые мне попадались в записях других искателей."
+		time="10" />
+
+	<string
+		id="27"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_27_xpom.ogg"
+		value="Хром|Выглядит слишком хорошо для обычной байки у бара. Если карта настоящая, почему сам не поехал?"
+		time="6" />
+
+	<string
+		id="28"
+		sound="data\sounds\Speech\r1m1\r1m1_28_starik.ogg"
+		value="Старик|Потому что молодость закончилась раньше, чем любопытство."
+		time="4" />
+
+	<string
+		id="29"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_29_xpom.ogg"
+		value="Хром|Уклончивый ответ."
+		time="2" />
+
+	<string
+		id="30"
+		sound="data\sounds\Speech\r1m1\r1m1_30_starik.ogg"
+		value="Старик|Знаешь... Ты сейчас похож на человека, которому всё равно нечего терять."
+		time="6" />
+
+	<string
+		id="31"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_31_xpom.ogg"
+		value="Хром|И что я там найду?"
+		time="2" />
+
+	<string
+		id="32"
+		sound="data\sounds\Speech\r1m1\r1m1_32_starik.ogg"
+		value="Старик|Этого я не знаю, да и не узнаю уже никогда..."
+		time="4" />
+
+	<string
+		id="33"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m1\r1m1_33_xo3.ogg"
+		value="Хозяин Заправки|Готово шеф!"
+		time="2" />
+
+	<string
+		id="34"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m1\r1m1_34_xpom.ogg"
+		value="Хром|Ладно, мне пора. Бывай, старик... И спасибо!"
+		time="5" />
+
+	<string
+		id="35"
+		sound="data\sounds\Speech\r1m1\r1m1_35_starik.ogg"
+		value="Старик|Удачи тебе!"
+		time="2" />
+
+	<string
+		id="36"
+		sound="data\sounds\Speech\r1m1\r1m1_36_koch.ogg"
+		value="|Неплохо, из тебя вышел бы отличный актёр."
+		time="4" />
+
+	<string
+		id="37"
+		sound="data\sounds\Speech\r1m1\r1m1_37_starik.ogg"
+		value="Старик|Откуда ты знал, что он поверит в эту сказку? И почему именно он?"
+		time="6" />
+
+	<string
+		id="38"
+		sound="data\sounds\Speech\r1m1\r1m1_38_koch.ogg"
+		value="|Человек, оказавшись на дне, будет цепляться за любую возможность. А его путь, ещё далёк от завершения."
+		time="8" />
+
+	<string
+		id="8801"
+		value="Вы не смогли защитить караван"
+		numButtons="1" />
+
+	<string
+		id="77771"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_up.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade.dds"
+		value="@ffffffff|"
+		fontSize="18"
+		scrollSpeed="0.5"
+		time="2" />
+	
+</resource>

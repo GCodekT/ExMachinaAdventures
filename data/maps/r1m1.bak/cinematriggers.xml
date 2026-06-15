@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<triggers>
+
+    
+
+	<trigger Name="NachaloNachalo_cin" active="1">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			Fly("start_game", CINEMATIC_NO_AIM, 0, 2, 1, 1 )
+			StartCinematic()
+			UpdateCinematic(1)
+
+			AddCinematicMessage( 77771, 0.1 )
+            
+			TActivate("Nachalo_cin_music")
+			TActivate("Nachalo_cin")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_music" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			PlayCustomMusic("Opening01")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger Name="Nachalo_cin" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+            god(1)
+
+			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(365.072, 267.749, 3804.056), Quaternion(0, 0, 0, 0), 0)
+			CreateNewDummyObject( "brick_debris1", "CamTochka1", -1, -1, CVector(852.300, 283.728, 3853.403), Quaternion(0, 0, 0, 0), 0)
+			CreateNewDummyObject( "brick_debris1", "CamTochka2", -1, -1, CVector(878.169, 279.669, 3262.125), Quaternion(0, 0, 0, 0), 0)
+			CreateNewDummyObject( "brick_debris1", "CamTochka3", -1, -1, CVector(922.145, 270.257, 2956.118), Quaternion(0, 0, 0, 0), 0)
+			CreateNewDummyObject( "brick_debris1", "CamTochka4", -1, -1, CVector(1012.725, 291.099, 2555.795), Quaternion(0, 0, 0, 0), 0)
+
+            local Plf = GetPlayerVehicle()
+            local PlfID = GetPlayerVehicleId()
+
+            local CToch = GetEntityByName("CamTochka")
+            local CTochID = CToch:GetId()
+
+			local Plf1 = GetPlayerVehicle()
+            local Plf1ID = GetPlayerVehicleId()
+
+            local CToch1 = GetEntityByName("CamTochka1")
+            local CToch1ID = CToch1:GetId()
+
+			local Plf2 = GetPlayerVehicle()
+            local Plf2ID = GetPlayerVehicleId()
+
+            local CToch2 = GetEntityByName("CamTochka2")
+            local CToch2ID = CToch2:GetId()
+
+			local Plf3 = GetPlayerVehicle()
+            local Plf3ID = GetPlayerVehicleId()
+
+            local CToch3 = GetEntityByName("CamTochka3")
+            local CToch3ID = CToch3:GetId()
+
+			local Plf4 = GetPlayerVehicle()
+            local Plf4ID = GetPlayerVehicleId()
+
+            local CToch4 = GetEntityByName("CamTochka4")
+            local CToch4ID = CToch4:GetId()
+
+            FlyLinked( "Nachalo_cam01", CTochID, 12, 1, 0, PlfID )
+			FlyLinked( "Nachalo_cam02", CToch1ID, 19, 0, 0, Plf1ID )
+			FlyLinked( "Nachalo_cam03", CToch2ID, 10, 0, 0, Plf2ID )
+            Fly("Nachalo_cam04", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
+			Fly("Nachalo_cam05", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
+			Fly("Nachalo_cam06", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
+			Fly("Nachalo_cam07", CINEMATIC_NO_AIM, 0, 24, 0, 0 )
+			Fly("Nachalo_cam08", CINEMATIC_NO_AIM, 0, 52, 0, 0 )
+			Fly("Nachalo_cam09", CINEMATIC_NO_AIM, 0, 15, 0, 0 )
+			Fly("Nachalo_cam10", CINEMATIC_NO_AIM, 0, 9, 0, 0 )
+			FlyLinked( "Nachalo_cam11", CToch3ID, 5, 0, 0, Plf3ID )
+			FlyLinked( "Nachalo_cam12", CToch4ID, 14, 0, 1, Plf4ID )
+			StartCinematic()
+			UpdateCinematic(1)
+
+			AddCinematicMessage( 0, 3.5 )
+
+			TActivate("Nachalo_cin_vehicle")
+			TActivate( "Nachalo_cin_dop_2" )
+			TActivate( "Nachalo_cin_dop_3" )
+			TActivate( "Nachalo_cin_dop_5")
+			TActivate( "Nachalo_cin_dop_6" )
+			TActivate( "Nachalo_cin_dop_7" )
+			TActivate( "Nachalo_cin_dop_8")
+			TActivate( "Nachalo_cin_dop_9" )
+			TActivate( "Nachalo_cin_dop_10" )
+			TActivate( "Nachalo_cin_dop_11" )
+			TActivate( "Nachalo_cin_dop_12" )
+			TActivate( "Nachalo_cin_end" )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_vehicle" active="0">
+		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetExternalPathByName("1_path")
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)         
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_2" active="0">
+		<event flypath="Nachalo_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 1, 0.5 )
+			AddCinematicMessage( 2, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_3" active="0">
+		<event flypath="Nachalo_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 3, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger Name="Nachalo_cin_dop_5" active="0">
+		<event flypath="Nachalo_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    AddCinematicMessage( 4, 0.5 )
+
+		    PlayCustomMusic("agriculruar_town1")
+
+		    CreateNewDummyObject( "dweller_felix", "humPlayer", -1, -1, CVector(929.704, 267.326, 2988.015), Quaternion(0.0000, -0.7518, 0.0000, 0.6593), 0)
+			
+			CreateNewDummyObject( "dweller3", "humDed", -1, -1, CVector(914.367, 266.931, 3016.739), Quaternion(0.0000, 0.8940, 0.0000, 0.4481), 0)
+			CreateNewDummyObject( "dweller06", "humHoz", -1, -1, CVector(922.804, 267.126, 2986.854), Quaternion(0.0000, 0.6018, 0.0000, 0.7986), 1)
+            
+			getObj("humHoz"):SetNodeAction(AT_STAND2)
+		    getObj("humHoz"):SetNextForAnimation(AT_STAND2, AT_STAND1)
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+                vehPlayer:SetExternalPathByName("1_path")
+				vehPlayer:PlaceToEndOfPath("1_path")
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(928.060, 268.118, 2980.698))
+				vehPlayer:SetRotation(Quaternion(-0.006, 0.998, 0.002, 0.066))
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_6" active="0">
+		<event flypath="Nachalo_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+		    
+
+			AddCinematicMessage( 5, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+    <trigger Name="Nachalo_cin_dop_7" active="0">
+		<event flypath="Nachalo_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    AddCinematicMessage( 6, 0.5 )
+			AddCinematicMessage( 7, 0.5 )
+			AddCinematicMessage( 8, 0.5 )
+
+			getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+		    local humPl = GetEntityByName("humPlayer")
+			if humPl then
+				humPl:Remove()
+			end
+		    
+		    CreateNewDummyObject( "dweller_felix", "humPlayer1", -1, -1, CVector(916.165, 267.055, 3015.550), Quaternion(0.0000, -0.4127, 0.0000, 0.9109), 0)
+			TActivate("Kochewnik_cin1_dop_71")
+			TActivate("Kochewnik_cin1_dop_72")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_71" active="0">
+		<event msgid="7" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humDed"):SetNodeAction(AT_STAND1)
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_72" active="0">
+		<event msgid="8" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+
+	<trigger Name="Nachalo_cin_dop_8" active="0">
+		<event flypath="Nachalo_cam08" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 9, 0.5 )
+			AddCinematicMessage( 10, 0.5 )
+			AddCinematicMessage( 12, 0.5 )
+			AddCinematicMessage( 13, 0.5 )
+			AddCinematicMessage( 14, 0.5 )
+			AddCinematicMessage( 15, 0.5 )
+			AddCinematicMessage( 16, 0.5 )
+			AddCinematicMessage( 17, 0.5 )
+
+			TActivate("Kochewnik_cin1_dop_81")
+			TActivate("Kochewnik_cin1_dop_82")
+			TActivate("Kochewnik_cin1_dop_83")
+			TActivate("Kochewnik_cin1_dop_84")
+			TActivate("Kochewnik_cin1_dop_85")
+			TActivate("Kochewnik_cin1_dop_86")
+			TActivate("Kochewnik_cin1_dop_87")
+			TActivate("Kochewnik_cin1_dop_88")
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+
+	<trigger Name="Kochewnik_cin1_dop_81" active="0">
+		<event msgid="9" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_82" active="0">
+		<event msgid="10" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_83" active="0">
+		<event msgid="14" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_84" active="0">
+		<event msgid="12" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humDed"):SetNodeAction(AT_STAND1)
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_85" active="0">
+		<event msgid="13" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humPlayer1"):SetNodeAction(AT_STAND1)
+		    getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+
+	<trigger Name="Kochewnik_cin1_dop_86" active="0">
+		<event msgid="15" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_87" active="0">
+		<event msgid="16" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_88" active="0">
+		<event msgid="17" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    
+
+			getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_9" active="0">
+		<event flypath="Nachalo_cam09" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    PlayCustomMusic("QuietDialogue01")
+
+			AddCinematicMessage( 18, 0.5 )
+			AddCinematicMessage( 19, 0.5 )
+
+			TActivate("Kochewnik_cin1_dop_91")
+			TActivate("Kochewnik_cin1_dop_92")
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_91" active="0">
+		<event msgid="18" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_92" active="0">
+		<event msgid="19" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    
+            getObj("humPlayer1"):SetNodeAction(AT_STAND1)
+			getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_10" active="0">
+		<event flypath="Nachalo_cam10" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    PlayCustomMusic("QuietDialogue03")
+
+			AddCinematicMessage( 20, 0.5 )
+			AddCinematicMessage( 21, 0.5 )
+			AddCinematicMessage( 22, 0.5 )
+
+            TActivate("Kochewnik_cin1_dop_101")
+			TActivate("Kochewnik_cin1_dop_102")
+			TActivate("Kochewnik_cin1_dop_103")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_101" active="0">
+		<event msgid="20" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+		    getObj("humHoz"):SetNodeAction(AT_STAND2)
+		    getObj("humHoz"):SetNextForAnimation(AT_STAND2, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_102" active="0">
+		<event msgid="21" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+		    getObj("humPlayer1"):SetNodeAction(AT_RESERVED1)
+			getObj("humPlayer1"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Kochewnik_cin1_dop_103" active="0">
+		<event msgid="22" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+            getObj("humPlayer1"):SetNodeAction(AT_STAND1)
+		    getObj("humDed"):SetNodeAction(AT_RESERVED1)
+			getObj("humDed"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_11" active="0">
+		<event flypath="Nachalo_cam11" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+		    
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then
+                vehPlayer:SetExternalPathByName("2_path")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_dop_12" active="0">
+		<event flypath="Nachalo_cam12" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 23, 0.5 )
+			AddCinematicMessage( 24, 0.5 )
+			AddCinematicMessage( 25, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Nachalo_cin_end" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+
+            
+
+			
+
+			
+
+            god(0)
+
+			RestoreAllToleranceStatus()
+
+            TDeactivate( "Nachalo_cin_dop_2" )
+			TDeactivate( "Nachalo_cin_dop_3" )
+            TDeactivate( "Nachalo_cin_dop_4" )
+			TDeactivate( "Nachalo_cin_dop_5" )
+            TDeactivate( "Nachalo_cin_dop_6" )
+			TDeactivate( "Nachalo_cin_dop_7" )
+            TDeactivate( "Nachalo_cin_dop_8" )
+			TDeactivate( "Nachalo_cin_dop_9" )
+            TDeactivate( "Nachalo_cin_dop_10" )
+			TDeactivate( "Nachalo_cin_dop_11" )
+            TDeactivate( "Nachalo_cin_dop_12" )
+			TDeactivate( "Kochewnik_cin1_dop_71" )
+			TDeactivate( "Kochewnik_cin1_dop_72" )
+            TDeactivate( "Kochewnik_cin1_dop_81" )
+			TDeactivate( "Kochewnik_cin1_dop_82" )
+            TDeactivate( "Kochewnik_cin1_dop_83" )
+			TDeactivate( "Kochewnik_cin1_dop_84" )
+            TDeactivate( "Kochewnik_cin1_dop_85" )
+			TDeactivate( "Kochewnik_cin1_dop_86" )
+            TDeactivate( "Kochewnik_cin1_dop_87" )
+			TDeactivate( "Kochewnik_cin1_dop_88" )
+            TDeactivate( "Kochewnik_cin1_dop_91" )
+			TDeactivate( "Kochewnik_cin1_dop_92" )
+			TDeactivate( "Kochewnik_cin1_dop_101" )
+            TDeactivate( "Kochewnik_cin1_dop_102" )
+			TDeactivate( "Kochewnik_cin1_dop_103" )
+
+			StopPlayingCustomMusic()
+
+			PassToMap("r1m2", "FromR1M1", -1, true )
+
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+
+</triggers>
