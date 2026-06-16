@@ -3584,7 +3584,7 @@
 		</script>
 	</trigger>
 
-    <trigger Name="FallingPlane_cin" active="0">
+<!--    <trigger Name="FallingPlane_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="FallingPlane_loc" />
 		<script>
 			PlayCustomMusic("Bio02")
@@ -3675,8 +3675,24 @@
 
 			trigger:Deactivate()
 		</script>
-	</trigger>
+	</trigger> -->
 
+	<trigger Name="FallingPlane_cin" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="FallingPlane_loc" />
+		<script>
+
+			CreateNewSgNodeObject("concrete_ruins1", "ruinsSubm1", -1, -1, CVector(6999.462, 261.785, 1197.377), Quaternion(0.3593, -0.5203, 0.0185, 0.7745), 3.769)
+			CreateNewSgNodeObject("waste2", "ruinsSubm2", -1, -1, CVector(7092.462, 323.185, 1109.377), Quaternion(0.1847, -0.0478, 0.2458, 0.9504), 18.375)
+			CreateNewSgNodeObject("waste3", "ruinsSubm3", -1, -1, CVector(7065.462, 301.785, 1141.377), Quaternion(0.1027, 0.2973, 0.1753, 0.9329), 8.658)
+			CreateNewSgNodeObject("waste1", "ruinsSubm4", -1, -1, CVector(7066.462, 286.785, 1182.377), Quaternion(0.0594, 0.5999, 0.2747, 0.7491), 4.875)
+			CreateNewSgNodeObject("submarina", "submarina1111", -1, -1, CVector(7058.462, 297.785, 1175.377), Quaternion(-0.0596, 0.9212, 0.1562, 0.3513), 1.000)
+			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FireSubm", -1, -1, CVector(7062.567, 283.526, 1173.618), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
+
+			TActivate("FallingPlane_2_cin")
+			
+			trigger:Deactivate()
+		</script>
+	</trigger>
 
     <trigger Name="FallingPlane_2_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PetkaVICH_loc" />

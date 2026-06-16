@@ -3945,14 +3945,14 @@
 <!--Root/r1m2/Опциональные/Кочевник-->
 	<Reply
 		name="Dlg_npc_000558"
-		text="Эй, авантюрист! Тут тебе послание оставили."
+		text="Эй, Искатель! Тут тебе послание оставили."
 		role="NPC"
 		scriptCondition="not(IsQuestTaken('Koch_Kavkaz_quest1'))  and  not(IsQuestComplete('karavan_from_port_quest3'))  "
 		nextReplies="Dlg_pl_000559" />
 
 	<Reply
 		name="Dlg_pl_000559"
-		text="Какое и от кого?"
+		text="Что за послание и от кого?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000560" />
 
@@ -3976,7 +3976,7 @@
 
 	<Reply
 		name="Dlg_pl_000563"
-		text="Ну ладно, посмотрим."
+		text="Ну ладно, проверю, если будет время."
 		role="PLAYER"
 		scriptResult="TakeQuest('Koch_Kavkaz_quest'); TActivate('Kochquest_tr'); EndConversation()" />
 
@@ -4001,13 +4001,13 @@
 
 	<Reply
 		name="Dlg_pl_000934"
-		text='Может быть у тебя есть для меня "особое" задание, которое способно перевенуть мир?'
+		text="Допустим. Чего ты от меня хочешь?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000935" />
 
 	<Reply
 		name="Dlg_npc_000935"
-		text="Насчёт мира ты, конечно, погорячился, но вот региона да."
+		text="Хотел лишь предупредить грядущих изменениях в регионе."
 		role="NPC"
 		nextReplies="Dlg_pl_000936" />
 
@@ -4019,7 +4019,7 @@
 
 	<Reply
 		name="Dlg_npc_000937"
-		text="В регионе назревают волнения и ты спровоцируешь один из итогов восстания."
+		text="В регионе давно тлеет пожар. Ты просто окажешься рядом, когда он разгорится."
 		role="NPC"
 		nextReplies="Dlg_pl_000938" />
 
@@ -4031,7 +4031,7 @@
 
 	<Reply
 		name="Dlg_npc_000939"
-		text="Это ключевое событие, вокруг которого будет много жертв."
+		text="Некоторые двери лучше оставить закрытыми. Но люди редко прислушиваются к таким советам."
 		role="NPC"
 		nextReplies="Dlg_pl_000940" />
 
@@ -4043,7 +4043,7 @@
 
 	<Reply
 		name="Dlg_npc_000941"
-		text="Движение корблей в порту заблокировано из-за забастовки. И единственное судно, которое прибудет через неделю, грузовой корабль Альфарана с оборудованием для вскрытия секций базы."
+		text="Движение корблей в порту заблокировано из-за забастовки. И единственное судно, которое прибудет, грузовой корабль Альфарана. На его борту будет груз, который откроет дверь, к которой ты так стремишься. Вернее, уже прибыл."
 		role="NPC"
 		nextReplies="Dlg_pl_000942" />
 
@@ -4067,7 +4067,7 @@
 
 	<Reply
 		name="Dlg_pl_000944"
-		text="Ну давай посмотрим."
+		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
 
@@ -4192,7 +4192,7 @@
 		name="Dlg_pl_000960"
 		text="Спасибо тебе, удачи!"
 		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('Koch_Kavkaz_2_quest4'); EndConversation()" />
+		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('Koch_Kavkaz_2_quest4'); AddBook('r1_book_security'); AddBook('r1_book_scientist'); AddBook('r1_book_officers'); AddBook('r1_book_engineer'); AddFadingMsgId( 'fm_book_got' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000961"
@@ -4205,6 +4205,7 @@
 		name="Dlg_pl_000965"
 		text="Из записей инженера"
 		role="PLAYER"
+		scriptCondition=" "
 		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
 
 	<Reply
@@ -4240,7 +4241,7 @@
 
 	<Reply
 		name="Dlg_pl_000968"
-		text="Ладно, прокачусь до руин."
+		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
 
@@ -4471,13 +4472,13 @@
 
 	<Reply
 		name="Dlg_npc_000416"
-		text="Искатель приключений значит? Они расположились за горным хребтом на заброшенной военной базе. Зачем тебе понадобились эти кровопийцы?"
+		text="Искатель приключений значит? Если тебя интересуют руины старого мира, то ты опоздал лет на шесть. Всё самое ценное уже прибрал к рукам Альфаран. Они сидят на старой военной базе за хребтом."
 		role="NPC"
 		nextReplies="Dlg_pl_000417" />
 
 	<Reply
 		name="Dlg_pl_000417"
-		text="Я как раз искал эту военную базу, но не думал что этот регион окажется так хорошо развит, спасибо."
+		text="Что ж, это было ожидаемо... Спасибо."
 		role="PLAYER"
 		scriptResult="CompleteQuest('V_gorod_quest'); EndConversation()" />
 
@@ -4496,19 +4497,19 @@
 
 	<Reply
 		name="Dlg_npc_000424"
-		text="Значит хочешь поживиться? Ну уж нет брат, это наша добыча, это - раз, и мы сами почти ничего не добыли, это - два."
+		text="Значит хочешь поживиться? Напрасно! Этот комплекс полностью принадлежит нам, а значит и всё содержимое тоже."
 		role="NPC"
 		nextReplies="Dlg_pl_000425" />
 
 	<Reply
 		name="Dlg_pl_000425"
-		text="Не может такого быть, вы точно осмотрели всю базу?"
+		text="Значит вся база уже исследована?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000426" />
 
 	<Reply
 		name="Dlg_npc_000426"
-		text="Дело не в этом, весь сок находится за гермодверью, которую мы пока не можем вскрыть."
+		text="Ну почти. Осталось последнее место, куда мы пока что не добрались. Гермодверь, в глубинах комплекса, через которую за эти 6 лет не удалось пройти."
 		role="NPC"
 		nextReplies="Dlg_pl_000427" />
 
@@ -4532,25 +4533,25 @@
 
 	<Reply
 		name="Dlg_npc_000430"
-		text="Подробностей я не знаю, но начальство вроде заказывает спец оборудование с моря, И вообще, чё ты меня допрашиваешь, я и так много тебе разболтал."
+		text="Подробностей я не знаю, но начальство вроде заказывает спец оборудование с моря... И вообще, чё ты меня допрашиваешь, я и так много тебе разболтал."
 		role="NPC"
 		nextReplies="Dlg_pl_000431" />
 
 	<Reply
 		name="Dlg_pl_000431"
-		text="Ладно, последний вопрос: где я могу поговорить с твоим начальством."
+		text="Ладно, последний вопрос, где я могу поговорить с твоим начальством."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000432" />
 
 	<Reply
 		name="Dlg_npc_000432"
-		text="Тут в соседнем блоке, но учти, туда идут только чтобы наняться."
+		text="Тут в соседнем блоке, но не жди чуда."
 		role="NPC"
 		nextReplies="Dlg_pl_000433" />
 
 	<Reply
 		name="Dlg_pl_000433"
-		text="Хорошо, будь здоров."
+		text="И на том спасибо."
 		role="PLAYER"
 		scriptResult="CompleteQuest('baza_quest'); CompleteQuest('Go_in_base_quest'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/Караван-->
@@ -4563,31 +4564,43 @@
 
 	<Reply
 		name="Dlg_pl_000435"
-		text="Есть для меня работа?"
+		text="Меня интересует запечатанная секция. Что нужно сделать, чтобы получить доступ?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000436" />
 
 	<Reply
 		name="Dlg_npc_000436"
-		text="Да, езжай в меридиан, там ты встретишь конвоира, у него там какие-то проблемы на маршруте."
+		text="А не слишком ли жирная просьба для чужеземца? Хотя, по эмблемам Искателя можно было догадаться, чего ты запросишь."
 		role="NPC"
 		nextReplies="Dlg_pl_000437" />
 
 	<Reply
 		name="Dlg_pl_000437"
-		text="А награда будет?"
+		text="Так, что насчет доступа?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000438" />
 
 	<Reply
 		name="Dlg_npc_000438"
-		text="Зависит от качества выполнения работы, это всё?"
+		text="Слушай, нам сейчас вообще не до этого. У нас тут в последнее время, слишком уж активизировалось повстанческое движение. От этого сильно страдают караваны и, соответственно,  экономика."
 		role="NPC"
 		nextReplies="Dlg_pl_000439" />
 
 	<Reply
 		name="Dlg_pl_000439"
-		text="Да, будет сделано."
+		text="Если я смогу решить проблему с караванами, то заслужу твоё доверие?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001079" />
+
+	<Reply
+		name="Dlg_npc_001079"
+		text="Посмотрим. Не люблю загадывать. Можешь ехать в Меридиан, местный прораб расскажет детали."
+		role="NPC"
+		nextReplies="Dlg_pl_001080" />
+
+	<Reply
+		name="Dlg_pl_001080"
+		text="Понял, до встречи."
 		role="PLAYER"
 		scriptResult="CompleteQuest('3aka3_quest'); EndConversation()" />
 
@@ -4606,13 +4619,13 @@
 
 	<Reply
 		name="Dlg_npc_000442"
-		text="Да, какие-то разбойники грабят караван из порта, пробовали посылать с большим количеством охраны, они не нападали, но каждый раз посылать большой отряд не выгодно, тратим много топлива, теперь вот принимаем наёмников."
+		text="Да, какие-то бандиты грабят караван из порта, пробовали посылать с большим количеством охраны, они не нападали, но каждый раз посылать большой отряд не выгодно, тратим много топлива, теперь вот принимаем наёмников."
 		role="NPC"
 		nextReplies="Dlg_pl_000443" />
 
 	<Reply
 		name="Dlg_pl_000443"
-		text="Значит нужно, чтобы я с остальной группой сопроводил караван, умно, за топливо платить не надо и овцы целы."
+		text="Значит нужно, чтобы я с остальной группой сопроводил караван."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000444" />
 
@@ -4680,26 +4693,26 @@
 
 	<Reply
 		name="Dlg_pl_000451"
-		text="Похоже они хотят освободить Кавказ от гнёта Альфарана, надо предложить им свою помощь."
+		text="Похоже они хотят освободить Ламан от гнёта Альфарана, надо предложить им свою помощь."
 		role="PLAYER"
 		scriptResult="CompleteQuest('slezhka_quest'); TakeQuest('Za_partz_quest'); TActivate('HelpPartz_cin'); SetTolerance( 1100, 1082, RS_NEUTRAL ); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000453"
-		text="Ну, как прошло?"
+		text="А вот и ты! Караван успешно доехал, впервые за долгое время!"
 		role="NPC"
 		scriptCondition="IsQuestTaken('Defeat_partz_quest1')  and  not(IsQuestComplete('Defeat_partz_quest1'))  and  not(IsQuestFailed('Defeat_partz_quest1')) "
 		nextReplies="Dlg_pl_000454" />
 
 	<Reply
 		name="Dlg_pl_000454"
-		text="Атаку отбили, но несколько бандитов сбежало."
+		text="Хотя мы атаку отбили, но несколько бандитов сбежало."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000455" />
 
 	<Reply
 		name="Dlg_npc_000455"
-		text="Ну хотя бы что-то, можешь ехать назад за наградой."
+		text="Ну хотя бы что-то, можешь ехать на базу за наградой."
 		role="NPC"
 		nextReplies="Dlg_pl_000456" />
 
@@ -4711,14 +4724,14 @@
 
 	<Reply
 		name="Dlg_npc_000457"
-		text="Опять ты? Что на этот раз?"
+		text="Вот и ты. Мне доложили, что караван успешно доехал, но меня интересуют детали."
 		role="NPC"
 		scriptCondition="IsQuestTaken('Defeat_partz_quest2')  and  not(IsQuestComplete('Defeat_partz_quest2'))"
 		nextReplies="Dlg_pl_000458" />
 
 	<Reply
 		name="Dlg_pl_000458"
-		text="Задане выполнено и у меня есть некоторые сведенья, которые вам явно понравятся, разумеется за дополнительную плату."
+		text="У меня есть некоторые сведенья, которые вам явно понравятся, разумеется за дополнительную плату. Это касается ситуации в регионе."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000459" />
 
@@ -4730,31 +4743,43 @@
 
 	<Reply
 		name="Dlg_pl_000460"
-		text="На караваны нападали не бандиты, а повстанческое движение, они хотят вернуть себе Кавказ."
+		text="На караваны нападали не бандиты, а повстанческое движение, они хотят вернуть себе Ламан."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000461" />
 
 	<Reply
 		name="Dlg_npc_000461"
-		text="Ты смог обнаружить место их нахождения?"
+		text="Об этом мы и так догадывались. Меня больше интересует местоположение их базы."
 		role="NPC"
 		nextReplies="Dlg_pl_000462" />
 
 	<Reply
 		name="Dlg_pl_000462"
-		text="Да, они скрываются в лесу, рядом с селом Лесное."
+		text="Они скрываются в лесу, рядом с селом Лесное."
 		role="PLAYER"
 		nextReplies="Dlg_npc_000463" />
 
 	<Reply
 		name="Dlg_npc_000463"
-		text="Это совпадает с местами нападений на караваны, значит они укрываются там. Мы срочно задействуем всех солдат в регионе, нельзя чтобы они успели разбежаться, если хочешь можешь принять участие, даже наградим за это."
+		text="Очень даже похоже на правду. Чаще всего нападения происходили именно там. Надо будет после зачистки допросить местных жителей на предмет измены."
 		role="NPC"
 		nextReplies="Dlg_pl_000464" />
 
 	<Reply
 		name="Dlg_pl_000464"
-		text="С удовольствием приму участие."
+		text="Теперь я заслужил доверие?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001081" />
+
+	<Reply
+		name="Dlg_npc_001081"
+		text="Ты показал себя лучше большинства наших наёмников, мы дадим тебе некоторый процент от найденного, но после штурма базы повстанцев. Можешь присоединиться, лишней помощь не будет."
+		role="NPC"
+		nextReplies="Dlg_pl_001082" />
+
+	<Reply
+		name="Dlg_pl_001082"
+		text="Тогда увидимся на месте."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Defeat_partz_quest2'); AddPlayerMoney(15000); TActivate('PartzDefeat_cin'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/За Темерию-->
@@ -4829,7 +4854,7 @@
 
 	<Reply
 		name="Dlg_pl_000476"
-		text="Удачи нам всем!"
+		text="Посмотрим, что из этого выйдет."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Deversy_quest4'); TActivate('PortAtack_cin'); EndConversation()" />
 
@@ -4854,19 +4879,55 @@
 
 	<Reply
 		name="Dlg_pl_000484"
-		text="Как мы это сделаем?"
+		text="Почему вы сами этого до сих пор не сделали?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000485" />
 
 	<Reply
 		name="Dlg_npc_000485"
-		text="Ты должен будешь отвезти команду подрыва, твоя машина не местная и у Альфарана нет к тебе претензий. Главное не привлекать слишком много внимания, вышки патрулируют, поэтому держись подальше от охраны."
+		text="Мы готовились к этому несколько месяцев. Людей хватало, а вот надёжного перевозчика не было. Любую нашу машину Альфаран узнает издалека. Поэтому мы ограничивались короткими налётами."
 		role="NPC"
 		nextReplies="Dlg_pl_000486" />
 
 	<Reply
 		name="Dlg_pl_000486"
-		text="Понятно, ладно грузитесь и поехали."
+		text="Но почему вы просто не связались с любым другим наёмником?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001083" />
+
+	<Reply
+		name="Dlg_npc_001083"
+		text="Почти все наёмники находятся либо в Меридиане, либо в Порту. И там, и там работать сложно, да и почти все давали отказ."
+		role="NPC"
+		nextReplies="Dlg_pl_001084" />
+
+	<Reply
+		name="Dlg_pl_001084"
+		text="А те же кто соглашался..."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001085" />
+
+	<Reply
+		name="Dlg_npc_001085"
+		text="Не проходили проверку. Но тут появляешься ты, который смог одолеть группу, найти нас, да ещё и предложить свою помощь. Я хоть в судьбу и не верю, но такое совпадение не случайно."
+		role="NPC"
+		nextReplies="Dlg_pl_001086" />
+
+	<Reply
+		name="Dlg_pl_001086"
+		text="Ладно, что нужно сделать."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001087" />
+
+	<Reply
+		name="Dlg_npc_001087"
+		text="Ты должен будешь отвезти команду подрыва, твоя машина не местная и у Альфарана нет к тебе претензий. Главное не привлекать слишком много внимания, вышки патрулируют, поэтому держись подальше от охраны."
+		role="NPC"
+		nextReplies="Dlg_pl_001088" />
+
+	<Reply
+		name="Dlg_pl_001088"
+		text="Надеюсь, вы знаете, что делаете. "
 		role="PLAYER"
 		scriptResult="CompleteQuest('Razgovor_quest1'); TActivate('VishkiBOOM_cin'); TActivate('OXPAHA_spawn'); EndConversation()" />
 
@@ -4891,13 +4952,13 @@
 
 	<Reply
 		name="Dlg_pl_000490"
-		text="Ещё бы! Поехали."
+		text="Лишь бы эта затея стоила риска."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Deversy_quest2'); TActivate('CarierBOOOM_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000491"
-		text="Наконец-то! Кавказ становится нашим! Но назад дороги уже нет."
+		text="Наконец-то! Ламан становится нашим! Но назад дороги уже нет."
 		role="NPC"
 		scriptCondition="IsQuestTaken('Port_partz_quest3')  and  not(IsQuestComplete('Port_partz_quest3'))"
 		nextReplies="Dlg_pl_000492" />
@@ -4928,7 +4989,7 @@
 
 	<Reply
 		name="Dlg_pl_000496"
-		text="Хорошо, куда ехать?"
+		text="Где встречаемся?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000497" />
 
