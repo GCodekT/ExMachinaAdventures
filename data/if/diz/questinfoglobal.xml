@@ -22,7 +22,7 @@
 
 	<QuestInfo
 		questName="Annigilation_quest"
-		briefDiz="За свободный народ!"
+		briefDiz="Штурм Альфарана"
 		fullDiz="Последняя битва за право владения этим регионом!"
 		isMainQuest="1">
 		<Map
@@ -290,7 +290,7 @@
 
 	<QuestInfo
 		questName="Baza_destroy_quest"
-		briefDiz="Что-то заканчивается, что-то начинается."
+		briefDiz="Подведение итогов"
 		fullDiz="Прометей был уничтожен, и всё, относительно, стало спокойно. Ну а я осмотрю склады уничтоженной базы. "
 		isMainQuest="1">
 		<Map
@@ -443,7 +443,7 @@
 
 	<QuestInfo
 		questName="Deversy_quest"
-		briefDiz="И пусть горит!"
+		briefDiz="Диверсия"
 		fullDiz="Теперь надо отвлечь внимание группировки, для этого понадобиться устроить несколько диверсий."
 		isMainQuest="1">
 		<Map
@@ -649,7 +649,7 @@
 
 	<QuestInfo
 		questName="Dubrovka_quest"
-		briefDiz="Цена свободы"
+		briefDiz="Дубровка"
 		fullDiz="Бандиты угнетают жителей деревни, пора с этим что-то делать."
 		isMainQuest="0" />
 
@@ -1351,7 +1351,7 @@
 
 	<QuestInfo
 		questName="Koch_Kavkaz_2_quest"
-		briefDiz="Иной выбор"
+		briefDiz="Иной путь"
 		fullDiz="Кочевник предложил разрешить ситуацию в регионе несколько иным путём."
 		isMainQuest="1" />
 
@@ -1442,7 +1442,7 @@
 
 	<QuestInfo
 		questName="Koch_Kavkaz_4_quest"
-		briefDiz="После бури"
+		briefDiz="После битвы"
 		fullDiz="Роше рассказал, что начало их сопротивлению дал некий человек из Порта. Кочевник тоже его упоминал в разговоре, и мне надо его найти."
 		isMainQuest="1" />
 
@@ -1457,7 +1457,7 @@
 
 	<QuestInfo
 		questName="Koch_Kavkaz_4_quest2"
-		briefDiz="Преследовать лидера Антистачников"
+		briefDiz="Преследовать лидера антистачников"
 		isMainQuest="1">
 		<Map
 			name="r1m2"
@@ -1483,7 +1483,7 @@
 
 	<QuestInfo
 		questName="Koch_Kavkaz_quest"
-		briefDiz="Таинственный незнакомец"
+		briefDiz="Кочевник"
 		fullDiz="Бармен передал для меня послание от некого Кочевника. Он хочет встретиться в указанном месте."
 		isMainQuest="0" />
 
@@ -1803,7 +1803,7 @@
 
 	<QuestInfo
 		questName="Na_bazy_quest"
-		briefDiz="Тайны Предтеч"
+		briefDiz="Внутри базы"
 		fullDiz="Что-то произошло на базе, надо это выяснить."
 		isMainQuest="1">
 		<Map
@@ -2051,7 +2051,7 @@
 
 	<QuestInfo
 		questName="Port_partz_quest"
-		briefDiz="Назад дороги нет"
+		briefDiz="Захват Порта"
 		fullDiz="Настало время заявить о себе, для этого мы перехватим порт."
 		isMainQuest="1">
 		<Map
@@ -2168,7 +2168,7 @@
 
 	<QuestInfo
 		questName="Promateus_quest"
-		briefDiz="Гнев Богов"
+		briefDiz="Прометей"
 		fullDiz='Зачинщиком всех проблем оказался тяжеловооружённый грузовик под названием "Прометей" я должен остановить его, благо теперь у меня есть чем ему противостоять.'
 		isMainQuest="1">
 		<Map
@@ -2274,7 +2274,7 @@
 
 	<QuestInfo
 		questName="Razgovor_quest"
-		briefDiz="Первые лучи свободы"
+		briefDiz="Поговорить с Роше"
 		fullDiz="Надо узнать, каким будет наш следующий шаг."
 		isMainQuest="1">
 		<Map
@@ -2362,7 +2362,7 @@
 
 	<QuestInfo
 		questName="Shturm_quest"
-		briefDiz="Контроль качества"
+		briefDiz="Уничтожение повстанцев"
 		fullDiz="Пора установить в этих землях полный контроль Альфарана"
 		isMainQuest="1">
 		<Map
@@ -2616,7 +2616,7 @@
 
 	<QuestInfo
 		questName="karavan_from_port_quest"
-		briefDiz="Заказ: сопроводить караван"
+		briefDiz="Караван из Порта"
 		fullDiz="Заполучить ценности оказалось труднее, чем я себе представлял, но если я выполню особый заказ Альфарана, мне могут отсыпать немного добычи. "
 		isMainQuest="1">
 		<Map

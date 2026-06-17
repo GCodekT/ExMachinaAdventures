@@ -5,8 +5,8 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		sound="data\sounds\Speech\r1m1\r1m5_1_xpom.ogg"
-		value="Хром|Из дальнего зала слышны звуки, что там происходит?"
+		sound="data\sounds\Speech\r1m5\r1m5_1_xpom.ogg"
+		value="Хром|Из дальнего зала слышны звуки. Не нравится мне всё это."
 		time="5" />
 
 	<string
@@ -14,7 +14,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		sound="data\sounds\Speech\r1m1\r1m5_2_xpom.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_2_xpom.ogg"
 		value="Хром|Это ещё что за?.."
 		time="3" />
 
@@ -85,6 +85,48 @@
 		time="3" />
 
 	<string
+		id="101"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Сколько колесил по миру, ни разу не видел ничего подобного. Надо найти путь до военной базы."
+		time="7" />
+
+	<string
+		id="102"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Похоже это оно, но как спуститься вниз?"
+		time="4" />
+
+	<string
+		id="103"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Что за звук?.."
+		time="2" />
+
+	<string
+		id="104"
+		value="Прометей|Запуск системы... Успешно. Анализ состояния агрегатов... Готовность. Внимание! Несанкционированное проникновение на территорию комплекса. Статус комплекса: осада. Активирован протокол ликвидации."
+		time="16" />
+
+	<string
+		id="105"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Чёрт! Надо уезжать отсюда!"
+		time="2" />
+
+	<string
+		id="106"
+		value="Прометей|Цель потеряна. Обнаружены множественные нарушители. Приоритет угрозы пересчитан. Возобновлён протокол ликвидации."
+		time="8" />
+
+	<string
 		id="11"
 		modelName="r1_man"
 		modelSkin="0"
@@ -147,48 +189,6 @@
 		modelCfg="76"
 		value="Хром|ВОТ ОБ ЭТОМ! ВАЛИМ ОТСЮДА!"
 		time="3" />
-
-	<string
-		id="101"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Сколько колесил по миру, ни разу не видел ничего подобного. Надо найти путь до военной базы."
-		time="7" />
-
-	<string
-		id="102"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Похоже это оно, но как спуститься вниз?"
-		time="4" />
-
-	<string
-		id="103"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|А это ещё что?"
-		time="2" />
-
-	<string
-		id="104"
-		value="Прометей|Запуск системы... Успешно. Анализ состояния агрегатов... Готовность. Внимание! Несанкционированное проникновение на территорию комплекса. Активирован протокол ликвидации."
-		time="16" />
-
-	<string
-		id="105"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Чёрт! Надо уезжать отсюда!"
-		time="2" />
-
-	<string
-		id="106"
-		value="Прометей|Цель потеряна. Обнаружены нарушители на верхних этажах комплекса. Возобновлён протокол ликвидации."
-		time="8" />
 
 	<string
 		id="333"

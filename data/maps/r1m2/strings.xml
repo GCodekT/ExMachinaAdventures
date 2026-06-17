@@ -76,22 +76,18 @@
 		value="Охранник|Это всё равно лучше, чем быть наёмником. Но это так, взгяд со стороны. Вот пропуск, добро пожаловать в Стальной Меридиан!"
 		time="9" />
 
-	
-
-	
-
 	<string
-		id="10"
+		id="9"
 		modelName="r1_man"
 		modelSkin="5"
 		modelCfg="14"
 		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_10_kapav.ogg"
+		sound="data\sounds\Speech\r1m2\r1m2_9_kapav.ogg"
 		value="Караванщик|Пришлось немного задержаться, но мы готовы ехать."
 		time="4" />
 
 	<string
-		id="11"
+		id="10"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="132"
@@ -101,16 +97,16 @@
 		time="7" />
 
 	<string
-		id="12"
+		id="11"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m2\r1m2_12_xpom.ogg"
-		value="Хром|За целостность карвана мы отвечаем репутацией, поэтому лучше отступите, пока не поздно."
+		value="Хром|За целостность каравана мы отвечаем репутацией, поэтому лучше отступите, пока не поздно."
 		time="7" />
 
 	<string
-		id="13"
+		id="12"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="132"
@@ -120,7 +116,7 @@
 		time="4" />
 
 	<string
-		id="14"
+		id="13"
 		modelName="r1_man"
 		modelSkin="5"
 		modelCfg="14"
@@ -130,7 +126,7 @@
 		time="3" />
 
 	<string
-		id="15"
+		id="14"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -139,585 +135,7 @@
 		time="6" />
 
 	<string
-		id="16"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		value="Командир Роше|Почему ты один? У каравана было больше защитников?"
-		time="5" />
-
-	<string
-		id="17"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="0"
-		value="Разбойник|Нет! Там был один наёмник, он всех перебил."
-		time="4" />
-
-	<string
-		id="18"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		value="Командир Роше|Скверно...   За тобой хвоста не было?"
-		time="4" />
-
-	<string
-		id="19"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="0"
-		value="Разбойник|Я никого не заметил, ехал так быстро как мог."
-		time="4" />
-
-	<string
-		id="20"
-		modelName="r2_man"
-		modelSkin="1"
-		modelCfg="90"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_20_avgust.ogg"
-		value="Прапорщик Август|  ...второй отряд будет ждать возле леса, если всё понятно, то выдвигаемся. Сровняйте их лагерь с землёй!"
-		time="8" />
-
-	<string
-		id="21"
-		modelName="r2_man"
-		modelSkin="1"
-		modelCfg="90"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_21_avgust.ogg"
-		value="Прапорщик Август|Хорошая работа, осталось добить всех бунтовщиков."
-		time="4" />
-
-	<string
-		id="22"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_22_xpom.ogg"
-		value="Хром|Что по поводу процента?"
-		time="2" />
-
-	<string
-		id="23"
-		modelName="r2_man"
-		modelSkin="1"
-		modelCfg="90"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_23_avgust.ogg"
-		value="Прапорщик Август|Можешь ехать на базу, мы как раз вскрыли запечатанную секцию, благодаря спасённому тобой каравану."
-		time="8" />
-
-	<string
-		id="24"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_24_xpom.ogg"
-		value="Хром|Как-то здесь особо тихо, странно... "
-		time="4" />
-
-	<string
-		id="25"
-		value="||@FFFFA600[Звуки стрельбы из глубин базы]"
-		sound="data\sounds\Speech\r1m2\r1m2_25_shooting.ogg"
-		time="12" />
-
-	<string
-		id="26"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_26_xpom.ogg"
-		value="Хром|Что там происходит? Может стоит проверить?"
-		time="6" />
-
-	<string
-		id="27"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_27_xpom.ogg"
-		value="Хром|Что это за разрушительная мощь? Зачем древним нужны были такие машины? Его нужно остановить любой ценой!"
-		time="10" />
-
-	<string
-		id="28"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_28_xpom.ogg"
-		value="Хром|Возьму этот грузовик, выглядит довольно мощным."
-		time="4" />
-
-	<string
-		id="10028"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_10028_xpom.ogg"
-		value="Хром|Оружие на нём не установлено, попробую поискать среди складского хлама."
-		time="5" />
-
-	<string
-		id="11028"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_11028_xpom.ogg"
-		value="Хром|Ну, это хотя бы что-то. Проверим эту машину в бою."
-		time="4" />
-
-	<string
-		id="11029"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_11029_xpom.ogg"
-		value="Хром|Город почти уничтожен, надо торопиться."
-		time="4" />
-
-	<string
-		id="29"
-		sound="data\sounds\Speech\r1m2\r1m2_29_prometeus.ogg"
-		value="Прометей|Ядро перегрето. Начинаю охлаждение."
-		time="2" />
-
-	<string
-		id="30"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_30_xpom.ogg"
-		value="Хром|Да что ты за чудовище такое? Как можно уничтожить целый город?"
-		time="6" />
-
-	<string
-		id="31"
-		sound="data\sounds\Speech\r1m2\r1m2_31_prometeus.ogg"
-		value="Прометей|Охлаждение завершено. Возобновляю протокол ликвидации."
-		time="2" />
-
-	<string
-		id="32"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_32_xpom.ogg"
-		value="Хром|Живучий зараза, но теперь он навсегда покинул этот мир."
-		time="4" />
-
-	<string
-		id="33"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_33_partz.ogg"
-		value="Партизан|Отличная работа бойцы! Хотя многие погибли, в попытке убить эту тварь, их подвиг не будет забыт!"
-		time="6" />
-
-	<string
-		id="10033"
-		modelName="r2_man"
-		modelSkin="1"
-		modelCfg="90"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_10033_avgust.ogg"
-		value="Прапорщик Август|Бойцы, мы справились! Отдадим честь за ребят, что сложили сегодня головы, их жертва будет не напрасна!"
-		time="6" />
-
-	<string
-		id="34"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_34_partz.ogg"
-		value="Партизан|Эй, Искатель! Спасибо за помощь, держи свою награду."
-		time="4" />
-
-	<string
-		id="10034"
-		modelName="r2_man"
-		modelSkin="1"
-		modelCfg="90"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_10034_avgust.ogg"
-		value="Прапорщик Август|Искатель, спасибо тебе за помощь, держи свою награду."
-		time="4" />
-
-	<string
-		id="35"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_35_xpom.ogg"
-		value="Хром|Спасибо, прощайте."
-		time="2" />
-
-	<string
-		id="36"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_36_xpom.ogg"
-		value="Хром|Благодарю, будьте здоровы."
-		time="2" />
-
-	<string
-		id="37"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_37_xpom.ogg"
-		value="Хром|Мда...  Наживы мало, но хотя бы что-то. Зато теперь у меня есть новый грузовик."
-		time="6" />
-
-	<string
-		id="38"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_38_xpom.ogg"
-		value="Хром|Однако, карта старика действительно привела меня к руинам, значит и остальные я смогу найти."
-		time="7" />
-
-	<string
-		id="39"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_39_xpom.ogg"
-		value="Хром|Следующий объект находится за морем. Путь конечно не близкий, но когда меня это останавливало?"
-		time="5" />
-
-	<string
-		id="40"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_40_xpom.ogg"
-		value="Хром|Не стреляйте! Я вам не враг, я хочу предложить помощь!"
-		time="4" />
-
-	<string
-		id="41"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_41_roshe.ogg"
-		value="Командир Роше|Ты же понимаешь, что мы теперь просто так тебя не отпустим?"
-		time="5" />
-
-	<string
-		id="42"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_42_xpom.ogg"
-		value="Хром|Если бы я не хотел этого делать, я бы просто донёс на вас Альфарану."
-		time="4" />
-
-	<string
-		id="43"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		value="Командир Роше|Ты убил наших бойцов, за это тебя надо бы пристрелить, но ты умеешь хорошо говорить и не имеешь претензий со стороны Альфарана."
-		time="10" />
-
-	<string
-		id="44"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		value="Командир Роше|Хорошо, устроим тебе испытательный срок. Ты сейчас вернёшься в Меридиан и завершишь заказ, попутно сказав, что уничтожил лагерь бандитов, который нападали на караван."
-		time="15" />
-
-	<string
-		id="45"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_45_xpom.ogg"
-		value="Хром|Но как мне это доказать?"
-		time="2" />
-
-	
-
-	<string
-		id="46"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_46_partz.ogg"
-		value="Партизан|Подожди пока мы заложим заряд."
-		time="3" />
-
-	<string
-		id="47"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_47_partz.ogg"
-		value="Партизан|Готово, уезжаем отсюда."
-		time="2" />
-
-	<string
-		id="48"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_48_roshe.ogg"
-		value="Командир Роше|Я получил сигнал от южной группы, дорога завалена, значит выступаем."
-		time="6" />
-
-	<string
-		id="49"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_49_partz.ogg"
-		value="Партизан|Бойцы! Нам предстоит последняя битва, сровняем Альфаран с землёй!"
-		time="6" />
-
-	<string
-		id="50"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_50_roshe.ogg"
-		value="Командир Роше|Меридиан зачищен, продвигаемся к базе!"
-		time="3" />
-
-	<string
-		id="51"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_51_roshe.ogg"
-		value="Командир Роше|Мы сделали это! Их защита пала!"
-		time="3" />
-
-	<string
-		id="52"
-		modelName="r4_man"
-		modelSkin="2"
-		modelCfg="108"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_52_roshe.ogg"
-		value="Командир Роше|Остался последний рывок, все проникаем на базу!"
-		time="4" />
-
-	<string
-		id="53"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Жители Кавказа, наконец-то обрели свободу. Интересно, что из этого выйдет?"
-		time="4" />
-
-	<string
-		id="54"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Ну а я заберу свою награду."
-		time="3" />
-
-	<string
-		id="55"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Груза тут конечно маловато... Но карта старика действительно привела меня к руинам, поэтому можно посмотреть и на другие объекты."
-		time="11" />
-
-	<string
-		id="56"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Но объект расположенный ближе всего находится за морем, придётся далеко ехать... "
-		time="8" />
-
-	<string
-		id="566"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Заберу себе грузовик со склада, давно хотел прокатиться на подобном."
-		time="7" />
-
-	<string
-		id="57"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		value="Хром|Жалко конечно бросать свою машину, но так надо. Спасибо тебе, Ревенант, за всё!"
-		time="8" />
-
-	<string
-		id="58"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_58_xpom.ogg"
-		value="Хром|На этой дороге ничего нет, проверим другие пути."
-		time="5" />
-
-
-	<string
-		id="59"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_59_xpom.ogg"
-		value="Хром|Никаких следов, продолжаем поиски."
-		time="3" />
-
-	<string
-		id="60"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_60_xpom.ogg"
-		value="Хром|Вот и пропавшие, только к сожалению не живые."
-		time="5" />
-
-	<string
-		id="61"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="0"
-		sound="data\sounds\Speech\r1m2\r1m2_61_razboy.ogg"
-		value="Разбойник|Попалась рыбка! Мы уже думали никто не приедет, лесник молодец!"
-		time="6" />
-
-	<string
-		id="62"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_62_xpom.ogg"
-		value="Хром|Вы, как я понимаю, и есть те разбойники которые атакуют путников. И во всём этом замешан лесник..."
-		time="8" />
-
-	<string
-		id="63"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="0"
-		sound="data\sounds\Speech\r1m2\r1m2_63_razboy.ogg"
-		value="Разбойник|А ты догадливый, да это мы банда 'Волки'. Ладно, пора заканчивать."
-		time="6" />
-
-	<string
-		id="64"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_64_xpom.ogg"
-		value="Хром|Вот и нет больше проблемы, надо наведаться к леснику и задать пару вопросов."
-		time="6" />
-
-	<string
-		id="65"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_65_razboy.ogg"
-		value="Разбойник|Чего тебе надо, парень?"
-		time="3" />
-
-	<string
-		id="66"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_66_xpom.ogg"
-		value="Хром|Я пришёл поговорить с вашим главарём."
-		time="3" />
-
-	<string
-		id="67"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="132"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_67_razboy.ogg"
-		value="Разбойник|Приготовиться! 3... 2... 1..."
-		time="4" />
-
-	<string
-		id="68"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_68_revol.ogg"
-		value="Подрывник|Приготовиться! 3... 2... 1..."
-		time="4" />
-
-	<string
-		id="69"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_69_revol.ogg"
-		value="Революционер|Товарищи! Настало время освободить нашу деревню от гнёта, мы сами себе хозяева! Вперёд, в атаку!"
-		time="7" />
-
-	<string
-		id="70"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_70_revol.ogg"
-		value="Революционер|Вскрывайте склады и забирайте всё в деревню!"
-		time="3" />
-
-    <string
-		id="71"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="76"
-		sound="data\sounds\Speech\r1m2\r1m2_71_xpom.ogg"
-		value="Хром|А что насчёт завала? Вы его разберёте?"
-		time="3" />
-	
-    <string
-		id="72"
-		modelName="r2_man"
-		modelSkin="2"
-		modelCfg="168"
-		modelSlot="1"
-		sound="data\sounds\Speech\r1m2\r1m2_72_revol.ogg"
-		value="Революционер|Отправляйся туда и жди транспорт, скоро разберём."
-		time="3" />
-
-	<string
-		id="73"
+		id="15"
 		modelName="r4_man"
 		modelSkin="2"
 		modelCfg="108"
@@ -727,7 +145,7 @@
 		time="5" />
 
 	<string
-		id="74"
+		id="16"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="132"
@@ -737,7 +155,7 @@
 		time="4" />
 
 	<string
-		id="75"
+		id="17"
 		modelName="r4_man"
 		modelSkin="2"
 		modelCfg="108"
@@ -747,17 +165,268 @@
 		time="4" />
 
 	<string
-		id="76"
+		id="18"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="132"
 		modelSlot="0"
 		sound="data\sounds\Speech\r1m2\r1m2_76_razboy.ogg"
-		value="Разбойник|Я никого не заметил, ехал так быстро как мог."
+		value="Разбойник|Я никого не заметил, ехал так быстро, как мог."
 		time="4" />
 
 	<string
-		id="77"
+		id="19"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_20_avgust.ogg"
+		value="Прапорщик Август|...второй отряд будет ждать возле леса, если всё понятно, то выдвигаемся. Сровняйте их лагерь с землёй!"
+		time="8" />
+
+	<string
+		id="20"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_21_avgust.ogg"
+		value="Прапорщик Август|Хорошая работа, осталось добить всех бунтовщиков."
+		time="4" />
+
+	<string
+		id="21"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_22_xpom.ogg"
+		value="Хром|Что по поводу процента?"
+		time="2" />
+
+	<string
+		id="22"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_23_avgust.ogg"
+		value="Прапорщик Август|Можешь ехать на базу, мы как раз вскрыли запечатанную секцию, благодаря спасённому тобой каравану."
+		time="8" />
+
+	<string
+		id="23"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_24_xpom.ogg"
+		value="Хром|Как-то здесь особо тихо, странно... "
+		time="4" />
+
+	<string
+		id="24"
+		value="||@FFFFA600[Звуки стрельбы из глубин базы]"
+		sound="data\sounds\Speech\r1m2\r1m2_25_shooting.ogg"
+		time="12" />
+
+	<string
+		id="25"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_26_xpom.ogg"
+		value="Хром|Что там происходит? Может стоит проверить?"
+		time="6" />
+
+	<string
+		id="26"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_27_xpom.ogg"
+		value="Хром|Что это за разрушительная мощь? Зачем древним нужны были такие машины? Его нужно остановить любой ценой!"
+		time="10" />
+
+	<string
+		id="27"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_28_xpom.ogg"
+		value="Хром|Возьму этот грузовик, выглядит довольно мощным."
+		time="4" />
+
+	<string
+		id="28"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_10028_xpom.ogg"
+		value="Хром|Оружие на нём не установлено, попробую поискать среди складского хлама."
+		time="5" />
+
+	<string
+		id="29"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_11028_xpom.ogg"
+		value="Хром|Ну, это хотя бы что-то. Проверим эту машину в бою."
+		time="4" />
+
+	<string
+		id="30"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_11029_xpom.ogg"
+		value="Хром|Город почти уничтожен, надо торопиться."
+		time="4" />
+
+	<string
+		id="31"
+		sound="data\sounds\Speech\r1m2\r1m2_29_prometeus.ogg"
+		value="Прометей|Ядро перегрето. Начинаю охлаждение."
+		time="2" />
+
+	<string
+		id="32"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_30_xpom.ogg"
+		value="Хром|Да что ты за чудовище такое? Как можно уничтожить целый город?"
+		time="6" />
+
+	<string
+		id="33"
+		sound="data\sounds\Speech\r1m2\r1m2_31_prometeus.ogg"
+		value="Прометей|Охлаждение завершено. Возобновляю протокол ликвидации."
+		time="2" />
+
+	<string
+		id="34"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_32_xpom.ogg"
+		value="Хром|Живучий зараза, но теперь он навсегда покинул этот мир."
+		time="4" />
+
+	<string
+		id="35"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_33_partz.ogg"
+		value="Партизан|Отличная работа бойцы! Хотя многие погибли, в попытке убить эту тварь, их подвиг не будет забыт!"
+		time="6" />
+
+	<string
+		id="35001"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_10033_avgust.ogg"
+		value="Прапорщик Август|Бойцы, мы справились! Отдадим честь за ребят, что сложили сегодня головы, их жертва будет не напрасна!"
+		time="6" />
+
+	<string
+		id="36"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_34_partz.ogg"
+		value="Партизан|Эй, Искатель! Спасибо за помощь, держи свою награду."
+		time="4" />
+
+	<string
+		id="36001"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_10034_avgust.ogg"
+		value="Прапорщик Август|Искатель, спасибо тебе за помощь, держи свою награду."
+		time="4" />
+
+	<string
+		id="37"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_35_xpom.ogg"
+		value="Хром|Спасибо, прощайте."
+		time="2" />
+
+	<string
+		id="37001"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_36_xpom.ogg"
+		value="Хром|Благодарю, будьте здоровы."
+		time="2" />
+
+	<string
+		id="38"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_37_xpom.ogg"
+		value="Хром|Мда...  Наживы мало, но хотя бы что-то. Зато теперь у меня есть новый грузовик."
+		time="6" />
+
+	<string
+		id="39"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_38_xpom.ogg"
+		value="Хром|Однако, карта старика действительно привела меня к руинам, значит и остальные я смогу найти."
+		time="7" />
+
+	<string
+		id="40"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_39_xpom.ogg"
+		value="Хром|Следующий объект находится за морем. Путь конечно не близкий, но когда меня это останавливало?"
+		time="5" />
+
+	<string
+		id="41"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_40_xpom.ogg"
+		value="Хром|Не стреляйте! Я вам не враг, я хочу предложить помощь!"
+		time="4" />
+
+	<string
+		id="42"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_41_roshe.ogg"
+		value="Командир Роше|Ты же понимаешь, что мы теперь просто так тебя не отпустим?"
+		time="5" />
+
+	<string
+		id="43"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_42_xpom.ogg"
+		value="Хром|Если бы я не хотел этого делать, я бы просто донёс на вас Альфарану."
+		time="4" />
+
+	<string
+		id="44"
 		modelName="r4_man"
 		modelSkin="2"
 		modelCfg="108"
@@ -767,17 +436,17 @@
 		time="10" />
 
 	<string
-		id="78"
+		id="45"
 		modelName="r4_man"
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m2\r1m2_78_roshe.ogg"
-		value="Командир Роше|Отвези вот этот груз, который мы украли два дня назад, они сразу тебе поверят. И не вздумай играть на две стороны. В регионе слишком мало дорог. Если ты поедешь к Альфарану — мы узнаем раньше, чем ты доедешь до ближайшего блокпоста."
+		value="Командир Роше|Сообщи о зачистке лагеря налётчиков, и, в качестве доказательства, отвези груз, который мы украли два дня назад, они сразу тебе поверят. И не вздумай играть на две стороны. Может плохо кончиться. Для тебя."
 		time="16" />
 
 	<string
-		id="79"
+		id="46"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -786,47 +455,27 @@
 		time="2" />
 
 	<string
-		id="80"
-		modelName="r1_man"
-		modelSkin="3"
-		modelCfg="142"
-		value="Пётр|ВасильИЧ, я честно старался выровнять корабль, но видимо гидравлика была неисправна."
-		time="5" />
-
-	<string
-		id="81"
-		modelName="r1_man"
+		id="47"
+		modelName="r2_man"
 		modelSkin="2"
-		modelCfg="142"
-		value="ВасильИЧ|Пётр, хорош бухтеть! Потом будешь рефлексировать на эту тему, главное выбраться отсюда, да поскорее!"
-		time="6" />
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_46_partz.ogg"
+		value="Партизан|Подожди пока мы заложим заряд."
+		time="3" />
 
 	<string
-		id="82"
-		modelName="r1_man"
-		modelSkin="3"
-		modelCfg="142"
-		value="Пётр|На севере, вроде, порт местный находится. Можно туда заглянуть."
-		time="4" />
-
-	<string
-		id="83"
-		modelName="r1_man"
+		id="48"
+		modelName="r2_man"
 		modelSkin="2"
-		modelCfg="142"
-		value="ВасильИЧ|Значит поехали туда!"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_47_partz.ogg"
+		value="Партизан|Готово, уезжаем отсюда."
 		time="2" />
 
 	<string
-		id="84"
-		modelName="r1_man"
-		modelSkin="0"
-		modelCfg="142"
-		value="Лидер Антистачников|НЕТ РАЗ-БО-Ю! Товарищи! Альфаран не может обеспечить безопасность дорог, поэтому и мы отказываемся исполнять свои обязанности! НЕТ РАЗ-БО-Ю!"
-		time="12" />
-
-	<string
-		id="85"
+		id="49"
 		modelName="r2_man"
 		modelSkin="2"
 		modelCfg="168"
@@ -835,7 +484,7 @@
 		time="3" />
 
 	<string
-		id="86"
+		id="50"
 		modelName="r2_man"
 		modelSkin="2"
 		modelCfg="168"
@@ -844,13 +493,111 @@
 		time="3" />
 
 	<string
-		id="87"
+		id="51"
 		modelName="r2_man"
 		modelSkin="2"
 		modelCfg="168"
 		modelSlot="1"
 		value="Партизан|Готово, можем уезжать."
 		time="2" />
+
+	<string
+		id="52"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_48_roshe.ogg"
+		value="Командир Роше|Я получил сигнал от южной группы, дорога завалена, значит выступаем."
+		time="6" />
+
+	<string
+		id="53"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_49_partz.ogg"
+		value="Партизан|Бойцы! Нам предстоит последняя битва, сровняем Альфаран с землёй!"
+		time="6" />
+
+	<string
+		id="54"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_50_roshe.ogg"
+		value="Командир Роше|Меридиан зачищен, продвигаемся к базе!"
+		time="3" />
+
+	<string
+		id="55"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_51_roshe.ogg"
+		value="Командир Роше|Мы сделали это! Их защита пала!"
+		time="3" />
+
+	<string
+		id="56"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_52_roshe.ogg"
+		value="Командир Роше|Остался последний рывок, все проникаем на базу!"
+		time="4" />
+
+	<string
+		id="57"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Жители Кавказа, наконец-то обрели свободу. Интересно, что из этого выйдет?"
+		time="4" />
+
+	<string
+		id="58"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Ну а я заберу свою награду."
+		time="3" />
+
+	<string
+		id="59"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Груза тут конечно маловато... Но карта старика действительно привела меня к руинам, поэтому можно посмотреть и на другие объекты."
+		time="11" />
+
+	<string
+		id="60"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Но объект расположенный ближе всего находится за морем, придётся далеко ехать... "
+		time="8" />
+
+	<string
+		id="61"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Заберу себе грузовик со склада, давно хотел прокатиться на подобном."
+		time="7" />
+
+	<string
+		id="62"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Жалко конечно бросать свою машину, но так надо. Спасибо тебе, Ревенант, за всё!"
+		time="8" />
 
 	<string
 		id="88"
@@ -873,7 +620,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Значит этот тоннель выведет меня вглубь базы Предтеч. Но он закрыт на электронный замок."
+		value="Хром|Значит этот тоннель выведет меня вглубь базы Предтеч. Но он закрыт на кодовый замок."
 		time="6" />
 
 	<string
@@ -881,7 +628,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Надо спросить кочевника, где можно достать пароль."
+		value="Хром|Похоже, придётся снова поговорить с Кочевником."
 		time="4" />
 
 	<string
@@ -922,7 +669,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Я не сомневался в тебе."
+		value="Кочевник|Ты вернулся. Уже хорошо."
 		time="2" />
 
 	<string
@@ -981,7 +728,41 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Ладно, как я могу помочь жителям?"
+		value="Хром|Ты ведь знал, что там что-то есть."
+		time="3" />
+
+	<string
+		id="100"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		value="Кочевник|Знал."
+		time="2" />
+
+	<string
+		id="103"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|И всё равно отправил меня туда?"
+		time="3" />
+
+	<string
+		id="100"
+		modelName="r3_man"
+		modelSkin="0"
+		modelCfg="2299"
+		modelSlot="1"
+		value="Кочевник|Я отправил тебя искать вход. Не ты создал эту угрозу."
+		time="4" />
+
+	<string
+		id="103"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Звучит как плохое оправдание."
 		time="3" />
 
 	<string
@@ -990,7 +771,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Глобально - никак. Можешь помочь горожанам в противостоянии древней машине, в остальном они разберутся сами."
+		value="Кочевник|Судьбу региона теперь решат его жители. Но сегодня им пригодится каждый, кто способен держать оружие."
 		time="9" />
 
 	<string
@@ -1056,7 +837,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		value="Командир Роше|Вижу ваши дела совсем плохи."
+		value="Командир Роше|Не думал, что когда-нибудь приду на помощь Альфарану."
 		time="3" />
 
 	<string
@@ -1065,7 +846,7 @@
 		modelSkin="1"
 		modelCfg="90"
 		modelSlot="1"
-		value="Прапорщик Август|Так вот кто стоял за всеми волнениями в регионе!"
+		value="Прапорщик Август|Партизаны?!"
 		time="4" />
 
 	<string
@@ -1074,7 +855,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		value="Командир Роше|Сперва разберёмся с этой машиной, потом поговорим."
+		value="Командир Роше|Если падёт Меридиан, нам всем конец. Сперва разберёмся с этой машиной, потом поговорим."
 		time="5" />
 
 	<string
@@ -1111,6 +892,24 @@
 		modelSkin="1"
 		modelCfg="90"
 		modelSlot="1"
+		value="Прапорщик Август|Сегодня ты спас Меридиан."
+		time="4" />
+
+	<string
+		id="120"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		value="Командир Роше|И твои люди тоже."
+		time="7" />
+
+	<string
+		id="119"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
 		value="Прапорщик Август|С этим мы разобрались. Теперь что насчёт вас?"
 		time="4" />
 
@@ -1120,7 +919,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		value="Командир Роше|Готов предложить перемирие: мы сложим оружие, если прекратится тотальный контроль над населением."
+		value="Командир Роше|Готов предложить перемирие. Мы сложим оружие, если прекратится тотальный контроль над населением."
 		time="7" />
 
 	<string
@@ -1129,7 +928,7 @@
 		modelSkin="1"
 		modelCfg="90"
 		modelSlot="1"
-		value="Прапорщик Август|Если контроля не будет, начнётся анархия и бандитизм. Мы уже не можем связаться с деревней на севере. Только ваши нападки мешали нам навести полный порядок."
+		value="Прапорщик Август|Когда мы пришли сюда, дороги контролировали банды. Если власть исчезнет завтра, всё начнётся заново."
 		time="12" />
 
 	<string
@@ -1138,7 +937,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		value="Командир Роше|Тогда предлагаю создать народную полицию, население само будет следить за порядком."
+		value="Командир Роше|Люди должны сами участвовать в управлении регионом. Не только выполнять приказы. Раньше регион так и жил."
 		time="6" />
 
 	<string
@@ -1147,7 +946,25 @@
 		modelSkin="1"
 		modelCfg="90"
 		modelSlot="1"
-		value="Прапорщик Август|Но координировать и ограничивать действия будем мы, во избежание коррупции."
+		value="Прапорщик Август|Что ты предлагаешь?"
+		time="5" />
+
+	<string
+		id="122"
+		modelName="r4_man"
+		modelSkin="2"
+		modelCfg="108"
+		modelSlot="1"
+		value="Командир Роше|Пусть порядок поддерживают местные отряды."
+		time="6" />
+
+	<string
+		id="123"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="90"
+		modelSlot="1"
+		value="Прапорщик Август|Но координировать и ограничивать действия будем мы, во избежание превышения полномочий."
 		time="5" />
 
 	<string
@@ -1156,7 +973,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		value="Командир Роше|Идёт!"
+		value="Командир Роше|Это лучше, чем ещё одна война."
 		time="1" />
 
 	<string
@@ -1217,7 +1034,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Я знаю где его искать."
+		value="Хром|У меня есть одна догадка."
 		time="2" />
 
 	<string
@@ -1226,7 +1043,7 @@
 		modelSkin="1"
 		modelCfg="90"
 		modelSlot="1"
-		value="Прапорщик Август|Это было бы просто замечательно, награда будет достойная за его голову."
+		value="Прапорщик Август|Такой человек опаснее любой армии."
 		time="5" />
 
 	<string
@@ -1260,7 +1077,7 @@
 		modelSkin="0"
 		modelCfg="142"
 		modelSlot="1"
-		value="Глашатай|...также с данного момента ведётся набор в отряды народной полиции. Более подробная информация будет доступна в новообразованных бюро каждого населённого пункта..."
+		value="Глашатай|...также с данного момента ведётся набор в местные отряды правопорядка. Более подробная информация будет доступна в новообразованных бюро каждого населённого пункта..."
 		time="12" />
 
 	<string
@@ -1268,7 +1085,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Вот и лидер. Никуда он теперь не уйдёт."
+		value="Хром|А вот это уже интересно."
 		time="4" />
 
 	<string
@@ -1276,7 +1093,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Далеко собрался, Лидер?"
+		value="Хром|Далеко собрался?"
 		time="3" />
 
 	<string
@@ -1310,7 +1127,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Я искатель приключений, охочусь за останками предтеч, но одними артефактами себя не прокормишь, поэтому приходиться марать руки. Но это не делает из меня наёмника!"
+		value="Хром|Я Искатель приключений, охочусь за останками предтеч, но одними артефактами себя не прокормишь, поэтому приходиться марать руки. Но это не делает из меня наёмника!"
 		time="14" />
 
 	<string
@@ -1328,7 +1145,7 @@
 		modelSkin="0"
 		modelCfg="142"
 		modelSlot="1"
-		value="Лидер Антистачников|Ха! А ты неплохой боец, если бы я не был бессмертен давно бы уже откинул копыта!"
+		value="Лидер Антистачников|Ты оказался сильнее всех, кто вставал на моём пути."
 		time="7" />
 
 	<string
@@ -1336,7 +1153,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Бессмертен? Бред какой-то! Этого не может быть!"
+		value="Хром|За живого тебя, дадут гораздо больше, чем за мёртвого. Поэтому не трать просто так силы."
 		time="4" />
 
 	<string
@@ -1345,7 +1162,67 @@
 		modelSkin="0"
 		modelCfg="142"
 		modelSlot="1"
-		value="Лидер Антистачников|Лучше уйди с дороги у меня нет времени чтобы дальше разбираться с тобо..."
+		value="Лидер Антистачников|Говоришь как настощий наёмник."
+		time="6" />
+
+	<string
+		id="145"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Помолчи! Самому неприятно от этого."
+		time="4" />
+
+	<string
+		id="146"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="142"
+		modelSlot="1"
+		value="Лидер Антистачников|Кха-а..."
+		time="6" />
+
+	<string
+		id="146"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="142"
+		modelSlot="1"
+		value="Лидер Антистачников|...ты?"
+		time="6" />
+
+	<string
+		id="145"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Я?"
+		time="4" />
+
+	<string
+		id="146"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="142"
+		modelSlot="1"
+		value="Лидер Антистачников|Нет. Нет-нет-нет..."
+		time="6" />
+
+	<string
+		id="145"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|О чём ты..."
+		time="4" />
+
+	<string
+		id="146"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="142"
+		modelSlot="1"
+		value="Лидер Антистачников|Ты не должен быть здесь! Кха-а..."
 		time="6" />
 
 	<string
@@ -1354,7 +1231,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Куда ты так торопишься, Саммаэль?"
+		value="Кочевник|Должен. Саммаэль."
 		time="4" />
 
 	<string
@@ -1363,8 +1240,16 @@
 		modelSkin="0"
 		modelCfg="142"
 		modelSlot="1"
-		value="Саммаэль|Нет... НЕТ! ПОДОЖДИ!"
+		value="Саммаэль|Нет... НЕТ! Умоляю! Пристрели меня!"
 		time="3" />
+
+	<string
+		id="145"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		value="Хром|Что?.."
+		time="4" />
 
 	<string
 		id="149"
@@ -1372,7 +1257,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Внимательней нужно читать условия контракта."
+		value="Кочевник|..."
 		time="4" />
 
 	<string
@@ -1389,7 +1274,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Спасибо тебе Хром! Благодаря тебе регион может вздохнуть с облегчением!"
+		value="Кочевник|Лучше не забивай голову."
 		time="6" />
 
 	<string
@@ -1397,7 +1282,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|А что сейчас то произошло?"
+		value="Хром|Это не ответ."
 		time="3" />
 
 	<string
@@ -1406,7 +1291,7 @@
 		modelSkin="0"
 		modelCfg="2299"
 		modelSlot="1"
-		value="Кочевник|Не бери в голову, просто старые дела."
+		value="Кочевник|Иногда незнание полезнее знания. Береги себя, Хром!"
 		time="4" />
 
 	<string
@@ -1414,7 +1299,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|А как ты тогда его убил?"
+		value="Хром|..."
 		time="3" />
 
 	<string
@@ -1422,7 +1307,7 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Что? Куда он делся? Похоже я сильно устал..."
+		value="Хром|Что? Куда он делся? Похоже, я начинаю ненавидеть загадки."
 		time="5" />
 
 	<string
@@ -1430,8 +1315,192 @@
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		value="Хром|Ладно, надо вернуться к Августу за наградой."
+		value="Хром|Ладно, надо вернуться к Августу."
 		time="4" />
+
+	<string
+		id="50001"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_58_xpom.ogg"
+		value="Хром|На этой дороге ничего нет, проверим другие пути."
+		time="5" />
+
+
+	<string
+		id="50002"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_59_xpom.ogg"
+		value="Хром|Никаких следов, продолжаем поиски."
+		time="3" />
+
+	<string
+		id="50003"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_60_xpom.ogg"
+		value="Хром|Вот и пропавшие, только к сожалению не живые."
+		time="5" />
+
+	<string
+		id="50004"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="132"
+		modelSlot="0"
+		sound="data\sounds\Speech\r1m2\r1m2_61_razboy.ogg"
+		value="Разбойник|Попалась рыбка! Мы уже думали никто не приедет, лесник молодец!"
+		time="6" />
+
+	<string
+		id="50005"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_62_xpom.ogg"
+		value="Хром|Вы, как я понимаю, и есть те разбойники которые атакуют путников. И во всём этом замешан лесник..."
+		time="8" />
+
+	<string
+		id="50006"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="132"
+		modelSlot="0"
+		sound="data\sounds\Speech\r1m2\r1m2_63_razboy.ogg"
+		value="Разбойник|А ты догадливый, да это мы банда 'Волки'. Ладно, пора заканчивать."
+		time="6" />
+
+	<string
+		id="50007"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_64_xpom.ogg"
+		value="Хром|Вот и нет больше проблемы, надо наведаться к леснику и задать пару вопросов."
+		time="6" />
+
+	<string
+		id="51001"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="132"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_65_razboy.ogg"
+		value="Разбойник|Чего тебе надо, Искатель?"
+		time="3" />
+
+	<string
+		id="51002"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_66_xpom.ogg"
+		value="Хром|Я пришёл поговорить с вашим главарём."
+		time="3" />
+
+	<string
+		id="51003"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="132"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_67_razboy.ogg"
+		value="Разбойник|Приготовиться! 3... 2... 1..."
+		time="4" />
+
+	<string
+		id="51004"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_68_revol.ogg"
+		value="Подрывник|Приготовиться! 3... 2... 1..."
+		time="4" />
+
+	<string
+		id="51005"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_69_revol.ogg"
+		value="Революционер|Товарищи! Настало время освободить нашу деревню от гнёта, мы сами себе хозяева! Вперёд, в атаку!"
+		time="7" />
+
+	<string
+		id="51006"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_70_revol.ogg"
+		value="Революционер|Вскрывайте склады и забирайте всё в деревню!"
+		time="3" />
+
+    <string
+		id="51007"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_71_xpom.ogg"
+		value="Хром|А что насчёт завала? Вы его разберёте?"
+		time="3" />
+	
+    <string
+		id="51008"
+		modelName="r2_man"
+		modelSkin="2"
+		modelCfg="168"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_72_revol.ogg"
+		value="Революционер|Отправляйся туда и жди транспорт, скоро разберём."
+		time="3" />
+
+	<string
+		id="52001"
+		modelName="r1_man"
+		modelSkin="3"
+		modelCfg="142"
+		value="Пётр|ВасильИЧ, я честно старался выровнять корабль, но видимо гидравлика была неисправна."
+		time="5" />
+
+	<string
+		id="52002"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="142"
+		value="ВасильИЧ|Пётр, хорош бухтеть! Потом будешь рефлексировать на эту тему, главное выбраться отсюда, да поскорее!"
+		time="6" />
+
+	<string
+		id="52003"
+		modelName="r1_man"
+		modelSkin="3"
+		modelCfg="142"
+		value="Пётр|На севере, вроде, порт местный находится. Можно туда заглянуть."
+		time="4" />
+
+	<string
+		id="52004"
+		modelName="r1_man"
+		modelSkin="2"
+		modelCfg="142"
+		value="ВасильИЧ|Значит поехали туда!"
+		time="2" />
+
+	<string
+		id="91111"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="142"
+		value="Лидер Антистачников|НЕТ РАЗ-БО-Ю! Товарищи! Альфаран не может обеспечить безопасность дорог, поэтому и мы отказываемся исполнять свои обязанности! НЕТ РАЗ-БО-Ю!"
+		time="12" />
 
 	<string
 		id="333"
