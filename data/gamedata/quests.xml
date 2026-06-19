@@ -1573,8 +1573,8 @@
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
-		ConditionToGive="any complete"
-		PrecedingQuests="Promateus_quest Koch_Kavkaz_4_quest">
+		ConditionToGive="all complete"
+		PrecedingQuests="Promateus_quest">
 		<quest
 			Name="Baza_destroy_quest1"
 			Automatic="1"
@@ -1913,6 +1913,38 @@
 			CheckAll="0"
 			ConditionToGive="all complete"
 			PrecedingQuests="Koch_Kavkaz_4_quest3" />
+	</quest>
+
+	<quest
+		Name="r1_Koch_Baza_destroy_quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete"
+		PrecedingQuests="Koch_Kavkaz_4_quest">
+		<quest
+			Name="r1_Koch_Baza_destroy_quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r1_Koch_Baza_destroy_quest" />
+
+		<quest
+			Name="r1_Koch_Baza_destroy_quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1_Koch_Baza_destroy_quest1" />
+
+		<quest
+			Name="r1_Koch_Baza_destroy_quest3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1_Koch_Baza_destroy_quest2" />
 	</quest>
 <!--Root/r1m1/Сюжетные--><!--Root/r1m1/Опциональные-->
 	<MutuallyExclusives />

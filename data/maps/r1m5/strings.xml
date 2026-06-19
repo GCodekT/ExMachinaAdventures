@@ -7,7 +7,7 @@
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m5\r1m5_1_xpom.ogg"
 		value="Хром|Из дальнего зала слышны звуки. Не нравится мне всё это."
-		time="5" />
+		time="4" />
 
 	<string
 		id="2"
@@ -16,7 +16,7 @@
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m5\r1m5_2_xpom.ogg"
 		value="Хром|Это ещё что за?.."
-		time="3" />
+		time="2" />
 
 	<string
 		id="3"
@@ -24,29 +24,30 @@
 		modelSkin="2"
 		modelCfg="90"
 		modelSlot="0"
+		sound="data\sounds\Speech\r1m5\r1m5_3_boec.ogg"
 		value="Боец|Почему ты не сдыхаешь?!"
-		time="3" />
+		time="2" />
 
 	<string
 		id="4"
-		sound="data\sounds\Speech\r1m1\r1m5_4_prometeus.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_4_prometeus.ogg"
 		value="Прометей|Защитный контур восстановлен. Возобновлён протокол ликвидации."
-		time="7" />
+		time="5" />
 
 	<string
 		id="5"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
-		sound="data\sounds\Speech\r1m1\r1m5_5_xpom.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_5_xpom.ogg"
 		value="Хром|Твою мать! Я остался последний! Надо бежа..."
-		time="3" />
+		time="2" />
 
 	<string
 		id="6"
-		sound="data\sounds\Speech\r1m1\r1m5_6_prometeus.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_6_prometeus.ogg"
 		value="Прометей|Цели ликвидированы. Обнаружены нарушители на верхних этажах комплекса. Возобновлён протокол ликвидации."
-		time="4" />
+		time="8" />
 
 	<string
 		id="7"
@@ -54,7 +55,7 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		sound="data\sounds\Speech\r1m1\r1m5_7_roshe.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_7_roshe.ogg"
 		value="Командир Роше|Продвигаемся в глубь, любое сопротивление подавлять!"
 		time="4" />
 
@@ -64,15 +65,15 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		sound="data\sounds\Speech\r1m1\r1m5_8_roshe.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_8_roshe.ogg"
 		value="Командир Роше|А это что такое?"
 		time="2" />
 
 	<string
 		id="9"
-		sound="data\sounds\Speech\r1m1\r1m5_9_prometeus.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_9_prometeus.ogg"
 		value="Прометей|Обнаружены нарушители. Активирован протокол ликвидации."
-		time="6" />
+		time="4" />
 
 	<string
 		id="10"
@@ -80,51 +81,57 @@
 		modelSkin="2"
 		modelCfg="108"
 		modelSlot="1"
-		sound="data\sounds\Speech\r1m1\r1m5_10_roshe.ogg"
+		sound="data\sounds\Speech\r1m5\r1m5_10_roshe.ogg"
 		value="Командир Роше|Бойцы, огонь из всех орудий!"
 		time="3" />
 
 	<string
-		id="101"
+		id="11"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
+		sound="data\sounds\Speech\r1m5\r1m5_11_xpom.ogg"
 		value="Хром|Сколько колесил по миру, ни разу не видел ничего подобного. Надо найти путь до военной базы."
 		time="7" />
 
 	<string
-		id="102"
+		id="12"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
+		sound="data\sounds\Speech\r1m5\r1m5_12_xpom.ogg"
 		value="Хром|Похоже это оно, но как спуститься вниз?"
 		time="4" />
 
 	<string
-		id="103"
+		id="13"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
+		sound="data\sounds\Speech\r1m5\r1m5_13_xpom.ogg"
 		value="Хром|Что за звук?.."
 		time="2" />
 
 	<string
-		id="104"
+		id="14"
+		sound="data\sounds\Speech\r1m5\r1m5_14_prometeus.ogg"
 		value="Прометей|Запуск системы... Успешно. Анализ состояния агрегатов... Готовность. Внимание! Несанкционированное проникновение на территорию комплекса. Статус комплекса: осада. Активирован протокол ликвидации."
-		time="16" />
+		time="15" />
 
 	<string
-		id="105"
+		id="15"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
+		sound="data\sounds\Speech\r1m5\r1m5_15_xpom.ogg"
 		value="Хром|Чёрт! Надо уезжать отсюда!"
 		time="2" />
 
 	<string
-		id="106"
+		id="16"
+		sound="data\sounds\Speech\r1m5\r1m5_16_prometeus.ogg"
 		value="Прометей|Цель потеряна. Обнаружены множественные нарушители. Приоритет угрозы пересчитан. Возобновлён протокол ликвидации."
-		time="8" />
+		time="9" />
 
 	<string
 		id="11"

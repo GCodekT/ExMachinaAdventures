@@ -266,7 +266,12 @@
 	<trigger	Name="RemoveBuntVehicles"	active="0">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
-			local veh1 = GetEntityByName("vehBunt1")
+			local veh1L = GetEntityByName("LeaderVehBunt1")
+            if veh1L then
+                veh1L:Remove()
+            end
+
+            local veh1 = GetEntityByName("vehBunt1")
             if veh1 then
                 veh1:Remove()
             end
@@ -299,6 +304,46 @@
             local veh7 = GetEntityByName("vehBunt7")
             if veh7 then
                 veh7:Remove()
+            end
+
+			local veh8 = GetEntityByName("vehBunt8")
+            if veh8 then
+                veh8:Remove()
+            end
+
+			local veh9 = GetEntityByName("vehBunt9")
+            if veh9 then
+                veh9:Remove()
+            end
+            
+            local veh10 = GetEntityByName("vehBunt10")
+            if veh10 then
+                veh10:Remove()
+            end
+            
+            local veh11 = GetEntityByName("vehBunt11")
+            if veh11 then
+                veh11:Remove()
+            end
+            
+            local veh12 = GetEntityByName("vehBunt12")
+            if veh12 then
+                veh12:Remove()
+            end
+            
+            local veh13 = GetEntityByName("vehBunt13")
+            if veh13 then
+                veh13:Remove()
+            end
+            
+            local veh14 = GetEntityByName("vehBunt14")
+            if veh14 then
+                veh14:Remove()
+            end
+            
+            local veh15 = GetEntityByName("vehBunt15")
+            if veh15 then
+                veh15:Remove()
             end
 			
 

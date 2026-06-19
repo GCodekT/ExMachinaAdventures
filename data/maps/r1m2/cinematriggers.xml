@@ -982,7 +982,7 @@
 	<trigger Name="port_cin2_dop_1" active="0">
 		<event flypath="Port_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			AddCinematicMessage( 9, 0 )
+			AddCinematicMessage( 71111, 0 )
 
 			trigger:Deactivate()
 		</script>
@@ -1453,20 +1453,6 @@
 			AddCinematicMessage( 16, 0.5 )
 			AddCinematicMessage( 17, 0.5 )
 			AddCinematicMessage( 18, 0.5 )
-			
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Slezhka2_cin_dop_11" active="0">
-		<event flypath="Zas_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-		    
-			AddCinematicMessage( 16, 0.5 )
-			AddCinematicMessage( 17, 0.5 )
-			AddCinematicMessage( 18, 0.5 )
-			AddCinematicMessage( 19, 0.5 )
 			
 
 			trigger:Deactivate()
@@ -3334,7 +3320,7 @@
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 12, 0, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 88, 3 )
+			AddCinematicMessage( 57, 3 )
 
 			TActivate("Ruins_First_cin_vehicle")
 			TActivate("Ruins_First_cin_dop_1")
@@ -3370,7 +3356,7 @@
 		    getObj("xpom1"):SetNodeAction(AT_STAND2)
 			getObj("xpom1"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
-			AddCinematicMessage( 89, 0.5 )
+			AddCinematicMessage( 58, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -3415,8 +3401,8 @@
 				vehPlayer:SetRotation(Quaternion(-0.022, 0.999, 0.025, 0.014))
 			end
 
-			AddCinematicMessage( 90, 0.5 )
-			AddCinematicMessage( 91, 0.5 )
+			AddCinematicMessage( 59, 0.5 )
+			AddCinematicMessage( 60, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -3486,7 +3472,7 @@
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 95, 0.5 )
+			AddCinematicMessage( 62, 0.5 )
 
 			TActivate("Ruins_Second_cin_vehicle")
 			TActivate("Ruins_Second_cin_end")
@@ -3541,8 +3527,8 @@
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 92, 0.5 )
-			AddCinematicMessage( 93, 2 )
+			AddCinematicMessage( 62, 0.5 )
+			AddCinematicMessage( 63, 2 )
 
 			TActivate("Ruins_Second_Wrong_cin_end")
 
@@ -3582,8 +3568,8 @@
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 10, 1, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 92, 0.5 )
-			AddCinematicMessage( 94, 2 )
+			AddCinematicMessage( 62, 0.5 )
+			AddCinematicMessage( 64, 2 )
 
 			TActivate("Ruins_Second_True_cin_end")
 
@@ -3632,7 +3618,7 @@
 
             god(1)
 			FlyLinked( "Post_cam01", CTochID, 10, 1, 0, vehLinkID )
-            Fly("Ruini_cam04", CINEMATIC_NO_AIM, 0, 38, 0, 0 )
+            Fly("Ruini_cam04", CINEMATIC_NO_AIM, 0, 49, 0, 0 )
 			Fly("Ruini_cam05", CINEMATIC_NO_AIM, 0, 25, 0, 1 )
 			StartCinematic()
 			UpdateCinematic(1)
@@ -3709,12 +3695,13 @@
 				vehPlayer:SetThrottle(0)
 			end
             
-			AddCinematicMessage( 96, 1 )
-			AddCinematicMessage( 97, 0.5 )
-			AddCinematicMessage( 98, 0.5 )
-			AddCinematicMessage( 99, 0.5 )
-			AddCinematicMessage( 100, 0.5 )
-			AddCinematicMessage( 101, 0.5 )
+			AddCinematicMessage( 65, 1 )
+			AddCinematicMessage( 66, 0.5 )
+			AddCinematicMessage( 67, 0.5 )
+			AddCinematicMessage( 68, 0.5 )
+			AddCinematicMessage( 69, 0.5 )
+			AddCinematicMessage( 70, 0.5 )
+			AddCinematicMessage( 71, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -3726,9 +3713,12 @@
 		    
 			PlayCustomMusic("QuietDialogue02")
 
-		    AddCinematicMessage( 102, 1 )
-			AddCinematicMessage( 103, 0.5 )
-			AddCinematicMessage( 104, 0.5 )
+		    AddCinematicMessage( 72, 1 )
+			AddCinematicMessage( 73, 0.5 )
+			AddCinematicMessage( 74, 0.5 )
+			AddCinematicMessage( 75, 0.5 )
+			AddCinematicMessage( 76, 0.5 )
+			AddCinematicMessage( 77, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -3918,10 +3908,10 @@
 		<event flypath="MeridianAttack_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 		    
-            AddCinematicMessage( 105, 1 )
-			AddCinematicMessage( 106, 0.5 )
-			AddCinematicMessage( 107, 0.5 )
-			AddCinematicMessage( 108, 0.5 )
+            AddCinematicMessage( 78, 1 )
+			AddCinematicMessage( 79, 0.5 )
+			AddCinematicMessage( 80, 0.5 )
+			AddCinematicMessage( 81, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -3931,7 +3921,7 @@
 		<event flypath="MeridianAttack_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 
-		    AddCinematicMessage( 109, 0.5 )
+		    AddCinematicMessage( 82, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -4130,8 +4120,8 @@
 			Fly("MeridianAttack_cam04", CINEMATIC_NO_AIM, 0, 14, 0, 0 )
 			StartCinematic()
 
-			AddCinematicMessage( 110, 1 )
-			AddCinematicMessage( 111, 0.5 )
+			AddCinematicMessage( 83, 1 )
+			AddCinematicMessage( 84, 0.5 )
 
 			TActivate("Prometeus_Regeneration_cin_vehicle")
 			TActivate("Prometeus_Regeneration_cin_dop_2")
@@ -4263,9 +4253,9 @@
 		<event flypath="MeridianAttack_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 
-		    AddCinematicMessage( 112, 0.5 )
-			AddCinematicMessage( 113, 0.5 )
-			AddCinematicMessage( 114, 0.5 )
+		    AddCinematicMessage( 85, 0.5 )
+			AddCinematicMessage( 86, 0.5 )
+			AddCinematicMessage( 87, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -4289,8 +4279,8 @@
 		    FlyAround(1, 0, 25, 12, PlfCoor, PlfID, 0, 1 )
 			StartCinematic()
 
-		    AddCinematicMessage( 115, 0.5 )
-			AddCinematicMessage( 116, 0.5 )
+		    AddCinematicMessage( 88, 0.5 )
+			AddCinematicMessage( 89, 0.5 )
 
 			TActivate("Prometeus_Regeneration_cin_end")
 
@@ -4459,10 +4449,10 @@
             god(1)
 
 			Fly("MeridianAttack_cam05", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
-			Fly("MeridianAttack_cam06", CINEMATIC_NO_AIM, 0, 90, 0, 1 )
+			Fly("MeridianAttack_cam06", CINEMATIC_NO_AIM, 0, 100, 0, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 117, 1 )
+			AddCinematicMessage( 90, 1 )
 
 			TActivate("Prometeus_Die_cin_vehicle")
 			TActivate("Prometeus_Die_cin_dop_2")
@@ -4544,21 +4534,25 @@
 				vehPlayer:SetExternalPathByName("PLafterPromDie_path")
 			end
 
-			AddCinematicMessage( 118, 0.5 )
-			AddCinematicMessage( 119, 0.5 )
-			AddCinematicMessage( 120, 0.5 )
-			AddCinematicMessage( 121, 0.5 )
-			AddCinematicMessage( 122, 0.5 )
-			AddCinematicMessage( 123, 0.5 )
-			AddCinematicMessage( 124, 0.5 )
-			AddCinematicMessage( 125, 0.5 )
-			AddCinematicMessage( 126, 0.5 )
-			AddCinematicMessage( 127, 0.5 )
-			AddCinematicMessage( 128, 0.5 )
-			AddCinematicMessage( 129, 0.5 )
-			AddCinematicMessage( 130, 0.5 )
-			AddCinematicMessage( 131, 0.5 )
-			AddCinematicMessage( 132, 0.5 )
+			AddCinematicMessage( 91, 0.5 )
+			AddCinematicMessage( 92, 0.5 )
+			AddCinematicMessage( 93, 0.5 )
+			AddCinematicMessage( 94, 0.5 )
+			AddCinematicMessage( 95, 0.5 )
+			AddCinematicMessage( 96, 0.5 )
+			AddCinematicMessage( 97, 0.5 )
+			AddCinematicMessage( 98, 0.5 )
+			AddCinematicMessage( 99, 0.5 )
+			AddCinematicMessage( 100, 0.5 )
+			AddCinematicMessage( 101, 0.5 )
+			AddCinematicMessage( 102, 0.5 )
+			AddCinematicMessage( 103, 0.5 )
+			AddCinematicMessage( 104, 0.5 )
+			AddCinematicMessage( 105, 0.5 )
+			AddCinematicMessage( 106, 0.5 )
+			AddCinematicMessage( 107, 0.5 )
+			AddCinematicMessage( 108, 0.5 )
+			AddCinematicMessage( 109, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -4647,8 +4641,8 @@
 			FlyLinked( "LeaderEscape_cam04", CTochID2, 8, 0, 1, vehLinkID2 )
 			StartCinematic()
 
-            AddCinematicMessage( 133, 1 )
-			AddCinematicMessage( 134, 0.5 )
+            AddCinematicMessage( 110, 1 )
+			AddCinematicMessage( 111, 0.5 )
 
 			TActivate("PortBuntEND_cin_vehicle")
 			TActivate("PortBuntEND_cin_dop_1")
@@ -4718,7 +4712,7 @@
 	</trigger>
 
 	<trigger Name="PortBuntEND_cin_dop_01" active="0">
-		<event msgid="134" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<event msgid="111" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
 		    getObj("LeaderHumBunt1"):SetNodeAction(AT_STAND2)
 		    getObj("PortRab1"):SetNodeAction(AT_RESERVED1)
@@ -4731,7 +4725,7 @@
 	<trigger Name="PortBuntEND_cin_dop_1" active="0">
 		<event flypath="LeaderEscape_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 135, 1 )
+		    AddCinematicMessage( 112, 1 )
 
 			
 
@@ -4742,7 +4736,7 @@
 	<trigger Name="PortBuntEND_cin_dop_2" active="0">
 		<event flypath="LeaderEscape_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 136, 1 )
+		    AddCinematicMessage( 113, 1 )
 
 			getObj("AntiBuntovshik"):SetNodeAction(AT_RESERVED1)
 			getObj("AntiBuntovshik"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
@@ -4783,7 +4777,7 @@
 	<trigger Name="PortBuntEND_cin_dop_3" active="0">
 		<event flypath="LeaderEscape_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 137, 1 )
+		    AddCinematicMessage( 114, 1 )
 
 			
 
@@ -4877,9 +4871,9 @@
 			Fly("Brat_cam03", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 138, 1 )
-			AddCinematicMessage( 139, 0.5 )
-			AddCinematicMessage( 140, 0.5 )
+			AddCinematicMessage( 115, 1 )
+			AddCinematicMessage( 116, 0.5 )
+			AddCinematicMessage( 117, 0.5 )
 
 			TActivate("Brat_cin_vehicle")
 			TActivate("Brat_cin_dop_1")
@@ -4934,8 +4928,8 @@
 	<trigger Name="Brat_cin_dop_1" active="0">
 		<event flypath="Brat_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 141, 1 )
-            AddCinematicMessage( 142, 0.5 )
+		    AddCinematicMessage( 118, 1 )
+            AddCinematicMessage( 119, 0.5 )
 			
 
 			trigger:Deactivate()
@@ -4945,7 +4939,7 @@
 	<trigger Name="Brat_cin_dop_2" active="0">
 		<event flypath="Brat_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 143, 1 )
+		    AddCinematicMessage( 120, 1 )
 
 			
 
@@ -5031,9 +5025,11 @@
 			Fly("Brat_cam06", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 144, 1 )
-			AddCinematicMessage( 145, 0.5 )
-			AddCinematicMessage( 146, 0.5 )
+			AddCinematicMessage( 121, 1 )
+			AddCinematicMessage( 122, 0.5 )
+			AddCinematicMessage( 123, 0.5 )
+			AddCinematicMessage( 124, 0.5 )
+			AddCinematicMessage( 125, 0.5 )
 
 			TActivate("Brat_END_cin_vehicle")
 			TActivate("Brat_END_cin_dop_1")
@@ -5096,7 +5092,7 @@
 				vehKoch1:SetCruisingSpeed(15)
 			end
 			
-			AddCinematicMessage( 147, 1 )
+			AddCinematicMessage( 126, 1 )
 
 			trigger:Deactivate()
 		</script>
@@ -5113,14 +5109,14 @@
 				vehKoch1:SetThrottle(0)
 			end
 			
-		    AddCinematicMessage( 148, 1 )
-			AddCinematicMessage( 333, 0 )
-			AddCinematicMessage( 149, 2 )
-			AddCinematicMessage( 150, 0.5 )
-			AddCinematicMessage( 151, 0.5 )
-			AddCinematicMessage( 152, 0.5 )
-			AddCinematicMessage( 153, 0.5 )
-            AddCinematicMessage( 154, 0.5 )
+		    AddCinematicMessage( 127, 1 )
+			AddCinematicMessage( 128, 0.5 )
+			AddCinematicMessage( 129, 0.5 )
+			AddCinematicMessage( 130, 0 )
+			AddCinematicMessage( 131, 0.5 )
+			AddCinematicMessage( 132, 0.5 )
+			AddCinematicMessage( 133, 0.5 )
+            AddCinematicMessage( 134, 0.5 )
 			
 
 			trigger:Deactivate()
@@ -5143,8 +5139,13 @@
 	<trigger Name="Brat_END_cin_dop_3" active="0">
 		<event flypath="Brat_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-		    AddCinematicMessage( 155, 1 )
-            AddCinematicMessage( 156, 0.5 )
+		    AddCinematicMessage( 135, 1 )
+            AddCinematicMessage( 136, 0.5 )
+			AddCinematicMessage( 137, 0.5 )
+			AddCinematicMessage( 138, 0.5 )
+			AddCinematicMessage( 139, 0.5 )
+			AddCinematicMessage( 140, 0.5 )
+			AddCinematicMessage( 141, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -5975,7 +5976,11 @@
     <trigger Name="PortBuntCreate_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CreateCars_loc" />
 		<script>
+			SetTolerance( 1025, 1024, RS_NEUTRAL )
+			SetTolerance( 1063, 1024, RS_NEUTRAL )
+			SetTolerance( 1082, 1024, RS_NEUTRAL )
 
+			CreateVehicleEx("r1m2_hunter02","LeaderVehBunt1", CVector(7769.965, 204.705, 6478.983), 1024)
 			CreateVehicleEx("r1m3_Sml101", "vehBunt1", CVector(7751.974, 204.815, 6466.675), 1063)
             CreateVehicleEx("r1m3_Fighter02", "vehBunt2", CVector(7753.501, 204.818, 6484.809), 1063)
             CreateVehicleEx("r1m3_Fighter01", "vehBunt3", CVector(7745.660, 204.831, 6479.671), 1063)
@@ -5983,7 +5988,21 @@
             CreateVehicleEx("Fighter02", "vehBunt5", CVector(7739.386, 204.752, 6503.112), 1063)
             CreateVehicleEx("r1m3_Sml101", "vehBunt6", CVector(7740.274, 204.828, 6488.987), 1063)
             CreateVehicleEx("Sml101", "vehBunt7", CVector(7748.151, 204.767, 6516.519), 1063)
+			CreateVehicleEx("Fighter02", "vehBunt8", CVector(7752.026, 204.713, 6492.542), 1063)
+
+			CreateVehicleEx("BelazCaravan_2", "vehBunt9", CVector(7756.862, 204.686, 6454.430), 1063)
+            CreateVehicleEx("Ural00", "vehBunt10", CVector(7736.405, 204.712, 6463.026), 1063)
+            CreateVehicleEx("UralCarav", "vehBunt11", CVector(7726.920, 204.717, 6477.502), 1063)
+            CreateVehicleEx("Ural01", "vehBunt12", CVector(7725.867, 204.685, 6492.764), 1063)
+            CreateVehicleEx("BelazCaravan_2", "vehBunt13", CVector(7727.458, 204.634, 6513.587), 1063)
+            CreateVehicleEx("UralCarav", "vehBunt14", CVector(7737.857, 204.627, 6523.156), 1063)
+			CreateVehicleEx("BelazCaravan", "vehBunt15", CVector(7759.872, 204.721, 6529.005), 1063)
             
+			local veh1L = GetEntityByName("LeaderVehBunt1")
+            if veh1L then
+                veh1L:SetRotation(Quaternion(-0.002, 0.470, -0.001, -0.883))
+            end
+
             local veh1 = GetEntityByName("vehBunt1")
             if veh1 then
                 veh1:SetRotation(Quaternion(0.001, 0.367, -0.002, 0.930))
@@ -6017,6 +6036,46 @@
             local veh7 = GetEntityByName("vehBunt7")
             if veh7 then
                 veh7:SetRotation(Quaternion(-0.005, 0.927, 0.001, 0.375))
+            end
+
+			local veh8 = GetEntityByName("vehBunt8")
+            if veh8 then
+                veh8:SetRotation(Quaternion(-0.003, -0.753, 0.003, -0.658))
+            end
+
+			local veh9 = GetEntityByName("vehBunt9")
+            if veh9 then
+                veh9:SetRotation(Quaternion(-0.003, -0.374, 0.001, -0.928))
+            end
+            
+            local veh10 = GetEntityByName("vehBunt10")
+            if veh10 then
+                veh10:SetRotation(Quaternion(-0.003, -0.540, 0.001, -0.842))
+            end
+            
+            local veh11 = GetEntityByName("vehBunt11")
+            if veh11 then
+                veh11:SetRotation(Quaternion(0.001, -0.625, -0.002, -0.780))
+            end
+            
+            local veh12 = GetEntityByName("vehBunt12")
+            if veh12 then
+                veh12:SetRotation(Quaternion(-0.008, -0.562, -0.006, -0.827))
+            end
+            
+            local veh13 = GetEntityByName("vehBunt13")
+            if veh13 then
+                veh13:SetRotation(Quaternion(-0.000, -0.925, 0.001, -0.380))
+            end
+            
+            local veh14 = GetEntityByName("vehBunt14")
+            if veh14 then
+                veh14:SetRotation(Quaternion(-0.001, -0.965, 0.002, -0.262))
+            end
+            
+            local veh15 = GetEntityByName("vehBunt15")
+            if veh15 then
+                veh15:SetRotation(Quaternion(-0.000, -0.991, 0.002, -0.135))
             end
 
             CreateNewDummyObject( "dweller", "Buntovshik", -1, -1, CVector(7770.319, 210.548, 6486.856), Quaternion(0.0000, -0.7947, 0.0000, 0.6070), 1)
@@ -6063,6 +6122,11 @@
 				vehPlayer:SetRotation(Quaternion(-0.070, 0.169, 0.005, -0.983))
 			end
 
+			local veh1L = GetEntityByName("LeaderVehBunt1")
+            if veh1L then
+                veh1L:SetPosition( CVector(7769.965, 204.705, 6478.983))
+            end
+
 			local veh1 = GetEntityByName("vehBunt1")
             if veh1 then
                 veh1:SetPosition( CVector(7751.974, 207.815, 6466.675))
@@ -6096,6 +6160,46 @@
             local veh7 = GetEntityByName("vehBunt7")
             if veh7 then
                 veh7:SetPosition(CVector(7748.151, 207.767, 6516.519))
+            end
+
+			local veh8 = GetEntityByName("vehBunt8")
+            if veh8 then
+                veh8:SetPosition( CVector(7752.026, 204.713, 6492.542))
+            end
+            
+            local veh9 = GetEntityByName("vehBunt9")
+            if veh9 then
+                veh9:SetPosition( CVector(7756.862, 204.686, 6454.430))
+            end
+            
+            local veh10 = GetEntityByName("vehBunt10")
+            if veh10 then
+                veh10:SetPosition( CVector(7736.405, 204.712, 6463.026))
+            end
+            
+            local veh11 = GetEntityByName("vehBunt11")
+            if veh11 then
+                veh11:SetPosition( CVector(7726.920, 204.717, 6477.502))
+            end
+            
+            local veh12 = GetEntityByName("vehBunt12")
+            if veh12 then
+                veh12:SetPosition( CVector(7725.867, 204.685, 6492.764))
+            end
+            
+            local veh13 = GetEntityByName("vehBunt13")
+            if veh13 then
+                veh13:SetPosition( CVector(7727.458, 204.634, 6513.587))
+            end
+            
+            local veh14 = GetEntityByName("vehBunt14")
+            if veh14 then
+                veh14:SetPosition( CVector(7737.857, 204.627, 6523.156))
+            end
+
+			local veh15 = GetEntityByName("vehBunt15")
+            if veh15 then
+                veh15:SetPosition( CVector(7759.872, 204.721, 6529.005))
             end
             
 			getObj("Buntovshik"):SetNodeAction(AT_STAND2)

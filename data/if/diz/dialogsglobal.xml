@@ -3942,362 +3942,6 @@
 		text="Заткнись и проваливай уже."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Lesnik2_quest2'); EndConversation()" />
-<!--Root/r1m2/Опциональные/Кочевник-->
-	<Reply
-		name="Dlg_npc_000558"
-		text="Эй, Искатель! Тут тебе послание оставили."
-		role="NPC"
-		scriptCondition="not(IsQuestTaken('Koch_Kavkaz_quest1'))  and  not(IsQuestComplete('karavan_from_port_quest3'))  "
-		nextReplies="Dlg_pl_000559" />
-
-	<Reply
-		name="Dlg_pl_000559"
-		text="Что за послание и от кого?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000560" />
-
-	<Reply
-		name="Dlg_npc_000560"
-		text="Не знаю от кого, он просто сказал, чтобы ты съездил вот сюда."
-		role="NPC"
-		nextReplies="Dlg_pl_000561" />
-
-	<Reply
-		name="Dlg_pl_000561"
-		text="Но это место на другой стороне реки, как я туда попаду?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000562" />
-
-	<Reply
-		name="Dlg_npc_000562"
-		text="Я не знаю, он просто сказал направить тебя сюда."
-		role="NPC"
-		nextReplies="Dlg_pl_000563" />
-
-	<Reply
-		name="Dlg_pl_000563"
-		text="Ну ладно, проверю, если будет время."
-		role="PLAYER"
-		scriptResult="TakeQuest('Koch_Kavkaz_quest'); TActivate('Kochquest_tr'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000564"
-		text="Здравствуй, Хром!"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount() == 0  "
-		nextReplies="Dlg_pl_000932" />
-
-	<Reply
-		name="Dlg_pl_000932"
-		text="Мы знакомы?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000933" />
-
-	<Reply
-		name="Dlg_npc_000933"
-		text="Возможно, но пока не об этом. Тебе наверняка интересно, зачем я позвал тебя к себе?"
-		role="NPC"
-		nextReplies="Dlg_pl_000934" />
-
-	<Reply
-		name="Dlg_pl_000934"
-		text="Допустим. Чего ты от меня хочешь?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000935" />
-
-	<Reply
-		name="Dlg_npc_000935"
-		text="Хотел лишь предупредить грядущих изменениях в регионе."
-		role="NPC"
-		nextReplies="Dlg_pl_000936" />
-
-	<Reply
-		name="Dlg_pl_000936"
-		text="Что такое должно здесь произойти?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000937" />
-
-	<Reply
-		name="Dlg_npc_000937"
-		text="В регионе давно тлеет пожар. Ты просто окажешься рядом, когда он разгорится."
-		role="NPC"
-		nextReplies="Dlg_pl_000938" />
-
-	<Reply
-		name="Dlg_pl_000938"
-		text="Всё из-за того, что я хочу попасть в руины предтеч?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000939" />
-
-	<Reply
-		name="Dlg_npc_000939"
-		text="Некоторые двери лучше оставить закрытыми. Но люди редко прислушиваются к таким советам."
-		role="NPC"
-		nextReplies="Dlg_pl_000940" />
-
-	<Reply
-		name="Dlg_pl_000940"
-		text="Тогда я могу просто не вмешиваться в судьбу местных жителей и отправиться искать следующие руины за морем."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000941" />
-
-	<Reply
-		name="Dlg_npc_000941"
-		text="Движение корблей в порту заблокировано из-за забастовки. И единственное судно, которое прибудет, грузовой корабль Альфарана. На его борту будет груз, который откроет дверь, к которой ты так стремишься. Вернее, уже прибыл."
-		role="NPC"
-		nextReplies="Dlg_pl_000942" />
-
-	<Reply
-		name="Dlg_pl_000942"
-		text="И что ты предлагаешь делать?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000943" />
-
-	<Reply
-		name="Dlg_npc_000943"
-		text="Для начала проедься до ближайших руин, осмотрись там хорошенько."
-		role="NPC"
-		nextReplies="Dlg_pl_000944 Dlg_pl_000966" />
-
-	<Reply
-		name="Dlg_pl_000966"
-		text="Может быть в другой раз."
-		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount(1); EndConversation();" />
-
-	<Reply
-		name="Dlg_pl_000944"
-		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
-		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000576"
-		text="Как успехи?"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest2')) "
-		nextReplies="Dlg_pl_000577" />
-
-	<Reply
-		name="Dlg_pl_000577"
-		text="Ты же знал про ещё один вход в базу, поэтому скажи, где искать код?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000578" />
-
-	<Reply
-		name="Dlg_npc_000578"
-		text="Твоя прямолинейность похвальна. На севере есть одна деревня и там ты найдёшь Отшельника, у которого может быть много интересных вещей."
-		role="NPC"
-		nextReplies="Dlg_pl_000579" />
-
-	<Reply
-		name="Dlg_pl_000579"
-		text="Когда-нибудь я всё-таки пойму, кто ты такой."
-		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest2'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000945"
-		text="Здравствуй, брат на механической мессии, чего желаешь?"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest3')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest3'))"
-		nextReplies="Dlg_pl_000946" />
-
-	<Reply
-		name="Dlg_pl_000946"
-		text="Слышал у вас в деревне есть некий Отшельник, собирающий различный хлам. Где его можно найти?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000947" />
-
-	<Reply
-		name="Dlg_npc_000947"
-		text="Ты про этого осквернителя? Выше по дороге находится его хижина, чёрт бы его побрал!"
-		role="NPC"
-		nextReplies="Dlg_pl_000948 Dlg_pl_001089" />
-
-	<Reply
-		name="Dlg_pl_001089"
-		text="Почему вы называете его осквернителем?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_001090" />
-
-	<Reply
-		name="Dlg_npc_001090"
-		text="Потому что он разбирает священные реликвии Мессии на детали."
-		role="NPC"
-		nextReplies="Dlg_pl_001091" />
-
-	<Reply
-		name="Dlg_pl_001091"
-		text="Но почему вы его всё ещё терпите?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_001092" />
-
-	<Reply
-		name="Dlg_npc_001092"
-		text="Его давно уничтожили, если бы он не был лучшим механиком в долине. Пока наши грузовики ездят, старейшины готовы закрывать глаза на его ересь."
-		role="NPC"
-		nextReplies="Dlg_pl_001093" />
-
-	<Reply
-		name="Dlg_pl_001093"
-		text="Тогда понятно. Спасибо."
-		role="PLAYER" />
-
-	<Reply
-		name="Dlg_pl_000948"
-		text="Э-э... Спасибо?"
-		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest3'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000949"
-		text="Да не я это украл обшивку! Оставте меня в покое!"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest4'))"
-		nextReplies="Dlg_pl_000950" />
-
-	<Reply
-		name="Dlg_pl_000950"
-		text="Что?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000951" />
-
-	<Reply
-		name="Dlg_npc_000951"
-		text="Ты не из этих сумасшедших? Ой, прости пожалуйста путник! Чем могу быть обязан?"
-		role="NPC"
-		nextReplies="Dlg_pl_000952" />
-
-	<Reply
-		name="Dlg_pl_000952"
-		text="Слышал у тебя есть много разных артефактов, в том числе и времён предтеч."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000953" />
-
-	<Reply
-		name="Dlg_npc_000953"
-		text="Это да, многие считают это мусором, а некоторые вообще скверной, но для меня это хранилише истории и техноллогий древних."
-		role="NPC"
-		nextReplies="Dlg_pl_000954" />
-
-	<Reply
-		name="Dlg_pl_000954"
-		text="Не попадались ли тебе, в таком случае, какие-нибудь записи, шифры или коды от потерянных дверей?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000955" />
-
-	<Reply
-		name="Dlg_npc_000955"
-		text="Да, что-то такое было. Подожди секунду!"
-		role="NPC"
-		nextReplies="Dlg_pl_000956" />
-
-	<Reply
-		name="Dlg_pl_000956"
-		text="Куда уж деваться..."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000957" />
-
-	<Reply
-		name="Dlg_npc_000957"
-		text="Вот несколько записей, бери сколько хочешь!"
-		role="NPC"
-		nextReplies="Dlg_pl_000958" />
-
-	<Reply
-		name="Dlg_pl_000958"
-		text="Вот так просто?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000959" />
-
-	<Reply
-		name="Dlg_npc_000959"
-		text="Считай это платой за хороший разговор. Мне достаточно того факта, что кто-то ещё интересуется историей прежнего и нашего нынешнего мира, а такое нынче редкость."
-		role="NPC"
-		nextReplies="Dlg_pl_000960" />
-
-	<Reply
-		name="Dlg_pl_000960"
-		text="Спасибо тебе, удачи!"
-		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('Koch_Kavkaz_2_quest4'); AddBook('r1_book_security'); AddBook('r1_book_scientist'); AddBook('r1_book_officers'); AddBook('r1_book_engineer'); AddFadingMsgId( 'fm_book_got' ); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000961"
-		text="Какой код ввести?"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest5')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest5'))"
-		nextReplies="Dlg_pl_000962 Dlg_pl_000963 Dlg_pl_000964 Dlg_pl_000965" />
-
-	<Reply
-		name="Dlg_pl_000965"
-		text="Из записей инженера"
-		role="PLAYER"
-		scriptCondition=" "
-		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
-
-	<Reply
-		name="Dlg_pl_000964"
-		text="Из шпаргалки учёного"
-		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
-
-	<Reply
-		name="Dlg_pl_000963"
-		text="Из переписки офицеров"
-		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_True_cin'); CompleteQuest('Koch_Kavkaz_2_quest5'); EndConversation()" />
-
-	<Reply
-		name="Dlg_pl_000962"
-		text="Из отчётов охраны"
-		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000967"
-		text="Ещё не надумал?"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount()>0 "
-		nextReplies="Dlg_pl_000968 Dlg_pl_000969" />
-
-	<Reply
-		name="Dlg_pl_000969"
-		text="Нет."
-		role="PLAYER"
-		scriptResult="EndConversation();" />
-
-	<Reply
-		name="Dlg_pl_000968"
-		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
-		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000970"
-		text="О, вот и ты! Удалось убить того Лидера?"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_4_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_4_quest4'))"
-		nextReplies="Dlg_pl_000971" />
-
-	<Reply
-		name="Dlg_pl_000971"
-		text="Да, он попытался сбежать из Порта, но мне удалось догнать его у деревни фанатиков."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000972" />
-
-	<Reply
-		name="Dlg_npc_000972"
-		text="Это хорошая новость, в награду можешь взять всё что уцелело на базе."
-		role="NPC"
-		nextReplies="Dlg_pl_000973" />
-
-	<Reply
-		name="Dlg_pl_000973"
-		text="Это... Щедро с вашей стороны."
-		role="PLAYER"
-		scriptResult="TActivate(''); CompleteQuest('Koch_Kavkaz_4_quest4'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/Бармены-->
 	<Reply
 		name="Dlg_npc_000389"
@@ -5235,4 +4879,372 @@
 		text="Вот и хорошо."
 		role="PLAYER"
 		scriptResult="CompleteQuest('Dubrovka_quest2'); TActivate('Vzriv_cin22'); TakeQuest('Dubrovka_quest4'); EndConversation() " />
+<!--Root/r1m2/Сюжетные/Кочевник-->
+	<Reply
+		name="Dlg_npc_000558"
+		text="Эй, Искатель! Тут тебе послание оставили."
+		role="NPC"
+		scriptCondition="not(IsQuestTaken('Koch_Kavkaz_quest1'))  and  not(IsQuestComplete('karavan_from_port_quest3'))  "
+		nextReplies="Dlg_pl_000559" />
+
+	<Reply
+		name="Dlg_pl_000559"
+		text="Что за послание и от кого?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000560" />
+
+	<Reply
+		name="Dlg_npc_000560"
+		text="Не знаю от кого, он просто сказал, чтобы ты съездил вот сюда."
+		role="NPC"
+		nextReplies="Dlg_pl_000561" />
+
+	<Reply
+		name="Dlg_pl_000561"
+		text="Но это место на другой стороне реки, как я туда попаду?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000562" />
+
+	<Reply
+		name="Dlg_npc_000562"
+		text="Я не знаю, он просто сказал направить тебя сюда."
+		role="NPC"
+		nextReplies="Dlg_pl_000563" />
+
+	<Reply
+		name="Dlg_pl_000563"
+		text="Ну ладно, проверю, если будет время."
+		role="PLAYER"
+		scriptResult="TakeQuest('Koch_Kavkaz_quest'); TActivate('Kochquest_tr'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000564"
+		text="Здравствуй, Хром!"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount() == 0  "
+		nextReplies="Dlg_pl_000932" />
+
+	<Reply
+		name="Dlg_pl_000932"
+		text="Мы знакомы?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000933" />
+
+	<Reply
+		name="Dlg_npc_000933"
+		text="Возможно, но пока не об этом. Тебе наверняка интересно, зачем я позвал тебя к себе?"
+		role="NPC"
+		nextReplies="Dlg_pl_000934" />
+
+	<Reply
+		name="Dlg_pl_000934"
+		text="Допустим. Чего ты от меня хочешь?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000935" />
+
+	<Reply
+		name="Dlg_npc_000935"
+		text="Хотел лишь предупредить грядущих изменениях в регионе."
+		role="NPC"
+		nextReplies="Dlg_pl_000936" />
+
+	<Reply
+		name="Dlg_pl_000936"
+		text="Что такое должно здесь произойти?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000937" />
+
+	<Reply
+		name="Dlg_npc_000937"
+		text="В регионе давно тлеет пожар. Ты просто окажешься рядом, когда он разгорится."
+		role="NPC"
+		nextReplies="Dlg_pl_000938" />
+
+	<Reply
+		name="Dlg_pl_000938"
+		text="Всё из-за того, что я хочу попасть в руины предтеч?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000939" />
+
+	<Reply
+		name="Dlg_npc_000939"
+		text="Некоторые двери лучше оставить закрытыми. Но люди редко прислушиваются к таким советам."
+		role="NPC"
+		nextReplies="Dlg_pl_000940" />
+
+	<Reply
+		name="Dlg_pl_000940"
+		text="Тогда я могу просто не вмешиваться в судьбу местных жителей и отправиться искать следующие руины за морем."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000941" />
+
+	<Reply
+		name="Dlg_npc_000941"
+		text="Движение корблей в порту заблокировано из-за забастовки. И единственное судно, которое прибудет, грузовой корабль Альфарана. На его борту будет груз, который откроет дверь, к которой ты так стремишься. Вернее, уже прибыл."
+		role="NPC"
+		nextReplies="Dlg_pl_000942" />
+
+	<Reply
+		name="Dlg_pl_000942"
+		text="И что ты предлагаешь делать?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000943" />
+
+	<Reply
+		name="Dlg_npc_000943"
+		text="Для начала проедься до ближайших руин, осмотрись там хорошенько."
+		role="NPC"
+		nextReplies="Dlg_pl_000944 Dlg_pl_000966" />
+
+	<Reply
+		name="Dlg_pl_000966"
+		text="Может быть в другой раз."
+		role="PLAYER"
+		scriptResult="GetCurNpc():SetSpokenCount(1); EndConversation();" />
+
+	<Reply
+		name="Dlg_pl_000944"
+		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
+		role="PLAYER"
+		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000576"
+		text="Как успехи?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest2')) "
+		nextReplies="Dlg_pl_000577" />
+
+	<Reply
+		name="Dlg_pl_000577"
+		text="Ты же знал про ещё один вход в базу, поэтому скажи, где искать код?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000578" />
+
+	<Reply
+		name="Dlg_npc_000578"
+		text="Твоя прямолинейность похвальна. На севере есть одна деревня и там ты найдёшь Отшельника, у которого может быть много интересных вещей."
+		role="NPC"
+		nextReplies="Dlg_pl_000579" />
+
+	<Reply
+		name="Dlg_pl_000579"
+		text="Когда-нибудь я всё-таки пойму, кто ты такой."
+		role="PLAYER"
+		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest2'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000945"
+		text="Здравствуй, брат на механической мессии, чего желаешь?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest3')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest3'))"
+		nextReplies="Dlg_pl_000946" />
+
+	<Reply
+		name="Dlg_pl_000946"
+		text="Слышал у вас в деревне есть некий Отшельник, собирающий различный хлам. Где его можно найти?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000947" />
+
+	<Reply
+		name="Dlg_npc_000947"
+		text="Ты про этого осквернителя? Выше по дороге находится его хижина, чёрт бы его побрал!"
+		role="NPC"
+		nextReplies="Dlg_pl_000948 Dlg_pl_001089" />
+
+	<Reply
+		name="Dlg_pl_001089"
+		text="Почему вы называете его осквернителем?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001090" />
+
+	<Reply
+		name="Dlg_npc_001090"
+		text="Потому что он разбирает священные реликвии Мессии на детали."
+		role="NPC"
+		nextReplies="Dlg_pl_001091" />
+
+	<Reply
+		name="Dlg_pl_001091"
+		text="Но почему вы его всё ещё терпите?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001092" />
+
+	<Reply
+		name="Dlg_npc_001092"
+		text="Его давно уничтожили, если бы он не был лучшим механиком в долине. Пока наши грузовики ездят, старейшины готовы закрывать глаза на его ересь."
+		role="NPC"
+		nextReplies="Dlg_pl_001093" />
+
+	<Reply
+		name="Dlg_pl_001093"
+		text="Тогда понятно. Спасибо."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_pl_000948"
+		text="Э-э... Спасибо?"
+		role="PLAYER"
+		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest3'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000949"
+		text="Да не я это украл обшивку! Оставте меня в покое!"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest4'))"
+		nextReplies="Dlg_pl_000950" />
+
+	<Reply
+		name="Dlg_pl_000950"
+		text="Что?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000951" />
+
+	<Reply
+		name="Dlg_npc_000951"
+		text="Ты не из этих сумасшедших? Ой, прости пожалуйста путник! Чем могу быть обязан?"
+		role="NPC"
+		nextReplies="Dlg_pl_000952" />
+
+	<Reply
+		name="Dlg_pl_000952"
+		text="Слышал у тебя есть много разных артефактов, в том числе и времён предтеч."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000953" />
+
+	<Reply
+		name="Dlg_npc_000953"
+		text="Это да, многие считают это мусором, а некоторые вообще скверной, но для меня это хранилише истории и техноллогий древних."
+		role="NPC"
+		nextReplies="Dlg_pl_000954" />
+
+	<Reply
+		name="Dlg_pl_000954"
+		text="Не попадались ли тебе, в таком случае, какие-нибудь записи, шифры или коды от потерянных дверей?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000955" />
+
+	<Reply
+		name="Dlg_npc_000955"
+		text="Да, что-то такое было. Подожди секунду!"
+		role="NPC"
+		nextReplies="Dlg_pl_000956" />
+
+	<Reply
+		name="Dlg_pl_000956"
+		text="Куда уж деваться..."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000957" />
+
+	<Reply
+		name="Dlg_npc_000957"
+		text="Вот несколько записей, бери сколько хочешь!"
+		role="NPC"
+		nextReplies="Dlg_pl_000958" />
+
+	<Reply
+		name="Dlg_pl_000958"
+		text="Вот так просто?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000959" />
+
+	<Reply
+		name="Dlg_npc_000959"
+		text="Считай это платой за хороший разговор. Мне достаточно того факта, что кто-то ещё интересуется историей прежнего и нашего нынешнего мира, а такое нынче редкость."
+		role="NPC"
+		nextReplies="Dlg_pl_000960" />
+
+	<Reply
+		name="Dlg_pl_000960"
+		text="Спасибо тебе, удачи!"
+		role="PLAYER"
+		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('Koch_Kavkaz_2_quest4'); AddBook('r1_book_security'); AddBook('r1_book_scientist'); AddBook('r1_book_officers'); AddBook('r1_book_engineer'); AddFadingMsgId( 'fm_book_got' ); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000961"
+		text="Какой код ввести?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest5')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest5'))"
+		nextReplies="Dlg_pl_000962 Dlg_pl_000963 Dlg_pl_000964 Dlg_pl_000965" />
+
+	<Reply
+		name="Dlg_pl_000965"
+		text="Из записей инженера"
+		role="PLAYER"
+		scriptCondition=" "
+		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000964"
+		text="Из шпаргалки учёного"
+		role="PLAYER"
+		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000963"
+		text="Из переписки офицеров"
+		role="PLAYER"
+		scriptResult="TActivate('Ruins_Second_True_cin'); CompleteQuest('Koch_Kavkaz_2_quest5'); EndConversation()" />
+
+	<Reply
+		name="Dlg_pl_000962"
+		text="Из отчётов охраны"
+		role="PLAYER"
+		scriptResult="TActivate('Ruins_Second_Wrong_cin'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000967"
+		text="Ещё не надумал?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount()>0 "
+		nextReplies="Dlg_pl_000968 Dlg_pl_000969" />
+
+	<Reply
+		name="Dlg_pl_000969"
+		text="Нет."
+		role="PLAYER"
+		scriptResult="EndConversation();" />
+
+	<Reply
+		name="Dlg_pl_000968"
+		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
+		role="PLAYER"
+		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_000970"
+		text="О, вот и ты! Удалось схватить подозреваемого?"
+		role="NPC"
+		scriptCondition="IsQuestTaken('Koch_Kavkaz_4_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_4_quest4'))"
+		nextReplies="Dlg_pl_000971" />
+
+	<Reply
+		name="Dlg_pl_000971"
+		text="Да, но в ходе перестрелки он скончался от ран."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000972" />
+
+	<Reply
+		name="Dlg_npc_000972"
+		text="Жаль, что не удалось допросить его. Но по крайней мере эта история закончилась."
+		role="NPC"
+		nextReplies="Dlg_pl_000973" />
+
+	<Reply
+		name="Dlg_pl_000973"
+		text="Хотелось бы верить."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001094" />
+
+	<Reply
+		name="Dlg_npc_001094"
+		text="Хотя с деньгами у нас сейчас тяжело, в награду можешь взять всё, что уцелело на базе."
+		role="NPC"
+		nextReplies="Dlg_pl_001095" />
+
+	<Reply
+		name="Dlg_pl_001095"
+		text="Это... Щедро с вашей стороны."
+		role="PLAYER"
+		scriptResult="TActivate(''); CompleteQuest('Koch_Kavkaz_4_quest4'); EndConversation()" />
 <!--Root/r1m1/Сюжетные--><!--Root/r1m1/Опциональные--></DialogsResource>

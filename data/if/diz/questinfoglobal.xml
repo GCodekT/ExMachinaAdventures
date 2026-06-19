@@ -2676,6 +2676,38 @@
 	</QuestInfo>
 
 	<QuestInfo
+		questName="r1_Koch_Baza_destroy_quest"
+		briefDiz="Подведение итогов"
+		fullDiz="Прометей был уничтожен, и всё, относительно, стало спокойно. Ну а я осмотрю склады уничтоженной базы. "
+		isMainQuest="1" />
+
+	<QuestInfo
+		questName="r1_Koch_Baza_destroy_quest1"
+		briefDiz="Приехать на базу"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="InBase_loc" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r1_Koch_Baza_destroy_quest2"
+		briefDiz="Уничтожить свою машину"
+		isMainQuest="1">
+		<Map
+			name="r1m2" />
+	</QuestInfo>
+
+	<QuestInfo
+		questName="r1_Koch_Baza_destroy_quest3"
+		briefDiz="Отправиться на восток"
+		isMainQuest="1">
+		<Map
+			name="r1m2"
+			targetObjName="ToR4M1" />
+	</QuestInfo>
+
+	<QuestInfo
 		questName="radar_quest"
 		briefDiz="Провести георазведку"
 		fullDiz="Расчистка завала пойдёт быстрее, если я найду новые месторождения железа на болотах."
