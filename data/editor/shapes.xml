@@ -213,6 +213,13 @@
 
 	</Shape>
 
+	<Shape name="Хвойный Очень Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+
+		<object class="GameObject" 		model="Breakable_Elka1"	amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="GameObject" 		model="Breakable_Elka2"	amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+
+	</Shape>
+
 	<Shape name="Валуны сплошные" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
 
 		<object class="SgAnimatedModelNode" 	model="Big_crag_6"		amount="0 2" 	scale="0.75 1.50" 	radius="15"/>
@@ -261,6 +268,24 @@
 		<object class="GameObject" 		model="Breakable_Sosna3"	amount="1 3" 	scale="0.75 1.00" 	radius="3"/>
 		</Shape>
 
+	<Shape name="Сосновый Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GRASS_FALL_LEAF_BROWN.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Sosna1"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Sosna2"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+		<object class="GameObject" 		model="Breakable_Sosna3"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
+
+	</Shape>
+
+	<Shape name="Сосновый Очень Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
+		<tile file="data\tiles\region1\GRASS_FALL_LEAF_BROWN.dds"	prob="1" />
+
+		<object class="GameObject" 		model="Breakable_Sosna1"	amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="GameObject" 		model="Breakable_Sosna2"	amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+		<object class="GameObject" 		model="Breakable_Sosna3"	amount="0 1" 	scale="0.75 1.00" 	radius="10"/>
+
+	</Shape>
+
 	<Shape name="грибы" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
 
 		<object class="SgAnimatedModelNode" 	model="grib1"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
@@ -272,15 +297,6 @@
 		<object class="SgAnimatedModelNode" 	model="grib7"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
 		<object class="SgAnimatedModelNode" 	model="grib8"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
 		<object class="SgAnimatedModelNode" 	model="grib9"			amount="0 1" 	scale="0.75 1.00" 	radius="3"/>
-	</Shape>
-
-	<Shape name="Сосновый Редкий лес" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">
-		<tile file="data\tiles\region1\GRASS_FALL_LEAF_BROWN.dds"	prob="1" />
-
-		<object class="GameObject" 		model="Breakable_Sosna1"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
-		<object class="GameObject" 		model="Breakable_Sosna2"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
-		<object class="GameObject" 		model="Breakable_Sosna3"	amount="0 1" 	scale="0.75 1.00" 	radius="5"/>
-
 	</Shape>
 
 	<Shape name="Кусты Густые" size="1" colormap="128 128 128" passmap="5" colormapBigBrush="1">

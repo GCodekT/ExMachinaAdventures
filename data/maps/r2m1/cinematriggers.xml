@@ -9,7 +9,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("First_cam01", CINEMATIC_NO_AIM, 0, 9, 1, 1 )
 			StartCinematic()
@@ -55,7 +55,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -78,7 +78,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("First_cam02", CINEMATIC_NO_AIM, 0, 18, 1, 1 )
@@ -168,7 +168,7 @@
 				vehPlayer:PlaceToEndOfPath("PlDamba_path")
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -190,7 +190,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("First_cam03", CINEMATIC_NO_AIM, 0, 3, 1, 1 )
@@ -217,7 +217,7 @@
 				vehFan11:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -238,7 +238,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("First_cam03", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -267,7 +267,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -292,7 +292,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(1776.780, 525.476, 5715.370), Quaternion(0, 0, 0, 0), 0)
 			CreateNewDummyObject( "brick_debris1", "CamTochka1", -1, -1, CVector(1527.025, 541.605, 5829.696), Quaternion(0, 0, 0, 0), 0)
@@ -521,7 +521,7 @@
 				Kirpich1:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -577,7 +577,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Karier_cam01", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -635,7 +635,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -655,7 +655,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Karier_cam02", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
@@ -725,7 +725,7 @@
 
 		    CompleteQuest("Eretik_quest1")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -749,7 +749,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Posledam_cam01", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
@@ -786,7 +786,7 @@
 
 		    CompleteQuest("Eretik_quest2")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -819,7 +819,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Posledam_cam02", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -856,7 +856,7 @@
 
 		    CompleteQuest("Eretik_quest5")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -879,7 +879,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Posledam_cam03", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
@@ -916,7 +916,7 @@
 
 		    CompleteQuest("Eretik_quest6")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -948,7 +948,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam01", CINEMATIC_NO_AIM, 0, 22, 1, 1 )
@@ -986,7 +986,7 @@
 
 		    CompleteQuest("Eretik_quest9")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1007,7 +1007,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam02", CINEMATIC_NO_AIM, 0, 5, 1, 1 )
@@ -1044,7 +1044,7 @@
 
 		    CompleteQuest("Eretik_quest10")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1066,7 +1066,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam03", CINEMATIC_NO_AIM, 0, 4, 1, 1 )
@@ -1101,7 +1101,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1117,7 +1117,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam04", CINEMATIC_NO_AIM, 0, 4, 1, 1 )
@@ -1152,7 +1152,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1173,7 +1173,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(7523.906, 547.825, 1100.534), Quaternion(0, 0, 0, 0), 0)
 
@@ -1296,7 +1296,7 @@
 			    Kirpich:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1320,7 +1320,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 26, 1, 1 )
@@ -1361,7 +1361,7 @@
 
 
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1390,7 +1390,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -1433,7 +1433,7 @@
 
 
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1468,7 +1468,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -1511,7 +1511,7 @@
 				VehErt2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1532,7 +1532,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -1645,7 +1645,7 @@
 
 		    TeamCreate("Eretiki02",1032,CVector(5165.695, 499.781, 1766.235),{"CoolBelaz_2","Cruiser02","Ural03"}, nil, 1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1677,7 +1677,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("KaravanOgrab_cam03", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -1721,7 +1721,7 @@
 				VehErt2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1742,7 +1742,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("KaravanOgrab_cam04", CINEMATIC_NO_AIM, 0, 18, 1, 1 )
@@ -1855,7 +1855,7 @@
 			    
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1899,7 +1899,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			local VehCarFur1 = GetEntityByName("FuryCar3_vehicle_0")
 			if VehCarFur1 then       
@@ -1998,7 +1998,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2027,7 +2027,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			
 			Fly("FinalEretiki_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 0 )
 			Fly("FinalEretiki_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
@@ -2102,7 +2102,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2174,7 +2174,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "1_riback",	"Kor1", -1, -1, CVector(5322.720, 446.006, 5888.858), Quaternion(0.0000, 0.0000, 0.0000, 1.0000),1 )
 
@@ -2496,7 +2496,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2570,7 +2570,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			if IsQuestComplete("Fury_quest5") then 
 			    local vehFury = GetEntityByName("FuryCar3_vehicle_0")
@@ -2676,7 +2676,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2765,7 +2765,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("FinalATOMIC_cam08", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
@@ -2819,7 +2819,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2881,7 +2881,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("FinalATOMIC_cam09", CINEMATIC_NO_AIM, 0, 6, 1, 0 )
@@ -2985,7 +2985,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3009,7 +3009,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("First_cam02", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
@@ -3049,7 +3049,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3072,7 +3072,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam01", CINEMATIC_NO_AIM, 0, 22, 1, 1 )
@@ -3110,7 +3110,7 @@
 
 		    AddQuestItem("quest_start_father_letter")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3146,7 +3146,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Poiski_cam02", CINEMATIC_NO_AIM, 0, 5, 1, 1 )
@@ -3183,7 +3183,7 @@
 
 		    CompleteQuest("Otkaz_quest3")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3211,7 +3211,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(7523.906, 547.825, 1100.534), Quaternion(0, 0, 0, 0), 0)
 
@@ -3338,7 +3338,7 @@
 			    Kirpich:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3363,7 +3363,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 26, 1, 1 )
@@ -3404,7 +3404,7 @@
 
 
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3430,7 +3430,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -3473,7 +3473,7 @@
 
 
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3508,7 +3508,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Eretiki_cam02", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -3551,7 +3551,7 @@
 				VehErt2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3574,7 +3574,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("First_cam02", CINEMATIC_NO_AIM, 0, 13, 1, 1 )
@@ -3662,7 +3662,7 @@
 				vehPlayer:PlaceToEndOfPath("PlDamba_path")
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3689,7 +3689,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("KaravanOgrab_cam03", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -3733,7 +3733,7 @@
 				VehErt2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3754,7 +3754,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("FinalATOMIC_cam09", CINEMATIC_NO_AIM, 0, 15, 1, 0 )
@@ -3853,7 +3853,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

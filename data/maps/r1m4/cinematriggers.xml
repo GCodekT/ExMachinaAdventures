@@ -8,7 +8,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Karavan_cam01", CINEMATIC_NO_AIM, 0, 20, 1, 1 )
 			StartCinematic()
@@ -91,7 +91,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		    TakeQuest("doroga_quest")
+		    TakeQuest("r1m4_FindEastPath_quest")
 
 		    local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
@@ -127,7 +127,7 @@
 				CarKarav5:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -149,7 +149,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(3263.143, 483.175, 843.902), Quaternion(0, 0, 0, 0), 0)
 
@@ -224,7 +224,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		    CompleteQuest("doroga_quest2")
+		    CompleteQuest("r1m4_FindEastPath_quest2")
 
 		    local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
@@ -239,7 +239,7 @@
 				Kirpich:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -288,7 +288,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Boloto_cam01", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
 			StartCinematic()
@@ -322,7 +322,7 @@
 
 		    CompleteQuest("radar_quest1")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -573,7 +573,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Boloto_cam02", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
 			StartCinematic()
@@ -607,7 +607,7 @@
 
 		    CompleteQuest("radar_quest2")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -664,7 +664,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Sever_cam01", CINEMATIC_NO_AIM, 0, 20, 1, 1 )
 			StartCinematic()
@@ -708,7 +708,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			local BasaTown = GetEntityByName("TownEast5192")
 			if BasaTown then
@@ -785,7 +785,7 @@
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
 				local Cum1 = GetEntityByName("Kamen1")
 			    if Cum1 then
@@ -917,7 +917,7 @@
 				Kirpich:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

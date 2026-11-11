@@ -82,8 +82,24 @@ $Id: SideGuns.xml,v 1.43 2005/11/24 09:45:19 anton Exp $
 		CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
 		ResourceType		= "SIDE_GUN">	
-		<Part id = "BASKET_SIDE_GUN_L"	Prototype = "hail01L" /> 
-		<Part id = "BASKET_SIDE_GUN_R"	Prototype = "hail01R" /> 
+		<Part id = "BASKET_SIDE_GUN_L"	Prototype = "hail01R" /> 
+		<Part id = "BASKET_SIDE_GUN_R"	Prototype = "hail01L" /> 
+
+
+	</Prototype>
+
+	<Prototype
+		Class			= "CompoundGun"
+		Name				= "hailSideGunNotVisible"
+		Price				= "162000"
+		VisibleInEncyclopedia = "false"
+		Decal				= "DC_ROKET"
+
+		CanBeUsedInAutogenerating  =  "0"
+     		ApplyAffixes	= "false"
+		ResourceType		= "SIDE_GUN">	
+		<Part id = "BASKET_SIDE_GUN_L"	Prototype = "hail01R" /> 
+		<Part id = "BASKET_SIDE_GUN_R"	Prototype = "hail01L" /> 
 
 
 	</Prototype>

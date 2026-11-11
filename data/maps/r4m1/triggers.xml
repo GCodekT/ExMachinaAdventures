@@ -67,7 +67,7 @@
 	<trigger Name="PEREGREV_BOOM_3" active="0">
 		<event timeout="1.5" eventid="GE_TIME_PERIOD" />
 		<script>
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 		    PlayCustomMusic("Passage02")
 			AddImportantFadingMsgByStrIdFormatted( "fm_PEREGEV_3" )
 			TActivate("PEREGREV_BOOM_4")
@@ -245,4 +245,3 @@
 	</trigger>
 
 </triggers>
-

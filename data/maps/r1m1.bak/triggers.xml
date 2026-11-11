@@ -14,7 +14,7 @@
 	<trigger Name="trFirstRolik" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-			g_ObjCont:SetGameTime( 10, 0, 10, 9, 2234 )
+			g_ObjCont:SetGameTime( 10, 0, 5, 8, 2245 )
 
 			SetRadarUpgrade(1)
 

@@ -16,7 +16,7 @@
 	<trigger Name="Nachalo_Koch_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		    if IsQuestTaken("Koch_Kavkaz_3_quest1")  and  not(IsQuestComplete("Koch_Kavkaz_3_quest1")) then 
+		    if IsQuestTaken("r1m2_KochKavkaz_3_quest1")  and  not(IsQuestComplete("r1m2_KochKavkaz_3_quest1")) then 
 
 			    CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(2989.288, 230.950, 1203.464), Quaternion(0, 0, 0, 0), 0)
 			
@@ -25,7 +25,7 @@
     
 			    SaveAllToleranceStatus(RS_NEUTRAL)
     
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 			    FlyLinked( "Povorot_cam02", CTochID, 10, 1, 1, vehLinkID )
 			    StartCinematic()
 				UpdateCinematic(1)
@@ -80,7 +80,7 @@
 				CamT:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -102,12 +102,12 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PrometeusAct_loc" />
 		<script>
 		    
-			CompleteQuest("Koch_Kavkaz_3_quest1")
+			CompleteQuest("r1m2_KochKavkaz_3_quest1")
 		    PlayCustomMusic("IntenseDialogue02")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("InBase_cam06", CINEMATIC_NO_AIM, 0, 12, 1, 0 )
 			Fly("InBase_cam07", CINEMATIC_NO_AIM, 0, 18, 0, 0 )
@@ -193,7 +193,7 @@
 				vehKar1:SetCruisingSpeed(15)
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -235,12 +235,12 @@
 		<script>
 		    TDeactivate("Prometeus_Koch_cin_Length")
 		    
-			CompleteQuest("Koch_Kavkaz_3_quest2")
+			CompleteQuest("r1m2_KochKavkaz_3_quest2")
 		    PlayCustomMusic("IntenseDialogue01")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			local Plf = GetEntityByName("BossRun")
 			Plf:SetCruisingSpeed(0)
@@ -283,7 +283,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -303,13 +303,13 @@
     <trigger Name="Nachalo_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		    if IsQuestTaken("Na_bazy_quest1")  and  not(IsQuestComplete("Na_bazy_quest1")) then 
+		    if IsQuestTaken("r1m2_EnterBase_quest1")  and  not(IsQuestComplete("r1m2_EnterBase_quest1")) then 
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
-			    Fly("InBase_cam01", CINEMATIC_NO_AIM, 0, 14, 1, 1 )
+			    Fly("InBase_cam01", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
 			    StartCinematic()
 				UpdateCinematic(1)
 
@@ -347,7 +347,7 @@
 
             
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -358,18 +358,6 @@
 
 			TActivate("Boss_cin")
 
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	
-
-	<trigger Name="Boss_cin" active="0">
-		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Boss_loc" />
-		<script>
-			CompleteQuest("Na_bazy_quest1")
-
 			TeamCreate("Boss",1040,CVector(378,405,1116),{"MirotvorecBoss"}, nil, 1)
 
 			local vehBoss = GetEntityByName("Boss_vehicle_0")
@@ -379,11 +367,12 @@
 				vehBoss:setImmortalMode(1)  
 			end
 
-			TeamCreate("DefTM1",1025,CVector(3427.489, 226.735, 478.403),{"Ural00", "Ural02", "Hunter01"}, nil, 1)
+			TeamCreate("DefTM1",1025,CVector(3427.489, 226.735, 478.403),{"Ural03", "Ural01", "Cruiser02"}, nil, 1)
 
 			local vehDef11 = GetEntityByName("DefTM1_vehicle_0")
 			if vehDef11 then
 				vehDef11:SetPosition( CVector(3457.489, 226.735, 448.403))
+				vehDef11:setGodMode(1)
 			end
 
 			local vehDef12 = GetEntityByName("DefTM1_vehicle_1")
@@ -396,20 +385,56 @@
 				vehDef13:SetPosition( CVector(3407.489, 226.735, 428.403))
 			end
 
+			TeamCreate("DefTM2",1025,CVector(3420.542, 226.740, 323.455),{"Cruiser01"}, nil, 1)
+
+			local vehDef21 = GetEntityByName("DefTM2_vehicle_0")
+			if vehDef21 then
+				vehDef21:SetPosition( CVector(3420.542, 226.740, 323.455))
+				vehDef21:setGodMode(1)
+			end
+
+			TeamCreate("DefTM3",1025,CVector(3290.512, 226.744, 320.518),{"CoolBelaz_2", "Ural01"}, nil, 1)
+
+			local vehDef31 = GetEntityByName("DefTM3_vehicle_0")
+			if vehDef31 then
+				vehDef31:SetPosition( CVector(3287.512, 226.744, 320.518))
+				vehDef31:setGodMode(1)
+			end
+
+			local vehDef32 = GetEntityByName("DefTM3_vehicle_1")
+			if vehDef32 then
+				vehDef32:SetPosition( CVector(3290.512, 226.744, 327.518))
+			end
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	
+
+	<trigger Name="Boss_cin" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Boss_loc" />
+		<script>
+			CompleteQuest("r1m2_EnterBase_quest1")
+
+			
+
 			PlayCustomMusic("IntenseDialogue02")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			Fly("InBase_cam04", CINEMATIC_NO_AIM, 0, 15, 1, 1 )
+			Fly("InBase_cam04", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
+			Fly("InBase_cam041", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 2, 1 )
-			AddCinematicMessage( 3, 0.5 )
-			AddCinematicMessage( 4, 0.5 )
+			
 
 			TActivate("Boss_cin_vehicle")
+			TActivate("Boss_cin_dop_1")
 			TActivate( "Boss_cin_end" )
 
 			trigger:Deactivate()
@@ -427,24 +452,39 @@
 				vehPlayer:setImmortalMode(1)
 			end
 
-			TeamCreate("DefTM2",1025,CVector(3420.542, 226.740, 323.455),{"Cruiser01"}, nil, 1)
+			local vehBoss = GetEntityByName("Boss_vehicle_0")
+			if vehBoss then
+				vehBoss:SetPosition( CVector(3443.947, 227.978, 392.365))
+				vehBoss:SetRotation(Quaternion(0.002, 0.820, -0.002, -0.573))
+			end
+
+			local vehDef11 = GetEntityByName("DefTM1_vehicle_0")
+			if vehDef11 then
+				vehDef11:SetPosition( CVector(3457.489, 226.735, 448.403))
+				vehDef11:setGodMode(0)
+			end
 
 			local vehDef21 = GetEntityByName("DefTM2_vehicle_0")
 			if vehDef21 then
 				vehDef21:SetPosition( CVector(3420.542, 226.740, 323.455))
+				vehDef21:setGodMode(0)
 			end
-
-			TeamCreate("DefTM3",1025,CVector(3290.512, 226.744, 320.518),{"Ural01", "Hunter02"}, nil, 1)
 
 			local vehDef31 = GetEntityByName("DefTM3_vehicle_0")
 			if vehDef31 then
 				vehDef31:SetPosition( CVector(3287.512, 226.744, 320.518))
+				vehDef31:setGodMode(0)
 			end
 
-			local vehDef32 = GetEntityByName("DefTM3_vehicle_1")
-			if vehDef32 then
-				vehDef32:SetPosition( CVector(3290.512, 226.744, 327.518))
-			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Boss_cin_dop_1" active="0">
+		<event flypath="InBase_cam041" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    AddCinematicMessage( 3, 0.5 )
+			AddCinematicMessage( 4, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -457,7 +497,7 @@
 
             CreateNewDummyObject( "concrete_tube1",	"KAMEHb1", -1, -1, CVector(3644.939, 225.900, 526.969), Quaternion(0.0000, 0.0000, 0.0000, 1.0000),1 )
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -471,6 +511,8 @@
 			TActivate("Boss_cin_vehicleBoss")
 
 			TActivate("BossDie_cin")
+
+			TDeactivate("Boss_cin_dop_1")
 
 			PlayCustomMusic("Passage03b")
 
@@ -517,10 +559,10 @@
 		<script>
 			PlayCustomMusic("Battle01")
             
-			if IsQuestComplete("Annigilation_quest4") then
-			    CompleteQuest("PrometeusALT_quest")
+			if IsQuestComplete("r1m2_FinalBattle_quest4") then
+			    CompleteQuest("r1m2_PromateusALT_quest")
 			else
-			    CompleteQuest("Na_bazy_quest2")
+			    CompleteQuest("r1m2_EnterBase_quest2")
             end
 
 			
@@ -541,17 +583,19 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			Fly("InBase_cam05", CINEMATIC_NO_AIM, 0, 19, 1, 1 )
+			Fly("InBase_cam05", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
+			Fly("InBase_cam051", CINEMATIC_NO_AIM, 0, 10, 0, 1 )
 			StartCinematic()
 
-			AddCinematicMessage( 5, 1 )
+			AddCinematicMessage( 5, 0.5 )
 			AddCinematicMessage( 333, 0 )
-			AddCinematicMessage( 6, 0.5 )
+			
 		
 			TActivate("BossDie_cin_vehicle")
 			TActivate("BossDie_cin_dop_1")
+			TActivate("BossDie_cin_dop_2")
 			TActivate( "BossDie_cin_end" )
 			TDeactivate( "Boss_damage_ON_1" )
 			TDeactivate( "Boss_damage_OFF_1" )
@@ -641,8 +685,14 @@
 			if vehFakePlayer then       
 				vehFakePlayer:SetCustomLinearVelocity(0)
 				vehFakePlayer:SetThrottle(0)
-				vehFakePlayer:SetPosition( CVector(3443.947, 227.978, 392.365))
-				vehFakePlayer:SetRotation(Quaternion(-0.001, -0.541, 0.003, 0.841))
+				vehFakePlayer:SetPosition( CVector(3355.291, 226.649, 403.770))
+				vehFakePlayer:SetRotation(Quaternion(-0.001, -0.744, 0.001, -0.668))
+			end
+
+			local vehBoss = GetEntityByName("Boss_vehicle_0")
+			if vehBoss then
+				vehBoss:SetPosition( CVector(3393.896, 226.644, 401.699))
+				vehBoss:SetRotation(Quaternion(-0.000, 0.934, -0.000, -0.357))
 			end
 
 			trigger:Deactivate()
@@ -662,6 +712,15 @@
 		</script>
 	</trigger>
 
+	<trigger Name="BossDie_cin_dop_2" active="0">
+		<event flypath="InBase_cam051" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+		    AddCinematicMessage( 6, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
 	<trigger Name="BossDie_cin_end" active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
@@ -670,10 +729,11 @@
 			SetWeather(1)
 
 			TDeactivate("BossDie_cin_dop_1")
+			TDeactivate("BossDie_cin_dop_2")
 
 		    AllowSave(true)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -722,7 +782,7 @@
 	<trigger Name="Nachalo2_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		    if IsQuestTaken("Annigilation_quest4")  and  not(IsQuestComplete("Annigilation_quest4")) then 
+		    if IsQuestTaken("r1m2_FinalBattle_quest4")  and  not(IsQuestComplete("r1m2_FinalBattle_quest4")) then 
 
 			    
 				
@@ -736,11 +796,11 @@
 					vehBoss:setImmortalMode(1)
 			    end
 
-				CompleteQuest("Annigilation_quest4")
+				CompleteQuest("r1m2_FinalBattle_quest4")
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
 			    Fly("InBase_cam01", CINEMATIC_NO_AIM, 0, 6, 1, 0 )
 				Fly("InBase_cam04", CINEMATIC_NO_AIM, 0, 14, 0, 1 )
@@ -901,7 +961,7 @@
 				vehDef32:SetPosition( CVector(3290.512, 226.744, 327.518))
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -930,7 +990,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("InBase_cam05", CINEMATIC_NO_AIM, 0, 16, 1, 1 )
 			StartCinematic()
@@ -966,7 +1026,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -997,7 +1057,7 @@
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
 				CreateVehicleEx("CoolBelaz_3","Nezn_112", CVector(2661.519, 227.605, 989.448), 1003)
                 
@@ -1164,7 +1224,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

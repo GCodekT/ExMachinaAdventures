@@ -1,6 +1,240 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Paths>
 	<Path
+		Name="BaseBarman2_path">
+		<Point
+			coord="2590.739 905.383" />
+
+		<Point
+			coord="2606.171 927.808" />
+
+		<Point
+			coord="2647.995 979.843" />
+
+		<Point
+			coord="2746.242 1080.925" />
+
+		<Point
+			coord="2846.879 1193.877" />
+
+		<Point
+			coord="2980.933 1315.803" />
+
+		<Point
+			coord="3082.395 1392.818" />
+	</Path>
+
+	<Path
+		Name="BaseBarman_path">
+		<Point
+			coord="2560.563 850.509" />
+
+		<Point
+			coord="2566.537 870.006" />
+
+		<Point
+			coord="2568.366 895.667" />
+	</Path>
+
+	<Path
+		Name="BasePers_path">
+		<Point
+			coord="2580.800 888.149" />
+
+		<Point
+			coord="2598.331 919.309" />
+
+		<Point
+			coord="2632.798 963.250" />
+
+		<Point
+			coord="2694.167 1025.229" />
+
+		<Point
+			coord="2755.760 1088.636" />
+
+		<Point
+			coord="2835.352 1175.758" />
+
+		<Point
+			coord="2917.217 1257.489" />
+
+		<Point
+			coord="3001.227 1329.945" />
+
+		<Point
+			coord="3097.649 1403.103" />
+	</Path>
+
+	<Path
+		Name="BaseXpom_path">
+		<Point
+			coord="2624.553 956.626" />
+
+		<Point
+			coord="2602.497 937.807" />
+
+		<Point
+			coord="2581.006 939.979" />
+
+		<Point
+			coord="2570.557 914.833" />
+	</Path>
+
+	<Path
+		Name="Base_Mer_path">
+		<Point
+			coord="2715.391 1035.738" />
+
+		<Point
+			coord="2788.132 1105.258" />
+
+		<Point
+			coord="2862.604 1188.686" />
+
+		<Point
+			coord="2933.242 1261.947" />
+
+		<Point
+			coord="2985.222 1308.365" />
+
+		<Point
+			coord="3041.344 1356.051" />
+
+		<Point
+			coord="3107.782 1399.273" />
+
+		<Point
+			coord="3129.824 1432.477" />
+
+		<Point
+			coord="3131.022 1492.772" />
+
+		<Point
+			coord="3138.739 1560.324" />
+
+		<Point
+			coord="3174.473 1570.432" />
+
+		<Point
+			coord="3216.798 1559.948" />
+
+		<Point
+			coord="3240.581 1539.271" />
+
+		<Point
+			coord="3277.758 1509.748" />
+
+		<Point
+			coord="3334.888 1493.914" />
+
+		<Point
+			coord="3376.234 1497.190" />
+
+		<Point
+			coord="3398.170 1538.425" />
+
+		<Point
+			coord="3394.640 1611.923" />
+
+		<Point
+			coord="3367.195 1663.713" />
+
+		<Point
+			coord="3314.498 1705.484" />
+
+		<Point
+			coord="3249.906 1719.768" />
+
+		<Point
+			coord="3210.768 1753.287" />
+
+		<Point
+			coord="3190.168 1809.949" />
+
+		<Point
+			coord="3128.979 1835.018" />
+
+		<Point
+			coord="3059.095 1849.938" />
+
+		<Point
+			coord="3000.770 1869.024" />
+
+		<Point
+			coord="2993.472 1897.283" />
+
+		<Point
+			coord="3036.331 1926.387" />
+
+		<Point
+			coord="3092.246 1936.916" />
+
+		<Point
+			coord="3206.057 1936.906" />
+
+		<Point
+			coord="3257.363 1951.428" />
+
+		<Point
+			coord="3289.528 1980.165" />
+
+		<Point
+			coord="3287.589 2008.635" />
+
+		<Point
+			coord="3276.594 2030.422" />
+
+		<Point
+			coord="3252.221 2050.953" />
+
+		<Point
+			coord="3222.694 2059.732" />
+
+		<Point
+			coord="3159.024 2064.174" />
+
+		<Point
+			coord="3119.852 2082.769" />
+
+		<Point
+			coord="3098.253 2111.969" />
+
+		<Point
+			coord="3091.326 2148.730" />
+
+		<Point
+			coord="3106.649 2171.237" />
+
+		<Point
+			coord="3149.153 2188.753" />
+
+		<Point
+			coord="3207.139 2189.135" />
+
+		<Point
+			coord="3298.604 2201.275" />
+
+		<Point
+			coord="3318.606 2229.521" />
+
+		<Point
+			coord="3360.372 2351.016" />
+
+		<Point
+			coord="3384.579 2507.326" />
+
+		<Point
+			coord="3393.037 2598.537" />
+
+		<Point
+			coord="3392.620 2782.449" />
+
+		<Point
+			coord="3392.975 2920.715" />
+	</Path>
+
+	<Path
 		Name="BratBunt1_path">
 		<Point
 			coord="4341.757 5160.093" />
@@ -244,6 +478,147 @@
 
 		<Point
 			coord="7245.894 6637.721" />
+	</Path>
+
+	<Path
+		Name="Mer_Base_path">
+		<Point
+			coord="3376.196 2872.195" />
+
+		<Point
+			coord="3375.567 2593.554" />
+
+		<Point
+			coord="3366.223 2499.265" />
+
+		<Point
+			coord="3342.171 2367.674" />
+
+		<Point
+			coord="3297.171 2231.547" />
+
+		<Point
+			coord="3240.140 2220.365" />
+
+		<Point
+			coord="3124.444 2212.355" />
+
+		<Point
+			coord="3070.775 2178.643" />
+
+		<Point
+			coord="3054.209 2137.381" />
+
+		<Point
+			coord="3077.343 2091.604" />
+
+		<Point
+			coord="3106.292 2061.795" />
+
+		<Point
+			coord="3161.183 2043.030" />
+
+		<Point
+			coord="3222.558 2038.993" />
+
+		<Point
+			coord="3263.047 2012.502" />
+
+		<Point
+			coord="3270.998 1984.955" />
+
+		<Point
+			coord="3241.509 1965.781" />
+
+		<Point
+			coord="3190.943 1960.443" />
+
+		<Point
+			coord="3057.376 1961.723" />
+
+		<Point
+			coord="2987.840 1933.839" />
+
+		<Point
+			coord="2966.981 1895.898" />
+
+		<Point
+			coord="2976.737 1863.573" />
+
+		<Point
+			coord="3031.004 1836.090" />
+
+		<Point
+			coord="3106.665 1819.143" />
+
+		<Point
+			coord="3153.684 1792.407" />
+
+		<Point
+			coord="3190.807 1741.670" />
+
+		<Point
+			coord="3228.399 1708.134" />
+
+		<Point
+			coord="3305.085 1683.975" />
+
+		<Point
+			coord="3359.659 1638.191" />
+
+		<Point
+			coord="3378.602 1601.969" />
+
+		<Point
+			coord="3374.188 1530.816" />
+
+		<Point
+			coord="3356.485 1512.664" />
+
+		<Point
+			coord="3299.056 1526.832" />
+
+		<Point
+			coord="3258.944 1561.473" />
+
+		<Point
+			coord="3212.767 1585.185" />
+
+		<Point
+			coord="3161.949 1590.912" />
+
+		<Point
+			coord="3124.808 1575.786" />
+
+		<Point
+			coord="3115.265 1534.735" />
+
+		<Point
+			coord="3113.768 1463.091" />
+
+		<Point
+			coord="3102.665 1422.483" />
+
+		<Point
+			coord="3070.565 1394.761" />
+
+		<Point
+			coord="3022.328 1365.280" />
+
+		<Point
+			coord="2978.010 1322.040" />
+
+		<Point
+			coord="2883.232 1237.379" />
+
+		<Point
+			coord="2822.615 1175.454" />
+
+		<Point
+			coord="2758.794 1106.304" />
+
+		<Point
+			coord="2647.481 1002.043" />
 	</Path>
 
 	<Path
@@ -804,10 +1179,10 @@
 			coord="7782.764 6071.785" />
 
 		<Point
-			coord="7801.330 6006.547" />
+			coord="7813.052 5964.067" />
 
 		<Point
-			coord="7809.277 5952.032" />
+			coord="7816.828 5924.480" />
 
 		<Point
 			coord="7808.698 5791.089" />

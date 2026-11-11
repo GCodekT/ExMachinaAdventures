@@ -1278,7 +1278,7 @@ My additions start here
 				Breakable8   = "1"
 				Breakable9   = "1"
 				Breakable10   = "1"
-				Breakable10   = "1"
+				Breakable11   = "1"
 			/>
 		</Prototype>
 	
@@ -1889,11 +1889,11 @@ My additions end here
 			RepairCoef			= "0.5"
 			FuelConsumption                 = "0.2"
 			VisibleInEncyclopedia = "false"
-			Mass				= "75.0"
+			Mass				= "15.0"
 			MaxPower			= "120"
 			EngineHighSound		        = "ET_S_ENGINE_HUNTER_2_HIGH"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxTorque			= "100"
+			MaxTorque			= "90"
 			Price				= "17000"	
 			MaxSpeed			= "150.0"
 			LoadPoints			= "LP_BIG01 LP_BIG02" >
@@ -1995,7 +1995,6 @@ My additions end here
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "150"
 			EngineHighSound		= "ET_S_ENGINE_MIR_5_HIGH"
-	                VisibleInEncyclopedia = "false"
 			Price				= "50000"	
 			MaxSpeed			= "85.0"
 			FuelConsumption                 = "0.001"

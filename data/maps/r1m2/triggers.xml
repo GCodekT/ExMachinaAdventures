@@ -17,6 +17,11 @@
 
 			CreateNewDummyObject( "desert_fence1", "vorota1", -1, -1, CVector(4214.267, 310.423, 720.831), Quaternion(-0.4794, -0.0280, -0.0152, 0.8770), 0)
 			CreateNewDummyObject( "desert_fence1", "vorota2", -1, -1, CVector(4214.787, 315.620, 712.385), Quaternion(-0.4794, -0.0280, -0.0152, 0.8770), 0)
+			
+			CreateNewDummyObject( "big_crag_4", "CUMPORT1", -1, -1, CVector(7789.301, 260.174, 5953.027), Quaternion(0.0000, 0.0000, -0.0763, 0.9971), 0)
+			CreateNewDummyObject( "big_crag_12", "CUMPORT2", -1, -1, CVector(7796.055, 261.318, 5949.598), Quaternion(0.0000, 0.5465, 0.0000, 0.8375), 0)
+			CreateNewDummyObject( "big_crag_5", "CUMPORT3", -1, -1, CVector(7794.905, 256.800, 5946.195), Quaternion(0.0000, 0.0000, -0.1672, 0.9859), 0)
+			
 
 			trigger:Deactivate()
 		</script>
@@ -33,7 +38,7 @@
 	</trigger>
 
 	<trigger	Name="DestroyCRAGS"	active="0">
-		<event timeout="5" eventid="GE_TIME_PERIOD" />
+		<event timeout="5.5" eventid="GE_TIME_PERIOD" />
 		<script>
 		    CreateEffectInsertedInRemove( "ET_PS_VEH_EXP1_MED1", CVector(1970.358, 225.000, 6103.171), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), true )
 			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(1970.358, 225.000, 6103.171), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 5000)
@@ -71,19 +76,12 @@
 	<trigger	Name="CreateDOTs"	active="1">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
-			CreateNewBreakableObject( "staticAutoGun01","dot01", 1025, CVector(2886.672, 281.900, 1379.048), Quaternion(0.000, -0.668, 0.000, 0.745),0 )
-			CreateNewBreakableObject( "staticAutoGun01","dot02", 1025, CVector(3031.598, 286.329, 1229.467), Quaternion(0.000, 0.991, 0.000, 0.133),0 )
-			CreateNewBreakableObject( "staticAutoGun04","dot03", 1025, CVector(2955.128, 253.755, 1266.995), Quaternion(0.000, 0.993, 0.000, 0.115),0 )
-			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot04", 1025, CVector(2931.030, 252.543, 1296.663), Quaternion(0.000, 0.938, 0.000, 0.346),0 )
-			CreateNewBreakableObject( "staticAutoGun03","dot05", 1025, CVector(2867.920, 247.817, 1259.054), Quaternion(0.000, 0.781, 0.000, 0.624),0 )
-			CreateNewBreakableObject( "heavy_dot4_octopus","dot06", 1025, CVector(2796.791, 249.890, 1176.760), Quaternion(0.000, 0.685, 0.000, 0.728),0 )
-			CreateNewBreakableObject( "staticAutoGun01","dot07", 1025, CVector(2817.649, 247.823, 1114.579), Quaternion(0.000, 0.248, 0.000, 0.969),0 )
-			CreateNewBreakableObject( "staticAutoGun01","dot08", 1025, CVector(2773.922, 247.745, 1072.008), Quaternion(0.000, -0.139, 0.000, 0.990),0 )
-			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot09", 1025, CVector(2691.814, 276.917, 1190.294), Quaternion(0.000, -0.146, 0.000, 0.989),0 )
-			CreateNewBreakableObject( "heavy_dot4_octopus","dot10", 1025, CVector(2695.367, 247.713, 929.348), Quaternion(0.000, -0.668, 0.000, 0.745),0 )
-			CreateNewBreakableObject( "heavy_dot4_octopus","dot11", 1025, CVector(2542.570, 248.320, 872.923), Quaternion(0.000, 0.991, 0.000, 0.133),0 )
-			CreateNewBreakableObject( "staticAutoGun01","dot12", 1025, CVector(2579.882, 247.667, 983.994), Quaternion(0.000, 0.993, 0.000, 0.115),0 )
-			CreateNewBreakableObject( "staticAutoGun01","dot13", 1025, CVector(2554.182, 247.713, 1044.223), Quaternion(0.000, 0.938, 0.000, 0.346),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot01", 1025, CVector(2879.088, 247.600, 1234.154), Quaternion(0.0000, -0.9600, 0.0000, 0.2798),0 )
+			CreateNewBreakableObject( "heavy_dot2_rainmetal","dot02", 1025, CVector(2904.384, 247.600, 1219.868), Quaternion(0.0000, -0.9600, 0.0000, 0.2798),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot03", 1025, CVector(2919.970, 249.200, 1224.307), Quaternion(0.0000, 0.0000, 0.0000, 1.0000),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot04", 1025, CVector(2877.791, 247.700, 1247.820), Quaternion(0.0000, 0.4981, 0.0000, 0.8671),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot05", 1025, CVector(2829.189, 247.470, 1077.793), Quaternion(0.0000, -0.4325, 0.0000, 0.9016),0 )
+			CreateNewBreakableObject( "staticAutoGun01","dot06", 1025, CVector(2809.918, 247.470, 1056.405), Quaternion(0.0000, -0.3947, 0.0000, 0.9188),0 )
 
 			CreateNewBreakableObject( "staticAutoGun01","dot14", 1025, CVector(3289.526, 199.699, 2232.719), Quaternion(0.000, 0.781, 0.000, 0.624),0 )
 			CreateNewBreakableObject( "staticAutoGun01","dot15", 1025, CVector(3325.755, 198.517, 2373.894), Quaternion(0.000, 0.685, 0.000, 0.728),0 )
@@ -95,6 +93,9 @@
 			
 			CreateNewDummyObject( "arena_barricade10", "Zabor1", -1, -1, CVector(7069.430, 236.847, 4330.213), Quaternion(-0.0884, 0.3849, 0.0371, 0.9180), 0)
 			CreateNewDummyObject( "arena_barricade10", "Zabor2", -1, -1, CVector(7056.400, 235.437, 4316.788), Quaternion(0.0000, 0.3867, 0.0000, 0.9222), 0)
+
+			CreateNewDummyObject( "rr_barrier3", "shlagbaym1", -1, -1, CVector(2822.561, 247.665, 1052.293), Quaternion(0.0000, -0.4067, 0.0000, 0.9135), 0)
+			CreateNewDummyObject( "rr_barrier2", "shlagbaym2", -1, -1, CVector(2834.543, 247.665, 1065.073), Quaternion(0.0000, 0.9214, 0.0000, 0.3887), 0)
 
 			CreateNewBreakableObject( "staticAutoGun02","dot011", 1063, CVector(2017.524, 248.729, 6790.798), Quaternion(0.000, -1.000, 0.000, -0.007),0 )
 			CreateNewBreakableObject( "staticAutoGun01","dot021", 1063, CVector(1985.481, 247.987, 6789.203), Quaternion(0.000, 1.000, 0.000, -0.026),0 )
@@ -118,20 +119,11 @@
 			if d5 then d5:Remove() end
 			local d6 = GetEntityByName("dot06")
 			if d6 then d6:Remove() end
-			local d7 = GetEntityByName("dot07")
+			local d7 = GetEntityByName("shlagbaym1")
 			if d7 then d7:Remove() end
-			local d8 = GetEntityByName("dot08")
+			local d8 = GetEntityByName("shlagbaym2")
 			if d8 then d8:Remove() end
-			local d9 = GetEntityByName("dot09")
-			if d9 then d9:Remove() end
-			local d10 = GetEntityByName("dot10")
-			if d10 then d10:Remove() end
-			local d11 = GetEntityByName("dot11")
-			if d11 then d11:Remove() end
-			local d12 = GetEntityByName("dot12")
-			if d12 then d12:Remove() end
-			local d13 = GetEntityByName("dot13")
-			if d13 then d13:Remove() end
+			
 			local d14 = GetEntityByName("dot14")
 			if d14 then d14:Remove() end
 			local d15 = GetEntityByName("dot15")
@@ -147,19 +139,13 @@
 			local d20 = GetEntityByName("dot20")
 			if d20 then d20:Remove() end
 
-			CreateNewDummyObject( "sack_dot_brocken2", "dot21", -1, -1, CVector(2886.672, 281.900, 1379.048), Quaternion(0.000, 0.991, 0.000, 0.133), 0)
-			CreateNewDummyObject( "sack_dot_brocken2", "dot22", -1, -1, CVector(3031.598, 286.329, 1229.467), Quaternion(0.000, 0.993, 0.000, 0.115), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot23", -1, -1, CVector(2955.128, 253.755, 1266.995), Quaternion(0.000, 0.938, 0.000, 0.346), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot24", -1, -1, CVector(2931.030, 252.543, 1296.663), Quaternion(0.000, 0.781, 0.000, 0.624), 0)
-			CreateNewDummyObject( "heavy_dot_brocken1", "dot25", -1, -1, CVector(2867.920, 247.817, 1259.054), Quaternion(0.000, 0.685, 0.000, 0.728), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot26", -1, -1, CVector(2796.791, 249.890, 1176.760), Quaternion(0.000, 0.248, 0.000, 0.969), 0)
-			CreateNewDummyObject( "sack_dot_brocken2", "dot27", -1, -1, CVector(2817.649, 247.823, 1114.579), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
-			CreateNewDummyObject( "sack_dot_brocken2", "dot28", -1, -1, CVector(2773.922, 247.745, 1072.008), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot29", -1, -1, CVector(2691.814, 276.917, 1190.294), Quaternion(0.000, -0.139, 0.000, 0.990), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot30", -1, -1, CVector(2695.367, 247.713, 929.348), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
-			CreateNewDummyObject( "heavy_dot_brocken3", "dot31", -1, -1, CVector(2542.570, 248.320, 872.923), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
-			CreateNewDummyObject( "sack_dot_brocken2", "dot32", -1, -1, CVector(2579.882, 247.667, 983.994), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
-			CreateNewDummyObject( "sack_dot_brocken2", "dot33", -1, -1, CVector(2554.182, 247.713, 1044.223), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot21", -1, -1, CVector(2879.088, 247.600, 1234.154), Quaternion(0.0000, -0.9600, 0.0000, 0.2798), 0)
+			CreateNewDummyObject( "heavy_dot_brocken3", "dot22", -1, -1, CVector(2904.384, 247.600, 1219.868), Quaternion(0.0000, -0.9600, 0.0000, 0.2798), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot23", -1, -1, CVector(2919.970, 249.200, 1224.307), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot24", -1, -1, CVector(2877.791, 247.700, 1247.820), Quaternion(0.0000, 0.4981, 0.0000, 0.8671), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot25", -1, -1, CVector(2829.189, 247.470, 1077.793), Quaternion(0.0000, -0.4325, 0.0000, 0.9016), 0)
+			CreateNewDummyObject( "sack_dot_brocken2", "dot26", -1, -1, CVector(2809.918, 247.470, 1056.405), Quaternion(0.0000, -0.3947, 0.0000, 0.9188), 0)
+			
 
 			CreateNewDummyObject( "sack_dot_brocken2", "dot34", -1, -1, CVector(3289.526, 199.699, 2232.719), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
 			CreateNewDummyObject( "sack_dot_brocken2", "dot35", -1, -1, CVector(3325.755, 198.517, 2373.894), Quaternion(0.000, -0.146, 0.000, 0.989), 0)
@@ -530,7 +516,7 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
-			    CompleteQuest("Na_vostok_quest")
+			    CompleteQuest("r1m2_OnEastCoast_quest")
 				PassToMap("r4m1", "FromR1M1", -1 )
 				
 				trigger:Deactivate()
@@ -576,7 +562,7 @@
 
 			local b = SpawnMessageBox( "8801" )
 			if b == 1 then
-			    CompleteQuest("Baza_destroy_quest2")
+			    CompleteQuest("r1m2_AfterBattle_quest2")
 				SetGameTime(9,500)
 				PassToMap("r4m1", "FromR1M1", -1 )
 				trigger:Deactivate()
@@ -611,8 +597,8 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Dororga_loc" />
 		<script>
 		    SetTolerance( 1100, 1002, RS_ENEMY )
-			CompleteQuest("Doroga_quest")
-			FailQuest("Dubrovka_quest")
+			CompleteQuest("r1m2_FindPath_quest")
+			FailQuest("r1m2_HelpDubrovka_quest")
 			TDeactivate("postBands_cin")
 			AddHistory( "r1_Dubrovka_secret_00" )
 			AddFadingMsgId( "fm_history_got" )
@@ -626,8 +612,91 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Ruini_loc" />
 		<script>
 
-			CompleteQuest("ruins_check_quest")
+			CompleteQuest("r1m2_RuinsCheck_quest")
 			
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+			TeamCreateWithWarez("11Traktor1", 1008, CVector(979.867, 290.134, 2700.000), {"Traktor01"}, nil, 1)
+
+			local t = GetEntityByName("11Traktor1")
+			if t then
+				t:StackOpen()
+				t:SetDestination( CVector(987, 287, 2728) )
+				t:SetDestination( CVector(1001, 287, 2814) )
+				t:SetDestination( CVector(1086, 287, 2802) )
+				t:SetDestination( CVector(1077, 287, 2730) )
+				t:StackLoop()
+				t:StackClose()
+			end
+
+	<trigger	Name="tr_vehicles_spawn1"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+			TeamCreateWithWarez("KarFun1", 1025, CVector(3346.156, 216.962, 2927.926), {"CoolBelaz_2"}, nil, 1)
+			TeamCreateWithWarez("KarFun2", 1025, CVector(3335.982, 200.417, 2515.112), {"Ural01"}, nil, 1)
+			TeamCreateWithWarez("KarFun3", 1025, CVector(3410.156, 216.962, 2906.926), {"UralCarav"}, nil, 1)
+			TeamCreateWithWarez("KarFun4", 1025, CVector(2603.982, 247.417, 928.112), {"Ural00"}, nil, 1)
+
+			local vehxKarKar1 = GetEntityByName("KarFun1_vehicle_0")
+			if  vehxKarKar1 then
+				vehxKarKar1:SetRotation(Quaternion(-0.000, -0.983, 0.002, -0.183))
+			end
+
+			local vehxKarKar2 = GetEntityByName("KarFun2_vehicle_0")
+			if  vehxKarKar2 then
+				vehxKarKar2:SetRotation(Quaternion(-0.004, -0.537, 0.002, -0.843))
+			end
+
+			local vehxKarKar3 = GetEntityByName("KarFun3_vehicle_0")
+			if  vehxKarKar3 then
+				vehxKarKar3:SetRotation(Quaternion(-0.000, -0.983, 0.002, -0.183))
+				vehxKarKar3:LimitMaxSpeed(20)
+			end
+
+			local vehxKarKar4 = GetEntityByName("KarFun4_vehicle_0")
+			if  vehxKarKar4 then
+				vehxKarKar4:SetRotation(Quaternion(-0.004, -0.537, 0.002, -0.843))
+				vehxKarKar4:LimitMaxSpeed(20)
+			end
+
+			local t = GetEntityByName("KarFun3")
+			if t then
+				t:StackOpen()
+				t:SetDestination( CVector(2639, 247, 970) )
+				t:SetDestination( CVector(3383, 213, 2873) )
+				t:StackLoop()
+				t:StackClose()
+			end
+
+			local t1 = GetEntityByName("KarFun4")
+			if t1 then
+				t1:StackOpen()
+				t1:SetDestination( CVector(3383, 213, 2873) )
+				t1:SetDestination( CVector(2639, 247, 970) )
+				t1:StackLoop()
+				t1:StackClose()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger	Name="tr_vehicles_remove"	active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			local vehxKarKar3 = GetEntityByName("KarFun3")
+			if  vehxKarKar3 then
+				vehxKarKar3:Remove()
+			end
+
+			local vehxKarKar4 = GetEntityByName("KarFun4")
+			if  vehxKarKar4 then
+				vehxKarKar4:Remove()
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -945,5 +1014,118 @@
 		</script>
 	</trigger>
 
+	<trigger Name="triggerExitToMapFake1" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToFake1" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+			AddCinematicMessage( 8802, 0.5 )
+				
+			TActivate ("RolikENDExitToMapFake1")
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMapFake1" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromFake1")))
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="triggerExitToMapFake2" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToFake2" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+			AddCinematicMessage( 8802, 0.5 )
+				
+			TActivate ("RolikENDExitToMapFake2")
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMapFake2" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromFake2")))
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="triggerExitToMapFake3" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ToFake3" />
+		<script>
+			local Plf = GetPlayerVehicle()
+			Plf:SetThrottle( 0 )
+			Plf:SetCustomLinearVelocity( 0 )
+
+			local PlfID = GetPlayerVehicleId()
+			local PlfCoor = Plf:GetPosition()
+			PlfCoor.y = PlfCoor.y + 25*0.74
+			PlfCoor.z = PlfCoor.z + 25*0.74
+
+			SaveAllToleranceStatus(RS_NEUTRAL)
+
+			FlyAround(1, 0, 25, 6, PlfCoor, PlfID, 1, 1 )
+			StartCinematic()
+			AddCinematicMessage( 8802, 0.5 )
+				
+			TActivate ("RolikENDExitToMapFake3")
+ 		</script>
+	</trigger>
+	
+	<trigger Name="RolikENDExitToMapFake3" active="0">
+		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
+		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
+		<script>
+			GameFiltersUse()
+
+			RestoreAllToleranceStatus()
+
+			GetPlayerVehicle():SetGamePositionOnGround(CVector(getPos("FromFake3")))
+
+			SetCameraBehindPlayerVehicle()
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
 	
 </triggers>

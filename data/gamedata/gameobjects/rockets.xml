@@ -370,7 +370,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 ResourceType            = "GIANT_GUN"
                 NodeScale               = "1 1 1"
                 Mass                    = "1.0"
-                
+                VisibleInEncyclopedia = "false"
                 Decal                           = "DC_ROKET"
                 FiringType              = "Rocket"
                 BulletPrototype         = "dragon_rocket"
@@ -562,7 +562,7 @@ $Id: Rockets.xml,v 1.68 2005/11/28 07:43:57 anton Exp $
                 Name                            = "mrakSideGun"
 
                 Decal                           = "DC_ROKET"
-
+                VisibleInEncyclopedia = "false"
                 CanBeUsedInAutogenerating  =  "0"
      		ApplyAffixes	= "false"
                 Price           = "35200"

@@ -2450,7 +2450,7 @@
 		name="Dlg_npc_000291"
 		text="Добро пожаловать, чувствуйте себя как дома! Чего желаете?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('doroga_quest1')  and  not(IsQuestComplete('doroga_quest1'))"
+		scriptCondition="IsQuestTaken('r1m4_FindEastPath_quest1')  and  not(IsQuestComplete('r1m4_FindEastPath_quest1'))"
 		nextReplies="Dlg_pl_000292" />
 
 	<Reply
@@ -2469,13 +2469,13 @@
 		name="Dlg_pl_000294"
 		text="Большое вам спасибо!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('doroga_quest1'); TActivate('Zaval_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m4_FindEastPath_quest1'); TActivate('Zaval_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000295"
 		text="Ещё раз здравствуйте! Что-то забыли?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('doroga_quest3')  and  not(IsQuestComplete('doroga_quest3'))"
+		scriptCondition="IsQuestTaken('r1m4_FindEastPath_quest3')  and  not(IsQuestComplete('r1m4_FindEastPath_quest3'))"
 		nextReplies="Dlg_pl_000296" />
 
 	<Reply
@@ -2602,7 +2602,7 @@
 		name="Dlg_pl_000316"
 		text="Понял, выезжаю!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('doroga_quest3'); AddQuestItem('quest_magic_thing2'); TActivate('Boloto_cin'); TActivate('Fury_CarStoped'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m4_FindEastPath_quest3'); AddQuestItem('quest_magic_thing2'); TActivate('Boloto_cin'); TActivate('Fury_CarStoped'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000317"
@@ -2989,7 +2989,7 @@
 		name="Dlg_npc_000499"
 		text="И снова здравствуй! Какую услугу хочешь на этот раз?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Na_vostok_quest') and GetCurNpc():GetSpokenCount() == 0"
+		scriptCondition="IsQuestTaken('r1m2_OnEastCoast_quest') and GetCurNpc():GetSpokenCount() == 0"
 		nextReplies="Dlg_pl_000500" />
 
 	<Reply
@@ -3154,7 +3154,7 @@
 		name="Dlg_pl_001028"
 		text="Спасибо."
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount(4); TakeQuest('ruins_check_quest'); StartConversation('OldAtaman')" />
+		scriptResult="GetCurNpc():SetSpokenCount(4); TakeQuest('r1m2_RuinsCheck_quest'); StartConversation('OldAtaman')" />
 
 	<Reply
 		name="Dlg_pl_000984"
@@ -3440,28 +3440,28 @@
 		text="Спасибо."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 3"
-		scriptResult="GetCurNpc():SetSpokenCount(7); TakeQuest('ruins_check_quest'); StartConversation('OldAtaman')" />
+		scriptResult="GetCurNpc():SetSpokenCount(7); TakeQuest('r1m2_RuinsCheck_quest'); StartConversation('OldAtaman')" />
 
 	<Reply
 		name="Dlg_pl_001077"
 		text="Спасибо."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 2"
-		scriptResult="GetCurNpc():SetSpokenCount(6); TakeQuest('ruins_check_quest'); StartConversation('OldAtaman')" />
+		scriptResult="GetCurNpc():SetSpokenCount(6); TakeQuest('r1m2_RuinsCheck_quest'); StartConversation('OldAtaman')" />
 
 	<Reply
 		name="Dlg_pl_001076"
 		text="Спасибо."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 1"
-		scriptResult="GetCurNpc():SetSpokenCount(5); TakeQuest('ruins_check_quest'); StartConversation('OldAtaman')" />
+		scriptResult="GetCurNpc():SetSpokenCount(5); TakeQuest('r1m2_RuinsCheck_quest'); StartConversation('OldAtaman')" />
 
 	<Reply
 		name="Dlg_pl_001065"
 		text="Спасибо."
 		role="PLAYER"
 		scriptCondition="GetCurNpc():GetSpokenCount() == 8"
-		scriptResult="GetCurNpc():SetSpokenCount(4); TakeQuest('ruins_check_quest'); StartConversation('OldAtaman')" />
+		scriptResult="GetCurNpc():SetSpokenCount(4); TakeQuest('r1m2_RuinsCheck_quest'); StartConversation('OldAtaman')" />
 
 	<Reply
 		name="Dlg_pl_001011"
@@ -3657,7 +3657,7 @@
 		name="Dlg_npc_000503"
 		text='Добро пожаловать в корчму "На распутье", чего желаете?'
 		role="NPC"
-		scriptCondition="not(IsQuestTaken('Lesnik_quest'))  and  GetCurNpc():GetSpokenCount() == 0 "
+		scriptCondition="not(IsQuestTaken('r1m2_Lesnik_quest'))  and  GetCurNpc():GetSpokenCount() == 0 "
 		nextReplies="Dlg_pl_000504" />
 
 	<Reply
@@ -3700,13 +3700,13 @@
 		name="Dlg_pl_000510"
 		text="Спасибо."
 		role="PLAYER"
-		scriptResult="GetCurNpc():SetSpokenCount(1); TakeQuest('Lesnik_quest'); EndConversation()" />
+		scriptResult="GetCurNpc():SetSpokenCount(1); TakeQuest('r1m2_Lesnik_quest'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000511"
 		text="Чего тебе надобно мил человек?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik_quest1')  and  not(IsQuestComplete('Lesnik_quest1')) and  not(IsQuestFailed('Lesnik_quest1')) "
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_quest1')  and  not(IsQuestComplete('r1m2_Lesnik_quest1')) and  not(IsQuestFailed('r1m2_Lesnik_quest1')) "
 		nextReplies="Dlg_pl_000512" />
 
 	<Reply
@@ -3729,7 +3729,7 @@
 
 	<Reply
 		name="Dlg_npc_000515"
-		text="Да, и он как раз сидит в своей хижине, когда мы уговаривали его уходить из этого леса, он наотрез отказывался, ну мы его там и оставили."
+		text="Да, и он как раз сидит в своей хижине. Только последние недели лесник сам не свой, когда мы уговаривали его уходить из этого леса, он наотрез отказывался, ну мы его там и оставили."
 		role="NPC"
 		nextReplies="Dlg_pl_000516 Dlg_pl_000519" />
 
@@ -3737,7 +3737,7 @@
 		name="Dlg_pl_000519"
 		text="Мда... Странная история. Ну ладно, удачи вам!"
 		role="PLAYER"
-		scriptResult="FailQuest('Lesnik_quest'); EndConversation()" />
+		scriptResult="FailQuest('r1m2_Lesnik_quest'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000516"
@@ -3755,13 +3755,13 @@
 		name="Dlg_pl_000518"
 		text="Хорошо, только откройте проезд в лес."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest1'); TActivate('RemoveZabor'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest1'); TActivate('RemoveZabor'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000520"
 		text="Здравствуй путник! Давно у меня не было гостей, будь как дома!"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik_quest2')  and  not(IsQuestComplete('Lesnik_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_quest2')  and  not(IsQuestComplete('r1m2_Lesnik_quest2'))"
 		nextReplies="Dlg_pl_000521" />
 
 	<Reply
@@ -3784,7 +3784,7 @@
 
 	<Reply
 		name="Dlg_npc_000524"
-		text="Знаю только, что они съежают с горы и бесследно пропадают."
+		text="Все съезжают с горы до развилки, а потом будто сквозь землю проваливаются."
 		role="NPC"
 		nextReplies="Dlg_pl_000525" />
 
@@ -3792,13 +3792,13 @@
 		name="Dlg_pl_000525"
 		text="Не густо, ладно и на том спасибо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest2'); TActivate('Lesnik_cin'); TActivate('Lesnik2_cin'); TActivate('Lesnik3_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest2'); TActivate('Lesnik_cin'); TActivate('Lesnik2_cin'); TActivate('Lesnik3_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000526"
 		text="Ого, ты вернулся! Ну как, нашёл что-нибудь?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik_quest7')  and  not(IsQuestComplete('Lesnik_quest7'))"
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_quest7')  and  not(IsQuestComplete('r1m2_Lesnik_quest7'))"
 		nextReplies="Dlg_pl_000527" />
 
 	<Reply
@@ -3829,13 +3829,13 @@
 		name="Dlg_pl_000531"
 		text="Ха, ну давай посмотрим, кто сильнее!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest7'); TActivate('Kill_bandit'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest7'); TActivate('Kill_bandit'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000532"
 		text="Послушай, не убивай меня, я и так несколько месяцев жил с дулом у виска, а теперь я наконец-то свободен и могу заниматься добром."
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik_quest9')  and  not(IsQuestComplete('Lesnik_quest9'))"
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_quest9')  and  not(IsQuestComplete('r1m2_Lesnik_quest9'))"
 		nextReplies="Dlg_pl_000533" />
 
 	<Reply
@@ -3854,7 +3854,7 @@
 		name="Dlg_pl_000536"
 		text="Не мне тебя судить, но я должен закончить начатое, жители решат, что с тобой делать."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest9'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest9'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000535"
@@ -3872,13 +3872,13 @@
 		name="Dlg_pl_000538"
 		text="Заткнись и лезь в кузов."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest9'); FailQuest('Lesnik_quest10'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest9'); FailQuest('r1m2_Lesnik_quest10'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000539"
 		text="Ты вернулся! Ну как, ты решил проблему?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik_quest10')  and  not(IsQuestComplete('Lesnik_quest10')) and  not(IsQuestFailed('Lesnik_quest10')) "
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_quest10')  and  not(IsQuestComplete('r1m2_Lesnik_quest10')) and  not(IsQuestFailed('r1m2_Lesnik_quest10')) "
 		nextReplies="Dlg_pl_000540" />
 
 	<Reply
@@ -3897,13 +3897,13 @@
 		name="Dlg_pl_000542"
 		text="Спасибо, будте здоровы!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik_quest10'); CompleteQuest('Lesnik_quest'); AddPlayerMoney(25000); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_quest10'); CompleteQuest('r1m2_Lesnik_quest'); AddPlayerMoney(25000); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000543"
 		text="Ты вернулся! Ну как, ты решил проблему?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik2_quest1')  and  not(IsQuestComplete('Lesnik2_quest1'))"
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_2_quest1')  and  not(IsQuestComplete('r1m2_Lesnik_2_quest1'))"
 		nextReplies="Dlg_pl_000544" />
 
 	<Reply
@@ -3922,32 +3922,614 @@
 		name="Dlg_pl_000546"
 		text="Всего доброго!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik2_quest1'); AddPlayerMoney(25000); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_2_quest1'); AddPlayerMoney(25000); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000547"
 		text="Как ты мастерски заговариваешь зубы, спасибо тебе!"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Lesnik2_quest2')  and  not(IsQuestComplete('Lesnik2_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_Lesnik_2_quest2')  and  not(IsQuestComplete('r1m2_Lesnik_2_quest2'))"
 		nextReplies="Dlg_pl_000548 Dlg_pl_000549" />
 
 	<Reply
 		name="Dlg_pl_000549"
 		text="Хватит лести, бывай."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik2_quest2'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_2_quest2'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000548"
 		text="Заткнись и проваливай уже."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Lesnik2_quest2'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Lesnik_2_quest2'); EndConversation()" />
+<!--Root/r1m2/Опциональные/Шарп-->
+	<Reply
+		name="Dlg_npc_001114"
+		text="Я слушаю."
+		role="NPC"
+		nextReplies="Dlg_pl_001115 Dlg_pl_001118 Dlg_pl_001119" />
+
+	<Reply
+		name="Dlg_pl_001119"
+		text="Пока у меня нет вопросов."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_pl_001118"
+		text="Раз машины живые, можно ли их как-то разделить на виды сознания или что-то подобное?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001133" />
+
+	<Reply
+		name="Dlg_npc_001133"
+		text="Запрос одобрен. Я выделяю три категории. Первая - Мессия, к этой категории я отношу автомобили и грузовики, радиоприёмники и станки, а также прочие электронные устройства."
+		role="NPC"
+		nextReplies="Dlg_pl_001134" />
+
+	<Reply
+		name="Dlg_pl_001134"
+		text="Что относится ко второй категории?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001135" />
+
+	<Reply
+		name="Dlg_npc_001135"
+		text="Вторая категория - Архимессия. Сюда я отношу самолёты, в том числе и тот, который в долине. Корабли, как те, что стоят в Порту. Электростанцию в Стальном Меридиане, и немногие уцелевшие сложные вычислительные системы."
+		role="NPC"
+		nextReplies="Dlg_pl_001136" />
+
+	<Reply
+		name="Dlg_pl_001136"
+		text="А третья категория?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001137" />
+
+	<Reply
+		name="Dlg_npc_001137"
+		text="Альфа-мессия"
+		role="NPC"
+		nextReplies="Dlg_pl_001138" />
+
+	<Reply
+		name="Dlg_pl_001138"
+		text="Что это?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001139" />
+
+	<Reply
+		name="Dlg_npc_001139"
+		text="Источник. Очень далеко на западе."
+		role="NPC"
+		nextReplies="Dlg_pl_001140" />
+
+	<Reply
+		name="Dlg_pl_001140"
+		text="Что он из себя представляет?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001141" />
+
+	<Reply
+		name="Dlg_npc_001141"
+		text="Я не знаю. Аугментировав своё тело, я впервые почувствовал этот сигнал. Он слабый, но от того не менее устрашающий, заставляющий мои механические части трепетать перед ним."
+		role="NPC"
+		nextReplies="Dlg_pl_001142" />
+
+	<Reply
+		name="Dlg_pl_001142"
+		text="Что же может вызвать такую реакцию?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001120" />
+
+	<Reply
+		name="Dlg_npc_001120"
+		text="Не знаю. Я не могу отнести это к понятию Архимессии, поэтому выделяю этот сигнал в отдельную категорию."
+		role="NPC"
+		nextReplies="Dlg_pl_001143" />
+
+	<Reply
+		name="Dlg_pl_001143"
+		text="Жутковато. Спасибо за беседу."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_pl_001115"
+		text="В деревне тебя называют еретиком за то, что ты оскверняешь машины, пытаясь познать непознаваемое."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001116" />
+
+	<Reply
+		name="Dlg_npc_001116"
+		text="Определение корректно, я действительно, с точки зрения местной догматики, являюсь еретиком."
+		role="NPC"
+		nextReplies="Dlg_pl_001117" />
+
+	<Reply
+		name="Dlg_pl_001117"
+		text="И ты действительно веришь, что машина есть нечто большее, чем средство передвижения."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001121" />
+
+	<Reply
+		name="Dlg_npc_001121"
+		text="Ответ отрицательный, вера необходима там, где отсутствуют доказательства. Я же это знаю."
+		role="NPC"
+		nextReplies="Dlg_pl_001122" />
+
+	<Reply
+		name="Dlg_pl_001122"
+		text="В каком смысле? Машины действительно живые?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001123" />
+
+	<Reply
+		name="Dlg_npc_001123"
+		text="Утверждение истинно."
+		role="NPC"
+		nextReplies="Dlg_pl_001124" />
+
+	<Reply
+		name="Dlg_pl_001124"
+		text="То есть эти обломки летающей машины..."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001125" />
+
+	<Reply
+		name="Dlg_npc_001125"
+		text="Самолёта."
+		role="NPC"
+		nextReplies="Dlg_pl_001126" />
+
+	<Reply
+		name="Dlg_pl_001126"
+		text="Самолёта... И моя машина в том числе, живые?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001127" />
+
+	<Reply
+		name="Dlg_npc_001127"
+		text="Да."
+		role="NPC"
+		nextReplies="Dlg_pl_001128" />
+
+	<Reply
+		name="Dlg_pl_001128"
+		text="И они могут так же, как и мы, мыслить и общаться?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001129" />
+
+	<Reply
+		name="Dlg_npc_001129"
+		text="Ответ затруднительный."
+		role="NPC"
+		nextReplies="Dlg_pl_001130" />
+
+	<Reply
+		name="Dlg_pl_001130"
+		text="То есть как? Ты утверждаешь, что они живые, но не знаешь могут ли они мыслить?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001131" />
+
+	<Reply
+		name="Dlg_npc_001131"
+		text="Верно. Для этого я должен понять, что именно считать жизнью, а затем определить, обладает ли машина этим свойством."
+		role="NPC"
+		nextReplies="Dlg_pl_001132" />
+
+	<Reply
+		name="Dlg_pl_001132"
+		text="Понятно... Наверное?"
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_npc_000949"
+		text="..."
+		role="NPC"
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_2_quest4')  and  not(IsQuestComplete('r1m2_KochKavkaz_2_quest4'))"
+		nextReplies="Dlg_pl_000950" />
+
+	<Reply
+		name="Dlg_pl_000950"
+		text="Э-э... Шарп?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000951" />
+
+	<Reply
+		name="Dlg_npc_000951"
+		text="Да."
+		role="NPC"
+		nextReplies="Dlg_pl_000952" />
+
+	<Reply
+		name="Dlg_pl_000952"
+		text="Ты... Человек?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000953" />
+
+	<Reply
+		name="Dlg_npc_000953"
+		text="На данный момент — преимущественно."
+		role="NPC"
+		nextReplies="Dlg_pl_000954" />
+
+	<Reply
+		name="Dlg_pl_000954"
+		text="Ладно... Говорят у тебя есть много старых вещей, в том числе много рукописей времён Предтеч."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000955" />
+
+	<Reply
+		name="Dlg_npc_000955"
+		text="Утверждение корректно."
+		role="NPC"
+		nextReplies="Dlg_pl_000956" />
+
+	<Reply
+		name="Dlg_pl_000956"
+		text="Мне нужны эти рукописи."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000957" />
+
+	<Reply
+		name="Dlg_npc_000957"
+		text="Зачем?"
+		role="NPC"
+		nextReplies="Dlg_pl_000958" />
+
+	<Reply
+		name="Dlg_pl_000958"
+		text="Ищу кое-какую информацию. В рукописях она может быть."
+		role="PLAYER"
+		nextReplies="Dlg_npc_000959" />
+
+	<Reply
+		name="Dlg_npc_000959"
+		text="Вероятно."
+		role="NPC"
+		nextReplies="Dlg_pl_000960" />
+
+	<Reply
+		name="Dlg_pl_000960"
+		text="Так ты мне их отдашь?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001096" />
+
+	<Reply
+		name="Dlg_npc_001096"
+		text="Запрос не одобрен."
+		role="NPC"
+		nextReplies="Dlg_pl_001097" />
+
+	<Reply
+		name="Dlg_pl_001097"
+		text="Почему?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001098" />
+
+	<Reply
+		name="Dlg_npc_001098"
+		text="Мне они тоже нужны."
+		role="NPC"
+		nextReplies="Dlg_pl_001099" />
+
+	<Reply
+		name="Dlg_pl_001099"
+		text="Для чего?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001100" />
+
+	<Reply
+		name="Dlg_npc_001100"
+		text="Изучение, познание и понимание машин."
+		role="NPC"
+		nextReplies="Dlg_pl_001101" />
+
+	<Reply
+		name="Dlg_pl_001101"
+		text="Хорошо, тогда что я могу дать взамен?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001102" />
+
+	<Reply
+		name="Dlg_npc_001102"
+		text="Услугу."
+		role="NPC"
+		nextReplies="Dlg_pl_001103" />
+
+	<Reply
+		name="Dlg_pl_001103"
+		text="Что необходимо сделать?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001104" />
+
+	<Reply
+		name="Dlg_npc_001104"
+		text="Отыщи и доставь модулятор. Пояснение. Устройство находится на юго-востоке региона. На заброшенной радиостанции."
+		role="NPC"
+		nextReplies="Dlg_pl_001105" />
+
+	<Reply
+		name="Dlg_pl_001105"
+		text="Почему ты сам это не сделал?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001106" />
+
+	<Reply
+		name="Dlg_npc_001106"
+		text="Не приоритетная задача. Опасно."
+		role="NPC"
+		nextReplies="Dlg_pl_001107" />
+
+	<Reply
+		name="Dlg_pl_001107"
+		text="Ну ладно, попробую отыскать."
+		role="PLAYER"
+		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('r1m2_KochKavkaz_2_quest4'); AddBook('r1_book_security'); AddBook('r1_book_scientist'); AddBook('r1_book_officers'); AddBook('r1_book_engineer'); AddFadingMsgId( 'fm_book_got' ); EndConversation()" />
+
+	<Reply
+		name="Dlg_npc_001108"
+		text="..."
+		role="NPC"
+		nextReplies="Dlg_pl_001109" />
+
+	<Reply
+		name="Dlg_pl_001109"
+		text="Шарп? Я достал модулятор."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001110" />
+
+	<Reply
+		name="Dlg_npc_001110"
+		text="Вижу. Внешняя оболочка претерпела изменения, но начинка цела."
+		role="NPC"
+		nextReplies="Dlg_pl_001111" />
+
+	<Reply
+		name="Dlg_pl_001111"
+		text="Теперь ты поделишься рукописями?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001112" />
+
+	<Reply
+		name="Dlg_npc_001112"
+		text="Одобрено. Можешь брать интересующее."
+		role="NPC"
+		nextReplies="Dlg_pl_001113" />
+
+	<Reply
+		name="Dlg_pl_001113"
+		text="Спасибо."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_npc_001144"
+		text="Здравствуй, брат на механической Мессии, чего желаешь?"
+		role="NPC"
+		nextReplies="Dlg_pl_001145" />
+
+	<Reply
+		name="Dlg_pl_001145"
+		text="Говорят в вашей деревне есть толковые механики. Я бы хотел встретиться с одним из них."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001146" />
+
+	<Reply
+		name="Dlg_npc_001146"
+		text="Истинно так, у нас много жрецов, чтящих священный ритуал обслуживания, но зависит от того, что ты хочешь восстановить?"
+		role="NPC"
+		nextReplies="Dlg_pl_001147" />
+
+	<Reply
+		name="Dlg_pl_001147"
+		text="Паром в Порту."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001148" />
+
+	<Reply
+		name="Dlg_npc_001148"
+		text="Что ж... Подобную технику может обслужить только один жрец, но я не рекомендую приближаться к его мастерской, если не хочешь оскорбить свою механическую Мессию."
+		role="NPC"
+		nextReplies="Dlg_pl_001149" />
+
+	<Reply
+		name="Dlg_pl_001149"
+		text="Кто это?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001150" />
+
+	<Reply
+		name="Dlg_npc_001150"
+		text="Отшельник и еретик Шарп."
+		role="NPC"
+		nextReplies="Dlg_pl_001151" />
+
+	<Reply
+		name="Dlg_pl_001151"
+		text="Почему вы называете его еретиком?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001152" />
+
+	<Reply
+		name="Dlg_npc_001152"
+		text="Мессия неприкосновенна и непознаваема! Он же захотел познать мудрость машины слившись с металлом, непостижимое преступление!"
+		role="NPC"
+		nextReplies="Dlg_pl_001153" />
+
+	<Reply
+		name="Dlg_pl_001153"
+		text="Но почему вы всё ещё его терпите?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_000948" />
+
+	<Reply
+		name="Dlg_npc_000948"
+		text="Шарп - один из лучших жрецов Мессии, чтящий ритуалы обслуживания. Пока наши машины работают в гармонии, старейшины готовы закрывать глаза на его ересь."
+		role="NPC"
+		nextReplies="Dlg_pl_001154" />
+
+	<Reply
+		name="Dlg_pl_001154"
+		text="Так где стоит его мастерская?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001155" />
+
+	<Reply
+		name="Dlg_npc_001155"
+		text="На окраине деревни, у кладбища мертвых машин."
+		role="NPC"
+		nextReplies="Dlg_pl_001156" />
+
+	<Reply
+		name="Dlg_pl_001156"
+		text="Что ж, посмотрим кто такой этот Шарп."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_npc_001157"
+		text="..."
+		role="NPC"
+		nextReplies="Dlg_pl_001158" />
+
+	<Reply
+		name="Dlg_pl_001158"
+		text="Э-э... Шарп?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001159" />
+
+	<Reply
+		name="Dlg_npc_001159"
+		text="Да."
+		role="NPC"
+		nextReplies="Dlg_pl_001160" />
+
+	<Reply
+		name="Dlg_pl_001160"
+		text="Ты... Человек?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001161" />
+
+	<Reply
+		name="Dlg_npc_001161"
+		text="На данный момент - преимущественно."
+		role="NPC"
+		nextReplies="Dlg_pl_001162" />
+
+	<Reply
+		name="Dlg_pl_001162"
+		text="Хорошо, говорят ты неплохо разбираешься в ремонте сложной техники, в том числе той, которая передвигается по воде."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001163" />
+
+	<Reply
+		name="Dlg_npc_001163"
+		text="Утверждение истинно."
+		role="NPC"
+		nextReplies="Dlg_pl_001164" />
+
+	<Reply
+		name="Dlg_pl_001164"
+		text="Я бы хотел попросить тебя восстановить работу парома в Порту, разумеется не бесплатно."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001165" />
+
+	<Reply
+		name="Dlg_npc_001165"
+		text="Отклоняю предложение. Потребность в деньгах отсутствует."
+		role="NPC"
+		nextReplies="Dlg_pl_001166" />
+
+	<Reply
+		name="Dlg_pl_001166"
+		text="Тогда может интересует услуга."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001167" />
+
+	<Reply
+		name="Dlg_npc_001167"
+		text="Предложение принято. Отыщи и доставь модулятор. Пояснение. Устройство находится на юго-востоке региона. На заброшенной радиостанции."
+		role="NPC"
+		nextReplies="Dlg_pl_001168" />
+
+	<Reply
+		name="Dlg_pl_001168"
+		text="После этого ты починишь паром? "
+		role="PLAYER"
+		nextReplies="Dlg_npc_001169" />
+
+	<Reply
+		name="Dlg_npc_001169"
+		text="Нет. Но после диалог будет возобновлён."
+		role="NPC"
+		nextReplies="Dlg_pl_001170" />
+
+	<Reply
+		name="Dlg_pl_001170"
+		text="Почему ты сам это не сделал?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001171" />
+
+	<Reply
+		name="Dlg_npc_001171"
+		text="Не приоритетная задача. Опасно."
+		role="NPC"
+		nextReplies="Dlg_pl_001172" />
+
+	<Reply
+		name="Dlg_pl_001172"
+		text="Ну ладно, попробую отыскать."
+		role="PLAYER" />
+
+	<Reply
+		name="Dlg_npc_001173"
+		text="..."
+		role="NPC"
+		nextReplies="Dlg_pl_001174" />
+
+	<Reply
+		name="Dlg_pl_001174"
+		text="Шарп? Я достал модулятор."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001175" />
+
+	<Reply
+		name="Dlg_npc_001175"
+		text="Вижу. Внешняя оболочка претерпела изменения, но начинка цела."
+		role="NPC"
+		nextReplies="Dlg_pl_001176" />
+
+	<Reply
+		name="Dlg_pl_001176"
+		text="Теперь ты озвучишь условия ремонта?"
+		role="PLAYER"
+		nextReplies="Dlg_npc_001177" />
+
+	<Reply
+		name="Dlg_npc_001177"
+		text="..."
+		role="NPC"
+		nextReplies="Dlg_pl_001178" />
+
+	<Reply
+		name="Dlg_pl_001178"
+		text="..."
+		role="PLAYER"
+		nextReplies="Dlg_npc_001179" />
+
+	<Reply
+		name="Dlg_npc_001179"
+		text="..."
+		role="NPC"
+		nextReplies="Dlg_pl_001180" />
+
+	<Reply
+		name="Dlg_pl_001180"
+		text="..."
+		role="PLAYER" />
 <!--Root/r1m2/Сюжетные/Бармены-->
 	<Reply
 		name="Dlg_npc_000389"
 		text='Добро пожаловать в трактир "Горец", чего желаете?'
 		role="NPC"
-		scriptCondition="IsQuestTaken('Derevnya_quest')  and  not(IsQuestComplete('Derevnya_quest'))"
+		scriptCondition="IsQuestTaken('r1m2_FirstVillage_quest')  and  not(IsQuestComplete('r1m2_FirstVillage_quest'))"
 		nextReplies="Dlg_pl_000390" />
 
 	<Reply
@@ -4110,7 +4692,7 @@
 		name="Dlg_pl_000590"
 		text="Я подумаю."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Derevnya_quest'); TakeQuest('Dubrovka_quest'); TActivate('SecretDoroga_cin'); TActivate('postBands_cin'); TActivate('post_cin'); AddHistory( 'r1_Dubrovka_rocks_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_FirstVillage_quest'); TakeQuest('r1m2_HelpDubrovka_quest'); TActivate('SecretDoroga_cin'); TActivate('postBands_cin'); TActivate('post_cin'); AddHistory( 'r1_Dubrovka_rocks_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000404"
@@ -4128,13 +4710,13 @@
 		name="Dlg_pl_000406"
 		text="Я подумаю."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Derevnya_quest'); TakeQuest('Dubrovka_quest'); TActivate('SecretDoroga_cin'); TActivate('postBands_cin'); TActivate('post_cin'); AddHistory( 'r1_Dubrovka_rocks_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_FirstVillage_quest'); TakeQuest('r1m2_HelpDubrovka_quest'); TActivate('SecretDoroga_cin'); TActivate('postBands_cin'); TActivate('post_cin'); AddHistory( 'r1_Dubrovka_rocks_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000414"
 		text="Добро пожаловать в Стальной Меридиан, чего желаете?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('V_gorod_quest')  and  not(IsQuestComplete('V_gorod_quest'))"
+		scriptCondition="IsQuestTaken('r1m2_ArriveToMeridian_quest')  and  not(IsQuestComplete('r1m2_ArriveToMeridian_quest'))"
 		nextReplies="Dlg_pl_000415" />
 
 	<Reply
@@ -4153,13 +4735,13 @@
 		name="Dlg_pl_000417"
 		text="Что ж, это было ожидаемо... Спасибо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('V_gorod_quest'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_ArriveToMeridian_quest'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000418"
 		text="Ого, искатель приключений! Не часто вас тут встретишь. Ну так что, желаешь наняться, получить наводку на руины или выпить? "
 		role="NPC"
-		scriptCondition="IsQuestTaken('baza_quest')  and  not(IsQuestComplete('baza_quest'))"
+		scriptCondition="IsQuestTaken('r1m2_FindMilBase_quest')  and  not(IsQuestComplete('r1m2_FindMilBase_quest'))"
 		nextReplies="Dlg_pl_000422" />
 
 	<Reply
@@ -4226,13 +4808,13 @@
 		name="Dlg_pl_000433"
 		text="И на том спасибо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('baza_quest'); CompleteQuest('Go_in_base_quest'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_FindMilBase_quest'); CompleteQuest('r1m2_FindBase_quest'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/Караван-->
 	<Reply
 		name="Dlg_npc_000434"
 		text="Чего тебе?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('3aka3_quest')  and  not(IsQuestComplete('3aka3_quest'))"
+		scriptCondition="IsQuestTaken('r1m2_FindJob_quest')  and  not(IsQuestComplete('r1m2_FindJob_quest'))"
 		nextReplies="Dlg_pl_000435" />
 
 	<Reply
@@ -4275,13 +4857,13 @@
 		name="Dlg_pl_001080"
 		text="Понял, до встречи."
 		role="PLAYER"
-		scriptResult="CompleteQuest('3aka3_quest'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_FindJob_quest'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000440"
 		text="Ты кто такой?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('karavan_from_port_quest1')  and  not(IsQuestComplete('karavan_from_port_quest1'))"
+		scriptCondition="IsQuestTaken('r1m2_PortKaravan_quest1')  and  not(IsQuestComplete('r1m2_PortKaravan_quest1'))"
 		nextReplies="Dlg_pl_000441" />
 
 	<Reply
@@ -4324,13 +4906,13 @@
 		name="Dlg_pl_000626"
 		text="Увидимся."
 		role="PLAYER"
-		scriptResult="CompleteQuest('karavan_from_port_quest1'); TActivate('FallingPlane_cin'); TActivate('PortBuntCreate_cin'); TActivate('PortBunt_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PortKaravan_quest1'); TActivate('FallingPlane_cin'); TActivate('PortBuntCreate_cin'); TActivate('PortBunt_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000419"
 		text="Тебе чего?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('karavan_from_port_quest2')  and  not(IsQuestComplete('karavan_from_port_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_PortKaravan_quest2')  and  not(IsQuestComplete('r1m2_PortKaravan_quest2'))"
 		nextReplies="Dlg_pl_000627" />
 
 	<Reply
@@ -4349,32 +4931,32 @@
 		name="Dlg_pl_000629"
 		text="Будем ждать."
 		role="PLAYER"
-		scriptResult="CompleteQuest('karavan_from_port_quest2'); TActivate('port_cin2'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PortKaravan_quest2'); TActivate('PortKaravan_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000450"
 		text="Как поступить?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('slezhka_quest')  and  not(IsQuestComplete('slezhka_quest'))"
+		scriptCondition="IsQuestTaken('r1m2_Slezhka_quest')  and  not(IsQuestComplete('r1m2_Slezhka_quest'))"
 		nextReplies="Dlg_pl_000451 Dlg_pl_000452" />
 
 	<Reply
 		name="Dlg_pl_000452"
 		text="Надо возвращаться назад и доложить об этом Альфарану."
 		role="PLAYER"
-		scriptResult="CompleteQuest('slezhka_quest'); TakeQuest('Defeat_partz_quest'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Slezhka_quest'); TakeQuest('r1m2_DestroyPartz_quest'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000451"
 		text="Похоже они хотят освободить Ламан от гнёта Альфарана, надо предложить им свою помощь."
 		role="PLAYER"
-		scriptResult="CompleteQuest('slezhka_quest'); TakeQuest('Za_partz_quest'); TActivate('HelpPartz_cin'); SetTolerance( 1100, 1082, RS_NEUTRAL ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_Slezhka_quest'); TakeQuest('r1m2_PartzLoyal_quest'); TActivate('HelpPartz_cin'); TActivate('HelpPartz_cin_vehicle_spawn'); SetTolerance( 1100, 1082, RS_NEUTRAL ); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000453"
 		text="А вот и ты! Караван успешно доехал, впервые за долгое время!"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Defeat_partz_quest1')  and  not(IsQuestComplete('Defeat_partz_quest1'))  and  not(IsQuestFailed('Defeat_partz_quest1')) "
+		scriptCondition="IsQuestTaken('r1m2_DestroyPartz_quest1')  and  not(IsQuestComplete('r1m2_DestroyPartz_quest1'))  and  not(IsQuestFailed('r1m2_DestroyPartz_quest1')) "
 		nextReplies="Dlg_pl_000454" />
 
 	<Reply
@@ -4393,13 +4975,13 @@
 		name="Dlg_pl_000456"
 		text="Благодарю."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Defeat_partz_quest1'); FailQuest('Koch_Kavkaz_quest1'); FailQuest('Koch_Kavkaz_quest2'); TDeactivate('Kochquest_tr'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_DestroyPartz_quest1'); FailQuest('r1m2_KochKavkaz_quest1'); FailQuest('r1m2_KochKavkaz_quest2'); TDeactivate('Kochquest_tr'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000457"
 		text="Вот и ты. Мне доложили, что караван успешно доехал, но меня интересуют детали."
 		role="NPC"
-		scriptCondition="IsQuestTaken('Defeat_partz_quest2')  and  not(IsQuestComplete('Defeat_partz_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_DestroyPartz_quest2')  and  not(IsQuestComplete('r1m2_DestroyPartz_quest2'))"
 		nextReplies="Dlg_pl_000458" />
 
 	<Reply
@@ -4454,13 +5036,13 @@
 		name="Dlg_pl_001082"
 		text="Тогда увидимся на месте."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Defeat_partz_quest2'); AddPlayerMoney(15000); TActivate('PartzDefeat_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_DestroyPartz_quest2'); AddPlayerMoney(15000); TActivate('PartzDefeat_cin'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/За Темерию-->
 	<Reply
 		name="Dlg_npc_000465"
 		text="Ну, всё удачно?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Za_partz_quest11')  and  not(IsQuestComplete('Za_partz_quest11')) and  not(IsQuestFailed('Za_partz_quest11')) "
+		scriptCondition="IsQuestTaken('r1m2_PartzLoyal_quest11')  and  not(IsQuestComplete('r1m2_PartzLoyal_quest11')) and  not(IsQuestFailed('r1m2_PartzLoyal_quest11')) "
 		nextReplies="Dlg_pl_000466" />
 
 	<Reply
@@ -4479,13 +5061,13 @@
 		name="Dlg_pl_000468"
 		text="Бывай."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Za_partz_quest11'); RemoveQuestItem( 'quest_wine_barrels' ); FailQuest('Koch_Kavkaz_quest1'); FailQuest('Koch_Kavkaz_quest2'); TDeactivate('Kochquest_tr'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PartzLoyal_quest11'); RemoveQuestItem( 'quest_wine_barrels' ); FailQuest('r1m2_KochKavkaz_quest1'); FailQuest('r1m2_KochKavkaz_quest2'); TDeactivate('Kochquest_tr'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000469"
 		text="Снова ты? Сопроводил караван?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Za_partz_quest12')  and  not(IsQuestComplete('Za_partz_quest12'))"
+		scriptCondition="IsQuestTaken('r1m2_PartzLoyal_quest12')  and  not(IsQuestComplete('r1m2_PartzLoyal_quest12'))"
 		nextReplies="Dlg_pl_000470" />
 
 	<Reply
@@ -4504,13 +5086,13 @@
 		name="Dlg_pl_000472"
 		text="Приятно иметь с вами дело."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Za_partz_quest12'); AddPlayerMoney(25000); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PartzLoyal_quest12'); AddPlayerMoney(25000); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000473"
 		text="Отголоски взрыва были слышны даже отсюда! Отличная работа!"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Deversy_quest4')  and  not(IsQuestComplete('Deversy_quest4'))"
+		scriptCondition="IsQuestTaken('r1m2_PartzDeversy_quest4')  and  not(IsQuestComplete('r1m2_PartzDeversy_quest4'))"
 		nextReplies="Dlg_pl_000474" />
 
 	<Reply
@@ -4529,13 +5111,13 @@
 		name="Dlg_pl_000476"
 		text="Посмотрим, что из этого выйдет."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Deversy_quest4'); TActivate('PortAtack_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PartzDeversy_quest4'); TActivate('PortAtack_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000481"
 		text="Поздравляю! Твой испытательный срок окончен, теперь ты в наших рядах."
 		role="NPC"
-		scriptCondition="IsQuestTaken('Razgovor_quest1')  and  not(IsQuestComplete('Razgovor_quest1'))"
+		scriptCondition="IsQuestTaken('r1m2_ReturnRoshe_quest1')  and  not(IsQuestComplete('r1m2_ReturnRoshe_quest1'))"
 		nextReplies="Dlg_pl_000482" />
 
 	<Reply
@@ -4602,13 +5184,13 @@
 		name="Dlg_pl_001088"
 		text="Надеюсь, вы знаете, что делаете. "
 		role="PLAYER"
-		scriptResult="CompleteQuest('Razgovor_quest1'); TActivate('VishkiBOOM_cin'); TActivate('OXPAHA_spawn'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_ReturnRoshe_quest1'); TActivate('VishkiBOOM_cin'); TActivate('OXPAHA_spawn'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000487"
 		text="Великолепно, а самое главное без последствий."
 		role="NPC"
-		scriptCondition="IsQuestTaken('Deversy_quest2')  and  not(IsQuestComplete('Deversy_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_PartzDeversy_quest2')  and  not(IsQuestComplete('r1m2_PartzDeversy_quest2'))"
 		nextReplies="Dlg_pl_000488" />
 
 	<Reply
@@ -4627,13 +5209,13 @@
 		name="Dlg_pl_000490"
 		text="Лишь бы эта затея стоила риска."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Deversy_quest2'); TActivate('CarierBOOOM_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PartzDeversy_quest2'); TActivate('CarierBOOOM_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000491"
 		text="Наконец-то! Ламан становится нашим! Но назад дороги уже нет."
 		role="NPC"
-		scriptCondition="IsQuestTaken('Port_partz_quest3')  and  not(IsQuestComplete('Port_partz_quest3'))"
+		scriptCondition="IsQuestTaken('r1m2_PartzPort_quest3')  and  not(IsQuestComplete('r1m2_PartzPort_quest3'))"
 		nextReplies="Dlg_pl_000492" />
 
 	<Reply
@@ -4676,20 +5258,20 @@
 		name="Dlg_pl_000498"
 		text="Увидимся на месте."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Port_partz_quest3'); TActivate('MerikAtack_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_PartzPort_quest3'); TActivate('MerikAtack_cin'); EndConversation()" />
 <!--Root/r1m2/Сюжетные/Дубровка-->
 	<Reply
 		name="Dlg_npc_000591"
 		text="Ну и что ты хочешь сказать?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Dubrovka_quest1')  and  not(IsQuestComplete('Dubrovka_quest1'))  and  not(IsQuestFailed('Dubrovka_quest')) "
+		scriptCondition="IsQuestTaken('r1m2_HelpDubrovka_quest1')  and  not(IsQuestComplete('r1m2_HelpDubrovka_quest1'))  and  not(IsQuestFailed('r1m2_HelpDubrovka_quest')) "
 		nextReplies="Dlg_pl_000592 Dlg_pl_000593 Dlg_pl_000594 Dlg_pl_000601" />
 
 	<Reply
 		name="Dlg_pl_000601"
 		text="Умрите!"
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); TakeQuest('Dubrovka_quest3'); TActivate('KillBands'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); TakeQuest('r1m2_HelpDubrovka_quest3'); TActivate('KillBands'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000594"
@@ -4731,7 +5313,7 @@
 		name="Dlg_pl_000613"
 		text="..."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); TActivate('Start1_cin'); TActivate('Revol_cin'); TakeQuest('Dubrovka_quest2'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); TActivate('PostBandsReturn_cin'); TActivate('Revol_cin'); TakeQuest('r1m2_HelpDubrovka_quest2'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000610"
@@ -4750,7 +5332,7 @@
 		name="Dlg_pl_000615"
 		text="..."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); AddPlayerMoney(-4800); TActivate('Vzriv_cin'); TakeQuest('Dubrovka_quest4'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); AddPlayerMoney(-4800); TActivate('Vzriv_cin'); TakeQuest('r1m2_HelpDubrovka_quest4'); TDeactivate('SecretDoroga_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000607"
@@ -4769,7 +5351,7 @@
 		name="Dlg_pl_000617"
 		text="..."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); AddPlayerMoney(-4800); TActivate('Vzriv_cin'); TakeQuest('Dubrovka_quest4'); TDeactivate('SecretDoroga_cin'); AddHistory( 'r1_Dubrovka_paybands_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); AddPlayerMoney(-4800); TActivate('Vzriv_cin'); TakeQuest('r1m2_HelpDubrovka_quest4'); TDeactivate('SecretDoroga_cin'); AddHistory( 'r1_Dubrovka_paybands_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000593"
@@ -4823,7 +5405,7 @@
 		name="Dlg_pl_000605"
 		text="Спасибо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); TakeQuest('Dubrovka_quest3'); CompleteQuest('Dubrovka_quest3'); TDeactivate('SecretDoroga_cin'); TakeQuest('Dubrovka_quest2'); AddHistory( 'r1_Dubrovka_askbands_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); TakeQuest('r1m2_HelpDubrovka_quest3'); CompleteQuest('r1m2_HelpDubrovka_quest3'); TDeactivate('SecretDoroga_cin'); TakeQuest('r1m2_HelpDubrovka_quest2'); AddHistory( 'r1_Dubrovka_askbands_00' ); AddFadingMsgId( 'fm_history_got' ); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000592"
@@ -4841,13 +5423,13 @@
 		name="Dlg_pl_000596"
 		text="..."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest1'); TActivate('Start1_cin'); TActivate('Revol_cin'); TDeactivate('SecretDoroga_cin'); TakeQuest('Dubrovka_quest2'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest1'); TActivate('PostBandsReturn_cin'); TActivate('Revol_cin'); TDeactivate('SecretDoroga_cin'); TakeQuest('r1m2_HelpDubrovka_quest2'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000618"
 		text="Ну что, ты поможешь нам?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Dubrovka_quest2')  and  not(IsQuestComplete('Dubrovka_quest2'))"
+		scriptCondition="IsQuestTaken('r1m2_HelpDubrovka_quest2')  and  not(IsQuestComplete('r1m2_HelpDubrovka_quest2'))"
 		nextReplies="Dlg_pl_000619" />
 
 	<Reply
@@ -4878,13 +5460,13 @@
 		name="Dlg_pl_000623"
 		text="Вот и хорошо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Dubrovka_quest2'); TActivate('Vzriv_cin22'); TakeQuest('Dubrovka_quest4'); EndConversation() " />
+		scriptResult="CompleteQuest('r1m2_HelpDubrovka_quest2'); TActivate('Vzriv_cin22'); TakeQuest('r1m2_HelpDubrovka_quest4'); EndConversation() " />
 <!--Root/r1m2/Сюжетные/Кочевник-->
 	<Reply
 		name="Dlg_npc_000558"
 		text="Эй, Искатель! Тут тебе послание оставили."
 		role="NPC"
-		scriptCondition="not(IsQuestTaken('Koch_Kavkaz_quest1'))  and  not(IsQuestComplete('karavan_from_port_quest3'))  "
+		scriptCondition="not(IsQuestTaken('r1m2_KochKavkaz_quest1'))  and  not(IsQuestComplete('r1m2_PortKaravan_quest3'))  "
 		nextReplies="Dlg_pl_000559" />
 
 	<Reply
@@ -4915,13 +5497,13 @@
 		name="Dlg_pl_000563"
 		text="Ну ладно, проверю, если будет время."
 		role="PLAYER"
-		scriptResult="TakeQuest('Koch_Kavkaz_quest'); TActivate('Kochquest_tr'); EndConversation()" />
+		scriptResult="TakeQuest('r1m2_KochKavkaz_quest'); TActivate('Kochquest_tr'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000564"
 		text="Здравствуй, Хром!"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount() == 0  "
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_quest2')  and  not(IsQuestComplete('r1m2_KochKavkaz_quest2')) and  not(IsQuestFailed('r1m2_KochKavkaz_quest2')) and  GetCurNpc():GetSpokenCount() == 0  "
 		nextReplies="Dlg_pl_000932" />
 
 	<Reply
@@ -5006,13 +5588,13 @@
 		name="Dlg_pl_000944"
 		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_KochKavkaz_quest2'); FailQuest('r1m2_PartzLoyal_quest11'); FailQuest('r1m2_DestroyPartz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000576"
 		text="Как успехи?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest2')) "
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_2_quest2')  and  not(IsQuestComplete('r1m2_KochKavkaz_2_quest2')) "
 		nextReplies="Dlg_pl_000577" />
 
 	<Reply
@@ -5031,140 +5613,62 @@
 		name="Dlg_pl_000579"
 		text="Когда-нибудь я всё-таки пойму, кто ты такой."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest2'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_KochKavkaz_2_quest2'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000945"
-		text="Здравствуй, брат на механической мессии, чего желаешь?"
+		text="Здравствуй, брат на механической Мессии, чего желаешь?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest3')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest3'))"
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_2_quest3')  and  not(IsQuestComplete('r1m2_KochKavkaz_2_quest3'))"
 		nextReplies="Dlg_pl_000946" />
 
 	<Reply
 		name="Dlg_pl_000946"
-		text="Слышал у вас в деревне есть некий Отшельник, собирающий различный хлам. Где его можно найти?"
+		text="Слышал у вас в деревне есть Отшельник, собирающий различный хлам. Где его можно найти?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_000947" />
 
 	<Reply
 		name="Dlg_npc_000947"
-		text="Ты про этого осквернителя? Выше по дороге находится его хижина, чёрт бы его побрал!"
+		text="Ты про этого еретика? На окраине деревни стоит его хижина. Чур меня, чур меня!.."
 		role="NPC"
-		nextReplies="Dlg_pl_000948 Dlg_pl_001089" />
+		nextReplies="Dlg_pl_001089" />
 
 	<Reply
 		name="Dlg_pl_001089"
-		text="Почему вы называете его осквернителем?"
+		text="Почему вы называете его еретиком?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001090" />
 
 	<Reply
 		name="Dlg_npc_001090"
-		text="Потому что он разбирает священные реликвии Мессии на детали."
+		text="Мессия неприкосновенна и непознаваема! Он же захотел познать мудрость машины слившись с металлом, непостижимое преступление!"
 		role="NPC"
 		nextReplies="Dlg_pl_001091" />
 
 	<Reply
 		name="Dlg_pl_001091"
-		text="Но почему вы его всё ещё терпите?"
+		text="Но почему вы всё ещё его терпите?"
 		role="PLAYER"
 		nextReplies="Dlg_npc_001092" />
 
 	<Reply
 		name="Dlg_npc_001092"
-		text="Его давно уничтожили, если бы он не был лучшим механиком в долине. Пока наши грузовики ездят, старейшины готовы закрывать глаза на его ересь."
+		text="Шарп - один из лучших жрецов Мессии, чтящий ритуалы обслуживания. Пока наши машины работают в гармонии, старейшины готовы закрывать глаза на его ересь."
 		role="NPC"
 		nextReplies="Dlg_pl_001093" />
 
 	<Reply
 		name="Dlg_pl_001093"
-		text="Тогда понятно. Спасибо."
-		role="PLAYER" />
-
-	<Reply
-		name="Dlg_pl_000948"
-		text="Э-э... Спасибо?"
+		text="Значит Шарп. Что ж, спасибо."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_2_quest3'); EndConversation()" />
-
-	<Reply
-		name="Dlg_npc_000949"
-		text="Да не я это украл обшивку! Оставте меня в покое!"
-		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest4'))"
-		nextReplies="Dlg_pl_000950" />
-
-	<Reply
-		name="Dlg_pl_000950"
-		text="Что?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000951" />
-
-	<Reply
-		name="Dlg_npc_000951"
-		text="Ты не из этих сумасшедших? Ой, прости пожалуйста путник! Чем могу быть обязан?"
-		role="NPC"
-		nextReplies="Dlg_pl_000952" />
-
-	<Reply
-		name="Dlg_pl_000952"
-		text="Слышал у тебя есть много разных артефактов, в том числе и времён предтеч."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000953" />
-
-	<Reply
-		name="Dlg_npc_000953"
-		text="Это да, многие считают это мусором, а некоторые вообще скверной, но для меня это хранилише истории и техноллогий древних."
-		role="NPC"
-		nextReplies="Dlg_pl_000954" />
-
-	<Reply
-		name="Dlg_pl_000954"
-		text="Не попадались ли тебе, в таком случае, какие-нибудь записи, шифры или коды от потерянных дверей?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000955" />
-
-	<Reply
-		name="Dlg_npc_000955"
-		text="Да, что-то такое было. Подожди секунду!"
-		role="NPC"
-		nextReplies="Dlg_pl_000956" />
-
-	<Reply
-		name="Dlg_pl_000956"
-		text="Куда уж деваться..."
-		role="PLAYER"
-		nextReplies="Dlg_npc_000957" />
-
-	<Reply
-		name="Dlg_npc_000957"
-		text="Вот несколько записей, бери сколько хочешь!"
-		role="NPC"
-		nextReplies="Dlg_pl_000958" />
-
-	<Reply
-		name="Dlg_pl_000958"
-		text="Вот так просто?"
-		role="PLAYER"
-		nextReplies="Dlg_npc_000959" />
-
-	<Reply
-		name="Dlg_npc_000959"
-		text="Считай это платой за хороший разговор. Мне достаточно того факта, что кто-то ещё интересуется историей прежнего и нашего нынешнего мира, а такое нынче редкость."
-		role="NPC"
-		nextReplies="Dlg_pl_000960" />
-
-	<Reply
-		name="Dlg_pl_000960"
-		text="Спасибо тебе, удачи!"
-		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_cin'); CompleteQuest('Koch_Kavkaz_2_quest4'); AddBook('r1_book_security'); AddBook('r1_book_scientist'); AddBook('r1_book_officers'); AddBook('r1_book_engineer'); AddFadingMsgId( 'fm_book_got' ); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_KochKavkaz_2_quest3'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000961"
 		text="Какой код ввести?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_2_quest5')  and  not(IsQuestComplete('Koch_Kavkaz_2_quest5'))"
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_2_quest5')  and  not(IsQuestComplete('r1m2_KochKavkaz_2_quest5'))"
 		nextReplies="Dlg_pl_000962 Dlg_pl_000963 Dlg_pl_000964 Dlg_pl_000965" />
 
 	<Reply
@@ -5184,7 +5688,7 @@
 		name="Dlg_pl_000963"
 		text="Из переписки офицеров"
 		role="PLAYER"
-		scriptResult="TActivate('Ruins_Second_True_cin'); CompleteQuest('Koch_Kavkaz_2_quest5'); EndConversation()" />
+		scriptResult="TActivate('Ruins_Second_True_cin'); CompleteQuest('r1m2_KochKavkaz_2_quest5'); EndConversation()" />
 
 	<Reply
 		name="Dlg_pl_000962"
@@ -5196,7 +5700,7 @@
 		name="Dlg_npc_000967"
 		text="Ещё не надумал?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_quest2')  and  not(IsQuestComplete('Koch_Kavkaz_quest2')) and  not(IsQuestFailed('Koch_Kavkaz_quest2')) and  GetCurNpc():GetSpokenCount()>0 "
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_quest2')  and  not(IsQuestComplete('r1m2_KochKavkaz_quest2')) and  not(IsQuestFailed('r1m2_KochKavkaz_quest2')) and  GetCurNpc():GetSpokenCount()>0 "
 		nextReplies="Dlg_pl_000968 Dlg_pl_000969" />
 
 	<Reply
@@ -5209,13 +5713,13 @@
 		name="Dlg_pl_000968"
 		text="Не люблю, когда мной пытаются играть. Но раз уж выбора всё равно нет — посмотрим на эти руины."
 		role="PLAYER"
-		scriptResult="CompleteQuest('Koch_Kavkaz_quest2'); FailQuest('Za_partz_quest11'); FailQuest('Defeat_partz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
+		scriptResult="CompleteQuest('r1m2_KochKavkaz_quest2'); FailQuest('r1m2_PartzLoyal_quest11'); FailQuest('r1m2_DestroyPartz_quest1'); TActivate('Ruins_First_cin'); EndConversation()" />
 
 	<Reply
 		name="Dlg_npc_000970"
 		text="О, вот и ты! Удалось схватить подозреваемого?"
 		role="NPC"
-		scriptCondition="IsQuestTaken('Koch_Kavkaz_4_quest4')  and  not(IsQuestComplete('Koch_Kavkaz_4_quest4'))"
+		scriptCondition="IsQuestTaken('r1m2_KochKavkaz_4_quest4')  and  not(IsQuestComplete('r1m2_KochKavkaz_4_quest4'))"
 		nextReplies="Dlg_pl_000971" />
 
 	<Reply
@@ -5246,5 +5750,5 @@
 		name="Dlg_pl_001095"
 		text="Это... Щедро с вашей стороны."
 		role="PLAYER"
-		scriptResult="TActivate(''); CompleteQuest('Koch_Kavkaz_4_quest4'); EndConversation()" />
+		scriptResult="TActivate(''); CompleteQuest('r1m2_KochKavkaz_4_quest4'); EndConversation()" />
 <!--Root/r1m1/Сюжетные--><!--Root/r1m1/Опциональные--></DialogsResource>

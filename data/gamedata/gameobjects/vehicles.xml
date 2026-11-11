@@ -1191,12 +1191,11 @@ My additions end here
 		ResourceType			= "VEHICLE"
 
 		IsIntersecting		= "true"
-		PressingForce		= "2.0"
 
-		DiffRatio		= "9.0"
-		MaxEngineRpm		= "7000"
-		LowGearShiftLimit	= "2000"
-		HighGearShiftLimit	= "6500"
+		DiffRatio		= "5.0"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "1000"
+		HighGearShiftLimit	= "2000"
 
 		SteeringSpeed		= "0.9"
 
@@ -1214,7 +1213,7 @@ My additions end here
 
 		DriftCoeff		= "0.08"
 
-		MassSize		= "8 1.3 16"
+		MassSize		= "6 1 9"
 		MassTranslation		= "0 -2.3 0"
 		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
 		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
@@ -2631,7 +2630,21 @@ My additions end here
 			<Part id = "CABIN_BIG_GUN_1"		Prototype = "vulcan01" /> 
 			<Part id = "CABIN_SMALL_GUN"		Prototype = "fagot01" />
 			<Part id = "BASKET_BIG_GUN_0"		Prototype = "vulcan01" /> 
-			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "mrakSideGun" /> 
+			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hunterSideGun" /> 
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "RosheBelaz"
+		ParentPrototype		= "Belaz">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "belazCab05" />
+			<Part id = "BASKET"			Prototype = "belazCargo05" />
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rainmetal01" /> 
+			<Part id = "CABIN_GIANT_GUN"		Prototype = "hammer01" />
+			<Part id = "BASKET_BIG_GUN_0"		Prototype = "rainmetal01" /> 
+			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hunterSideGun" /> 
 		</Parts>
 	</Prototype>
 
@@ -3331,7 +3344,7 @@ My additions end here
 			<Part id = "BASKET"			Prototype = "mirotvorecCargo05" /> 
 			<Part id = "BASKET_GIANT_GUN"		Prototype = "rocketLauncher" /> 
 			<Part id = "BASKET_BIG_GUN_0" 	Prototype = "rainmetal01" /> 
-			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hailSideGun" /> 
+			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hailSideGunNotVisible" /> 
 		</Parts>
 	</Prototype>
 
@@ -3357,7 +3370,7 @@ My additions end here
 			<Part id = "CABIN_GIANT_GUN" 		Prototype = "octopus01" /> 
 			<Part id = "BASKET"			Prototype = "mirotvorecCargo05" />
 			<Part id = "BASKET_BIG_GUN_0" 	Prototype = "rainmetal01" /> 
-			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hailSideGun" /> 
+			<Part id = "BASKET_SIDE_GUN_0"	Prototype = "hailSideGunNotVisible" /> 
 			<Part id = "BASKET_GIANT_GUN"		Prototype = "octopus01" /> 
 		</Parts>
 	</Prototype>
@@ -3372,6 +3385,20 @@ My additions end here
 			<Part id = "CABIN_GIANT_GUN" 		Prototype = "octopus01" /> 
 			<Part id = "BASKET"			Prototype = "mirotvorecCargo03" />
 			<Part id = "BASKET_BIG_GUN_0" 	Prototype = "rainmetal01" />  
+			<Part id = "BASKET_GIANT_GUN"		Prototype = "octopus01" /> 
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "AvgustMirotvorec"
+		ParentPrototype 	= "Mirotvorec">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "mirotvorecCab05" />
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "kpvt01" /> 
+			<Part id = "CABIN_GIANT_GUN" 		Prototype = "octopus01" /> 
+			<Part id = "BASKET"			Prototype = "mirotvorecCargo03" />
+			<Part id = "BASKET_BIG_GUN_0" 	Prototype = "hurricane01" />  
 			<Part id = "BASKET_GIANT_GUN"		Prototype = "octopus01" /> 
 		</Parts>
 	</Prototype>

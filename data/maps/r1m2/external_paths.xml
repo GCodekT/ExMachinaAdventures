@@ -1,6 +1,87 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Paths>
 	<Path
+		Name="BaseBarman2_path">
+		<Point
+			coord="2590.739 905.383" />
+
+		<Point
+			coord="2606.171 927.808" />
+
+		<Point
+			coord="2647.995 979.843" />
+
+		<Point
+			coord="2746.242 1080.925" />
+
+		<Point
+			coord="2846.879 1193.877" />
+
+		<Point
+			coord="2980.933 1315.803" />
+
+		<Point
+			coord="3082.395 1392.818" />
+	</Path>
+
+	<Path
+		Name="BaseBarman_path">
+		<Point
+			coord="2560.563 850.509" />
+
+		<Point
+			coord="2566.537 870.006" />
+
+		<Point
+			coord="2568.366 895.667" />
+	</Path>
+
+	<Path
+		Name="BasePers_path">
+		<Point
+			coord="2580.800 888.149" />
+
+		<Point
+			coord="2598.331 919.309" />
+
+		<Point
+			coord="2632.798 963.250" />
+
+		<Point
+			coord="2694.167 1025.229" />
+
+		<Point
+			coord="2755.760 1088.636" />
+
+		<Point
+			coord="2835.352 1175.758" />
+
+		<Point
+			coord="2917.217 1257.489" />
+
+		<Point
+			coord="3001.227 1329.945" />
+
+		<Point
+			coord="3097.649 1403.103" />
+	</Path>
+
+	<Path
+		Name="BaseXpom_path">
+		<Point
+			coord="2624.553 956.626" />
+
+		<Point
+			coord="2602.497 937.807" />
+
+		<Point
+			coord="2581.006 939.979" />
+
+		<Point
+			coord="2570.557 914.833" />
+	</Path>
+
+	<Path
 		Name="Base_Mer_path">
 		<Point
 			coord="2715.391 1035.738" />
@@ -1098,10 +1179,10 @@
 			coord="7782.764 6071.785" />
 
 		<Point
-			coord="7801.330 6006.547" />
+			coord="7813.052 5964.067" />
 
 		<Point
-			coord="7809.277 5952.032" />
+			coord="7816.828 5924.480" />
 
 		<Point
 			coord="7808.698 5791.089" />

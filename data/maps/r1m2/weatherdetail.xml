@@ -4,17 +4,17 @@
 		name="r1m2_clear01">
 		<ColorType
 			name="sunrise"
-			LightmapTexture="lightmap_sunriseTime_r1m2.dds"
+			LightmapTexture="lightmap_sunrisetime_r1m2.dds"
 			CloudsTexture="skyclear3.dds" />
 
 		<ColorType
 			name="day"
-			LightmapTexture="lightmap_dayTime_r1m2.dds"
+			LightmapTexture="lightmap_daytime_r1m2.dds"
 			CloudsTexture="skyclear2.dds" />
 
 		<ColorType
 			name="sunset"
-			LightmapTexture="lightmap_sunsetTime_r1m2.dds"
+			LightmapTexture="lightmap_sunsettime_r1m2.dds"
 			CloudsTexture="Sunset_sky1.dds" />
 
 		<ColorType

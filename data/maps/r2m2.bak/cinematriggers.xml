@@ -12,7 +12,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Start_cam01", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
@@ -48,7 +48,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -63,11 +63,11 @@
     <trigger Name="First_cin1" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Razvilka_loc" />
 		<script>
-		    CompleteQuest("FindPath_quest1")
+		    CompleteQuest("r2m2_Explore_quest1")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Start_cam02", CINEMATIC_NO_AIM, 0, 5, 1, 1 )
@@ -99,7 +99,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -115,13 +115,13 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Vstrecha_loc" />
 		<script>
 
-		    CompleteQuest("FindPath_quest2")
+		    CompleteQuest("r2m2_Explore_quest2")
 
 		    PlayCustomMusic("IntenseDialogue02")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Vstrecha_cam01", CINEMATIC_NO_AIM, 0, 22, 1, 0 )
@@ -264,7 +264,7 @@
             
 			StopPlayingCustomMusic()
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -282,7 +282,7 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="Valky01" />
 		<script>
 
-		    CompleteQuest("FindPath_quest3")
+		    CompleteQuest("r2m2_Explore_quest3")
 
 			PlayCustomMusic("IntenseDialogue04")
 
@@ -290,7 +290,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -353,7 +353,7 @@
 		    
 			
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -391,13 +391,13 @@
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Briggs_loc" />
 		<script>
 
-		    CompleteQuest("FindPath_quest4")
+		    CompleteQuest("r2m2_Explore_quest4")
 
 		    PlayCustomMusic("IntenseDialogue01")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Vorota_cam01", CINEMATIC_NO_AIM, 0, 10, 1, 0 )
@@ -510,7 +510,7 @@
 		    
 			StopPlayingCustomMusic()
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

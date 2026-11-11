@@ -2786,7 +2786,29 @@
 			id="pack"
 			file="data\models\AnimModels.xml" />
 
-		
+		<Item
+			id="sosna1"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna2"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna3"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna1_dyn"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna2_dyn"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="sosna3_dyn"
+			file="data\models\AnimModels.xml" />
 		
 
 		<Item

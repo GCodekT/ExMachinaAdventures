@@ -86,7 +86,7 @@
 		time="3" />
 
 	<string
-		id="11"
+		id="101"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -95,7 +95,7 @@
 		time="7" />
 
 	<string
-		id="12"
+		id="102"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -104,7 +104,7 @@
 		time="4" />
 
 	<string
-		id="13"
+		id="103"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -113,13 +113,13 @@
 		time="2" />
 
 	<string
-		id="14"
+		id="104"
 		sound="data\sounds\Speech\r1m5\r1m5_14_prometeus.ogg"
 		value="Прометей|Запуск системы... Успешно. Анализ состояния агрегатов... Готовность. Внимание! Несанкционированное проникновение на территорию комплекса. Статус комплекса: осада. Активирован протокол ликвидации."
 		time="15" />
 
 	<string
-		id="15"
+		id="105"
 		modelName="r1_man"
 		modelSkin="0"
 		modelCfg="76"
@@ -128,7 +128,7 @@
 		time="2" />
 
 	<string
-		id="16"
+		id="106"
 		sound="data\sounds\Speech\r1m5\r1m5_16_prometeus.ogg"
 		value="Прометей|Цель потеряна. Обнаружены множественные нарушители. Приоритет угрозы пересчитан. Возобновлён протокол ликвидации."
 		time="9" />

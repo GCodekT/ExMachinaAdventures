@@ -23,7 +23,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("krepost_cam01", CINEMATIC_NO_AIM, 0, 11, 1, 1 )
@@ -75,7 +75,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -101,7 +101,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -159,7 +159,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -191,7 +191,7 @@
     
 			    SaveAllToleranceStatus(RS_NEUTRAL)
     
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
     
 			    
     
@@ -248,7 +248,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -284,7 +284,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -345,7 +345,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -403,7 +403,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -520,7 +520,7 @@
 				Vlkr4:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -539,7 +539,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			Fly("Mengira_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
@@ -601,7 +601,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -665,7 +665,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -735,7 +735,7 @@
 
 			TDeactivate("Mengira_cin2_vehicle_Repair")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -759,7 +759,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 			
@@ -844,7 +844,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -915,7 +915,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN5", "Energy21", -1, -1, CVector(6405.234, 270.429, 4905.833), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 3.217)
 			
@@ -967,7 +967,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1029,7 +1029,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -1093,7 +1093,7 @@
 
 			TActivate("Mengira_3_cin")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1117,7 +1117,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN5", "Energy31", -1, -1, CVector(656.119, 270.429, 5383.616), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 3.217)
 			
@@ -1169,7 +1169,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1231,7 +1231,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -1293,7 +1293,7 @@
 
 			TDeactivate("Mengira_3_cin2_vehicle_Repair")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1357,7 +1357,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			SetWeather(0)
 			
@@ -1567,7 +1567,7 @@
 
 		    SetWeather(1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1802,7 +1802,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			TeamCreate("ValkyFinlBtl1111",1013,CVector(3818.277, 272.829, 7659.494),{"MirotvorecValky"}, CVector(3811.174, 270.782, 7461.953), 1)
             
@@ -1863,7 +1863,7 @@
 		<script>
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1894,7 +1894,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			SetWeather(0)
 			
@@ -2119,7 +2119,7 @@
 		<script>
 		    TActivate("Mother_cin_energyOFF_1")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2164,7 +2164,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateVehicleEx("MazForPlayer03","UltraCar1", CVector(7664.007, 246.132, 705.510), 1100)
 
@@ -2218,7 +2218,7 @@
 
 			
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

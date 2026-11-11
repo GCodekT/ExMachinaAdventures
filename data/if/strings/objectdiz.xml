@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <resource>
 	<string
-		id="r1m2_TownMinin6466_diz"
+		id="r1m2_TheTownSteelMeridian_diz"
 		value="Сердце этого региона, здесь находятся все производственные мощности, ежедневно производящие сотни товаров." />
 
 	<string
-		id="r1m2_r1m1_OilVillage6552_diz"
+		id="r1m2_TheVillageDubrovka_diz"
 		value="Небольшая деревня на окраине региона." />
 
 	<string
-		id="r1m2_CrazyBase17059_diz"
+		id="r1m2_TheTownKoch_m1_diz"
 		value="Маленький лагерь одинокого кочевника." />
 
 	<string
-		id="r1m2_TownBaseInRock7061_diz"
+		id="r1m2_TheTownMilitaryBase_diz"
 		value="Заброшенная военная база на которой обосновались головорезы Альфарана." />
 
 	<string
@@ -21,27 +21,27 @@
 		value="Карьер, поставляющий сырьё в Стальной Меридиан." />
 
 	<string
-		id="r1m2_r3_OracleDefVil7062_diz"
+		id="r1m2_TheFanaticsVllage_diz"
 		value="Небольшая деревня фанатиков возле упавшей 'Железной птицы'." />
 
 	<string
-		id="r1m2_r3_RazboinikVillage7063_diz"
+		id="r1m2_TheVillageHermit_diz"
 		value="Дом отшельника, конфликтующего с фанатиками из деревни." />
 
 	<string
-		id="r1m2_CrazyBase27060_diz"
+		id="r1m2_TheTownPort_m1_diz"
 		value="Порт, принимающий и отправляющий корабли в восточные регионы." />
 
 	<string
-		id="r1m2_r1m2_SignVillage7056_diz"
+		id="r1m2_TheForestVillage_diz"
 		value="Деревня расположившаяся возле густого леса." />
 
 	<string
-		id="r1m2_r1m2_RaceVillage7058_diz"
+		id="r1m2_TheForestManHouse_diz"
 		value="Дом лесника, с улыбкой добродушной обеспечит вам ночлег. Будьте как дома путник!" />
 
 	<string
-		id="r1m2_r1m1_ContraVillage7146_diz"
+		id="r1m2_TheVillagePartz_diz"
 		value="Лагерь повстанцев, борющихся за независимость Ламана." />
 
 	<string

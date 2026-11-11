@@ -17,13 +17,23 @@
 	</Path>
 
 	<Path Name = "InBase_cam04">                         
-		<Point  coord="3636.754 240.079 529.935" rotation="-0.009 0.859 -0.015 0.512"/>
-        <Point  coord="3534.059 246.468 473.551" rotation="-0.036 0.864 -0.062 0.499"/>
+		<Point  coord="3596.900 233.962 517.524" rotation="-0.007 0.901 -0.014 0.434"/>
+		<Point  coord="3538.447 231.718 470.906" rotation="-0.007 0.901 -0.014 0.434"/>
+	</Path>
+
+	<Path Name = "InBase_cam041">                         
+		<Point  coord="3424.612 231.406 383.233" rotation="-0.051 -0.526 0.032 0.848"/>
+		<Point  coord="3419.211 231.406 398.718" rotation="-0.030 -0.789 0.039 0.612"/>
 	</Path>
 
 	<Path Name = "InBase_cam05">                         
-		<Point  coord="3419.393 240.948 378.813" rotation="-0.164 -0.520 0.103 0.832"/>
-        <Point  coord="3420.844 240.948 411.440" rotation="0.082 0.893 -0.181 -0.404"/>
+		<Point  coord="3373.716 228.989 408.831" rotation="-0.020 0.794 -0.026 0.607"/>
+		<Point  coord="3371.417 228.731 399.133" rotation="-0.029 0.610 -0.022 0.792"/>
+	</Path>
+
+	<Path Name = "InBase_cam051">                         
+		<Point  coord="3372.459 231.240 394.524" rotation="-0.051 -0.602 0.039 0.796"/>
+		<Point  coord="3386.876 231.346 383.752" rotation="-0.076 -0.193 0.015 0.978"/>
 	</Path>
 
 	<Path Name = "InBase_cam06">                         
@@ -122,4 +132,3 @@
 
 
 </Paths>
-

@@ -210,7 +210,7 @@
 		modelCfg="90"
 		modelSlot="1"
 		sound="data\sounds\Speech\r1m2\r1m2_22_avgust.ogg"
-		value="Прапорщик Август|Можешь ехать на базу, мы как раз вскрыли запечатанную секцию, благодаря спасённому тобой каравану."
+		value="Прапорщик Август|Можешь ехать на базу, когда зачистим остатки сопротивления, мы с тобой рассчитаемся."
 		time="8" />
 
 	<string
@@ -219,12 +219,88 @@
 		modelSkin="0"
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m2\r1m2_23_xpom.ogg"
-		value="Хром|Как-то здесь особо тихо, странно... "
+		value="Хром|Это еще что?"
 		time="3" />
 
 	<string
+		id="23001"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_23001_xpom.ogg"
+		value="Хром|Что здесь происходит?"
+		time="2" />
+
+	<string
+		id="23002"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="6"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_23002_barman.ogg"
+		value="Бармен Кайл|А, это ты, Искатель. Наконец-то доставили оборудование и теперь спецотряд производит вскрытие."
+		time="7" />
+
+	<string
+		id="23003"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_23003_xpom.ogg"
+		value="Хром|А зачем эвакуировать персонал?"
+		time="3" />
+
+	<string
+		id="23004"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="6"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_23004_barman.ogg"
+		value="Бармен Кайл|На всякий случай, кто знает, что там скрывается... Может там заражение радиационное?"
+		time="6" />
+
+	<string
+		id="23005"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="6"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_23005_barman.ogg"
+		value="Бармен Кайл|Ладно, дело это будет не быстрое, поэтому пока подожду в Меридиане. Ты с нами?"
+		time="6" />
+
+	<string
+		id="23006"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_23006_xpom.ogg"
+		value="Хром|Нет, после всего пройденного как-то не хочется уезжать в последний момент. Я хочу быть одним из первых кто увидит содержимое."
+		time="8" />
+
+	<string
+		id="23007"
+		modelName="r2_man"
+		modelSkin="1"
+		modelCfg="6"
+		modelSlot="1"
+		sound="data\sounds\Speech\r1m2\r1m2_23007_barman.ogg"
+		value="Бармен Кайл|Ну, как хочешь. Бывай!"
+		time="3" />
+
+	<string
+		id="23008"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_23008_xpom.ogg"
+		value="Хром|Похоже, бармен был прав. Сколько же они там копаются... Скоро темнеть начнёт."
+		time="5" />
+
+	<string
 		id="24"
-		value="||@FF000000AAAAAAAAAAAAAAAAAAAA@FFFFFFFF[Звуки стрельбы из глубин базы]"
+		value="||@FF000000AAAAAAAAAAAAAAAAAA@FFFFFFFF[Звуки стрельбы из глубин базы]"
 		sound="data\sounds\Speech\r1m2\r1m2_24_shooting.ogg"
 		time="12" />
 
@@ -234,8 +310,8 @@
 		modelSkin="0"
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m2\r1m2_25_xpom.ogg"
-		value="Хром|Что там происходит? Может стоит проверить?"
-		time="4" />
+		value="Хром|Стрельба? Да что там вообще происходит? Что-то мне это совсем не нравится..."
+		time="5" />
 
 	<string
 		id="26"
@@ -1469,7 +1545,7 @@
 		modelCfg="132"
 		modelSlot="0"
 		sound="data\sounds\Speech\r1m2\r1m2_50004_razboy.ogg"
-		value="Разбойник|Попалась рыбка! Мы уже думали никто не приедет, лесник молодец!"
+		value="Разбойник|Ещё один любопытный. Давненько сюда никто не заезжал."
 		time="6" />
 
 	<string
@@ -1478,7 +1554,7 @@
 		modelSkin="0"
 		modelCfg="76"
 		sound="data\sounds\Speech\r1m2\r1m2_50005_xpom.ogg"
-		value="Хром|Вы, как я понимаю, и есть те разбойники которые атакуют путников. И во всём этом замешан лесник..."
+		value="Хром|Значит вот оно какое 'Лихо' лесное."
 		time="8" />
 
 	<string
@@ -1488,7 +1564,7 @@
 		modelCfg="132"
 		modelSlot="0"
 		sound="data\sounds\Speech\r1m2\r1m2_50006_razboy.ogg"
-		value="Разбойник|А ты догадливый, да это мы банда 'Волки'. Ладно, пора заканчивать."
+		value="Разбойник|Вот как нас местные кличут! Подтвердим их слухи, в бой!"
 		time="6" />
 
 	<string
@@ -1651,8 +1727,10 @@
 
 	<string
 		id="8802"
-		modelName="mask_hero"
-		sound="data\sounds\Speech\r3m1\r3m1_8802_hero.ogg"
+		modelName="r1_man"
+		modelSkin="0"
+		modelCfg="76"
+		sound="data\sounds\Speech\r1m2\r1m2_8802_xpom.ogg"
 		value="Я не знаю, куда ведет эта дорога, поэтому останусь здесь."
 		time="3" />
 

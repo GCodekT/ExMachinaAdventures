@@ -1,40 +1,51 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers>
+
+<!-- Начальная катсцена Top -->
     <trigger Name="Start_cin" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
-		<script>
-
+		<script>			
 			SaveAllToleranceStatus(RS_NEUTRAL)
+            GetPlayerVehicle():setGodMode(1)
 
-            god(1)
+			local CTochID = GetPlayerVehicle():GetId()
 
-			Fly("Start_cam01", CINEMATIC_NO_AIM, 0, 18, 1, 1 )
+			Fly("Start_cam01", CINEMATIC_NO_AIM, 0, 7, 1, 0 )
+			FlyLinked( "Start_cam02", CTochID, 10, 0, 1, CTochID )
 			StartCinematic()
 			UpdateCinematic(1)
 
-			AddCinematicMessage( 1, 5 )
-
 			TActivate("Start_cin_vehicle")
+			TActivate( "Start_cin_dop_1" )
 			TActivate( "Start_cin_end" )
-
-			
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="Start_cin_vehicle" active="0">
-		<event timeout="0" eventid="GE_TIME_PERIOD" />
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0) 
-				vehPlayer:SetPosition( CVector(319.049, 303.539, 7753.558))
+				vehPlayer:SetPosition(CVector(319.049, 303.539, 7753.558))
 				vehPlayer:SetRotation(Quaternion(0.061, 0.984, -0.060, 0.157))
                 vehPlayer:SetExternalPathByName("Start_path")
 				vehPlayer:LimitMaxSpeed(20)
 			end
+
+			PlayCustomMusic("QuietDialogue01")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Start_cin_dop_1" active="0">
+		<event eventid="GE_START_CINEMATIC_FLY" flypath="Start_cam02" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 1, 0.5 )
 
 			trigger:Deactivate()
 		</script>
@@ -54,36 +65,37 @@
 				vehPlayer:UnlimitMaxSpeed()
 			end
 
-            god(0)
-
+            GetPlayerVehicle():setGodMode(0)
 			RestoreAllToleranceStatus()
 
 			StopPlayingCustomMusic()
 
 			SetCameraBehindPlayerVehicle()
 
-			TakeQuest("Derevnya_quest")
-			TakeQuest("Go_in_base_quest")
+			TakeQuest("r1m2_FirstVillage_quest")
+			TakeQuest("r1m2_FindBase_quest")
 
-			local LagTown = GetEntityByName("r1m1_ContraVillage7146")
+			local LagTown = GetEntityByName("TheVillagePartz")
 			if LagTown then
 				LagTown:SetOpenGateToPlayer(false)
 			end
 
 			SetTolerance( 1100, 1002, RS_ALLY )
 
+			TDeactivate( "Start_cin_dop_1" )
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
+<!-- Начальная катсцена Down -->
 	
-
+<!-- Аванпост у Дубровки Top -->
 	<trigger Name="postBands_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Bands_loc" />
 		<script>
 			PlayCustomMusic("IntenseDialogue02")
 
-			TeamCreate("PostBandsTEAM1",1002,CVector(2737.583, 383.088, 7842.021),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, nil, 1)
+			TeamCreateWithWarez("PostBandsTEAM1",1002,CVector(2737.583, 383.088, 7842.021),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, nil, 1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(2739.670, 381.680, 7707.112), Quaternion(0, 0, 0, 0), 0)
 
@@ -95,7 +107,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			FlyLinked( "Post_cam01", CTochID, 7, 1, 0, PlfID )
             Fly("PostBand_cam02", CINEMATIC_NO_AIM, 0, 7, 0, 1 )
@@ -177,7 +189,7 @@
 				vehPlayer:UnlimitMaxSpeed()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -197,6 +209,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Аванпост у Дубровки Down -->
 
 	<trigger Name="KillBands" active="0">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
@@ -216,8 +229,8 @@
 		<event eventid="GE_OBJECT_DIE" ObjName="PostBandsTEAM1" />
 		<script>
 
-		    CompleteQuest("Dubrovka_quest3")
-			TakeQuest("Dubrovka_quest2")
+		    CompleteQuest("r1m2_HelpDubrovka_quest3")
+			TakeQuest("r1m2_HelpDubrovka_quest2")
 			AddHistory( "r1_Dubrovka_killbands_01" )
 			AddFadingMsgId( "fm_history_got" )
 
@@ -227,6 +240,7 @@
 		</script>
 	</trigger>
 
+<!-- Взрыв завала Top -->
 	<trigger Name="Vzriv_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -262,7 +276,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
             Fly("Zaval_cam01", CINEMATIC_NO_AIM, 0, 10, 1, 1 )
 			StartCinematic()
@@ -311,7 +325,7 @@
 				vehPlayer1:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -322,8 +336,8 @@
 			SetTolerance( 1063, 1002, RS_ENEMY )
 			SetTolerance( 1100, 1002, RS_ENEMY )
 
-			CompleteQuest("Doroga_quest")
-			CompleteQuest("Dubrovka_quest4")
+			CompleteQuest("r1m2_FindPath_quest")
+			CompleteQuest("r1m2_HelpDubrovka_quest4")
 
 
 			trigger:Deactivate()
@@ -337,7 +351,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
             Fly("Zaval_cam01", CINEMATIC_NO_AIM, 0, 10, 1, 1 )
 			StartCinematic()
@@ -386,7 +400,7 @@
 				vehPlayer1:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -397,8 +411,8 @@
 			SetTolerance( 1063, 1002, RS_ENEMY )
 			SetTolerance( 1100, 1002, RS_ENEMY )
 
-			CompleteQuest("Doroga_quest")
-			CompleteQuest("Dubrovka_quest4")
+			CompleteQuest("r1m2_FindPath_quest")
+			CompleteQuest("r1m2_HelpDubrovka_quest4")
 
 			TDeactivate("SecretDoroga_cin")
 
@@ -409,7 +423,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Взрыв завала Down -->
 
+<!-- Ополчение Дубровки Top -->
 	<trigger Name="Revol_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="DerevnyaATAKA_loc" />
 		<script>
@@ -417,10 +433,10 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			TeamCreate("PostBandsTEAM2",1002,CVector(2742.664, 383.150, 7853.779),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, nil, 1)
-			TeamCreate("PostRevolTEAM1",1063,CVector(2161.087, 278.294, 7076.837),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, CVector(2742.664, 383.150, 7853.779), 1)
+			TeamCreateWithWarez("PostBandsTEAM2",1002,CVector(2742.664, 383.150, 7853.779),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, nil, 1)
+			TeamCreateWithWarez("PostRevolTEAM1",1063,CVector(2161.087, 278.294, 7076.837),{"Hunter02","r1m1_scout02" ,"Fighter02","r1m1_scout01","Fighter01"}, CVector(2742.664, 383.150, 7853.779), 1)
 
             Fly("Revol_cam01", CINEMATIC_NO_AIM, 0, 9, 1, 1 )
 			StartCinematic()
@@ -461,7 +477,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -473,8 +489,8 @@
 			SetTolerance( 1100, 1002, RS_ENEMY )
 			SetTolerance( 1063, 1100, RS_ALLY )
 
-			CompleteQuest("Dubrovka_quest2")
-			TakeQuest("Dubrovka_quest3")
+			CompleteQuest("r1m2_HelpDubrovka_quest2")
+			TakeQuest("r1m2_HelpDubrovka_quest3")
 
 			TActivate("Revol_cin2")
 
@@ -495,7 +511,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Revol_cam02", CINEMATIC_NO_AIM, 0, 10.5, 1, 1 )
 			StartCinematic()
@@ -529,7 +545,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -538,16 +554,18 @@
 			AddHistory( "r1_Dubrovka_killbands_00" )
 			AddFadingMsgId( "fm_history_got" )
 
-			CompleteQuest("Dubrovka_quest3")
-			TakeQuest("Dubrovka_quest4")
+			CompleteQuest("r1m2_HelpDubrovka_quest3")
+			TakeQuest("r1m2_HelpDubrovka_quest4")
 
 			TActivate("Vzriv_cin22")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Ополчение Дубровки Down -->
 
-	<trigger Name="Start1_cin" active="0">
+<!-- Уход от поста бандитов Top -->
+	<trigger Name="PostBandsReturn_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
 
@@ -561,20 +579,20 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			FlyLinked( "Post_cam01", CTochID, 7, 1, 1, PlfID )
 			StartCinematic()
 			UpdateCinematic(1)
 
-			TActivate("Start1_cin_vehicle")
-			TActivate( "Start1_cin_end" )
+			TActivate("PostBandsReturn_cin_vehicle")
+			TActivate( "PostBandsReturn_cin_end" )
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="Start1_cin_vehicle" active="0">
+	<trigger Name="PostBandsReturn_cin_vehicle" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
 			local vehPlayer = GetPlayerVehicle()
@@ -589,7 +607,7 @@
 		</script>
 	</trigger>
 
-	<trigger Name="Start1_cin_end" active="0">
+	<trigger Name="PostBandsReturn_cin_end" active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
@@ -603,7 +621,7 @@
 				vehPlayer:UnlimitMaxSpeed()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -619,15 +637,11 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Уход от поста бандитов Down -->
 
 
 
-
-<!--ПОСЛЕ ДУБРОВКИ-->
-
-
-
-
+<!-- Аванпост у Меридиана Top -->
 	<trigger Name="post_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Post_loc" />
 		<script>
@@ -644,7 +658,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			FlyLinked( "Post_cam01", CTochID, 7, 1, 0, PlfID )
             Fly("Post_cam02", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
@@ -658,11 +672,11 @@
 				vehPlayer:LimitMaxSpeed(25)
 			end
             
-			if IsQuestFailed("Dubrovka_quest2")  or  not(IsQuestTaken("Dubrovka_quest3")) then
+			if IsQuestFailed("r1m2_HelpDubrovka_quest2")  or  not(IsQuestTaken("r1m2_HelpDubrovka_quest3")) then
 			    CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "OGONb1", -1, -1, CVector(2018.409, 249.336, 6894.769), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
 			    CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "OGONb2", -1, -1, CVector(1944.964, 249.354, 6951.238), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
                 
-			    local LagT1 = GetEntityByName("r1m1_OilVillage6552")
+			    local LagT1 = GetEntityByName("TheVillageDubrovka")
 			    if LagT1 then
 			    	LagT1:SetRuined(true)
 			    	LagT1:SetOpenGateToPlayer(false)
@@ -745,7 +759,7 @@
 				vehPlayer:UnlimitMaxSpeed()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -772,14 +786,16 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			TActivate("tr_vehicles_spawn")
+			TActivate("tr_vehicles_spawn1")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Аванпост у Меридиана Down -->
 
-<!--	<trigger Name="port_cin" active="0">
-		<event    eventid="GE_LEAVE_TOWN"    ObjName="CrazyBase27060" />
+<!-- Старт Каравана из Порта Top -->
+	<trigger Name="PortKaravan_cin" active="0">
+		<event    eventid="GE_LEAVE_TOWN"    ObjName="TheTownPort_m1" />
 		<script>
 			PlayCustomMusic("QuietDialogue01")
 
@@ -787,7 +803,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Port_cam01", CINEMATIC_NO_AIM, 0, 3, 1, 0 )
             Fly("Port_cam02", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
@@ -799,17 +815,17 @@
 
 			
 
-			TActivate("port_cin_vehicle")
-		    TActivate("port_cin_dop_1")
-			TActivate("port_cin_dop_2")
-			TActivate("port_cin_dop_3")
-			TActivate( "port_cin_end" )
+			TActivate("PortKaravan_cin_vehicle")
+		    TActivate("PortKaravan_cin_dop_1")
+			TActivate("PortKaravan_cin_dop_2")
+			TActivate("PortKaravan_cin_dop_3")
+			TActivate( "PortKaravan_cin_end" )
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="port_cin_vehicle" active="0">
+	<trigger Name="PortKaravan_cin_vehicle" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
 			local vehPlayer = GetPlayerVehicle()
@@ -818,203 +834,9 @@
 				vehPlayer:SetThrottle(0) 
 			end
 
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin_dop_1" active="0">
-		<event flypath="Port_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-			AddCinematicMessage( 71111, 0 )
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin_dop_2" active="0">
-		<event flypath="Port_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-		    CreateVehicleEx("UralCarav","Karav_11", CVector(7699.778, 204.781, 6492.948), 1025)
-			CreateVehicleEx("UralCarav","Karav_22", CVector(7695.636, 204.816, 6466.846), 1025)
-			CreateVehicleEx("UralCarav","Karav_33", CVector(7691.231, 204.819, 6442.258), 1025)
-
-			local vehKar1 = GetEntityByName("Karav_11")
-			if vehKar1 then
-				vehKar1:SetRotation(Quaternion(0.000, 0.999, 0.006, -0.053))
-			end
-
-			local vehKar2 = GetEntityByName("Karav_22")
-			if vehKar2 then
-				vehKar2:SetRotation(Quaternion(-0.000, 0.997, -0.003, -0.081))
-			end
-
-			local vehKar3 = GetEntityByName("Karav_33")
-			if vehKar3 then
-				vehKar3:SetRotation(Quaternion(-0.000, 0.996, -0.001, -0.089))
-			end
-			
-			PlayCustomMusic("IntenseDialogue01")
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin_dop_3" active="0">
-		<event flypath="Port_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-		    
-
-			AddCinematicMessage( 9, 1 )
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin_end" active="0">
-		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
-		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
-		<script>
-
-		    local CaCr1 = GetEntityByName("Karav_11")
-			if CaCr1 then
-				CaCr1:Remove()
-			end
-
-			local CaCr2 = GetEntityByName("Karav_22")
-			if CaCr2 then
-				CaCr2:Remove()
-			end
-
-			local CaCr3 = GetEntityByName("Karav_33")
-			if CaCr3 then
-				CaCr3:Remove()
-			end
-
-			CreateVehicleEx("UralCarav","Karav_1", CVector(7699.778, 204.781, 6492.948), 1025)
-			CreateVehicleEx("UralCarav","Karav_2", CVector(7695.636, 204.816, 6466.846), 1025)
-			CreateVehicleEx("UralCarav","Karav_3", CVector(7691.231, 204.819, 6442.258), 1025)
-
-			local vehKar1 = GetEntityByName("Karav_1")
-			if vehKar1 then
-				vehKar1:SetRotation(Quaternion(0.000, 0.999, 0.006, -0.053))
-				vehKar1:SetExternalPathByName("karavan_path")
-				vehKar1:SetCruisingSpeed(35)
-			end
-
-			local vehKar2 = GetEntityByName("Karav_2")
-			if vehKar2 then
-				vehKar2:SetRotation(Quaternion(-0.000, 0.997, -0.003, -0.081))
-				vehKar2:SetExternalPathByName("karavan_path")
-				vehKar2:SetCruisingSpeed(35)
-			end
-
-			local vehKar3 = GetEntityByName("Karav_3")
-			if vehKar3 then
-				vehKar3:SetRotation(Quaternion(-0.000, 0.996, -0.001, -0.089))
-				vehKar3:SetExternalPathByName("karavan_path")
-				vehKar3:SetCruisingSpeed(35)
-			end
-
-            god(0)
-
-			RestoreAllToleranceStatus()
-
-			SetTolerance( 1100, 1025, RS_ALLY )
-
-			StopPlayingCustomMusic()
-
-			TDeactivate( "port_cin_dop_1" )
-			TDeactivate( "port_cin_dop_2" )
-			TDeactivate( "port_cin_dop_3" )
-            TActivate("Karavan_Length")
-            TActivate("KaravanAtack_cin")
-
-			SetCameraBehindPlayerVehicle()
-
-			trigger:Deactivate()
-		</script>
-	</trigger> -->
-
-	<trigger Name="port_cin2" active="0">
-		<event    eventid="GE_LEAVE_TOWN"    ObjName="CrazyBase27060" />
-		<script>
-			PlayCustomMusic("QuietDialogue01")
-
-			
-
-			SaveAllToleranceStatus(RS_NEUTRAL)
-
-            god(1)
-
-			Fly("Port_cam01", CINEMATIC_NO_AIM, 0, 3, 1, 0 )
-            Fly("Port_cam02", CINEMATIC_NO_AIM, 0, 4, 0, 0 )
-			Fly("Port_cam03", CINEMATIC_NO_AIM, 0, 3, 0, 0 )
-			Fly("Port_cam04", CINEMATIC_NO_AIM, 0, 6, 0, 1 )
-			StartCinematic()
-
-			
-
-			
-
-			TActivate("port_cin2_vehicle")
-		    TActivate("port_cin2_dop_1")
-			TActivate("port_cin2_dop_2")
-			TActivate("port_cin2_dop_3")
-			TActivate( "port_cin2_end" )
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin2_vehicle" active="0">
-		<event timeout="1" eventid="GE_TIME_PERIOD" />
-		<script>
-			local vehPlayer = GetPlayerVehicle()
-			if vehPlayer then       
-				vehPlayer:SetCustomLinearVelocity(0)
-				vehPlayer:SetThrottle(0) 
-			end
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin2_dop_1" active="0">
-		<event flypath="Port_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-			AddCinematicMessage( 71111, 0 )
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="port_cin2_dop_2" active="0">
-		<event flypath="Port_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
-		<script>
-
-		    TeamCreate("PortADVTEAM1",1003,CVector(7746.583, 204.088, 6501.021),{"r1m1_scout01"}, nil, 1)
-			TeamCreate("PortADVTEAM2",1003,CVector(7721.583, 204.088, 6442.021),{"Fighter01"}, nil, 1)
-			TeamCreate("PortADVTEAM3",1003,CVector(7724.583, 204.088, 6416.021),{"Hunter02"}, nil, 1)
-		    CreateVehicleEx("UralCarav","Karav_11", CVector(7699.778, 204.781, 6492.948), 1025)
-			CreateVehicleEx("UralCarav","Karav_22", CVector(7695.636, 204.816, 6466.846), 1025)
-			CreateVehicleEx("UralCarav","Karav_33", CVector(7691.231, 204.819, 6442.258), 1025)
-
-			local vehKar1 = GetEntityByName("Karav_11")
-			if vehKar1 then
-				vehKar1:SetRotation(Quaternion(0.000, 0.999, 0.006, -0.053))
-			end
-
-			local vehKar2 = GetEntityByName("Karav_22")
-			if vehKar2 then
-				vehKar2:SetRotation(Quaternion(-0.000, 0.997, -0.003, -0.081))
-			end
-
-			local vehKar3 = GetEntityByName("Karav_33")
-			if vehKar3 then
-				vehKar3:SetRotation(Quaternion(-0.000, 0.996, -0.001, -0.089))
-			end
-			
-			PlayCustomMusic("IntenseDialogue01")
+			TeamCreateWithWarez("PortADVTEAM1",1006,CVector(7606.583, 204.588, 6455.021),{"r1m1_scout01"}, nil, 1)
+			TeamCreateWithWarez("PortADVTEAM2",1006,CVector(7609.583, 204.588, 6467.021),{"Fighter01"}, nil, 1)
+			TeamCreateWithWarez("PortADVTEAM3",1006,CVector(7609.583, 204.588, 6487.021),{"Hunter02"}, nil, 1)
 
 			local newControllerId = CreateNewObject {
 				prototypeName	= "someNPCMotionController",
@@ -1049,12 +871,53 @@
 				newController:setVehicleUnderControl(FVehicle)
 			end
 
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="PortKaravan_cin_dop_1" active="0">
+		<event flypath="Port_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 71111, 0 )
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="port_cin2_dop_3" active="0">
+	<trigger Name="PortKaravan_cin_dop_2" active="0">
+		<event flypath="Port_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+		    
+		    CreateVehicleEx("UralCarav","Karav_11", CVector(7699.778, 204.781, 6492.948), 1025)
+			CreateVehicleEx("UralCarav","Karav_22", CVector(7695.636, 204.816, 6466.846), 1025)
+			CreateVehicleEx("UralCarav","Karav_33", CVector(7691.231, 204.819, 6442.258), 1025)
+
+			local vehKar1 = GetEntityByName("Karav_11")
+			if vehKar1 then
+				vehKar1:SetRotation(Quaternion(0.000, 0.999, 0.006, -0.053))
+			end
+
+			local vehKar2 = GetEntityByName("Karav_22")
+			if vehKar2 then
+				vehKar2:SetRotation(Quaternion(-0.000, 0.997, -0.003, -0.081))
+			end
+
+			local vehKar3 = GetEntityByName("Karav_33")
+			if vehKar3 then
+				vehKar3:SetRotation(Quaternion(-0.000, 0.996, -0.001, -0.089))
+			end
+			
+			PlayCustomMusic("IntenseDialogue01")
+
+			
+
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="PortKaravan_cin_dop_3" active="0">
 		<event flypath="Port_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 		    
@@ -1065,7 +928,7 @@
 		</script>
 	</trigger>
 
-	<trigger Name="port_cin2_end" active="0">
+	<trigger Name="PortKaravan_cin_end" active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
@@ -1110,17 +973,18 @@
 				vehKar3:SetCruisingSpeed(35)
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
 			SetTolerance( 1100, 1025, RS_ALLY )
+			SetTolerance( 1100, 1006, RS_ALLY )
 
 			StopPlayingCustomMusic()
 
-			TDeactivate( "port_cin2_dop_1" )
-			TDeactivate( "port_cin2_dop_2" )
-			TDeactivate( "port_cin2_dop_3" )
+			TDeactivate( "PortKaravan_cin_dop_1" )
+			TDeactivate( "PortKaravan_cin_dop_2" )
+			TDeactivate( "PortKaravan_cin_dop_3" )
             TActivate("Karavan_Length")
             TActivate("KaravanAtack_cin")
 
@@ -1129,6 +993,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Старт Каравана из Порта Down -->
 
 	<trigger Name="Karavan_Length" active="0">
         <event timeout="1" eventid="GE_TIME_PERIOD" />
@@ -1159,6 +1024,7 @@
         </script>
     </trigger>
 
+<!-- Нападение на Караван Top -->
 	<trigger Name="KaravanAtack_cin" active="0">
 		<event eventid="GE_TARGET_REACHED" ObjName="Karav_1"/>
 		<event eventid="GE_TARGET_REACHED" ObjName="Karav_2"/>
@@ -1166,7 +1032,7 @@
 		<script>
 		    TDeactivate("Karavan_Length")
 
-		    CompleteQuest("karavan_from_port_quest3")
+		    CompleteQuest("r1m2_PortKaravan_quest3")
 
 			
 
@@ -1174,7 +1040,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Zas_cam02", CINEMATIC_NO_AIM, 0, 10.5, 1, 0 )
 			Fly("Zas_cam01", CINEMATIC_NO_AIM, 0, 13, 0, 1 )
@@ -1223,8 +1089,8 @@
 				vehADV3:SetRotation(Quaternion(-0.000, 0.896, 0.001, 0.445))
 			end
 
-			TeamCreate("KaravanAtack1",1002,CVector(7772.606, 220.837, 4912.145),{"Hunter01","Fighter01", "r1m1_molokovoz01"}, nil, 1)
-			TeamCreate("KaravanAtack2",1002,CVector(7692.865, 221.022, 4692.750),{"Hunter02","r1m1_scout02" ,"Fighter02"}, nil, 1)
+			TeamCreateWithWarez("KaravanAtack1",1002,CVector(7772.606, 220.837, 4912.145),{"Hunter01","Fighter01", "r1m1_molokovoz01"}, nil, 1)
+			TeamCreateWithWarez("KaravanAtack2",1002,CVector(7692.865, 221.022, 4692.750),{"Hunter02","r1m1_scout02" ,"Fighter02"}, nil, 1)
 
 			trigger:Deactivate()
 		</script>
@@ -1245,7 +1111,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1259,6 +1125,8 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+
+<!-- Нападение на Караван Down -->
 
 	<trigger Name="KaravanAtack_cin_dieatack" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="KaravanAtack1" />
@@ -1275,6 +1143,7 @@
 		</script>
 	</trigger>
 
+<!-- Катсцена перед слежкой Top -->
 	<trigger Name="Slezhka_cin" active="0">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1288,7 +1157,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Zas_cam03", CINEMATIC_NO_AIM, 0, 10.5, 1, 1 )
 			StartCinematic()
@@ -1323,7 +1192,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1338,7 +1207,7 @@
 				vehBand1:SetCruisingSpeed(15)
 			end
 
-			CompleteQuest("karavan_from_port_quest4")
+			CompleteQuest("r1m2_PortKaravan_quest4")
 
 			local vehADV1 = GetEntityByName("PortADVTEAM1_vehicle_0")
 			if vehADV1 then       
@@ -1355,6 +1224,8 @@
 				vehADV3:Remove()
 			end
 
+			SetTolerance( 1100, 1006, RS_NEUTRAL )
+
 			TActivate("Slezhka_cin_dieatack")
 			TActivate("Slezhka_cin_Length")
 			TActivate("Slezhka2_cin")
@@ -1362,6 +1233,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Катсцена перед слежкой Down -->
 
 	<trigger Name="Slezhka_cin_dieatack" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="Band_1" />
@@ -1389,6 +1261,7 @@
         </script>
     </trigger>
 
+<!-- Бандит приезжает в лагерь Top -->
 	<trigger Name="Slezhka2_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="partz_slezhka_loc" />
 		<script>
@@ -1405,7 +1278,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			FlyLinked( "Zas_cam06", CTochID, 14, 1, 0, PlfID )
             Fly("Zas_cam07", CINEMATIC_NO_AIM, 0, 20, 0, 1 )
@@ -1441,6 +1314,26 @@
 				vehBand11:SetCruisingSpeed(45)
 			end
 
+			TeamCreateWithWarez("PartzCin1",1082,CVector(7772.606, 220.837, 4912.145),{"RosheBelaz","CoolBelaz_2", "Ural03"}, nil, 1)
+
+			local vehPartzCin1 = GetEntityByName("PartzCin1_vehicle_0")
+			if vehPartzCin1 then
+				vehPartzCin1:SetPosition( CVector(7031.280, 232.927, 4859.523))
+				vehPartzCin1:SetRotation(Quaternion(-0.084, -0.940, 0.086, -0.321))
+			end
+
+			local vehPartzCin2 = GetEntityByName("PartzCin1_vehicle_1")
+			if vehPartzCin2 then
+				vehPartzCin2:SetPosition( CVector(7053.344, 228.541, 4852.780))
+				vehPartzCin2:SetRotation(Quaternion(0.016, -0.998, 0.067, -0.008))
+			end
+
+			local vehPartzCin3 = GetEntityByName("PartzCin1_vehicle_2")
+			if vehPartzCin3 then
+				vehPartzCin3:SetPosition( CVector(7018.336, 229.169, 4841.877))
+				vehPartzCin3:SetRotation(Quaternion(-0.121, 0.708, -0.116, 0.686))
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1466,7 +1359,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1501,6 +1394,11 @@
 				vehKar3:Remove()
 			end
 
+			local Vhpt1 = GetEntityByName("PartzCin1")
+			if Vhpt1 then
+				Vhpt1:Remove()
+			end
+
             StartConversation( "XPOM" )
 
 			
@@ -1508,28 +1406,34 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Бандит приезжает в лагерь Down -->
 
 <!--                    За Альфаран                      -->
 
+<!-- Катсцена перед штурмом Top -->
 	<trigger Name="PartzDefeat_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="AtakaPartz_loc" />
 		<script>
 		    PlayCustomMusic("IntenseDialogue01")
 
-			CompleteQuest("Shturm_quest1")
+			CompleteQuest("r1m2_LiquidationPartz_quest1")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
             Fly("PartzDef_cam01", CINEMATIC_NO_AIM, 0, 9, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 19, 0.5 )
-
-	        TeamCreate("PatzAtTeam1",1025,CVector(7505.495, 220.920, 4543.346),{"Ural03","Fighter01"}, CVector(7039.783, 222.982, 4822.930), 1)
-			TeamCreate("PatzAtTeam2",1025,CVector(7485.733, 220.939, 4603.131),{"Hunter02","Ural01" ,"Fighter02"}, CVector(7050.783, 222.982, 4828.930), 1)
 			
+	        TeamCreateWithWarez("PatzAtTeam1",1025,CVector(7505.495, 220.920, 4543.346),{"AvgustMirotvorec"}, CVector(7039.783, 222.982, 4822.930), 1)
+			TeamCreateWithWarez("PatzAtTeam2",1025,CVector(7485.733, 220.939, 4603.131),{"Hunter02","Ural01" ,"CoolBelaz_2"}, CVector(7050.783, 222.982, 4828.930), 1)
+			
+			local vehAvg = GetEntityByName("PatzAtTeam1_vehicle_0")
+			if vehAvg then       
+				vehAvg:setImmortalMode(1)
+			end
 
 			TActivate("PartzDefeat_cin_vehicle")
 			TActivate("PartzDefeat_cin_vehicle2")
@@ -1548,7 +1452,7 @@
 				vehPlayer:SetThrottle(0)
 			end
 
-            TeamCreate("PatzAtTeam3",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural00"}, CVector(7079.783, 222.982, 4822.930), 1)
+            TeamCreateWithWarez("PatzAtTeam3",1025,CVector(7525.495, 220.920, 4573.346),{"Ural03","CoolBelaz_2","Ural00"}, CVector(7079.783, 222.982, 4822.930), 1)
 
 			trigger:Deactivate()
 		</script>
@@ -1557,8 +1461,8 @@
 	<trigger Name="PartzDefeat_cin_vehicle2" active="0">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
-			TeamCreate("PatzDefTeam1",1082,CVector(7050.783, 222.982, 4828.930),{"Fighter01","Ural03", "Ural00","Fighter02"}, nil, 1)
-			TeamCreate("PatzDefTeam2",1082,CVector(7050.783, 222.982, 4828.930),{"Hunter02","Ural01" ,"Fighter02"}, nil, 1)
+			TeamCreateWithWarez("PatzDefTeam1",1082,CVector(7050.783, 222.982, 4828.930),{"Fighter01","RosheBelaz", "Ural00","Fighter02"}, nil, 1)
+			TeamCreateWithWarez("PatzDefTeam2",1082,CVector(7050.783, 222.982, 4828.930),{"Hunter02","Ural01" ,"Fighter02"}, nil, 1)
 			
 
 			trigger:Deactivate()
@@ -1571,20 +1475,21 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
 			PlayCustomMusic("Passage03")
 
             
-			TeamCreate("PatzDefTeam3",1082,CVector(7050.783, 222.982, 4828.930),{"Ural00","Fighter02"}, nil, 1)
+			TeamCreateWithWarez("PatzDefTeam3",1082,CVector(7050.783, 222.982, 4828.930),{"Ural00","Fighter02"}, nil, 1)
 
 			TActivate("PartzDefeat_cin_dieatack")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Катсцена перед штурмом Down -->
 
 	<trigger Name="PartzDefeat_cin_dieatack" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="PatzDefTeam1" />
@@ -1602,6 +1507,7 @@
 		</script>
 	</trigger>
 
+<!-- Катсцена после уничтожения партизан Top -->
 	<trigger Name="PartzDefeat2_cin" active="0">
 		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -1615,9 +1521,9 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-            Fly("PartzDef_cam02", CINEMATIC_NO_AIM, 0, 16, 1, 1 )
+            Fly("PartzDef_cam02", CINEMATIC_NO_AIM, 0, 17, 1, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 20, 0.5 )
@@ -1639,11 +1545,22 @@
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0)
-				vehPlayer:SetPosition( CVector(7050.783, 222.982, 4828.930))
-				vehPlayer:SetRotation(Quaternion(0.057, 0.987, -0.114, 0.099))
+				vehPlayer:SetPosition( CVector(7060.313, 220.500, 4819.454))
+				vehPlayer:SetRotation(Quaternion(0.049, 0.960, -0.008, 0.277))
 			end
 
+			local vehAvg = GetEntityByName("PatzAtTeam1_vehicle_0")
+			if vehAvg then       
+				vehAvg:Remove()
+			end
 
+			TeamCreateWithWarez("PatzAtTeam1",1025,CVector(7505.495, 220.920, 4543.346),{"AvgustMirotvorec"}, nil, 1)
+
+			local vehAvg = GetEntityByName("PatzAtTeam1_vehicle_0")
+			if vehAvg then       
+				vehAvg:SetPosition( CVector(7075.327, 222.272, 4803.882))
+				vehAvg:SetRotation(Quaternion(0.010, -0.365, 0.004, 0.931))
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -1655,7 +1572,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -1663,10 +1580,11 @@
 
             SetTolerance( 1100, 1082, RS_ALLY )
 			SetTolerance( 1100, 1002, RS_ALLY )
+			SetTolerance( 1025, 1082, RS_ALLY )
 
-			CompleteQuest("Shturm_quest2")
+			CompleteQuest("r1m2_LiquidationPartz_quest2")
 
-			local LagT = GetEntityByName("r1m1_ContraVillage7146")
+			local LagT = GetEntityByName("TheVillagePartz")
 			if LagT then
 				LagT:SetRuined(true)
 				LagT:SetOpenGateToPlayer(false)
@@ -1676,14 +1594,36 @@
 			TActivate("RemoveBuntHum")
 			TActivate("RemoveBuntVehicles")
 
+			TeamCreateWithWarez("PersonalTeam1",1025,CVector(7505.495, 220.920, 4543.346),{"CoolBelaz_2","Ural01","Cruiser01"}, nil, 1)
+
+			local vehPers1 = GetEntityByName("PersonalTeam1_vehicle_0")
+			if vehPers1 then
+				vehPers1:SetPosition( CVector(2599.155, 248.422, 962.771))
+				vehPers1:SetRotation(Quaternion(-0.001, -0.901, 0.001, -0.433))
+			end
+
+			local vehPers2 = GetEntityByName("PersonalTeam1_vehicle_1")
+			if vehPers2 then
+				vehPers2:SetPosition( CVector(2650.477, 248.442, 933.938))
+				vehPers2:SetRotation(Quaternion(0.003, -0.060, 0.000, 0.998))
+			end
+
+			local vehPers3 = GetEntityByName("PersonalTeam1_vehicle_2")
+			if vehPers3 then
+				vehPers3:SetPosition( CVector(2616.867, 248.451, 900.391))
+				vehPers3:SetRotation(Quaternion(0.002, -0.465, 0.001, 0.885))
+			end
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Катсцена после уничтожения партизан Down -->
 
+<!-- Приезд на военную базу Top -->
 	<trigger Name="BasaIvent_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="InBase_loc" />
 		<script>
-		    CompleteQuest("Shturm_quest3")
+		    CompleteQuest("r1m2_LiquidationPartz_quest3")
 
 			
 
@@ -1702,20 +1642,78 @@
 				AtAlTM3:Remove()
 			end
 
-			PlayCustomMusic("Bio02")
+			PlayCustomMusic("IntenseDialogue01")
+
+			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(2559.333, 252.746, 928.142), Quaternion(0, 0, 0, 0), 0)
+			CreateNewDummyObject( "brick_debris1", "CamTochka1", -1, -1, CVector(2551.463, 251.310, 906.167), Quaternion(0, 0, 0, 0), 0)
+
+			CreateVehicleEx("UralCarav","Pers1", CVector(7646.010, 221.036, 4643.790), 1025)
+			CreateVehicleEx("Ural00","Pers2", CVector(7646.010, 221.036, 4643.790), 1025)
+			CreateVehicleEx("BelazCaravan_2","Pers3", CVector(7646.010, 221.036, 4643.790), 1025)
+			CreateVehicleEx("Molokovoz01","Barman1", CVector(7646.010, 221.036, 4643.790), 1025)
+
+			local vehPers11 = GetEntityByName("Pers1")
+			if vehPers11 then
+				vehPers11:SetPosition( CVector(2590.736, 248.570, 868.573))
+				vehPers11:SetRotation(Quaternion(-0.004, -0.083, -0.000, -0.997))
+			end
+
+			local vehPers22 = GetEntityByName("Pers2")
+			if vehPers22 then
+				vehPers22:SetPosition( CVector(2552.475, 253.796, 827.494))
+				vehPers22:SetRotation(Quaternion(-0.002, -0.191, 0.000, -0.982))
+			end
+
+			local vehPers33 = GetEntityByName("Pers3")
+			if vehPers33 then
+				vehPers33:SetPosition( CVector(2527.851, 250.171, 851.502))
+				vehPers33:SetRotation(Quaternion(-0.029, -0.511, 0.040, -0.858))
+			end
+
+			local vehBarm1 = GetEntityByName("Barman1")
+			if vehBarm1 then
+				vehBarm1:SetPosition( CVector(2559.521, 248.584, 903.755))
+				vehBarm1:SetRotation(Quaternion(0.005, 0.765, -0.003, 0.643))
+			end
+
+			local Plf = GetPlayerVehicle()
+            local PlfID = GetPlayerVehicleId()
+
+            local CToch = GetEntityByName("Pers2")
+            local CTochID = CToch:GetId()
+
+			local CToch1 = GetEntityByName("CamTochka")
+            local CTochID1 = CToch1:GetId()
+
+			local CTochVeh = GetEntityByName("Pers1")
+            local CTochIDVeh = CTochVeh:GetId()
+
+			local CToch2 = GetEntityByName("CamTochka1")
+            local CTochID2 = CToch2:GetId()
+
+			local CTochVeh1 = GetEntityByName("Barman1")
+            local CTochIDVeh1 = CTochVeh1:GetId()
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			Fly("BasaIv_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
-			Fly("BasaIv_cam02", CINEMATIC_NO_AIM, 0, 20, 0, 1 )
+			FlyLinked( "BasaIv_cam01", PlfID, 7, 1, 0, CTochID )
+			FlyLinked( "BasaIv_cam02", CTochID1, 5, 0, 0, CTochIDVeh )
+			Fly("BasaIv_cam03", CINEMATIC_NO_AIM, 0, 34, 0, 0 )
+			FlyLinked( "BasaIv_cam04", CTochID2, 5, 0, 0, CTochIDVeh1 )
+			Fly("BasaIv_cam05", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
+			Fly("BasaIv_cam06", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
+			Fly("BasaIv_cam07", CINEMATIC_NO_AIM, 0, 20, 0, 1 )
 			StartCinematic()
-
-			AddCinematicMessage( 23, 0.5 )
 		
 			TActivate("BasaIvent_cin_vehicle")
-			TActivate( "BasaIvent_cin_dop_1" )
+			TActivate("BasaIvent_cin_dop_1")
+			TActivate("BasaIvent_cin_dop_2")
+			TActivate("BasaIvent_cin_dop_3")
+			TActivate("BasaIvent_cin_dop_4")
+			TActivate("BasaIvent_cin_dop_5")
+			TActivate("BasaIvent_cin_dop_6")
 			TActivate( "BasaIvent_cin_end" )
 
 			trigger:Deactivate()
@@ -1725,11 +1723,62 @@
 	<trigger Name="BasaIvent_cin_vehicle" active="0">
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
+			SetGameTime(9,500)
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(2662.493, 248.616, 997.417))
+				vehPlayer:SetRotation(Quaternion(-0.001, 0.928, -0.002, -0.372))
+				vehPlayer:SetExternalPathByName("BaseXpom_path")
 			end
+
+			local vehPers11 = GetEntityByName("Pers1")
+			if vehPers11 then
+				vehPers11:SetPosition( CVector(2590.736, 249.859, 868.573))
+				vehPers11:SetRotation(Quaternion(-0.004, -0.083, -0.000, -0.997))
+			end
+
+			local vehPers22 = GetEntityByName("Pers2")
+			if vehPers22 then
+				vehPers22:SetPosition( CVector(2552.475, 253.796, 827.494))
+				vehPers22:SetRotation(Quaternion(-0.002, -0.191, 0.000, -0.982))
+				vehPers22:SetExternalPathByName("BasePers_path")
+				vehPers22:SetCruisingSpeed(15)
+			end
+
+			local vehPers33 = GetEntityByName("Pers3")
+			if vehPers33 then
+				vehPers33:SetPosition( CVector(2527.851, 250.571, 851.502))
+				vehPers33:SetRotation(Quaternion(-0.029, -0.511, 0.040, -0.858))
+			end
+
+			local vehBarm1 = GetEntityByName("Barman1")
+			if vehBarm1 then
+				vehBarm1:SetPosition( CVector(2559.521, 249.859, 903.755))
+				vehBarm1:SetRotation(Quaternion(0.005, 0.765, -0.003, 0.643))
+			end
+
+			local vehPers1 = GetEntityByName("PersonalTeam1_vehicle_0")
+			if vehPers1 then
+				vehPers1:SetPosition( CVector(2599.155, 249.859, 962.771))
+				vehPers1:SetRotation(Quaternion(-0.001, -0.901, 0.001, -0.433))
+			end
+
+			local vehPers2 = GetEntityByName("PersonalTeam1_vehicle_1")
+			if vehPers2 then
+				vehPers2:SetPosition( CVector(2650.477, 249.859, 933.938))
+				vehPers2:SetRotation(Quaternion(0.003, -0.060, 0.000, 0.998))
+			end
+
+			local vehPers3 = GetEntityByName("PersonalTeam1_vehicle_2")
+			if vehPers3 then
+				vehPers3:SetPosition( CVector(2616.867, 249.859, 900.391))
+				vehPers3:SetRotation(Quaternion(0.002, -0.465, 0.001, 0.885))
+			end
+
+			
 
 			trigger:Deactivate()
 		</script>
@@ -1737,6 +1786,122 @@
 
 	<trigger Name="BasaIvent_cin_dop_1" active="0">
 		<event flypath="BasaIv_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 23001, 0.5 )
+
+			local vehPers11 = GetEntityByName("Pers1")
+			if vehPers11 then
+				vehPers11:SetExternalPathByName("BasePers_path")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BasaIvent_cin_dop_2" active="0">
+		<event flypath="BasaIv_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 23002, 0.5 )
+			AddCinematicMessage( 23003, 0.5 )
+			AddCinematicMessage( 23004, 0.5 )
+			AddCinematicMessage( 23005, 1 )
+			AddCinematicMessage( 23006, 0.5 )
+			
+
+			local vehPers33 = GetEntityByName("Pers3")
+			if vehPers33 then
+				vehPers33:SetExternalPathByName("BasePers_path")
+				vehPers33:SetCruisingSpeed(20)
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BasaIvent_cin_dop_3" active="0">
+		<event flypath="BasaIv_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 23007, 0.5 )
+
+			local vehBarm1 = GetEntityByName("Barman1")
+			if vehBarm1 then
+				vehBarm1:SetExternalPathByName("BaseBarman2_path")
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BasaIvent_cin_dop_4" active="0">
+		<event flypath="BasaIv_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			SetGameTime(19,500)
+
+			PlayCustomMusic("Bio02")
+
+			AddCinematicMessage( 71111, 0.5 )
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetExternalPathByName("BaseXpom_path")
+				vehPlayer:PlaceToEndOfPath("BaseXpom_path")
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(2550.707, 248.467, 969.687))
+				vehPlayer:SetRotation(Quaternion(-0.001, -0.948, 0.001, -0.319))
+				
+			end
+
+			local vehPers11 = GetEntityByName("Pers1")
+			if vehPers11 then
+				vehPers11:Remove()
+			end
+
+			local vehPers22 = GetEntityByName("Pers2")
+			if vehPers22 then
+				vehPers22:Remove()
+			end
+
+			local vehPers33 = GetEntityByName("Pers3")
+			if vehPers33 then
+				vehPers33:Remove()
+			end
+
+			local vehBarm1 = GetEntityByName("Barman1")
+			if vehBarm1 then
+				vehBarm1:Remove()
+			end
+
+			local vehPers1 = GetEntityByName("PersonalTeam1")
+			if vehPers1 then
+				vehPers1:Remove()
+			end
+
+			local CT1 = GetEntityByName("CamTochka")
+			if CT1 then
+				CT1:Remove()
+			end
+
+			local CT2 = GetEntityByName("CamTochka1")
+			if CT2 then
+				CT2:Remove()
+			end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BasaIvent_cin_dop_5" active="0">
+		<event flypath="BasaIv_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+			AddCinematicMessage( 23008, 0.5 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="BasaIvent_cin_dop_6" active="0">
+		<event flypath="BasaIv_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			AddCinematicMessage( 24, 0.5 )
 			AddCinematicMessage( 25, 0.5 )
@@ -1750,30 +1915,89 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+			SetGameTime(19,500)
+
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
 			StopPlayingCustomMusic()
             
 			TDeactivate("BasaIvent_cin_dop_1")
+			TDeactivate("BasaIvent_cin_dop_2")
+			TDeactivate("BasaIvent_cin_dop_3")
+			TDeactivate("BasaIvent_cin_dop_4")
+			TDeactivate("BasaIvent_cin_dop_5")
+			TDeactivate("BasaIvent_cin_dop_6")
 
 			TActivate("triggerExitToMap15")
 			TActivate("Prometeus_cin")
 
-			local BTown = GetEntityByName("TownBaseInRock7061")
+			local BTown = GetEntityByName("TheTownMilitaryBase")
 			if BTown then
 				BTown:SetOpenGateToPlayer(false)
+			end
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetExternalPathByName("BaseXpom_path")
+				vehPlayer:PlaceToEndOfPath("BaseXpom_path")
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(2550.707, 248.467, 969.687))
+				vehPlayer:SetRotation(Quaternion(-0.001, -0.948, 0.001, -0.319))
+				
+			end
+
+			local vehPers11 = GetEntityByName("Pers1")
+			if vehPers11 then
+				vehPers11:Remove()
+			end
+
+			local vehPers22 = GetEntityByName("Pers2")
+			if vehPers22 then
+				vehPers22:Remove()
+			end
+
+			local vehPers33 = GetEntityByName("Pers3")
+			if vehPers33 then
+				vehPers33:Remove()
+			end
+
+			local vehBarm1 = GetEntityByName("Barman1")
+			if vehBarm1 then
+				vehBarm1:Remove()
+			end
+
+			local vehPers1 = GetEntityByName("PersonalTeam1")
+			if vehPers1 then
+				vehPers1:Remove()
+			end
+
+			local CT1 = GetEntityByName("CamTochka")
+			if CT1 then
+				CT1:Remove()
+			end
+
+			local CT2 = GetEntityByName("CamTochka1")
+			if CT2 then
+				CT2:Remove()
 			end
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Приезд на военную базу Down -->
 
+<!-- Общие катсцены для веток Партизан и Альфарана -->
+
+<!-- После пробуждения Прометея Top -->
 	<trigger Name="Prometeus_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		    if IsQuestTaken("Promateus_quest1")  and  not(IsQuestComplete("Promateus_quest1")) then 
+		    if IsQuestTaken("r1m2_Promateus_quest1")  and  not(IsQuestComplete("r1m2_Promateus_quest1")) then 
+
+				TActivate("tr_vehicles_remove")
 
 			    local Fr1 = GetEntityByName("Fire01")
 			    if Fr1 then Fr1:Remove() end
@@ -1832,7 +2056,7 @@
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
 			    Fly("Prometeus_cam01", CINEMATIC_NO_AIM, 0, 6, 0, 0 )
 				Fly("Prometeus_cam02", CINEMATIC_NO_AIM, 0, 12, 0, 0 )
@@ -1982,7 +2206,7 @@
 				vehPl1:Remove()
 			end
 
-            local BasaTown = GetEntityByName("TownBaseInRock7061")
+            local BasaTown = GetEntityByName("TheTownMilitaryBase")
 			if BasaTown then
 				BasaTown:SetRuined(true)
 				BasaTown:SetOpenGateToPlayer(false)
@@ -1998,7 +2222,7 @@
 				HumPLC2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2012,7 +2236,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- После пробуждения Прометея Down -->
 
+<!-- Смотрим с  горы на город Top -->
 	<trigger Name="PrometeusBattle_onCITY_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MeridianRuined_loc" />
 		<script>
@@ -2021,7 +2247,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Prometeus_cam104", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
 			StartCinematic()
@@ -2046,7 +2272,7 @@
 				vehPlayer:SetRotation(Quaternion(-0.012, 0.056, 0.000, -0.998))
 			end
 
-			TeamCreate("Boss",1040,CVector(378,405,1116),{"MirotvorecBoss"}, nil, 1)
+			TeamCreateWithWarez("Boss",1040,CVector(378,405,1116),{"MirotvorecBoss"}, nil, 1)
 
 			local vehBoss = GetEntityByName("Boss_vehicle_0")
 			if vehBoss then
@@ -2055,12 +2281,12 @@
 				vehBoss:setImmortalMode(1)
 			end
             
-			if IsQuestComplete("Annigilation_quest4") then
-			    TeamCreate("DefTM1",1082,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
-                TeamCreate("DefTM3",1082,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
+			if IsQuestComplete("r1m2_FinalBattle_quest4") then
+			    TeamCreateWithWarez("DefTM1",1082,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
+                TeamCreateWithWarez("DefTM3",1082,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
             else
-			    TeamCreate("DefTM1",1025,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
-                TeamCreate("DefTM3",1025,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
+			    TeamCreateWithWarez("DefTM1",1025,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
+                TeamCreateWithWarez("DefTM3",1025,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
 			end
 
 			trigger:Deactivate()
@@ -2072,7 +2298,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
             
@@ -2086,11 +2312,13 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Смотрим с  горы на город Down -->
 
+<!-- Приезжаем в город Top -->
 	<trigger Name="PrometeusBattle_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PrometeusBattle_loc" />
 		<script>
-		    CompleteQuest("Promateus_quest1")
+		    CompleteQuest("r1m2_Promateus_quest1")
 
 			PlayCustomMusic("Prom022")
 
@@ -2098,7 +2326,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Prometeus_cam04", CINEMATIC_NO_AIM, 0, 18, 1, 1 )
 			StartCinematic()
@@ -2128,7 +2356,7 @@
 				vehBoss:Remove()
 			end
 
-			TeamCreate("Boss2",1040,CVector(378,405,1116),{"MirotvorecBoss"}, nil, 1)
+			TeamCreateWithWarez("Boss2",1040,CVector(378,405,1116),{"MirotvorecBoss"}, nil, 1)
 
 			local vehBoss = GetEntityByName("Boss2_vehicle_0")
 			if vehBoss then
@@ -2136,13 +2364,18 @@
 				vehBoss:SetRotation(Quaternion(-0.001, -0.034, 0.000, -0.999))
 			end
 
-			if IsQuestComplete("Annigilation_quest4") then
-			    TeamCreate("DefTM11",1082,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
-                TeamCreate("DefTM33",1082,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
+			if IsQuestComplete("r1m2_FinalBattle_quest4") then
+			    TeamCreateWithWarez("DefTM11",1082,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "CoolBelaz_3"}, nil, 1)
+				
             else
-			    TeamCreate("DefTM11",1025,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "Cruiser02"}, nil, 1)
-                TeamCreate("DefTM33",1025,CVector(3437.338, 202.325, 2544.525),{"CoolBelaz_3", "Cruiser02", "Ural01"}, nil, 1)
+			    TeamCreateWithWarez("DefTM11",1025,CVector(3297.619, 202.388, 2554.922),{"Ural03", "CoolBelaz", "AvgustMirotvorec"}, nil, 1)
+				local vehSpeak = GetEntityByName("DefTM11_vehicle_2")
+				if vehSpeak then
+					vehSpeak:setImmortalMode(1)
+				end
 			end
+
+			
 
 			trigger:Deactivate()
 		</script>
@@ -2153,7 +2386,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2169,31 +2402,32 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Приезжаем в город Down -->
 
+<!-- Смерть Прометея Top -->
 	<trigger Name="PrometeusDie_cin" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="Boss2" />
 		<script>
 
-		    CompleteQuest("Promateus_quest2")
+		    CompleteQuest("r1m2_Promateus_quest2")
 
 			PlayCustomMusic("Bio08")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			Fly("Prometeus_cam106", CINEMATIC_NO_AIM, 0, 20, 1, 1 )
+			Fly("Prometeus_cam106", CINEMATIC_NO_AIM, 0, 12, 1, 0 )
+			Fly("Prometeus_cam107", CINEMATIC_NO_AIM, 0, 14, 0, 1 )
 			StartCinematic()
 
 		    AddCinematicMessage( 34, 1 )
-			if IsQuestComplete("Annigilation_quest4") then 
+			if IsQuestComplete("r1m2_FinalBattle_quest4") then 
 			    AddCinematicMessage( 35, 0.5 )
-			    AddCinematicMessage( 36, 0.5 )
-			    AddCinematicMessage( 37, 0.5 )
+
 			else
 			    AddCinematicMessage( 35001, 0.5 )
-			    AddCinematicMessage( 36001, 0.5 )
-			    AddCinematicMessage( 37001, 0.5 )
+
             end
 
 
@@ -2212,19 +2446,31 @@
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0) 
+				vehPlayer:SetPosition( CVector(3420.914, 202.316, 2539.673))
+				vehPlayer:SetRotation(Quaternion(-0.001, -0.681, 0.002, 0.732))
 			end
 
-			AddPlayerMoney(45000)
-
+			local vehSpeak = GetEntityByName("DefTM11_vehicle_2")
+			if vehSpeak then
+				vehSpeak:SetPosition( CVector(3380.460, 202.353, 2541.878))
+				vehSpeak:SetRotation(Quaternion(-0.001, -0.742, 0.001, -0.671))
+			end
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="PrometeusDie_cin_dop_1" active="0">
-		<event flypath="Prometeus_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<event flypath="Prometeus_cam107" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			
+			if IsQuestComplete("r1m2_FinalBattle_quest4") then 
+			    AddCinematicMessage( 36, 0.5 )
+			    AddCinematicMessage( 37, 0.5 )
+			else
+			    AddCinematicMessage( 36001, 0.5 )
+			    AddCinematicMessage( 37001, 0.5 )
+            end
 
 			trigger:Deactivate()
 		</script>
@@ -2237,7 +2483,7 @@
 
             StopPlayingCustomMusic()
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2258,11 +2504,13 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Смерть Прометея Down -->
 
+<!-- Второй приезд на Базу Top -->
 	<trigger Name="BasaIvent2_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="InBase_loc" />
 		<script>
-		    CompleteQuest("Baza_destroy_quest1")
+		    CompleteQuest("r1m2_AfterBattle_quest1")
 
 			local F11 = GetEntityByName("Fire4")
 			    if F11 then F11:Remove() end
@@ -2275,7 +2523,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Angar_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
 			Fly("Angar_cam02", CINEMATIC_NO_AIM, 0, 14, 0, 0 )
@@ -2350,7 +2598,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2421,40 +2669,52 @@
 
 			TActivate("triggerExitToMap411")
 
-			
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
-
-
-
-
-
-
-
+<!-- Второй приезд на Базу Down -->
 
 <!--                    За Партизан                      -->
 
+<!-- Заезжаем к Партизанам в лагерь Top -->
+	<trigger Name="HelpPartz_cin_vehicle_spawn" active="0">
+		<event timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
 
+			TeamCreateWithWarez("PartzCin1",1082,CVector(7772.606, 220.837, 4912.145),{"RosheBelaz","CoolBelaz_2", "Ural03"}, nil, 1)
 
+			local vehPartzCin1 = GetEntityByName("PartzCin1_vehicle_0")
+			if vehPartzCin1 then
+				vehPartzCin1:SetPosition( CVector(7031.280, 232.927, 4859.523))
+				vehPartzCin1:SetRotation(Quaternion(-0.084, -0.940, 0.086, -0.321))
+			end
 
+			local vehPartzCin2 = GetEntityByName("PartzCin1_vehicle_1")
+			if vehPartzCin2 then
+				vehPartzCin2:SetPosition( CVector(7053.344, 228.541, 4852.780))
+				vehPartzCin2:SetRotation(Quaternion(0.016, -0.998, 0.067, -0.008))
+			end
 
+			local vehPartzCin3 = GetEntityByName("PartzCin1_vehicle_2")
+			if vehPartzCin3 then
+				vehPartzCin3:SetPosition( CVector(7018.336, 229.169, 4841.877))
+				vehPartzCin3:SetRotation(Quaternion(-0.121, 0.708, -0.116, 0.686))
+			end
 
-
-
+			trigger:Deactivate()
+		</script>
+	</trigger>		
 
 	<trigger Name="HelpPartz_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Za_partz_loc" />
 		<script>
-		    CompleteQuest("Za_partz_quest")
+		    CompleteQuest("r1m2_PartzLoyal_quest")
 
 			PlayCustomMusic("IntenseDialogue02")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("HelpPartz_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 0 )
 			Fly("HelpPartz_cam02", CINEMATIC_NO_AIM, 0, 29, 0, 1 )
@@ -2513,7 +2773,7 @@
 				vehPlayer:SetRotation(Quaternion(0.081, -0.880, 0.088, -0.460))
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2523,7 +2783,7 @@
 
 			AddQuestItem("quest_wine_barrels")
 
-			local LagTown = GetEntityByName("r1m1_ContraVillage7146")
+			local LagTown = GetEntityByName("TheVillagePartz")
 			if LagTown then
 				LagTown:SetOpenGateToPlayer(true)
 			end
@@ -2531,7 +2791,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Заезжаем к Партизанам в лагерь Down -->
 
+<!-- Приезжаем к нефтяным вышкам Top -->
 	<trigger Name="VishkiBOOM_cin_Length" active="0">
         <event timeout="1" eventid="GE_TIME_PERIOD" />
         <script>
@@ -2564,13 +2826,13 @@
 	<trigger Name="VishkiBOOM_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Partz_diversy_loc" />
 		<script>
-		    CompleteQuest("Deversy_quest1")
+		    CompleteQuest("r1m2_PartzDeversy_quest1")
 
 			PlayCustomMusic("Bio06")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("VishkiBOOM_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
 			Fly("VishkiBOOM_cam02", CINEMATIC_NO_AIM, 0, 2, 0, 0 )
@@ -2631,7 +2893,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2647,6 +2909,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Приезжаем к нефтяным вышкам Down -->
 
 	<trigger Name="VishkiBOOM_cin2" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="VishkiBOOM_loc" />
@@ -2666,6 +2929,7 @@
 		</script>
 	</trigger>
 
+<!-- Приезжаем в карьер Top -->
 	<trigger Name="CarierBOOOM_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CarierDiversy_loc" />
 		<script>
@@ -2708,7 +2972,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			FlyLinked( "CarierBOOOM_cam06", CTochID, 10, 1, 1, CTochID )
 			StartCinematic()
 
@@ -2729,9 +2993,8 @@
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(1353.734, 218.084, 4592.471))
 			end
-
-			
 
 			trigger:Deactivate()
 		</script>
@@ -2741,8 +3004,16 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
+			
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+				vehPlayer:SetCustomLinearVelocity(0)
+				vehPlayer:SetThrottle(0)
+				vehPlayer:SetPosition( CVector(1639.795, 206.341, 3995.251))
+				vehPlayer:SetRotation(Quaternion(0.008, 0.381, -0.003, -0.925))
+			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2760,6 +3031,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Приезжаем в карьер Down -->
 
 	<trigger Name="CarierBOOOM_cin_Length" active="0">
         <event timeout="1" eventid="GE_TIME_PERIOD" />
@@ -2814,16 +3086,17 @@
         </script>
     </trigger>
 
+<!-- Закладывание заряда в карьере Top -->
 	<trigger Name="CarierBOOOM_2_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="BoomCarier_loc" />
 		<script>
-		    CompleteQuest("Deversy_quest3")
+		    CompleteQuest("r1m2_PartzDeversy_quest3")
 
 			PlayCustomMusic("Bio06")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("CarierBOOOM_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
 			Fly("CarierBOOOM_cam02", CINEMATIC_NO_AIM, 0, 2, 0, 0 )
@@ -2883,7 +3156,7 @@
 
 		    
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2897,7 +3170,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Закладывание заряда в карьере Down -->
 
+<!-- Взрыв вышки в карьере Top -->
 	<trigger Name="CarierBOOOM_3_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CarierDiversy_loc" />
 		<script>
@@ -2905,7 +3180,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("CarierBOOOM_cam07", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
 			StartCinematic()
@@ -2946,11 +3221,8 @@
 	<trigger Name="CarierBOOOM_3_cin_end" active="0">
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
-		<script>
-
-		    
-
-            god(0)
+		<script> 
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -2961,37 +3233,66 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Взрыв вышки в карьере Down -->
 
+<!-- Перед штурмом Порта Top -->
 	<trigger Name="PortAtack_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Partz_port_loc" />
 		<script>
-		    CompleteQuest("Port_partz_quest1")
+
+			local Vhpt1 = GetEntityByName("PartzCin1")
+			if Vhpt1 then
+				Vhpt1:Remove()
+			end
+
+		    CompleteQuest("r1m2_PartzPort_quest1")
 
 			TActivate("RemoveBuntHum")
 			TActivate("RemoveBuntVehicles")
 
-			local Portoviy = GetEntityByName("CrazyBase27060")
+			local Portoviy = GetEntityByName("TheTownPort_m1")
 			if Portoviy then
-				Portoviy:SetOpenGateToPlayer(true)
+				Portoviy:SetOpenGateToPlayer(false)
 			end
 
-			TeamCreate("PatzATPTeam1",1082,CVector(7779.329, 219.018, 6115.327),{"CoolBelaz_2","Cruiser01"}, nil, 1)
-			TeamCreate("PatzATPTeam2",1082,CVector(7691.997, 215.361, 6296.054),{"CoolBelaz","Fighter02"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam1",1082,CVector(7779.329, 219.018, 6115.327),{"CoolBelaz_2","Ural01","Cruiser01"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam2",1082,CVector(7691.997, 215.361, 6296.054),{"CoolBelaz","Fighter02","CoolBelaz_3","Ural03",}, nil, 1)
+
+			local vehPartzCin1 = GetEntityByName("PatzATPTeam1_vehicle_0")
+			if vehPartzCin1 then
+				vehPartzCin1:SetPosition( CVector(7794.307, 219.143, 5987.535))
+				vehPartzCin1:SetRotation(Quaternion(0.004, 0.960, -0.000, 0.280))
+			end
+
+			local vehPartzCin2 = GetEntityByName("PatzATPTeam1_vehicle_1")
+			if vehPartzCin2 then
+				vehPartzCin2:SetPosition( CVector(7816.862, 219.010, 5994.130))
+				vehPartzCin2:SetRotation(Quaternion(0.009, 0.993, -0.000, -0.121))
+			end
+
+			local vehPartzCin3 = GetEntityByName("PatzATPTeam1_vehicle_2")
+			if vehPartzCin3 then
+				vehPartzCin3:SetPosition( CVector(7803.085, 219.157, 6011.292))
+				vehPartzCin3:SetRotation(Quaternion(0.016, 0.928, -0.004, 0.371))
+			end
 
 			PlayCustomMusic("Techno01")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("PortAtack_cam01", CINEMATIC_NO_AIM, 0, 6, 1, 0 )
-			Fly("PortAtack_cam02", CINEMATIC_NO_AIM, 0, 8, 0, 1 )
+			Fly("PortAtack_cam02", CINEMATIC_NO_AIM, 0, 8, 0, 0 )
+			Fly("PortAtack_cam03", CINEMATIC_NO_AIM, 0, 8, 0, 1 )
 			StartCinematic()
 
 			AddCinematicMessage( 71111, 1 )
 		
 			TActivate("PortAtack_cin_vehicle")
 			TActivate( "PortAtack_cin_dop_1" )
+			TActivate( "PortAtack_cin_dop_11" )
+			TActivate( "PortAtack_cin_dop_2" )
 			TActivate( "PortAtack_cin_end" )
 
 			trigger:Deactivate()
@@ -3009,8 +3310,13 @@
 				vehPlayer:SetRotation(Quaternion(-0.018, -0.830, -0.003, -0.557))
 			end
 
-			TeamCreate("PatzATPTeam3",1082,CVector(7108.038, 226.327, 6645.173),{"CoolBelaz_2","Ural00","Ural01","Ural02","Fighter02"}, CVector(7659.776, 204.858, 6530.192), 1)
-			TeamCreate("PatzATPTeam4",1082,CVector(7150.069, 222.982, 6668.232),{"CoolBelaz_3","Hunter01","Cruiser01","Ural03"}, CVector(7659.776, 204.858, 6530.192), 1)
+			TeamCreateWithWarez("PatzATPTeam3",1082,CVector(7108.038, 226.327, 6645.173),{"RosheBelaz","Ural00","Ural01","Ural02","Fighter02"}, CVector(7659.776, 204.858, 6530.192), 1)
+			TeamCreateWithWarez("PatzATPTeam4",1082,CVector(7150.069, 222.982, 6668.232),{"CoolBelaz_3","Hunter01","Cruiser01","Ural03"}, CVector(7659.776, 204.858, 6530.192), 1)
+
+			local vehRos = GetEntityByName("PatzATPTeam3_vehicle_0")
+			if vehRos then
+				vehRos:setImmortalMode(1)
+			end
 
 			trigger:Deactivate()
 		</script>
@@ -3018,6 +3324,51 @@
 
 	<trigger Name="PortAtack_cin_dop_1" active="0">
 		<event flypath="PortAtack_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
+		<script>
+
+			PlayCustomMusic("Passage03a")
+
+			AddCinematicMessage( 333, 1 )
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="PortAtack_cin_dop_11" active="0">
+		<event msgid="333" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
+		<script>
+
+			CreateEffectInsertedInRemove( "ET_PS_VEH_EXP1_MED1", CVector(7796.055, 261.318, 5949.598), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), true )
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(7796.055, 261.318, 5949.598), Quaternion(0.0000, 0.5465, 0.0000, 0.8375), 5000)
+			CreateEffectTTLed("ET_PS_BRIDGE_EXP_MAIN", CVector(7794.905, 256.800, 5946.195), Quaternion(0.0000, 0.0000, -0.1672, 0.9859), 5000)
+
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT1")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path01", 5 )
+            end
+
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT2")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path02", 5 )
+            end
+
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT3")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path03", 5 )
+            end
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="PortAtack_cin_dop_2" active="0">
+		<event flypath="PortAtack_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			AddCinematicMessage( 52, 0.5 )
 
@@ -3030,50 +3381,81 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		    TeamCreate("PortDefTeam1",1025,CVector(7659.776, 204.858, 6530.192),{"CoolBelaz","Hunter02","Cruiser01","Cruiser02","Ural01"}, nil, 1)
+		    TeamCreateWithWarez("PortDefTeam1",1025,CVector(7659.776, 204.858, 6530.192),{"CoolBelaz","Hunter02","Cruiser01","Cruiser02","Ural01"}, nil, 1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
-			PlayCustomMusic("Passage03")
+			PlayCustomMusic("Passage03b")
             
 			TDeactivate("PortAtack_cin_dop_1")
+			TDeactivate("PortAtack_cin_dop_11")
+			TDeactivate("PortAtack_cin_dop_2")
 
 			SetTolerance( 1100, 1025, RS_ENEMY )
 
 			TActivate("PortDefendersDIE")
 
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT1")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path01", 5 )
+            end
+
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT2")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path02", 5 )
+            end
+
+			local moverId = CreateNewObject { prototypeName    = "cinematicMover", objName  = "" }
+            local mover = GetEntityByID( moverId ) 
+            local controlledObj = GetEntityByName("CUMPORT3")
+            if controlledObj then
+                mover:SetObjAndPath( controlledObj:GetId(), "PortAtack_Path03", 5 )
+            end
+
+			local PartzTeam1 = GetEntityByName("PatzATPTeam1")
+			if PartzTeam1 then
+				PartzTeam1:Remove()
+			end
+
+			TeamCreateWithWarez("PatzATPTeam1",1082,CVector(7779.329, 219.018, 6115.327),{"CoolBelaz_2","Ural01","Cruiser01"}, CVector(7659.776, 204.858, 6530.192), 1)
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Перед штурмом Порта Down -->
 
 	<trigger Name="PortDefendersDIE" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="PortDefTeam1" />
 		<script>
 
-		    CompleteQuest("Port_partz_quest2")
+		    CompleteQuest("r1m2_PartzPort_quest2")
+
+			StopPlayingCustomMusic()
 
 			trigger:Deactivate() 
 		</script>
 	</trigger>
 
-
+<!-- Перед атакой на Меридиан Top -->
 	<trigger Name="MerikAtack_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Post_loc" />
 		<script>
-		    
+			TActivate("tr_vehicles_remove")
 
-			
-
-			TeamCreate("PatzATPTeam11",1082,CVector(3827.285, 201.881, 2536.003),{"CoolBelaz_3","CoolBelaz_2","CoolBelaz_2"}, nil, 1)
-			TeamCreate("PatzATPTeam22",1082,CVector(3371.884, 215.626, 2885.690),{"MirotvorecShot","CoolBelaz_3","CoolBelaz_3"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam11",1082,CVector(3827.285, 201.881, 2536.003),{"CoolBelaz_3","CoolBelaz_2","CoolBelaz_2"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam22",1082,CVector(3371.884, 215.626, 2885.690),{"MirotvorecShot","CoolBelaz_3","CoolBelaz_3"}, nil, 1)
 
 			PlayCustomMusic("Techno01")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("MerikAtack_cam01", CINEMATIC_NO_AIM, 0, 7.5, 1, 1 )
 			StartCinematic()
@@ -3098,8 +3480,8 @@
 				vehPlayer:SetRotation(Quaternion(-0.003, 0.925, -0.001, 0.380))
 			end
 
-			TeamCreate("PatzATPTeam33",1082,CVector(2563.704, 203.629, 3196.805),{"CoolBelaz_2","Ural00","Ural01","Cruiser01","Ural03"}, CVector(3371.884, 215.626, 2885.690), 1)
-			TeamCreate("PatzATPTeam44",1082,CVector(2962.383, 203.889, 2688.158),{"CoolBelaz_2","CoolBelaz","CoolBelaz_3","Cruiser01","Ural03"}, CVector(3371.884, 215.626, 2885.690), 1)
+			TeamCreateWithWarez("PatzATPTeam33",1082,CVector(2563.704, 203.629, 3196.805),{"CoolBelaz_2","Ural00","Ural01","Cruiser01","Ural03"}, CVector(3371.884, 215.626, 2885.690), 1)
+			TeamCreateWithWarez("PatzATPTeam44",1082,CVector(2962.383, 203.889, 2688.158),{"CoolBelaz_2","CoolBelaz","CoolBelaz_3","Cruiser01","Ural03"}, CVector(3371.884, 215.626, 2885.690), 1)
 
 			trigger:Deactivate()
 		</script>
@@ -3110,9 +3492,9 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-		    TeamCreate("MerikDefTeam1",1025,CVector(3381.143, 201.474, 2524.153),{"Ural03","CoolBelaz","Cruiser01","Cruiser02","Ural01"}, nil, 1)
+		    TeamCreateWithWarez("MerikDefTeam1",1025,CVector(3381.143, 201.474, 2524.153),{"Ural03","CoolBelaz","Cruiser01","Cruiser02","Ural01"}, nil, 1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3120,23 +3502,25 @@
 
 			TActivate("MerikDefendersDIE_cin")
 
-			CompleteQuest("Annigilation_quest1")
+			CompleteQuest("r1m2_FinalBattle_quest1")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Перед атакой на Меридиан Down -->
 
+<!-- Зачистка Меридиана Top -->
 	<trigger Name="MerikDefendersDIE_cin" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="MerikDefTeam1" />
 		<script>
 
-		    CompleteQuest("Annigilation_quest2")
+		    CompleteQuest("r1m2_FinalBattle_quest2")
 
 			PlayCustomMusic("IntenseDialogue03")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("MerikAtack_cam02", CINEMATIC_NO_AIM, 0, 4, 1, 1 )
 			StartCinematic()
@@ -3159,11 +3543,7 @@
 			if vehPlayer then       
 				vehPlayer:SetCustomLinearVelocity(0)
 				vehPlayer:SetThrottle(0) 
-                vehPlayer:AddModifier("hp","+ 1500")
 			end
-
-			
-
 
 			trigger:Deactivate()
 		</script>
@@ -3176,33 +3556,37 @@
 
             PlayCustomMusic("Passage03a")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
 			SetCameraBehindPlayerVehicle()
 
-			TeamCreate("PatzATPTeam111",1082,CVector(3354.029, 200.410, 2374.973),{"CoolBelaz_3","CoolBelaz_2"}, nil, 1)
-			TeamCreate("PatzATPTeam222",1082,CVector(3290.745, 201.356, 2206.560),{"CoolBelaz_3"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam111",1082,CVector(3354.029, 200.410, 2374.973),{"CoolBelaz_3","CoolBelaz_2"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam222",1082,CVector(3290.745, 201.356, 2206.560),{"CoolBelaz_3"}, nil, 1)
 
 			TActivate("SpawnCars_ForCin")
+
+			local vehPlayer = GetPlayerVehicle()
+			if vehPlayer then       
+                vehPlayer:AddModifier("hp","+ 1500")
+			end
 
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Зачистка Меридиана Down -->
 
 	<trigger Name="SpawnCars_ForCin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="MeridianRuined_loc" />
 		<script>
-		    
-
 			PlayCustomMusic("Passage03b")
 
-			TeamCreate("PatzATPTeam333",1082,CVector(3015.610, 267.606, 1346.894),{"CoolBelaz_2","CoolBelaz","CoolBelaz_3"}, nil, 1)
-			TeamCreate("PatzATPTeam444",1082,CVector(2881.478, 248.555, 1222.883),{"CoolBelaz_2","CoolBelaz","Cruiser01","Cruiser02","Ural01"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam333",1082,CVector(3015.610, 267.606, 1346.894),{"CoolBelaz_2","CoolBelaz","CoolBelaz_3"}, nil, 1)
+			TeamCreateWithWarez("PatzATPTeam444",1082,CVector(2881.478, 248.555, 1222.883),{"CoolBelaz_2","CoolBelaz","Cruiser01","Cruiser02","Ural01"}, nil, 1)
 
-			TeamCreate("MerikDefTeam2",1025,CVector(2597.430, 248.528, 926.073),{"Hunter01","Fighter01","Ural03","Cruiser02","Ural01"}, nil, 1)
+			TeamCreateWithWarez("MerikDefTeam2",1025,CVector(2597.430, 248.528, 926.073),{"Hunter01","Fighter01","Ural03","Cruiser02","Ural01"}, nil, 1)
 
             TActivate("DefeatAlfa_cin")
 
@@ -3210,20 +3594,21 @@
 		</script>
 	</trigger>
 
+<!-- Зачистка Базы Top -->
 	<trigger Name="DefeatAlfa_cin" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="MerikDefTeam2" />
 		<script>
 
-		    CompleteQuest("Annigilation_quest3")
+		    CompleteQuest("r1m2_FinalBattle_quest3")
 
 			PlayCustomMusic("Bio08")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
-			Fly("BasaIv_cam01", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
-			Fly("BasaIv_cam02", CINEMATIC_NO_AIM, 0, 5.5, 0, 1 )
+			Fly("BasaIv_cam06", CINEMATIC_NO_AIM, 0, 5, 1, 0 )
+			Fly("BasaIv_cam07", CINEMATIC_NO_AIM, 0, 5.5, 0, 1 )
 			StartCinematic()
 
 		    AddCinematicMessage( 55, 1 )
@@ -3271,7 +3656,7 @@
 
             StopPlayingCustomMusic()
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3282,7 +3667,7 @@
             SetTolerance( 1100, 1025, RS_ALLY )
 			SetTolerance( 1025, 1082, RS_ALLY )
 
-			local BTown = GetEntityByName("TownBaseInRock7061")
+			local BTown = GetEntityByName("TheTownMilitaryBase")
 			if BTown then
 				BTown:SetOpenGateToPlayer(false)
 			end
@@ -3294,17 +3679,17 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-
+<!-- Зачистка Базы Down -->
 
 <!-- КОЧЕВНИК -->
 
-
+<!-- Осматриваемся у руин Top -->
 	<trigger Name="Ruins_First_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ruinsTonnel_loc" />
 		<script>
 			PlayCustomMusic("Bio01")
             
-			CompleteQuest("Koch_Kavkaz_2_quest1")
+			CompleteQuest("r1m2_KochKavkaz_2_quest1")
 			
             CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(4197.570, 311.770, 806.929), Quaternion(0, 0, 0, 0), 0)
 			
@@ -3313,7 +3698,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			FlyLinked( "Post_cam01", CTochID, 10, 1, 0, vehLinkID )
             Fly("Ruini_cam01", CINEMATIC_NO_AIM, 0, 7, 0, 0 )
 			Fly("Ruini_cam02", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
@@ -3438,7 +3823,7 @@
 				CamT:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3450,12 +3835,13 @@
             TDeactivate("Ruins_First_cin_dop_1")
 			TDeactivate("Ruins_First_cin_dop_2")
 			TDeactivate("Ruins_First_cin_dop_3")
-			TActivate("")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Осматриваемся у руин Down -->
 
+<!-- Второй приезд к руинам Top -->
 	<trigger Name="Ruins_Second_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="ruinsTonnel_loc" />
 		<script>
@@ -3468,7 +3854,7 @@
 			getObj("xpom2"):SetNodeAction(AT_STAND2)
 			getObj("xpom2"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 6, 1, 1 )
 			StartCinematic()
 
@@ -3501,7 +3887,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3523,7 +3909,7 @@
 			getObj("xpom2"):SetNodeAction(AT_STAND2)
 			getObj("xpom2"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
 			StartCinematic()
 
@@ -3541,7 +3927,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3564,7 +3950,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			Fly("Ruini_cam03", CINEMATIC_NO_AIM, 0, 10, 1, 1 )
 			StartCinematic()
 
@@ -3587,7 +3973,7 @@
 				humXpom2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3602,12 +3988,15 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Второй приезд к руинам Down -->
 
+<!-- После побега от Прометея Top -->
 	<trigger Name="Ruins_AttackMeridian_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		if IsQuestTaken("Koch_Kavkaz_3_quest3")  and  not(IsQuestComplete("Koch_Kavkaz_3_quest3")) then 
+		if IsQuestTaken("r1m2_KochKavkaz_3_quest3")  and  not(IsQuestComplete("r1m2_KochKavkaz_3_quest3")) then 
 			
+			TActivate("tr_vehicles_remove")
 			
             CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(5013.151, 399.576, 1280.386), Quaternion(0, 0, 0, 0), 0)
 			
@@ -3616,7 +4005,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			FlyLinked( "Post_cam01", CTochID, 10, 1, 0, vehLinkID )
             Fly("Ruini_cam04", CINEMATIC_NO_AIM, 0, 49, 0, 0 )
 			Fly("Ruini_cam05", CINEMATIC_NO_AIM, 0, 25, 0, 1 )
@@ -3749,7 +4138,7 @@
 				CamT:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -3762,28 +4151,25 @@
 			TDeactivate("Ruins_AttackMeridian_cin_dop_2")
 			TActivate("StartAttackMeridian_cin")
 			
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- После побега от Прометея Down -->
 
+<!-- Прибытие в Меридиан на помощь Top -->
 	<trigger Name="StartAttackMeridian_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PrometeusBattle_loc" />
 		<script>
 
 		    PlayCustomMusic("IntenseDialogue01")
 
-			
-
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 			Fly("MeridianAttack_cam01", CINEMATIC_NO_AIM, 0, 10, 1, 0 )
             Fly("MeridianAttack_cam02", CINEMATIC_NO_AIM, 0, 22, 0, 0 )
 			Fly("MeridianAttack_cam03", CINEMATIC_NO_AIM, 0, 5, 0, 1 )
 			StartCinematic()
-
-			
 
 			TActivate("StartAttackMeridian_cin_vehicle")
 			TActivate("StartAttackMeridian_cin_dop_1")
@@ -3806,7 +4192,7 @@
 				vehPlayer:SetExternalPathByName("MeridianDef_path")
 			end
 
-			TeamCreate("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
 
 			local VehLid1 = GetEntityByName("LeaderVeh1_vehicle_0")
 			if VehLid1 then       
@@ -3816,7 +4202,7 @@
 				VehLid1:SetRotation(Quaternion(-0.001, -0.993, -0.001, 0.119))
 			end
 
-			TeamCreate("RightVehiclesAlpha",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("RightVehiclesAlpha",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
 
 			local RVA1 = GetEntityByName("RightVehiclesAlpha_vehicle_0")
 			if RVA1 then       
@@ -3858,7 +4244,7 @@
 				RVA5:SetRotation(Quaternion(0.016, -1.000, 0.015, -0.011))
 			end
 
-			TeamCreate("LeftVehiclesAlpha",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
 
 			local LVA1 = GetEntityByName("LeftVehiclesAlpha_vehicle_0")
             if LVA1 then       
@@ -3931,7 +4317,7 @@
 		<event eventid="GE_END_CINEMATIC" ObjName="Player1" />
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
-		    TeamCreate("PrometeusBoss1",1040,CVector(3196.008, 356.564, 1765.749),{"MirotvorecBoss"}, CVector(3376.008, 199.564, 2543.749), 1)
+		    TeamCreateWithWarez("PrometeusBoss1",1040,CVector(3196.008, 356.564, 1765.749),{"MirotvorecBoss"}, CVector(3376.008, 199.564, 2543.749), 1)
 
 			local PROMVEH1 = GetEntityByName("PrometeusBoss1_vehicle_0")
 			if PROMVEH1 then       
@@ -3961,7 +4347,7 @@
 				LVATEAM:Remove()
 			end
 
-			TeamCreate("RightVehiclesAlpha1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesAlpha1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local RVA1 = GetEntityByName("RightVehiclesAlpha1_vehicle_0")
 			if RVA1 then       
@@ -3971,7 +4357,7 @@
 				RVA1:SetRotation(Quaternion(0.015, -0.999, -0.002, 0.047))
 			end
 
-			TeamCreate("RightVehiclesAlpha2",1025,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesAlpha2",1025,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local RVA2 = GetEntityByName("RightVehiclesAlpha2_vehicle_0")
 			if RVA2 then       
@@ -3981,7 +4367,7 @@
 				RVA2:SetRotation(Quaternion(0.010, -0.999, -0.003, 0.046))
 			end
 
-			TeamCreate("RightVehiclesAlpha3",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesAlpha3",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local RVA3 = GetEntityByName("RightVehiclesAlpha3_vehicle_0")
 			if RVA3 then       
@@ -3991,7 +4377,7 @@
 				RVA3:SetRotation(Quaternion(0.004, -1.000, 0.000, 0.020))
 			end
 
-			TeamCreate("RightVehiclesAlpha4",1025,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesAlpha4",1025,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local RVA4 = GetEntityByName("RightVehiclesAlpha4_vehicle_0")
 			if RVA4 then       
@@ -4001,7 +4387,7 @@
 				RVA4:SetRotation(Quaternion(0.004, -1.000, 0.004, 0.007))
 			end
 
-			TeamCreate("RightVehiclesAlpha5",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesAlpha5",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local RVA5 = GetEntityByName("RightVehiclesAlpha5_vehicle_0")
 			if RVA5 then       
@@ -4011,7 +4397,7 @@
 				RVA5:SetRotation(Quaternion(0.016, -1.000, 0.015, -0.011))
 			end
 
-			TeamCreate("LeftVehiclesAlpha1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
 
 			local LVA1 = GetEntityByName("LeftVehiclesAlpha1_vehicle_0")
             if LVA1 then       
@@ -4021,7 +4407,7 @@
                 LVA1:SetRotation(Quaternion(-0.016, -1.000, -0.002, 0.025))
             end
 
-			TeamCreate("LeftVehiclesAlpha2",1025,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha2",1025,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVA2 = GetEntityByName("LeftVehiclesAlpha2_vehicle_0")
             if LVA2 then       
@@ -4031,7 +4417,7 @@
                 LVA2:SetRotation(Quaternion(-0.016, -1.000, -0.003, 0.026))
             end
 
-			TeamCreate("LeftVehiclesAlpha3",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha3",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVA3 = GetEntityByName("LeftVehiclesAlpha3_vehicle_0")
             if LVA3 then       
@@ -4041,7 +4427,7 @@
                 LVA3:SetRotation(Quaternion(-0.018, -1.000, -0.001, 0.025))
             end
 
-			TeamCreate("LeftVehiclesAlpha4",1025,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha4",1025,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVA4 = GetEntityByName("LeftVehiclesAlpha4_vehicle_0")
             if LVA4 then       
@@ -4051,7 +4437,7 @@
                 LVA4:SetRotation(Quaternion(-0.020, -1.000, -0.000, 0.020))
             end
 
-			TeamCreate("LeftVehiclesAlpha5",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("LeftVehiclesAlpha5",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVA5 = GetEntityByName("LeftVehiclesAlpha5_vehicle_0")
             if LVA5 then       
@@ -4061,9 +4447,9 @@
                 LVA5:SetRotation(Quaternion(-0.029, -1.000, 0.005, -0.006))
             end
 
-			CompleteQuest("Koch_Kavkaz_3_quest3")
+			CompleteQuest("r1m2_KochKavkaz_3_quest3")
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -4082,28 +4468,29 @@
 
 			TActivate("DestroyDOTsALTER")
 			
-            local BasaTown = GetEntityByName("TownBaseInRock7061")
+            local BasaTown = GetEntityByName("TheTownMilitaryBase")
 			if BasaTown then
 				BasaTown:SetRuined(true)
 				BasaTown:SetOpenGateToPlayer(false)
 			end
 			
-
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Прибытие в Меридиан на помощь Down -->
 
+<!-- Прибытие Партизан Top -->
 	<trigger Name="Prometeus_Regeneration_cin" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="PrometeusBoss1_vehicle_0" />
 		<script>
 		    
-			CompleteQuest("Koch_Kavkaz_3_quest2")
+			CompleteQuest("r1m2_KochKavkaz_3_quest2")
 
 		    PlayCustomMusic("Passage03a")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			local Plf = GetEntityByName("PrometeusBoss1_vehicle_0")
 			Plf:SetCruisingSpeed(0)
@@ -4141,7 +4528,7 @@
 				vehPlayer:SetThrottle(0) 
 			end
 
-			TeamCreate("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
 
 			local VehLid1 = GetEntityByName("LeaderVeh1_vehicle_0")
 			if VehLid1 then       
@@ -4151,7 +4538,7 @@
 				VehLid1:SetRotation(Quaternion(-0.000, 0.956, 0.002, 0.293))
 			end
 
-			TeamCreate("LeaderVehPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"MirotvorecShot_2"}, nil, 1)
+			TeamCreateWithWarez("LeaderVehPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"MirotvorecShot_2"}, nil, 1)
 
 			local VehPLid1 = GetEntityByName("LeaderVehPartz1_vehicle_0")
 			if VehPLid1 then       
@@ -4161,7 +4548,7 @@
 				VehPLid1:SetRotation(Quaternion(0.000, 0.697, 0.000, -0.717))
 			end
 
-			TeamCreate("RightVehiclesPartz",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("RightVehiclesPartz",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
 
             local RVP1 = GetEntityByName("RightVehiclesPartz_vehicle_0")
             if RVP1 then       
@@ -4203,7 +4590,7 @@
                 RVP5:SetRotation(Quaternion(0.007, -0.706, -0.010, 0.708))
             end
             
-            TeamCreate("LeftVehiclesPartz",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
+            TeamCreateWithWarez("LeftVehiclesPartz",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2","Ural03","CoolBelaz_3","Ural02","CoolBelaz"}, nil, 1)
             
             local LVP1 = GetEntityByName("LeftVehiclesPartz_vehicle_0")
             if LVP1 then       
@@ -4313,7 +4700,7 @@
 				LVPTEAM:Remove()
 			end
 
-			TeamCreate("RightVehiclesPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
+			TeamCreateWithWarez("RightVehiclesPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
 
             local RVP1 = GetEntityByName("RightVehiclesPartz1_vehicle_0")
             if RVP1 then       
@@ -4323,7 +4710,7 @@
                 RVP1:SetRotation(Quaternion(0.007, -0.711, -0.009, 0.704))
             end
             
-            TeamCreate("RightVehiclesPartz2",1082,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("RightVehiclesPartz2",1082,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local RVP2 = GetEntityByName("RightVehiclesPartz2_vehicle_0")
             if RVP2 then       
@@ -4333,7 +4720,7 @@
                 RVP2:SetRotation(Quaternion(0.008, -0.704, -0.009, 0.710))
             end
             
-            TeamCreate("RightVehiclesPartz3",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("RightVehiclesPartz3",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local RVP3 = GetEntityByName("RightVehiclesPartz3_vehicle_0")
             if RVP3 then       
@@ -4343,7 +4730,7 @@
                 RVP3:SetRotation(Quaternion(0.007, -0.706, -0.010, 0.708))
             end
             
-            TeamCreate("RightVehiclesPartz4",1082,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("RightVehiclesPartz4",1082,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local RVP4 = GetEntityByName("RightVehiclesPartz4_vehicle_0")
             if RVP4 then       
@@ -4353,7 +4740,7 @@
                 RVP4:SetRotation(Quaternion(0.005, -0.711, -0.010, 0.703))
             end
             
-            TeamCreate("RightVehiclesPartz5",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("RightVehiclesPartz5",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local RVP5 = GetEntityByName("RightVehiclesPartz5_vehicle_0")
             if RVP5 then       
@@ -4363,7 +4750,7 @@
                 RVP5:SetRotation(Quaternion(0.007, -0.706, -0.010, 0.708))
             end
             
-            TeamCreate("LeftVehiclesPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("LeftVehiclesPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_2"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVP1 = GetEntityByName("LeftVehiclesPartz1_vehicle_0")
             if LVP1 then       
@@ -4373,7 +4760,7 @@
                 LVP1:SetRotation(Quaternion(-0.014, -0.670, 0.013, 0.742))
             end
             
-            TeamCreate("LeftVehiclesPartz2",1082,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("LeftVehiclesPartz2",1082,CVector(7525.495, 220.920, 4573.346),{"Ural03"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVP2 = GetEntityByName("LeftVehiclesPartz2_vehicle_0")
             if LVP2 then       
@@ -4383,7 +4770,7 @@
                 LVP2:SetRotation(Quaternion(-0.016, -0.709, 0.012, 0.705))
             end
             
-            TeamCreate("LeftVehiclesPartz3",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("LeftVehiclesPartz3",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz_3"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVP3 = GetEntityByName("LeftVehiclesPartz3_vehicle_0")
             if LVP3 then       
@@ -4393,7 +4780,7 @@
                 LVP3:SetRotation(Quaternion(-0.016, -0.709, 0.011, 0.705))
             end
             
-            TeamCreate("LeftVehiclesPartz4",1082,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("LeftVehiclesPartz4",1082,CVector(7525.495, 220.920, 4573.346),{"Ural02"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVP4 = GetEntityByName("LeftVehiclesPartz4_vehicle_0")
             if LVP4 then       
@@ -4403,7 +4790,7 @@
                 LVP4:SetRotation(Quaternion(-0.015, -0.706, 0.013, 0.708))
             end
             
-            TeamCreate("LeftVehiclesPartz5",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
+            TeamCreateWithWarez("LeftVehiclesPartz5",1082,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, CVector(3160.870, 355.752, 1810.047), 1)
             
             local LVP5 = GetEntityByName("LeftVehiclesPartz5_vehicle_0")
             if LVP5 then       
@@ -4413,7 +4800,7 @@
                 LVP5:SetRotation(Quaternion(-0.014, -0.706, 0.013, 0.707))
             end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -4435,18 +4822,20 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Прибытие в Меридиан на помощь Down -->
 
+<!-- Финальный разговор Top -->
 	<trigger Name="Prometeus_Die_cin" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="PrometeusBoss1_vehicle_0" />
 		<script>
 		    
-			CompleteQuest("Koch_Kavkaz_3_quest4")
+			CompleteQuest("r1m2_KochKavkaz_3_quest4")
 
 		    PlayCustomMusic("IntenseDialogue04")
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("MeridianAttack_cam05", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
 			Fly("MeridianAttack_cam06", CINEMATIC_NO_AIM, 0, 100, 0, 1 )
@@ -4479,7 +4868,7 @@
 				vehBoss:SetRotation(Quaternion(-0.000, -0.131, -0.002, -0.991))
 			end
 
-			TeamCreate("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
+			TeamCreateWithWarez("LeaderVeh1",1025,CVector(7525.495, 220.920, 4573.346),{"CoolBelaz"}, nil, 1)
 
 			local VehLid1 = GetEntityByName("LeaderVeh1_vehicle_0")
 			if VehLid1 then       
@@ -4489,7 +4878,7 @@
 				VehLid1:SetRotation(Quaternion(-0.002, 0.745, 0.001, 0.667))
 			end
 
-			TeamCreate("LeaderVehPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"MirotvorecShot_2"}, nil, 1)
+			TeamCreateWithWarez("LeaderVehPartz1",1082,CVector(7525.495, 220.920, 4573.346),{"MirotvorecShot_2"}, nil, 1)
 
 			local VehPLid1 = GetEntityByName("LeaderVehPartz1_vehicle_0")
 			if VehPLid1 then       
@@ -4571,7 +4960,7 @@
 				vehPlayer:SetThrottle(0) 		
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -4593,7 +4982,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Финальный разговор Down -->
 
+<!-- Побег Лидера Top -->
 	<trigger Name="PortBuntEND_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Port_loc" />
 		<script>
@@ -4634,7 +5025,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
             Fly("LeaderEscape_cam01", CINEMATIC_NO_AIM, 0, 11, 1, 0 )
 			FlyLinked( "LeaderEscape_cam02", CTochID1, 6, 0, 0, vehLinkID1 )
 			Fly("LeaderEscape_cam03", CINEMATIC_NO_AIM, 0, 14, 0, 0 )
@@ -4836,7 +5227,7 @@
 				hum2:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -4851,12 +5242,14 @@
 			TDeactivate("PortBuntEND_cin_dop_3")
 			TActivate("Brat_cin")
 
-			CompleteQuest("Koch_Kavkaz_4_quest1")
+			CompleteQuest("r1m2_KochKavkaz_4_quest1")
 
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Побег Лидера Down -->
 
+<!-- Встреча с Лидером Top -->
 	<trigger Name="Brat_cin" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Brat_loc" />
 		<script>
@@ -4864,7 +5257,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
             Fly("Brat_cam01", CINEMATIC_NO_AIM, 0, 18, 1, 0 )
 			Fly("Brat_cam02", CINEMATIC_NO_AIM, 0, 20, 0, 0 )
@@ -4888,8 +5281,8 @@
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
 		    
-			TeamCreate("LeaderVehTeam",1024,CVector(7525.495, 220.920, 4573.346),{"r1m2_hunter02"}, nil, 1)
-			TeamCreate("PodsosTeam",1024,CVector(7525.495, 220.920, 4573.346),{"Hunter02","Hunter02"}, nil, 1)
+			TeamCreateWithWarez("LeaderVehTeam",1024,CVector(7525.495, 220.920, 4573.346),{"r1m2_hunter02"}, nil, 1)
+			TeamCreateWithWarez("PodsosTeam",1024,CVector(7525.495, 220.920, 4573.346),{"Hunter02","Hunter02"}, nil, 1)
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
@@ -4985,7 +5378,7 @@
 				vehBunt3:SetThrottle(0)
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -4995,7 +5388,7 @@
             
 			SetTolerance( 1100, 1024, RS_ENEMY )
 
-			CompleteQuest("Koch_Kavkaz_4_quest2")
+			CompleteQuest("r1m2_KochKavkaz_4_quest2")
 
 			TDeactivate("Brat_cin_vehicle")
 			TDeactivate("Brat_cin_dop_1")
@@ -5005,7 +5398,9 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Побег Лидера Down -->
 
+<!-- Смерть Лидера Top -->
 	<trigger Name="Brat_END_cin" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="LeaderVehTeam_vehicle_0" />
 		<script>
@@ -5013,7 +5408,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateVehicleEx("CoolBelaz_3","Kochewnik2", CVector(1000.187, 228.000, 1000.352), 1064)
 
@@ -5046,8 +5441,8 @@
 		<event timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
 		    
-			TeamCreate("LeaderVehTeam",1024,CVector(7525.495, 220.920, 4573.346),{"r1m2_hunter02"}, nil, 1)
-			TeamCreate("PodsosTeam",1024,CVector(7525.495, 220.920, 4573.346),{"Hunter02","Hunter02"}, nil, 1)
+			TeamCreateWithWarez("LeaderVehTeam",1024,CVector(7525.495, 220.920, 4573.346),{"r1m2_hunter02"}, nil, 1)
+			TeamCreateWithWarez("PodsosTeam",1024,CVector(7525.495, 220.920, 4573.346),{"Hunter02","Hunter02"}, nil, 1)
 
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then       
@@ -5167,7 +5562,7 @@
 				vehKoch11:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5177,7 +5572,7 @@
             
 			SetTolerance( 1100, 1024, RS_NEUTRAL )
 
-			CompleteQuest("Koch_Kavkaz_4_quest3")
+			CompleteQuest("r1m2_KochKavkaz_4_quest3")
 
 			TDeactivate("Brat_END_cin_vehicle")
 			TDeactivate("Brat_END_cin_dop_1")
@@ -5188,15 +5583,16 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
+<!-- Смерть Лидера Down -->
 
 	<trigger Name="ChangeCar_cin" active="0">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
-		    if IsQuestTaken("Na_vostok_quest")  and  not(IsQuestComplete("Na_vostok_quest")) then 
+		    if IsQuestTaken("r1m2_OnEastCoast_quest")  and  not(IsQuestComplete("r1m2_OnEastCoast_quest")) then 
 
 			    SaveAllToleranceStatus(RS_NEUTRAL)
 
-                god(1)
+                GetPlayerVehicle():setGodMode(1)
 
 				CreateVehicleEx("MazForPlayer01","MazPL", CVector(3903.509, 225.909, 554.884), 1100)
 
@@ -5362,12 +5758,12 @@
 				vehPlayer:SetRotation(Quaternion(-0.000, 0.647, -0.002, 0.762))
 			end
 
-            local BasaTown = GetEntityByName("TownBaseInRock7061")
+            local BasaTown = GetEntityByName("TheTownMilitaryBase")
 			if BasaTown then
 				BasaTown:SetOpenGateToPlayer(true)
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			SetVar("PlayerCarName",GetPlayerVehicle():GetName())
             GetPlayerVehicle():setGodMode(1)
@@ -5419,7 +5815,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Lesnik_cam01", CINEMATIC_NO_AIM, 0, 7, 1, 1 )
 			StartCinematic()
@@ -5451,7 +5847,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5459,7 +5855,7 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			CompleteQuest("Lesnik_quest3")
+			CompleteQuest("r1m2_Lesnik_quest3")
 
 			trigger:Deactivate()
 		</script>
@@ -5472,7 +5868,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Lesnik_cam02", CINEMATIC_NO_AIM, 0, 5, 1, 1 )
 			StartCinematic()
@@ -5504,7 +5900,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5512,7 +5908,7 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			CompleteQuest("Lesnik_quest4")
+			CompleteQuest("r1m2_Lesnik_quest4")
 
 			trigger:Deactivate()
 		</script>
@@ -5525,7 +5921,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Lesnik_cam03", CINEMATIC_NO_AIM, 0, 7, 1, 0 )
 			Fly("Lesnik_cam04", CINEMATIC_NO_AIM, 0, 26.5, 0, 1 )
@@ -5610,11 +6006,11 @@
 
 			
 
-			TeamCreate("Bands01",1041,CVector(6207.032, 301.929, 5377.900),{"Fighter01"}, nil, 1)
-			TeamCreate("Bands02",1041,CVector(6177.178, 312.091, 5376.607),{"Hunter01"}, nil, 1)
-			TeamCreate("Bands03",1041,CVector(6250.574, 318.490, 5406.824),{"Hunter02"}, nil, 1)
+			TeamCreateWithWarez("Bands01",1041,CVector(6207.032, 301.929, 5377.900),{"Fighter01"}, nil, 1)
+			TeamCreateWithWarez("Bands02",1041,CVector(6177.178, 312.091, 5376.607),{"Hunter01"}, nil, 1)
+			TeamCreateWithWarez("Bands03",1041,CVector(6250.574, 318.490, 5406.824),{"Hunter02"}, nil, 1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5622,9 +6018,9 @@
 
 			SetCameraBehindPlayerVehicle()
 
-            CompleteQuest("Lesnik_quest3")
-			CompleteQuest("Lesnik_quest4")
-			CompleteQuest("Lesnik_quest5")
+            CompleteQuest("r1m2_Lesnik_quest3")
+			CompleteQuest("r1m2_Lesnik_quest4")
+			CompleteQuest("r1m2_Lesnik_quest5")
 
 			TActivate("LesnikDefeat_cin")
 
@@ -5657,7 +6053,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			Fly("Lesnik_cam05", CINEMATIC_NO_AIM, 0, 8, 1, 1 )
 			StartCinematic()
@@ -5689,7 +6085,7 @@
 		<event eventid="GE_SKIP_CINEMATIC" ObjName="Player1" />
 		<script>
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5697,7 +6093,7 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			CompleteQuest("Lesnik_quest6")
+			CompleteQuest("r1m2_Lesnik_quest6")
 
 			trigger:Deactivate()
 		</script>
@@ -5710,7 +6106,7 @@
 
 		    
 
-			TeamCreate("Bands04",1041,CVector(6740.094, 287.086, 4730.267),{"Fighter02"}, nil, 1)
+			TeamCreateWithWarez("Bands04",1041,CVector(6740.094, 287.086, 4730.267),{"Fighter02"}, nil, 1)
 			
 			local Bnd1 = GetEntityByName("Bands04_vehicle_0")
 			if Bnd1 then
@@ -5727,7 +6123,7 @@
 	<trigger Name="Kill_bandit_Defeat" active="0">
 		<event eventid="GE_OBJECT_DIE" ObjName="Bands04" />
 		<script>
-		    CompleteQuest("Lesnik_quest8")
+		    CompleteQuest("r1m2_Lesnik_quest8")
             trigger:Deactivate()
 		</script>
 	</trigger>
@@ -5740,7 +6136,7 @@
     <trigger Name="Kochquest_tr" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="PetkaVICH_loc" />
 		<script>
-		    CompleteQuest("Koch_Kavkaz_quest1")
+		    CompleteQuest("r1m2_KochKavkaz_quest1")
             trigger:Deactivate()
 		</script>
 	</trigger>
@@ -5762,7 +6158,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			FlyLinked( "Post_cam01", CTochID, 8, 1, 1, vehBossID )
 			StartCinematic()
@@ -5823,7 +6219,7 @@
 			CreateNewSgNodeObject("submarina", "submarina1111", -1, -1, CVector(7058.462, 297.785, 1175.377), Quaternion(-0.0596, 0.9212, 0.1562, 0.3513), 1.000)
 			CreateNewSgNodeObject("ET_PS_HOUSE_MED_FIRE", "FireSubm", -1, -1, CVector(7062.567, 283.526, 1173.618), Quaternion(0.0000, 0.0000, 0.0000, 1.0000), 2.147)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -5870,7 +6266,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
             Fly("Helikopter_cam01", CINEMATIC_NO_AIM, 0, 6, 1, 0 )
 			FlyLinked( "Post_cam01", CTochID, 20, 0, 1, vehLinkID )
 			StartCinematic()
@@ -5957,7 +6353,7 @@
 				CamT:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -6096,7 +6492,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
             Fly("PortBunt_cam01", CINEMATIC_NO_AIM, 0, 15, 1, 0 )
 			FlyLinked( "Post_cam01", CTochID, 10, 0, 1, vehLinkID )
 			StartCinematic()
@@ -6241,7 +6637,7 @@
 				CamT:Remove()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

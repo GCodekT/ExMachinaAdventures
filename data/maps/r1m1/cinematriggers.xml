@@ -36,7 +36,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			CreateNewDummyObject( "brick_debris1", "CamTochka", -1, -1, CVector(365.072, 267.749, 3804.056), Quaternion(0, 0, 0, 0), 0)
 			CreateNewDummyObject( "brick_debris1", "CamTochka1", -1, -1, CVector(852.300, 283.728, 3853.403), Quaternion(0, 0, 0, 0), 0)
@@ -655,7 +655,7 @@
 
 			
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

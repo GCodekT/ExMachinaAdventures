@@ -8,7 +8,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			SetWeather(1)
 
@@ -284,7 +284,7 @@
 				Goncha10:StackClose()
 			end
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -397,7 +397,7 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -446,7 +446,7 @@
 			TeamCreate("BanditDemon3", 1005, CVector(1936.241, 235.319, 3297.229), {"CoolBelaz_3","Ural02","Cruiser01"}, CVector(3124.244, 227.095, 3313.060), 1)
 			TeamCreate("BanditDemon4", 1005, CVector(1133.456, 250.630, 3377.279), {"Ural02","CoolBelaz","Ural01","Ural02","CoolBelaz_3"}, nil, 1)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 
@@ -467,7 +467,7 @@
             PlayCustomMusic("IntenseDialogue04")
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-            god(1)
+            GetPlayerVehicle():setGodMode(1)
 
 			
 
@@ -547,7 +547,7 @@
 			
 			PassToMap("r4m1", "FromR4M2", -1 , true)
 
-            god(0)
+            GetPlayerVehicle():setGodMode(0)
 
 			RestoreAllToleranceStatus()
 

@@ -475,43 +475,43 @@
 	</quest>
 <!--Root/r2m2/Сюжетные--><!--Root/r2m2/Сюжетные/Первый приезд-->
 	<quest
-		Name="FindPath_quest"
+		Name="r2m2_Explore_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
 		PrecedingQuests="sever_quest">
 		<quest
-			Name="FindPath_quest1"
+			Name="r2m2_Explore_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="FindPath_quest" />
+			PrecedingQuests="r2m2_Explore_quest" />
 
 		<quest
-			Name="FindPath_quest2"
+			Name="r2m2_Explore_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="FindPath_quest1" />
+			PrecedingQuests="r2m2_Explore_quest1" />
 
 		<quest
-			Name="FindPath_quest3"
+			Name="r2m2_Explore_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="FindPath_quest2" />
+			PrecedingQuests="r2m2_Explore_quest2" />
 
 		<quest
-			Name="FindPath_quest4"
+			Name="r2m2_Explore_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="FindPath_quest3" />
+			PrecedingQuests="r2m2_Explore_quest3" />
 	</quest>
 <!--Root/r2m2/Сюжетные/Генератор-->
 	<quest
@@ -520,7 +520,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="FindPath_quest">
+		PrecedingQuests="r2m2_Explore_quest">
 		<quest
 			Name="Generator_quest1"
 			Automatic="1"
@@ -1005,34 +1005,34 @@
 		PrecedingQuests="quest116 Bitva_quest" />
 <!--Root/r1m4/Сюжетные/Разведка-->
 	<quest
-		Name="doroga_quest"
+		Name="r1m4_FindEastPath_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete">
 		<quest
-			Name="doroga_quest1"
+			Name="r1m4_FindEastPath_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="doroga_quest" />
+			PrecedingQuests="r1m4_FindEastPath_quest" />
 
 		<quest
-			Name="doroga_quest2"
+			Name="r1m4_FindEastPath_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="doroga_quest1" />
+			PrecedingQuests="r1m4_FindEastPath_quest1" />
 
 		<quest
-			Name="doroga_quest3"
+			Name="r1m4_FindEastPath_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="doroga_quest2" />
+			PrecedingQuests="r1m4_FindEastPath_quest2" />
 	</quest>
 
 	<quest
@@ -1041,7 +1041,7 @@
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="doroga_quest">
+		PrecedingQuests="r1m4_FindEastPath_quest">
 		<quest
 			Name="radar_quest1"
 			Automatic="1"
@@ -1220,120 +1220,120 @@
 	</quest>
 <!--Root/r1m2/Сюжетные--><!--Root/r1m2/Опциональные--><!--Root/r1m2/Опциональные/Лесник-->
 	<quest
-		Name="Lesnik_quest"
+		Name="r1m2_Lesnik_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
 		Levels="r1m2">
 		<quest
-			Name="Lesnik_quest1"
+			Name="r1m2_Lesnik_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Lesnik_quest" />
+			PrecedingQuests="r1m2_Lesnik_quest" />
 
 		<quest
-			Name="Lesnik_quest2"
+			Name="r1m2_Lesnik_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest1" />
+			PrecedingQuests="r1m2_Lesnik_quest1" />
 
 		<quest
-			Name="Lesnik_quest3"
+			Name="r1m2_Lesnik_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest2" />
+			PrecedingQuests="r1m2_Lesnik_quest2" />
 
 		<quest
-			Name="Lesnik_quest4"
+			Name="r1m2_Lesnik_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest2" />
+			PrecedingQuests="r1m2_Lesnik_quest2" />
 
 		<quest
-			Name="Lesnik_quest5"
+			Name="r1m2_Lesnik_quest5"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest2" />
+			PrecedingQuests="r1m2_Lesnik_quest2" />
 
 		<quest
-			Name="Lesnik_quest6"
+			Name="r1m2_Lesnik_quest6"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest3 Lesnik_quest4 Lesnik_quest5" />
+			PrecedingQuests="r1m2_Lesnik_quest3 r1m2_Lesnik_quest4 r1m2_Lesnik_quest5" />
 
 		<quest
-			Name="Lesnik_quest7"
+			Name="r1m2_Lesnik_quest7"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest6" />
+			PrecedingQuests="r1m2_Lesnik_quest6" />
 
 		<quest
-			Name="Lesnik_quest8"
+			Name="r1m2_Lesnik_quest8"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest7" />
+			PrecedingQuests="r1m2_Lesnik_quest7" />
 
 		<quest
-			Name="Lesnik_quest9"
+			Name="r1m2_Lesnik_quest9"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest8" />
+			PrecedingQuests="r1m2_Lesnik_quest8" />
 
 		<quest
-			Name="Lesnik_quest10"
+			Name="r1m2_Lesnik_quest10"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik_quest9" />
+			PrecedingQuests="r1m2_Lesnik_quest9" />
 	</quest>
 
 	<quest
-		Name="Lesnik2_quest"
+		Name="r1m2_Lesnik_2_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all failed"
-		PrecedingQuests="Lesnik_quest10"
+		PrecedingQuests="r1m2_Lesnik_quest10"
 		Levels="r1m2">
 		<quest
-			Name="Lesnik2_quest1"
+			Name="r1m2_Lesnik_2_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Lesnik2_quest" />
+			PrecedingQuests="r1m2_Lesnik_2_quest" />
 
 		<quest
-			Name="Lesnik2_quest2"
+			Name="r1m2_Lesnik_2_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Lesnik2_quest1" />
+			PrecedingQuests="r1m2_Lesnik_2_quest1" />
 	</quest>
 <!--Root/r1m2/Опциональные/Интересные места-->
 	<quest
-		Name="ruins_check_quest"
+		Name="r1m2_RuinsCheck_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
@@ -1341,423 +1341,423 @@
 		OnTake='TActivate("tr_ruins_check")' />
 <!--Root/r1m2/Сюжетные/Первая встреча-->
 	<quest
-		Name="Derevnya_quest"
+		Name="r1m2_FirstVillage_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete" />
 
 	<quest
-		Name="V_gorod_quest"
+		Name="r1m2_ArriveToMeridian_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Doroga_quest" />
+		PrecedingQuests="r1m2_FindPath_quest" />
 
 	<quest
-		Name="baza_quest"
+		Name="r1m2_FindMilBase_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="V_gorod_quest" />
+		PrecedingQuests="r1m2_ArriveToMeridian_quest" />
 
 	<quest
-		Name="Go_in_base_quest"
+		Name="r1m2_FindBase_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete" />
 
 	<quest
-		Name="3aka3_quest"
+		Name="r1m2_FindJob_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="baza_quest" />
+		PrecedingQuests="r1m2_FindMilBase_quest" />
 
 	<quest
-		Name="Doroga_quest"
+		Name="r1m2_FindPath_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Derevnya_quest" />
+		PrecedingQuests="r1m2_FirstVillage_quest" />
 <!--Root/r1m2/Сюжетные/Караван-->
 	<quest
-		Name="karavan_from_port_quest"
+		Name="r1m2_PortKaravan_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="3aka3_quest">
+		PrecedingQuests="r1m2_FindJob_quest">
 		<quest
-			Name="karavan_from_port_quest1"
+			Name="r1m2_PortKaravan_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="karavan_from_port_quest" />
+			PrecedingQuests="r1m2_PortKaravan_quest" />
 
 		<quest
-			Name="karavan_from_port_quest2"
+			Name="r1m2_PortKaravan_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="karavan_from_port_quest1" />
+			PrecedingQuests="r1m2_PortKaravan_quest1" />
 
 		<quest
-			Name="karavan_from_port_quest3"
+			Name="r1m2_PortKaravan_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="karavan_from_port_quest2" />
+			PrecedingQuests="r1m2_PortKaravan_quest2" />
 
 		<quest
-			Name="karavan_from_port_quest4"
+			Name="r1m2_PortKaravan_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="karavan_from_port_quest3" />
+			PrecedingQuests="r1m2_PortKaravan_quest3" />
 	</quest>
 <!--Root/r1m2/Сюжетные/Выбор1-->
 	<quest
-		Name="slezhka_quest"
+		Name="r1m2_Slezhka_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="karavan_from_port_quest" />
+		PrecedingQuests="r1m2_PortKaravan_quest" />
 
 	<quest
-		Name="Defeat_partz_quest"
+		Name="r1m2_DestroyPartz_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete">
 		<quest
-			Name="Defeat_partz_quest1"
+			Name="r1m2_DestroyPartz_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Defeat_partz_quest" />
+			PrecedingQuests="r1m2_DestroyPartz_quest" />
 
 		<quest
-			Name="Defeat_partz_quest2"
+			Name="r1m2_DestroyPartz_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Defeat_partz_quest1" />
+			PrecedingQuests="r1m2_DestroyPartz_quest1" />
 	</quest>
 
 	<quest
-		Name="Za_partz_quest"
+		Name="r1m2_PartzLoyal_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete" />
 
 	<quest
-		Name="Za_partz_quest1"
+		Name="r1m2_PartzLoyal_quest1"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Za_partz_quest">
+		PrecedingQuests="r1m2_PartzLoyal_quest">
 		<quest
-			Name="Za_partz_quest11"
+			Name="r1m2_PartzLoyal_quest11"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Za_partz_quest1" />
+			PrecedingQuests="r1m2_PartzLoyal_quest1" />
 
 		<quest
-			Name="Za_partz_quest12"
+			Name="r1m2_PartzLoyal_quest12"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Za_partz_quest11" />
+			PrecedingQuests="r1m2_PartzLoyal_quest11" />
 	</quest>
 <!--Root/r1m2/Сюжетные/За Альфу-->
 	<quest
-		Name="Shturm_quest"
+		Name="r1m2_LiquidationPartz_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Defeat_partz_quest">
+		PrecedingQuests="r1m2_DestroyPartz_quest">
 		<quest
-			Name="Shturm_quest1"
+			Name="r1m2_LiquidationPartz_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Shturm_quest" />
+			PrecedingQuests="r1m2_LiquidationPartz_quest" />
 
 		<quest
-			Name="Shturm_quest2"
+			Name="r1m2_LiquidationPartz_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Shturm_quest1" />
+			PrecedingQuests="r1m2_LiquidationPartz_quest1" />
 
 		<quest
-			Name="Shturm_quest3"
+			Name="r1m2_LiquidationPartz_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Shturm_quest2" />
+			PrecedingQuests="r1m2_LiquidationPartz_quest2" />
 	</quest>
 
 	<quest
-		Name="Na_bazy_quest"
+		Name="r1m2_EnterBase_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Shturm_quest">
+		PrecedingQuests="r1m2_LiquidationPartz_quest">
 		<quest
-			Name="Na_bazy_quest1"
+			Name="r1m2_EnterBase_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Na_bazy_quest" />
+			PrecedingQuests="r1m2_EnterBase_quest" />
 
 		<quest
-			Name="Na_bazy_quest2"
+			Name="r1m2_EnterBase_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Na_bazy_quest1" />
+			PrecedingQuests="r1m2_EnterBase_quest1" />
 	</quest>
 
 	<quest
-		Name="Promateus_quest"
+		Name="r1m2_Promateus_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="any complete"
-		PrecedingQuests="Na_bazy_quest PrometeusALT_quest">
+		PrecedingQuests="r1m2_EnterBase_quest r1m2_PromateusALT_quest">
 		<quest
-			Name="Promateus_quest1"
+			Name="r1m2_Promateus_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Promateus_quest" />
+			PrecedingQuests="r1m2_Promateus_quest" />
 
 		<quest
-			Name="Promateus_quest2"
+			Name="r1m2_Promateus_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Promateus_quest1" />
+			PrecedingQuests="r1m2_Promateus_quest1" />
 	</quest>
 
 	<quest
-		Name="Baza_destroy_quest"
+		Name="r1m2_AfterBattle_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Promateus_quest">
+		PrecedingQuests="r1m2_Promateus_quest">
 		<quest
-			Name="Baza_destroy_quest1"
+			Name="r1m2_AfterBattle_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Baza_destroy_quest" />
+			PrecedingQuests="r1m2_AfterBattle_quest" />
 
 		<quest
-			Name="Baza_destroy_quest2"
+			Name="r1m2_AfterBattle_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Baza_destroy_quest1" />
+			PrecedingQuests="r1m2_AfterBattle_quest1" />
 	</quest>
 <!--Root/r1m2/Сюжетные/За Темерию-->
 	<quest
-		Name="Deversy_quest"
+		Name="r1m2_PartzDeversy_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Razgovor_quest">
+		PrecedingQuests="r1m2_ReturnRoshe_quest">
 		<quest
-			Name="Deversy_quest1"
+			Name="r1m2_PartzDeversy_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Deversy_quest" />
+			PrecedingQuests="r1m2_PartzDeversy_quest" />
 
 		<quest
-			Name="Deversy_quest2"
+			Name="r1m2_PartzDeversy_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Deversy_quest1" />
+			PrecedingQuests="r1m2_PartzDeversy_quest1" />
 
 		<quest
-			Name="Deversy_quest3"
+			Name="r1m2_PartzDeversy_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Deversy_quest2" />
+			PrecedingQuests="r1m2_PartzDeversy_quest2" />
 
 		<quest
-			Name="Deversy_quest4"
+			Name="r1m2_PartzDeversy_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Deversy_quest3" />
+			PrecedingQuests="r1m2_PartzDeversy_quest3" />
 	</quest>
 
 	<quest
-		Name="Port_partz_quest"
+		Name="r1m2_PartzPort_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Deversy_quest">
+		PrecedingQuests="r1m2_PartzDeversy_quest">
 		<quest
-			Name="Port_partz_quest1"
+			Name="r1m2_PartzPort_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Port_partz_quest" />
+			PrecedingQuests="r1m2_PartzPort_quest" />
 
 		<quest
-			Name="Port_partz_quest2"
+			Name="r1m2_PartzPort_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Port_partz_quest1" />
+			PrecedingQuests="r1m2_PartzPort_quest1" />
 
 		<quest
-			Name="Port_partz_quest3"
+			Name="r1m2_PartzPort_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Port_partz_quest2" />
+			PrecedingQuests="r1m2_PartzPort_quest2" />
 	</quest>
 
 	<quest
-		Name="Annigilation_quest"
+		Name="r1m2_FinalBattle_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Port_partz_quest">
+		PrecedingQuests="r1m2_PartzPort_quest">
 		<quest
-			Name="Annigilation_quest1"
+			Name="r1m2_FinalBattle_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Annigilation_quest" />
+			PrecedingQuests="r1m2_FinalBattle_quest" />
 
 		<quest
-			Name="Annigilation_quest2"
+			Name="r1m2_FinalBattle_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Annigilation_quest1" />
+			PrecedingQuests="r1m2_FinalBattle_quest1" />
 
 		<quest
-			Name="Annigilation_quest3"
+			Name="r1m2_FinalBattle_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Annigilation_quest2" />
+			PrecedingQuests="r1m2_FinalBattle_quest2" />
 
 		<quest
-			Name="Annigilation_quest4"
+			Name="r1m2_FinalBattle_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Annigilation_quest3" />
+			PrecedingQuests="r1m2_FinalBattle_quest3" />
 	</quest>
 
 	<quest
-		Name="PrometeusALT_quest"
+		Name="r1m2_PromateusALT_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Annigilation_quest" />
+		PrecedingQuests="r1m2_FinalBattle_quest" />
 
 	<quest
-		Name="Razgovor_quest"
+		Name="r1m2_ReturnRoshe_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Za_partz_quest1">
+		PrecedingQuests="r1m2_PartzLoyal_quest1">
 		<quest
-			Name="Razgovor_quest1"
+			Name="r1m2_ReturnRoshe_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Razgovor_quest" />
+			PrecedingQuests="r1m2_ReturnRoshe_quest" />
 	</quest>
 <!--Root/r1m2/Сюжетные/Дубровка-->
 	<quest
-		Name="Dubrovka_quest"
+		Name="r1m2_HelpDubrovka_quest"
 		Automatic="0"
 		SubQuestsCondition="or"
 		CheckAll="0"
 		ConditionToGive="all complete">
 		<quest
-			Name="Dubrovka_quest1"
+			Name="r1m2_HelpDubrovka_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Dubrovka_quest" />
+			PrecedingQuests="r1m2_HelpDubrovka_quest" />
 
 		<quest
-			Name="Dubrovka_quest2"
+			Name="r1m2_HelpDubrovka_quest2"
 			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete" />
 
 		<quest
-			Name="Dubrovka_quest3"
+			Name="r1m2_HelpDubrovka_quest3"
 			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete" />
 
 		<quest
-			Name="Dubrovka_quest4"
+			Name="r1m2_HelpDubrovka_quest4"
 			Automatic="0"
 			SubQuestsCondition="and"
 			CheckAll="0"
@@ -1765,186 +1765,289 @@
 	</quest>
 <!--Root/r1m2/Сюжетные/Кочевник-->
 	<quest
-		Name="Koch_Kavkaz_quest"
+		Name="r1m2_KochKavkaz_quest"
 		Automatic="0"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete">
 		<quest
-			Name="Koch_Kavkaz_quest1"
+			Name="r1m2_KochKavkaz_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Koch_Kavkaz_quest" />
+			PrecedingQuests="r1m2_KochKavkaz_quest" />
 
 		<quest
-			Name="Koch_Kavkaz_quest2"
+			Name="r1m2_KochKavkaz_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_quest1" />
+			PrecedingQuests="r1m2_KochKavkaz_quest1" />
 	</quest>
 
 	<quest
-		Name="Koch_Kavkaz_2_quest"
+		Name="r1m2_KochKavkaz_2_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Koch_Kavkaz_quest">
+		PrecedingQuests="r1m2_KochKavkaz_quest">
 		<quest
-			Name="Koch_Kavkaz_2_quest1"
+			Name="r1m2_KochKavkaz_2_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Koch_Kavkaz_2_quest" />
+			PrecedingQuests="r1m2_KochKavkaz_2_quest" />
 
 		<quest
-			Name="Koch_Kavkaz_2_quest2"
+			Name="r1m2_KochKavkaz_2_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_2_quest1" />
+			PrecedingQuests="r1m2_KochKavkaz_2_quest1" />
 
 		<quest
-			Name="Koch_Kavkaz_2_quest3"
+			Name="r1m2_KochKavkaz_2_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_2_quest2" />
+			PrecedingQuests="r1m2_KochKavkaz_2_quest2" />
 
 		<quest
-			Name="Koch_Kavkaz_2_quest4"
+			Name="r1m2_KochKavkaz_2_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_2_quest3" />
+			PrecedingQuests="r1m2_KochKavkaz_2_quest3" />
 
 		<quest
-			Name="Koch_Kavkaz_2_quest5"
+			Name="r1m2_KochKavkaz_2_quest5"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_2_quest4" />
+			PrecedingQuests="r1m2_KochKavkaz_2_quest4" />
+
+		<quest
+			Name="r1m2_KochKavkaz_2_quest6"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_KochKavkaz_2_quest5" />
 	</quest>
 
 	<quest
-		Name="Koch_Kavkaz_3_quest"
+		Name="r1m2_KochKavkaz_3_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Koch_Kavkaz_2_quest">
+		PrecedingQuests="r1m2_KochKavkaz_2_quest">
 		<quest
-			Name="Koch_Kavkaz_3_quest1"
+			Name="r1m2_KochKavkaz_3_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Koch_Kavkaz_3_quest" />
+			PrecedingQuests="r1m2_KochKavkaz_3_quest" />
 
 		<quest
-			Name="Koch_Kavkaz_3_quest2"
+			Name="r1m2_KochKavkaz_3_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_3_quest1" />
+			PrecedingQuests="r1m2_KochKavkaz_3_quest1" />
 
 		<quest
-			Name="Koch_Kavkaz_3_quest3"
+			Name="r1m2_KochKavkaz_3_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_3_quest2" />
+			PrecedingQuests="r1m2_KochKavkaz_3_quest2" />
 
 		<quest
-			Name="Koch_Kavkaz_3_quest4"
+			Name="r1m2_KochKavkaz_3_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_3_quest3" />
+			PrecedingQuests="r1m2_KochKavkaz_3_quest3" />
 	</quest>
 
 	<quest
-		Name="Koch_Kavkaz_4_quest"
+		Name="r1m2_KochKavkaz_4_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Koch_Kavkaz_3_quest">
+		PrecedingQuests="r1m2_KochKavkaz_3_quest">
 		<quest
-			Name="Koch_Kavkaz_4_quest1"
+			Name="r1m2_KochKavkaz_4_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="Koch_Kavkaz_4_quest" />
+			PrecedingQuests="r1m2_KochKavkaz_4_quest" />
 
 		<quest
-			Name="Koch_Kavkaz_4_quest2"
+			Name="r1m2_KochKavkaz_4_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_4_quest1" />
+			PrecedingQuests="r1m2_KochKavkaz_4_quest1" />
 
 		<quest
-			Name="Koch_Kavkaz_4_quest3"
+			Name="r1m2_KochKavkaz_4_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_4_quest2" />
+			PrecedingQuests="r1m2_KochKavkaz_4_quest2" />
 
 		<quest
-			Name="Koch_Kavkaz_4_quest4"
+			Name="r1m2_KochKavkaz_4_quest4"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="Koch_Kavkaz_4_quest3" />
+			PrecedingQuests="r1m2_KochKavkaz_4_quest3" />
 	</quest>
 
 	<quest
-		Name="r1_Koch_Baza_destroy_quest"
+		Name="r1m2_KochBaseDestroy_quest"
 		Automatic="1"
 		SubQuestsCondition="and"
 		CheckAll="0"
 		ConditionToGive="all complete"
-		PrecedingQuests="Koch_Kavkaz_4_quest">
+		PrecedingQuests="r1m2_KochKavkaz_4_quest">
 		<quest
-			Name="r1_Koch_Baza_destroy_quest1"
+			Name="r1m2_KochBaseDestroy_quest1"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all taken"
-			PrecedingQuests="r1_Koch_Baza_destroy_quest" />
+			PrecedingQuests="r1m2_KochBaseDestroy_quest" />
 
 		<quest
-			Name="r1_Koch_Baza_destroy_quest2"
+			Name="r1m2_KochBaseDestroy_quest2"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r1_Koch_Baza_destroy_quest1" />
+			PrecedingQuests="r1m2_KochBaseDestroy_quest1" />
 
 		<quest
-			Name="r1_Koch_Baza_destroy_quest3"
+			Name="r1m2_KochBaseDestroy_quest3"
 			Automatic="1"
 			SubQuestsCondition="and"
 			CheckAll="0"
 			ConditionToGive="all complete"
-			PrecedingQuests="r1_Koch_Baza_destroy_quest2" />
+			PrecedingQuests="r1m2_KochBaseDestroy_quest2" />
+	</quest>
+<!--Root/r1m2/Сюжетные/Шарп-->
+	<quest
+		Name="r1m2_FindModulator_quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="any complete"
+		PrecedingQuests="r1m2_KochKavkaz_2_quest4 r1m2_FindMechanic_quest2">
+		<quest
+			Name="r1m2_FindModulator_quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r1m2_FindModulator_quest" />
+
+		<quest
+			Name="r1m2_FindModulator_quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_FindModulator_quest1" />
+
+		<quest
+			Name="r1m2_FindModulator_quest3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_FindModulator_quest2" />
+	</quest>
+
+	<quest
+		Name="r1m2_HelpSharp_quest"
+		Automatic="0"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="all complete">
+		<quest
+			Name="r1m2_HelpSharp_quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r1m2_HelpSharp_quest" />
+
+		<quest
+			Name="r1m2_HelpSharp_quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_HelpSharp_quest1" />
+	</quest>
+<!--Root/r1m2/Сюжетные/Путь на  восток-->
+	<quest
+		Name="r1m2_FindMechanic_quest"
+		Automatic="1"
+		SubQuestsCondition="and"
+		CheckAll="0"
+		ConditionToGive="any complete"
+		PrecedingQuests="r1m2_AfterBattle_quest r1m2_KochBaseDestroy_quest">
+		<quest
+			Name="r1m2_FindMechanic_quest1"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all taken"
+			PrecedingQuests="r1m2_FindMechanic_quest" />
+
+		<quest
+			Name="r1m2_FindMechanic_quest2"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_FindMechanic_quest1" />
+
+		<quest
+			Name="r1m2_FindMechanic_quest3"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_FindMechanic_quest2" />
+
+		<quest
+			Name="r1m2_FindMechanic_quest4"
+			Automatic="1"
+			SubQuestsCondition="and"
+			CheckAll="0"
+			ConditionToGive="all complete"
+			PrecedingQuests="r1m2_FindMechanic_quest3" />
 	</quest>
 <!--Root/r1m1/Сюжетные--><!--Root/r1m1/Опциональные-->
 	<MutuallyExclusives />

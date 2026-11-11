@@ -1169,46 +1169,46 @@
 		waterSpecularM="29.000"
 		waterSpecularS="0.009">
 		<Sky
-			sunriseColor="117.300 91.800 237.150"
+			sunriseColor="109.650 91.800 142.800"
 			dayColor="104.550 118.000 132.600"
 			sunsetColor="153.000 140.250 153.000"
 			nightColor="117.300 122.400 124.950" />
 
 		<Fog
-			sunriseColor="255.000 175.950 119.850"
+			sunriseColor="214.200 175.950 150.450"
 			dayColor="221.850 219.300 191.000"
 			sunsetColor="216.750 155.550 102.000"
-			nightColor="40.800 40.800 45.900" />
+			nightColor="56.100 56.100 63.750" />
 
 		<Ambient
-			sunriseColor="219.300 201.450 160.650"
-			dayColor="173.400 196.350 191.250"
-			sunsetColor="181.050 154.000 175.000"
-			nightColor="163.200 177.000 196.000" />
+			sunriseColor="140.250 124.950 119.850"
+			dayColor="209.100 204.000 201.450"
+			sunsetColor="160.650 153.000 153.000"
+			nightColor="91.800 96.900 102.000" />
 
 		<Diffuse
-			sunriseColor="242.250 215.000 157.000"
-			dayColor="255.000 193.000 91.000"
+			sunriseColor="201.450 183.600 157.000"
+			dayColor="196.350 135.150 61.200"
 			sunsetColor="255.000 186.000 111.000"
-			nightColor="53.550 86.700 150.450" />
+			nightColor="63.750 79.050 137.700" />
 
 		<Sun
 			sunriseColor="124.950 124.950 122.400"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="63.750 64.000 64.000" />
 
 		<Plant
-			sunriseColor="232.050 207.000 234.600"
+			sunriseColor="181.050 198.900 234.600"
 			dayColor="230.000 230.000 230.000"
 			sunsetColor="231.000 184.000 114.000"
-			nightColor="148.000 169.000 209.000" />
+			nightColor="94.350 119.850 142.800" />
 
 		<Specular
 			sunriseColor="255.000 211.000 169.000"
 			dayColor="255.000 255.000 255.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="63.750 63.750 64.000" />
 
 		<PostEffect
 			sunrise="wSunrise_r1m2"
@@ -1231,7 +1231,7 @@
 		<cloudsSpeed
 			sunrise="0.038"
 			day="-0.013"
-			sunset="-0.013"
+			sunset="0.013"
 			night="0.025" />
 
 		<WindInfo
@@ -2858,7 +2858,7 @@
 		reduceDistFactor="0.111"
 		inclementWeatherPS="ET_PS_SNOW_WEATHER"
 		soundName="ET_S_SNOW"
-		density="11"
+		density="10"
 		distance="5.000">
 		<Sky
 			sunriseColor="128.000 128.000 128.000"

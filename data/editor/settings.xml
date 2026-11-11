@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <Settings>
 	<WeatherEditor
-		left="1229"
-		top="135"
+		left="1247"
+		top="187"
 		width="451"
 		height="529" />
 
@@ -19,15 +19,15 @@
 		height="250" />
 
 	<Hier
-		left="1207"
-		top="235"
+		left="1154"
+		top="252"
 		width="248"
 		height="403" />
 
 	<StaticModelsDlg
 		left="1424"
-		top="106"
-		width="455"
+		top="124"
+		width="467"
 		height="830" />
 
 	<LocationEditDlg
@@ -49,8 +49,8 @@
 		height="430" />
 
 	<TileDlg
-		left="928"
-		top="207"
+		left="857"
+		top="365"
 		width="816"
 		height="528" />
 
@@ -85,10 +85,10 @@
 		height="517" />
 
 	<TerrainEditor
-		left="1327"
-		top="247"
-		width="504"
-		height="437" />
+		left="569"
+		top="345"
+		width="501"
+		height="446" />
 
 	<RopeEditor
 		left="857"

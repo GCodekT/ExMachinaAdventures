@@ -1342,6 +1342,11 @@ My additions end here
 		value="Белаз" />
 
 	<Item
+		id="RosheBelaz"
+		locForm="0"
+		value="Ком. Роше" />
+
+	<Item
 		id="CoolBelaz"
 		locForm="0"
 		value="Белаз" />
@@ -1365,11 +1370,6 @@ My additions end here
 		id="Mirotvorec01"
 		locForm="0"
 		value="Миротворец" />
-
-	<Item
-		id="Mirotvorec01"
-		locForm="0"
-		value="Фурия" />
 
 	<Item
 		id="ArcadeBelaz"
@@ -1582,6 +1582,11 @@ My additions end here
 		value="Миротворец" />
 
 	<Item
+		id="AvgustMirotvorec"
+		locForm="0"
+		value="Пр. Август" />
+
+	<Item
 		id="MirotvorecValky"
 		locForm="0"
 		value="Матерь" />
@@ -1674,6 +1679,16 @@ My additions end here
 
 	<Item
 		id="sack_dot2_kord"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="sack_dot1_vulcan"
+		locForm="0"
+		value="Дот" />
+
+	<Item
+		id="sack_dot2_vulcan"
 		locForm="0"
 		value="Дот" />
 

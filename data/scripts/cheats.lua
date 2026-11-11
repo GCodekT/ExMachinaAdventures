@@ -45,7 +45,7 @@ function GiveVehicle(num)
 	elseif num==3 then
 		model="Ural01"
 	elseif num==4 then
-		model="Belaz01"
+		model="CyberBelaz_1"
 	elseif num==5 then
 		model="mirotvorecTest"
 	elseif num==6 then
@@ -53,7 +53,7 @@ function GiveVehicle(num)
 	elseif num==7 then
 		model="Revolutioner1"
 	elseif num==8 then
-		model="Hunter01"
+		model="MirotvorecShot"
 	elseif num==9 then
 		model="ArcadeScout01"
 	elseif num==10 then
@@ -75,7 +75,7 @@ function GiveVehicle(num)
 	elseif num==18 then
 		model="MazForPlayer03"
 	elseif num==19 then
-		model="Scout01"
+		model="Hunter02"
 	elseif num==20 then
 		model="Scout02"
 	elseif num==21 then
